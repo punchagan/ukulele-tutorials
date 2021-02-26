@@ -127,7 +127,7 @@ class Downloader:
     def _extract_info(self, entry):
         title, _ = TITLE_RE.subn('|', entry['title'])
         title, _ = re.subn('\s*\|+(\s*\|)*\s*', '|', title)
-        track, album, artists = (title.split('|', 3) + [None] * 3)[:3]
+        track, album, artists = (title.split('|', 3) + [''] * 3)[:3]
         if '(' in track:
             album = ALBUM1_RE.search(track).group(1).strip()
             track = ALBUM1_RE.sub('', track).strip()
@@ -149,20 +149,20 @@ class Downloader:
 
         artists_match = ARTISTS_RE.search(entry['description'])
         if artists_match is not None:
-            artists = artists_match.group(1).strip().strip(',')
+            artists = artists_match.group(1).strip().strip(',').replace(' &', ',')
 
         composer_match = COMPOSER_RE.search(entry['description'])
         if composer_match is not None:
-            composer = composer_match.group(1).strip().strip(',')
+            composer = composer_match.group(1).strip().strip(',').replace(' &', ',')
         else:
             composer = ''
 
         info = {
             'ignore': int(not title),
-            'track': track,
-            'artists': artists,
-            'album': album,
-            'composer': composer,
+            'track': track.title(),
+            'artists': artists.title(),
+            'album': album.title(),
+            'composer': composer.title(),
             'chords': chords,
             'key': '',
         }
