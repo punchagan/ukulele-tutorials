@@ -137,8 +137,9 @@ class Downloader:
             chords = chords.group(1).strip()\
                                     .replace(' and ', ',')\
                                     .replace('.', ',')\
-                                    .replace(', ', ',').strip(',').strip()
-            chords = chords.split(',') if chords else None
+                                    .replace(', ', ',')\
+                                    .replace(' ,', ',')\
+                                    .strip(',').strip().title()
 
         # Add newlines for original song information
         entry['description'], _ = SONG_INFO_RE.subn(',\n\\2', entry['description'])
