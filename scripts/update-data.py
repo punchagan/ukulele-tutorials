@@ -4,6 +4,7 @@ import io
 import json
 import os
 import re
+import time
 
 import pandas as pd
 import youtube_dl
@@ -61,6 +62,7 @@ class Downloader:
 
     def download_json(self, url):
         print(f'Downloading json for {url} ...')
+        start = time.time()
         with youtube_dl.YoutubeDL(self.ydl_opts) as ydl:
             with io.StringIO() as f:
                 ydl._screen_file = f
@@ -73,7 +75,8 @@ class Downloader:
             json.dump(data, f, indent=2)
 
         n = len(data.get('entries', []))
-        print(f'Wrote {n} entries to {f.name}')
+        t = time.time() - start
+        print(f'Wrote {n} entries to {f.name} in {t} seconds')
 
     def download_all_jsons(self):
         with ThreadPoolExecutor(max_workers=4) as e:
