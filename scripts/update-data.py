@@ -59,6 +59,7 @@ class Downloader:
         self.json_dir = os.path.join(os.path.dirname(HERE), '.json')
         self.data_dir = os.path.join(os.path.dirname(HERE), 'data')
         self.data_csv = os.path.join(self.data_dir, 'tutorials.csv')
+        self.data_json = os.path.join(self.data_dir, 'published.json')
         os.makedirs(self.json_dir, exist_ok=True)
 
     def download_json(self, url):
@@ -113,15 +114,20 @@ class Downloader:
             parsed.append(self.parse_json(path))
 
         data = self._merge_into_existing(pd.concat(parsed))
-        self._write_data(data)
+        self._write_csv_data(data)
+        self._write_published_json(data)
 
-    def _write_data(self, data):
+    def _write_published_json(self, data):
+        published = data.query('publish == 1')
+        published.to_json(self.data_json, orient='records', indent=2)
+        print(published.tail())
+
+    def _write_csv_data(self, data):
         ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
         columns = sorted(data.columns, key=lambda x: ORDER.index(x) if x in ORDER else 100)
         data = data[columns].sort_values(['ignore', 'publish', 'upload_date'],
                                          ascending=[False, False, True])
         data.to_csv(self.data_csv, index=False)
-        print(data.tail())
 
     def _merge_into_existing(self, data):
         existing = pd.read_csv(self.data_csv)
