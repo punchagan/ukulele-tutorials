@@ -103,12 +103,23 @@ class Downloader:
             path = os.path.join(self.json_dir, each)
             parsed.append(self.parse_json(path))
 
-        data = pd.concat(parsed)
+        data = self._merge_into_existing(pd.concat(parsed))
+        self._write_data(data)
+
+    def _write_data(self, data):
         ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
         columns = sorted(data.columns, key=lambda x: ORDER.index(x) if x in ORDER else 100)
-        data = data[columns]
+        data = data[columns].sort_values(['ignore', 'publish', 'upload_date'],
+                                         ascending=[False, False, True])
         data.to_csv(self.data_csv, index=False)
-        print(data.head())
+        print(data.tail())
+
+    def _merge_into_existing(self, data):
+        existing = pd.read_csv(self.data_csv)
+        selection = (existing['ignore'] == 1) | (existing['publish'] == 1)
+        processed = existing[selection]
+        new = data[~data['id'].isin(processed['id'])]
+        return pd.concat([processed, new])
 
     def _extract_info(self, entry):
         title, _ = TITLE_RE.subn('|', entry['title'])
