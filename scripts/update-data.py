@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from concurrent.futures import ThreadPoolExecutor
 import io
 import json
 import os
@@ -75,8 +76,9 @@ class Downloader:
         print(f'Wrote {n} entries to {f.name}')
 
     def download_all_jsons(self):
-        for channel in CHANNELS:
-            downloader.download_json(channel)
+        with ThreadPoolExecutor(max_workers=4) as e:
+            for channel in CHANNELS:
+                e.submit(self.download_json, channel)
 
     def parse_json(self, path):
         with open(path) as f:
