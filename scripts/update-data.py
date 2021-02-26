@@ -79,10 +79,6 @@ class Downloader:
         with open(path) as f:
             data = json.load(f)
 
-        # Use first playlist from channels, which includes all videos
-        if self._entry_is_channel(data):
-            data = data['entries'][0]
-
         videos = []
         for i, entry in enumerate(data['entries'], start=1):
             ignore = self._ignore_video(entry)
@@ -179,12 +175,6 @@ class Downloader:
             'key': '',
         }
         return info
-
-    def _entry_is_channel(self, entry):
-        return (
-            entry.get('_type') == 'playlist' and
-            all(e.get('_type') == 'playlist' for e in entry.get('entries', []) if e is not None)
-        )
 
     def _ignore_video(self, entry):
         title = entry['title'].lower()
