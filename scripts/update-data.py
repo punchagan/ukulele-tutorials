@@ -170,7 +170,16 @@ class Downloader:
 
     def _ignore_video(self, entry):
         title = entry['title'].lower()
-        return ('tutorial' not in title and 'playalong' not in title) or 'chuck the uke' in title
+        select_words = {'tutorial', 'playalong'}
+        drop_words = {'mashup', 'medley', 'unboxing', 'how to practise', 'what is', 'ukebox',
+                      'introduction'}
+        for word in drop_words:
+            if word in title:
+                return True
+        for word in select_words:
+            if word in title:
+                return False
+        return True
 
 
 if __name__ == "__main__":
