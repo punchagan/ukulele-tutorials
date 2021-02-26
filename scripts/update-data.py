@@ -71,6 +71,9 @@ class Downloader:
         with open(os.path.join(self.json_dir, name), 'w') as f:
             json.dump(data, f, indent=2)
 
+        n = len(data.get('entries', []))
+        print(f'Wrote {n} entries to {f.name}')
+
     def download_all_jsons(self):
         for channel in CHANNELS:
             downloader.download_json(channel)
