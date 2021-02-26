@@ -90,6 +90,7 @@ class Downloader:
                 'publish': int(False),
                 'ignore': int(ignore),
                 'id': entry['id'],
+                'uploader': entry['uploader'],
                 'channel': entry['channel_id'],
                 'upload_date': entry['upload_date'],
                 'title': entry['title'],
@@ -119,10 +120,20 @@ class Downloader:
 
     def _merge_into_existing(self, data):
         existing = pd.read_csv(self.data_csv)
-        selection = (existing['ignore'] == 1) | (existing['publish'] == 1)
-        processed = existing[selection]
-        new = data[~data['id'].isin(processed['id'])]
-        return pd.concat([processed, new])
+
+        # Prefer hand processed data, if exists.  NOTE: We assume
+        # ignored rows are hand processed, to simplify the code
+        # here. Manually, unset ignore flag to use the newly parsed
+        # data for these rows.
+        hand_processed = existing.query('publish == 1 or ignore == 1')
+        hand_processed_parsed = data[data['id'].isin(hand_processed['id'])]
+        hand_processed = pd.concat([hand_processed, hand_processed_parsed])\
+                           .groupby('id').agg('first').reset_index()
+
+        # When not manually edited, use the newly parsed data
+        new = data[~data['id'].isin(hand_processed['id'])]
+
+        return pd.concat([hand_processed, new])
 
     def _extract_info(self, entry):
         title, _ = TITLE_RE.subn('|', entry['title'])
