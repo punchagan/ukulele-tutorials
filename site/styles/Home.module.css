@@ -62,6 +62,10 @@
   font-size: 1.5rem;
 }
 
+.thumbnail {
+    max-height: 200px;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;

@@ -25,7 +25,7 @@ export default function Home({ videos }) {
           {videos.map((video) => (
             <a href={`https://youtube.com/v/${video.id}`} className={styles.card}>
               <h3>{video.track}</h3>
-              <img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />
+              <img className={styles.thumbnail} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />
             </a>
           ))}
         </div>
