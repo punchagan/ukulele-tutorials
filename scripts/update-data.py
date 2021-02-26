@@ -30,14 +30,14 @@ TITLE_RE = re.compile(
 CHORDS_RE = re.compile('(?:chords(?: used)*\s*:\s*)((?:\w|,|\.|#| )+)$',
                        flags=re.IGNORECASE|re.MULTILINE)
 ALBUM1_RE = re.compile('\((.*)\)', flags=re.IGNORECASE|re.MULTILINE)
-ALBUM2_RE = re.compile('(?:movie|film|album)\s*(?:–|:|-|--)\s*((?:\w| )+)',
+ALBUM2_RE = re.compile('(?:movie|film|album)\s*(?:–|:|-)+\s*((?:\w| )+)',
                        flags=re.IGNORECASE|re.MULTILINE)
-ARTISTS_RE = re.compile('(?:singers*|artists*)\s*(?:–|:|-)\s*((?:[A-Za-z0-9]| |\.|&|,)+)',
+ARTISTS_RE = re.compile('(?:singer\(*s*\)*|artists*)\s*(?:–|:|-)+\s*((?:[A-Za-z0-9]| |\.|&|,)+)',
                         flags=re.IGNORECASE|re.MULTILINE)
 COMPOSER_RE = re.compile('(?:music(?: director)*|compose(?:r|d)|'
                          'arranged|reprised|recreated)\s*'
                          '(?: by){0,1}\s*'
-                         '(?:–|:|-|--)\s*'
+                         '(?:–|:|-)+\s*'
                          '((?:\w| |\.|&|,|-)+)',
                          flags=re.IGNORECASE|re.MULTILINE)
 SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|composer)',
