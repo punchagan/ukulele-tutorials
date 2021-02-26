@@ -57,7 +57,8 @@ class Downloader:
             'ignoreerrors': True, # Don't stop on download errors
         }
         self.json_dir = os.path.join(os.path.dirname(HERE), '.json')
-        self.data_csv = os.path.join(os.path.dirname(HERE), 'data.csv')
+        self.data_dir = os.path.join(os.path.dirname(HERE), 'data')
+        self.data_csv = os.path.join(self.data_dir, 'tutorials.csv')
         os.makedirs(self.json_dir, exist_ok=True)
 
     def download_json(self, url):
