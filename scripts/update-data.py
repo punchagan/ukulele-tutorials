@@ -8,8 +8,8 @@ import pandas as pd
 import youtube_dl
 
 CHANNELS = [
-    'https://www.youtube.com/channel/UCJjV2CHB58Xerdqbwyka7QA',  #SayaliTank
-    'https://www.youtube.com/channel/UCXNmFZc8m5w0tQbpMs6rGyA',  #BollyUke
+    'https://www.youtube.com/c/SayaliTank/videos',
+    'https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos',
 ]
 
 HERE = os.path.abspath(os.path.dirname(__file__))
