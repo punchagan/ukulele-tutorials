@@ -40,6 +40,9 @@ COMPOSER_RE = re.compile('(?:music(?: director)*|compose(?:r|d)|'
                          '(?:–|:|-|--)\s*'
                          '((?:\w| |\.|&|,|-)+)',
                          flags=re.IGNORECASE|re.MULTILINE)
+SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|composer)',
+                          flags=re.IGNORECASE|re.MULTILINE)
+
 
 class Downloader:
 
@@ -136,6 +139,9 @@ class Downloader:
                                     .replace('.', ',')\
                                     .replace(', ', ',').strip(',').strip()
             chords = chords.split(',') if chords else None
+
+        # Add newlines for original song information
+        entry['description'], _ = SONG_INFO_RE.subn(',\n\\2', entry['description'])
 
         album_match = ALBUM2_RE.search(entry['description'])
         if album_match is not None:
