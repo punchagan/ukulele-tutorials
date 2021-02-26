@@ -163,6 +163,13 @@ class Downloader:
 
 
 if __name__ == "__main__":
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-d', '--download-data', action='store_true', default=False)
+
+    options = parser.parse_args()
     downloader = Downloader()
-    # downloader.download_all_jsons()
-    # downloader.parse_all_jsons()
+    if options.download_data:
+        downloader.download_all_jsons()
+    downloader.parse_all_jsons()
