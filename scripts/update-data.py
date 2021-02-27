@@ -121,6 +121,7 @@ class Updater:
         published = data.query('publish == 1')
         published.to_json(self.data_json, orient='records', indent=2)
         print(published.tail())
+        print(f'Updated {self.data_json}')
 
     def _write_csv_data(self, data):
         ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
