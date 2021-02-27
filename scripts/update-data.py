@@ -46,7 +46,7 @@ SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|compo
                           flags=re.IGNORECASE|re.MULTILINE)
 
 
-class Downloader:
+class Updater:
 
     def __init__(self):
         self.ydl_opts = {
@@ -212,7 +212,7 @@ if __name__ == "__main__":
     parser.add_argument('-d', '--download-data', action='store_true', default=False)
 
     options = parser.parse_args()
-    downloader = Downloader()
+    u = Updater()
     if options.download_data:
-        downloader.download_all_jsons()
-    downloader.parse_all_jsons()
+        u.download_all_jsons()
+    u.parse_all_jsons()
