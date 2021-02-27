@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import ReactPlayer from "react-player"
+import Layout from '../../components/layout'
 import {getAllVideos} from '../../lib/pages'
 
 export default function Video({ video }) {
   return (
-    <div>
+    <Layout>
+      <div>
       <ReactPlayer url={`https://youtube.com/v/${video.id}`}
                    light={false}
                    controls={true}
@@ -27,7 +29,8 @@ export default function Video({ video }) {
         This video was uploaded by <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>{video.uploader}</Link>.
         Support this channel by subscribing and liking the <Link href={`https://youtube.com/v/${video.id}`}> video on YouTube</Link>.
       </p>
-    </div>
+      </div>
+    </Layout>
   )
 }
 
