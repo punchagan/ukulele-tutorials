@@ -12,6 +12,7 @@
     "fs": "^0.0.1-security",
     "next": "10.0.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-player": "^2.9.0"
   }
 }

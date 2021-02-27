@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import {getAllVideos} from '../lib/pages'
 
@@ -21,10 +22,12 @@ export default function Home({ videos }) {
 
         <div className={styles.grid}>
           {videos.map((video) => (
-            <a key={video.id} href={`https://youtube.com/v/${video.id}`} className={styles.card}>
-              <h3>{video.track}</h3>
+            <div className={styles.card} key={video.id}>
+              <Link href={`/video/${video.id}`}>
+                <h3>{video.track}</h3>
+              </Link>
               <img className={styles.thumbnail} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />
-            </a>
+            </div>
           ))}
         </div>
       </main>
