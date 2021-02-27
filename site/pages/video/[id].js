@@ -5,7 +5,20 @@ import {getAllVideos} from '../../lib/pages'
 export default function Video({ video }) {
   return (
     <div>
-      <ReactPlayer url={`https://youtube.com/v/${video.id}`} />
+      <ReactPlayer url={`https://youtube.com/v/${video.id}`}
+                   light={false}
+                   controls={true}
+                   config={{
+                     youtube: {
+                       playerVars: {
+                         color: "white",
+                         modestbranding: 1,
+                         rel: 0,
+                         showinfo: 0,
+                       }
+                     }
+                   }}
+                   />
       <p>Chords: {video.chords}</p>
       <p>Album: {video.album}</p>
       <p>Composer(s): {video.composer}</p>
