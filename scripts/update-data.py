@@ -134,8 +134,9 @@ class Updater:
     def _write_csv_data(self, data):
         ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
         columns = sorted(data.columns, key=lambda x: ORDER.index(x) if x in ORDER else 100)
-        data = data[columns].sort_values(['ignore', 'publish', 'upload_date'],
-                                         ascending=[False, False, True])
+        data = data[columns].sort_values(
+            ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
+            ascending=[False, False, True, True, True, True])
         data.to_csv(self.data_csv, index=False)
 
     def _merge_into_existing(self, data):
