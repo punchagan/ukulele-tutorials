@@ -145,7 +145,7 @@ class Updater:
 
         # When not manually edited, use the newly parsed data
         new = data[~data['id'].isin(hand_processed['id'])]
-        data = pd.concat([hand_processed, new])
+        data = pd.concat([hand_processed, new]).drop_duplicates()
 
         # Sort columns and values
         ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
