@@ -122,22 +122,14 @@ class Updater:
             parsed.append(self.parse_json(path))
 
         data = self._merge_into_existing(pd.concat(parsed))
-        self._write_csv_data(data)
-        self._write_published_json(data)
+        self._write_data(data)
 
-    def _write_published_json(self, data):
+    def _write_data(self, data):
+        data.to_csv(self.data_csv, index=False)
         published = data.query('publish == 1')
         published.to_json(self.data_json, orient='records', indent=2)
         print(published.tail())
         print(f'Updated {self.data_json}')
-
-    def _write_csv_data(self, data):
-        ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
-        columns = sorted(data.columns, key=lambda x: ORDER.index(x) if x in ORDER else 100)
-        data = data[columns].sort_values(
-            ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
-            ascending=[False, False, True, True, True, True])
-        data.to_csv(self.data_csv, index=False)
 
     def _merge_into_existing(self, data):
         existing = pd.read_csv(self.data_csv)
@@ -153,8 +145,16 @@ class Updater:
 
         # When not manually edited, use the newly parsed data
         new = data[~data['id'].isin(hand_processed['id'])]
+        data = pd.concat([hand_processed, new])
 
-        return pd.concat([hand_processed, new])
+        # Sort columns and values
+        ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
+        columns = sorted(data.columns, key=lambda x: ORDER.index(x) if x in ORDER else 100)
+        data = data[columns].sort_values(
+            ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
+            ascending=[False, False, True, True, True, True])
+
+        return data
 
     def _extract_info(self, entry):
         title, _ = TITLE_RE.subn('|', entry['title'])
