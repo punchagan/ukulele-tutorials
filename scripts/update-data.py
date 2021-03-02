@@ -12,6 +12,12 @@ import youtube_dl
 CHANNELS = [
     'https://www.youtube.com/c/SayaliTank/videos',
     'https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos',
+    'https://www.youtube.com/c/ukeguide/videos',
+    'https://www.youtube.com/c/ManidipaBaisya/videos',
+    'https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni', # TarunMishram
+    'https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ', # NabidAlam360
+    'https://www.youtube.com/c/ArathiUnnikrishnan/videos',
+    'https://www.youtube.com/c/AvniKulshreshtha/videos',
 ]
 
 HERE = os.path.abspath(os.path.dirname(__file__))
@@ -78,7 +84,7 @@ class Updater:
 
         n = len(data.get('entries', []))
         t = time.time() - start
-        print(f'Wrote {n} entries to {f.name} in {t} seconds')
+        print(f'Wrote {n} entries for {url} to {f.name} in {t} seconds')
 
     def download_all_jsons(self):
         with ThreadPoolExecutor(max_workers=4) as e:
@@ -91,6 +97,8 @@ class Updater:
 
         videos = []
         for i, entry in enumerate(data['entries'], start=1):
+            if entry is None:
+                continue
             ignore = self._ignore_video(entry)
             video = {
                 'publish': int(False),
@@ -152,7 +160,11 @@ class Updater:
         title, _ = re.subn('\s*\|+(\s*\|)*\s*', '|', title)
         track, album, artists = (title.split('|', 3) + [''] * 3)[:3]
         if '(' in track:
-            album = ALBUM1_RE.search(track).group(1).strip()
+            album = ALBUM1_RE.search(track)
+            if album is not None:
+                album = album.group(1).strip()
+            else:
+                album = ''
             track = ALBUM1_RE.sub('', track).strip()
 
         chords = CHORDS_RE.search(entry['description'])
@@ -194,7 +206,7 @@ class Updater:
 
     def _ignore_video(self, entry):
         title = entry['title'].lower()
-        select_words = {'tutorial', 'playalong'}
+        select_words = {'tutorial', 'playalong', 'lesson'}
         drop_words = {'mashup', 'medley', 'unboxing', 'how to practise', 'what is', 'ukebox',
                       'introduction'}
         for word in drop_words:
