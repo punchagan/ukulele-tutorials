@@ -118,6 +118,17 @@
   height: 1em;
 }
 
+.chordDiagrams svg {
+    height: 10em;
+    width: 10em;
+}
+.chordDiagrams h5 {
+    display: inline-block;
+}
+.chordDiagrams div {
+    display: inline-block;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

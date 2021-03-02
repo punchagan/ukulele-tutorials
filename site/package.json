@@ -9,6 +9,8 @@
     "export": "next export"
   },
   "dependencies": {
+    "@tombatossals/chords-db": "^0.5.1",
+    "@tombatossals/react-chords": "^0.2.10",
     "fs": "^0.0.1-security",
     "next": "10.0.7",
     "react": "17.0.1",

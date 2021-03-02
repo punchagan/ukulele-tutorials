@@ -1,14 +1,40 @@
+import {useState} from 'react'
 import Link from 'next/link'
 import ReactPlayer from "react-player"
 import Layout from '../../components/layout'
 import {getAllVideos} from '../../lib/pages'
 import styles from '../../styles/Home.module.css'
+import Chord from '@tombatossals/react-chords/lib/Chord'
+import ukeChordsDB from '@tombatossals/chords-db/lib/ukulele'
+
+
+const findChord = (chord) => {
+  const [_, key, s] = chord.match(/([A-G]b*)(.*)/)
+  let suffix;
+  switch (s) {
+  case "":
+    suffix = "major"
+    break;
+  case "m":
+    suffix = "minor"
+    break;
+  default:
+    suffix = s
+    break;
+  }
+  const chordData = ukeChordsDB.chords[key].find(it => it.suffix === suffix)
+  return chordData?.positions[0]
+}
 
 export default function Video({ video, videos }) {
   const otherIds = video.id_related ?
         video.id_related.split(',').filter(it => it !== video.id) :
         []
   const otherVersions = otherIds.map(it => videos.find((v) => v.id === it))
+  const videoChords = video.chords.split(',')
+  const instrument = {...ukeChordsDB.main, tunings: ukeChordsDB.tunings}
+  const [showChords, setShowChords] = useState(false)
+
   return (
     <Layout>
       <div>
@@ -27,6 +53,15 @@ export default function Video({ video, videos }) {
                    }}
                    />
       <p>Chords: {video.chords}</p>
+      <div className={styles.chordDiagrams}>
+      <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>
+      {showChords && videoChords.map(chord => (
+        <div key={chord}>
+        <h5>{chord}</h5>
+        <Chord lite={false} instrument={instrument} chord={findChord(chord)}/>
+        </div>
+      ))}
+      </div>
       <p>Album: {video.album}</p>
       <p>Composer(s): {video.composer}</p>
       <p>Artist(s): {video.artists}</p>
