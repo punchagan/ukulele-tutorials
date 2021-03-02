@@ -122,6 +122,7 @@ class Updater:
             parsed.append(self.parse_json(path))
 
         data = self._merge_into_existing(pd.concat(parsed))
+        data = self._update_related(data)
         self._write_data(data)
 
     def _write_data(self, data):
@@ -130,6 +131,12 @@ class Updater:
         published.to_json(self.data_json, orient='records', indent=2)
         print(published.tail())
         print(f'Updated {self.data_json}')
+
+    def _update_related(self, data):
+        def join(row):
+            return '' if len(row) == 1 else ','.join(row)
+        related = data.groupby(['track', 'album']).agg({'id': join}).drop_duplicates()
+        return data.merge(related, how='left', on=['track', 'album'], suffixes=['', '_related'])
 
     def _merge_into_existing(self, data):
         existing = pd.read_csv(self.data_csv)
