@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Link from 'next/link'
 import ReactPlayer from "react-player"
 import Layout from '../../components/layout'
+import VideoList from '../../components/video-list'
 import {getAllVideos} from '../../lib/pages'
 import styles from '../../styles/Home.module.css'
 import Chord from '@tombatossals/react-chords/lib/Chord'
@@ -72,16 +73,7 @@ export default function Video({ video, videos }) {
       {video.id_related && (
         <div>
           <h2>Other Versions</h2>
-          <div className={styles.grid}>
-            {otherVersions.map(video => (
-              <div className={styles.card} key={video.id}>
-                <Link href={`/video/${video.id}`}>
-                  <h3>{video.track}</h3>
-                </Link>
-                <img className={styles.thumbnail} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} ></img>
-              </div>
-            ))}
-          </div>
+          <VideoList videos={otherVersions} />
         </div>
       )}
       </div>
