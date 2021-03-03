@@ -8,7 +8,7 @@ export default function VideoList({videos}) {
       {videos.map((video) => (
           <div className={styles.card} key={video.id}>
           <Link href={`/video/${video.id}`}>
-          <h3>{video.track}</h3>
+          <h4>{video.uploader}: {video.track} by {video.artists}</h4>
           </Link>
           <img className={styles.thumbnail} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} ></img>
           </div>))}
