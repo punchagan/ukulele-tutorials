@@ -136,6 +136,9 @@ class Updater:
         def join(row):
             return '' if len(row) == 1 else ','.join(row)
         related = data.groupby(['track', 'album']).agg({'id': join}).drop_duplicates()
+        # Drop existing id_related column, since we are creating a new one
+        columns = [c for c in data.columns if c != 'id_related']
+        data = data[columns]
         return data.merge(related, how='left', on=['track', 'album'], suffixes=['', '_related'])
 
     def _merge_into_existing(self, data):
