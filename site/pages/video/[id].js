@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import Link from 'next/link'
-import ReactPlayer from "react-player"
 import Layout from '../../components/layout'
+import Player from '../../components/player'
 import VideoList from '../../components/video-list'
 import {getAllVideos} from '../../lib/pages'
 import styles from '../../styles/Home.module.css'
@@ -39,20 +39,7 @@ export default function Video({ video, videos }) {
   return (
     <Layout>
       <div>
-      <ReactPlayer url={`https://youtube.com/v/${video.id}`}
-                   light={false}
-                   controls={true}
-                   config={{
-                     youtube: {
-                       playerVars: {
-                         color: "white",
-                         modestbranding: 1,
-                         rel: 0,
-                         showinfo: 0,
-                       }
-                     }
-                   }}
-                   />
+        <Player url={`https://youtube.com/v/${video.id}`} />
       <p>Chords: {video.chords}</p>
       <div className={styles.chordDiagrams}>
       <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>
