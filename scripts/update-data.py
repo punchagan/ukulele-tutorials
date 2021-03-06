@@ -107,6 +107,8 @@ class Updater:
                 'uploader': entry['uploader'],
                 'channel': entry['channel_id'],
                 'upload_date': entry['upload_date'],
+                'loop_start': 0,
+                'loop_end': entry['duration'],
                 'title': entry['title'],
             }
             if not ignore:
@@ -158,8 +160,12 @@ class Updater:
         data = pd.concat([hand_processed, new]).drop_duplicates()
 
         # Sort columns and values
-        ORDER = ['title', 'track', 'album', 'artists', 'composer', 'chords', 'key', 'publish']
-        columns = sorted(data.columns, key=lambda x: ORDER.index(x) if x in ORDER else 100)
+        column_order = [
+            'title', 'track', 'album', 'artists', 'composer', 'chords',
+            'key', 'loop_start', 'loop_end', 'publish',
+        ]
+        columns = sorted(data.columns,
+                         key=lambda x: column_order.index(x) if x in column_order else 100)
         data = data[columns].sort_values(
             ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
             ascending=[False, False, True, True, True, True])

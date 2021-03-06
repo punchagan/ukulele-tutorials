@@ -9,13 +9,6 @@ export default function Player({url, start, end}) {
   const [loopStart, setLoopStart] = useState(start)
   const [loopEnd, setLoopEnd] = useState(end)
 
-  const durationCallback = (duration) => {
-    if (loopEnd === undefined) {
-      setLoopStart(0)
-      setLoopEnd(duration)
-    }
-  }
-
   const playFromStart = () => {
     player.current.seekTo(loopStart, 'seconds')
     setPlaying(true)
@@ -36,7 +29,6 @@ export default function Player({url, start, end}) {
         playing={playing}
         ref={player}
         progressInterval={100}
-        onDuration={durationCallback}
         onProgress={progressCallback}
         onEnded={playFromStart}
         config={{

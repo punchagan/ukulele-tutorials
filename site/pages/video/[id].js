@@ -39,7 +39,8 @@ export default function Video({ video, videos }) {
   return (
     <Layout>
       <div>
-        <Player url={`https://youtube.com/v/${video.id}`} />
+        <Player url={`https://youtube.com/v/${video.id}`}
+                start={video.loop_start} end={video.loop_end}/>
       <p>Chords: {video.chords}</p>
       <div className={styles.chordDiagrams}>
       <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>
