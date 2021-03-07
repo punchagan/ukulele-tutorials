@@ -43,13 +43,13 @@ export default function Video({ video, videos }) {
                 start={video.loop_start} end={video.loop_end}/>
       <p>Chords: {video.chords}</p>
       <div className={styles.chordDiagrams}>
-      <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>
-      {showChords && videoChords.map(chord => (
-        <div key={chord}>
-        <h5>{chord}</h5>
-        <Chord lite={false} instrument={instrument} chord={findChord(chord)}/>
-        </div>
-      ))}
+        {videoChords && <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>}
+        {showChords && videoChords?.map(chord => (
+          <div key={chord}>
+            <h5>{chord}</h5>
+            <Chord lite={false} instrument={instrument} chord={findChord(chord)}/>
+          </div>
+        ))}
       </div>
       <p>Album: {video.album}</p>
       <p>Composer(s): {video.composer}</p>
