@@ -129,9 +129,9 @@ class Updater:
 
     def _write_data(self, data):
         data.to_csv(self.data_csv, index=False)
-        published = data.query('publish == 1')
-        published.to_json(self.data_json, orient='records', indent=2)
-        print(published.tail())
+        non_ignored = data.query('ignore != 1')
+        non_ignored.to_json(self.data_json, orient='records', indent=2)
+        print(non_ignored.tail())
         print(f'Updated {self.data_json}')
 
     def _update_related(self, data):

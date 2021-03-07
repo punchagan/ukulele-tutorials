@@ -32,7 +32,7 @@ export default function Video({ video, videos }) {
         video.id_related.split(',').filter(it => it !== video.id) :
         []
   const otherVersions = otherIds.map(it => videos.find((v) => v.id === it))
-  const videoChords = video.chords.split(',')
+  const videoChords = video.chords?.split(',')
   const instrument = {...ukeChordsDB.main, tunings: ukeChordsDB.tunings}
   const [showChords, setShowChords] = useState(false)
 
