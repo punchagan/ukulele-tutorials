@@ -42,10 +42,10 @@ export default function Player({url, start, end}) {
           }
         }}
         />
-      <input type="number" step="0.01" min="0" value={start}
+      <input type="number" step="0.01" min="0" value={loopStart}
              onChange={(e) => setLoopStart(e.target.value)} />
-        <input type="number" step="0.01" min="0" value={end}
-               onChange={(e) => setLoopEnd(e.target.value)} />
+      <input type="number" step="0.01" min="0" value={loopEnd}
+             onChange={(e) => setLoopEnd(e.target.value)} />
     </div>
   )
 }
