@@ -15,7 +15,7 @@ export default function Player({url, start, end}) {
   }
 
   const progressCallback = (data) => {
-    if (data.playedSeconds >= loopEnd) {
+    if (data.playedSeconds >= loopEnd || data.playedSeconds < loopStart) {
       playFromStart()
     }
   }
