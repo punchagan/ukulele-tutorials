@@ -8,6 +8,7 @@ export default function Player({url, start, end}) {
   const [playing, setPlaying] = useState(false)
   const [loopStart, setLoopStart] = useState(start)
   const [loopEnd, setLoopEnd] = useState(end)
+  const [useLoop, setUseLoop] = useState(true)
 
   const playFromStart = () => {
     player.current.seekTo(loopStart, 'seconds')
@@ -15,7 +16,7 @@ export default function Player({url, start, end}) {
   }
 
   const progressCallback = (data) => {
-    if (data.playedSeconds >= loopEnd || data.playedSeconds < loopStart) {
+    if (useLoop && (data.playedSeconds >= loopEnd || data.playedSeconds < loopStart)) {
       playFromStart()
     }
   }
@@ -42,6 +43,7 @@ export default function Player({url, start, end}) {
           }
         }}
         />
+      <p><input type="checkbox" defaultChecked={useLoop} onChange={(e) => setUseLoop(e.target.checked)}/>Loop</p>
       <input type="number" step="0.01" min="0" value={loopStart}
              onChange={(e) => setLoopStart(e.target.value)} />
       <input type="number" step="0.01" min="0" value={loopEnd}
