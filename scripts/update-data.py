@@ -87,6 +87,11 @@ class Updater:
         print(f'Wrote {n} entries for {url} to {f.name} in {t} seconds')
 
     def download_all_jsons(self):
+        # Delete all existing JSON files before downloading
+        files = os.listdir(self.json_dir)
+        for each in files:
+            os.remove(os.path.join(self.json_dir, each))
+
         with ThreadPoolExecutor(max_workers=4) as e:
             for channel in CHANNELS:
                 e.submit(self.download_json, channel)
