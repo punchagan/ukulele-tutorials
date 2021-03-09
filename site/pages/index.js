@@ -12,10 +12,6 @@ export default function Home({ videos }) {
   return (
     <Layout>
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to uke-tutorials.in!
-        </h1>
-
         <p className={styles.description}>
           Get started by choosing a tutorial below
         </p>

@@ -13,6 +13,12 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header>
+        <nav>
+          <Link href="/">Welcome to uke-tutorials.in!</Link>
+        </nav>
+      </header>
+
       {children}
 
       <footer className={styles.footer}>
