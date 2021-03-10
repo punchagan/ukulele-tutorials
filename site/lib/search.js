@@ -51,11 +51,17 @@ const getCounts = (data, attribute) => {
 }
 
 const getUploaderCounts = (data) => getCounts(data, "uploader")
+const getAlbumCounts = (data) => getCounts(data, "album")
+
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page+1))
   const nbHits = videos.length
   const nbPages = Math.ceil(nbHits/hitsPerPage)
-  const facets = {artists: getArtistCounts(videos), uploader: getUploaderCounts(videos)}
+  const facets = {
+    artists: getArtistCounts(videos),
+    uploader: getUploaderCounts(videos),
+    album: getAlbumCounts(videos.filter(v => v.album != ""))
+  }
   return {hits, nbHits, hitsPerPage, nbPages, facets}
 }
 
