@@ -18,7 +18,7 @@ export const filterByFacets = (videos, facetFilters) => {
   let data = videos
   for (let attribute in filterRegExps) {
     let re = filterRegExps[attribute]
-    data = data.filter(vid => vid[attribute].search(re) > -1)
+    data = data.filter(vid => vid[attribute]?.search(re) > -1)
   }
 
   return data
@@ -26,6 +26,7 @@ export const filterByFacets = (videos, facetFilters) => {
 
 const getArtistCounts = (data) => {
   const counts = data
+        .filter(v => v.artists !== null)
         .map(v => v.artists.split(', '))
         .reduce((acc, artists) => {
           artists.forEach(artist => {
