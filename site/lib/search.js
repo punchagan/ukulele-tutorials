@@ -9,10 +9,19 @@ export const filterByQuery = (videos, query) => {
 }
 
 export const filterByFacets = (videos, facetFilters) => {
-  // FIXME: Deal with other kinds of facets too.. right now only artists
-  const artistFilters = facetFilters?.[0]
-  const re = new RegExp(artistFilters?.map(y => y.split(':')[1]).join("|"))
-  return videos.filter((vid) => vid.artists.search(re) > -1)
+
+  const filterRegExps = facetFilters?.reduce((obj, ff) => {
+    const key = ff[0].split(':')[0]
+    return {...obj, [key]: new RegExp(ff.map(f => f.split(':')[1]).join("|"))}
+  }, {})
+
+  let data = videos
+  for (let attribute in filterRegExps) {
+    let re = filterRegExps[attribute]
+    data = data.filter(vid => vid[attribute].search(re) > -1)
+  }
+
+  return data
 }
 
 const getArtistCounts = (data) => {
@@ -30,11 +39,21 @@ const getArtistCounts = (data) => {
   return counts
 }
 
+const getUploaderCounts = (data) => {
+  const counts = data
+        .reduce((acc, video) => {
+          const uploader = video.uploader
+          acc[uploader] = acc[uploader] ? acc[uploader] + 1 : 1
+          return acc
+        }, {})
+  return counts
+}
+
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page+1))
   const nbHits = videos.length
   const nbPages = Math.ceil(nbHits/hitsPerPage)
-  const facets = {artists: getArtistCounts(videos)}
+  const facets = {artists: getArtistCounts(videos), uploader: getUploaderCounts(videos)}
   return {hits, nbHits, hitsPerPage, nbPages, facets}
 }
 
@@ -47,7 +66,6 @@ export const createSearchClient = (data) => {
     clearCache: () => {},
     search: async ([q]) => {
       const {query, page, hitsPerPage, facetFilters} = q.params
-      console.log(q)
       const videos = filterByQuery(objects, query)
       const videosFaceted = filterByFacets(videos, facetFilters)
       resultsF = makeResult(videosFaceted, page, hitsPerPage)

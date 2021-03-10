@@ -34,6 +34,10 @@ export default function Home({ videos }) {
               <RefinementList attribute="artists"
                               limit={15} showMore={true} showMoreLimit={1000}
                               searchable={true} />
+              <h3>Channel</h3>
+              <RefinementList attribute="uploader"
+                              limit={10} showMore={true} showMoreLimit={100}
+                              />
               <Configure hitsPerPage={20} />
             </div>
 
