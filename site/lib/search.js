@@ -27,7 +27,7 @@ export const filterByFacets = (videos, facetFilters) => {
 const getListCounts = (data, attribute) => {
   const counts = data
         .filter(v => v[attribute] !== null)
-        .map(v => v[attribute].split(', '))
+        .map(v => v[attribute].replace(", ", ",").split(","))
         .reduce((acc, attrList) => {
           attrList.forEach(item => {
             if (item == "") {
@@ -41,6 +41,7 @@ const getListCounts = (data, attribute) => {
 }
 
 const getArtistsCounts = (data) => getListCounts(data, "artists")
+const getChordsCounts = (data) => getListCounts(data, "chords")
 
 const getCounts = (data, attribute) => {
   const counts = data
@@ -61,6 +62,7 @@ export const makeResult = (videos, page, hitsPerPage) => {
   const nbPages = Math.ceil(nbHits/hitsPerPage)
   const facets = {
     artists: getArtistsCounts(videos),
+    chords: getChordsCounts(videos),
     uploader: getUploaderCounts(videos),
     album: getAlbumCounts(videos.filter(v => v.album != ""))
   }

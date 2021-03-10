@@ -104,6 +104,15 @@
     display: inline-grid;
 }
 
+.searchChords ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.searchChords ul > li {
+    margin-right: 1em;
+}
+
 .chordDiagrams svg {
     height: 10em;
     width: 10em;

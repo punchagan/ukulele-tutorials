@@ -30,6 +30,10 @@ export default function Home({ videos }) {
           <div className={styles.searchPanel}>
             <div className={styles.searchPanelFilters}>
               <ClearRefinements />
+
+              <h3>Chords</h3>
+              <RefinementList className={styles.searchChords}
+                              attribute="chords" limit={100} />
               <h3>Artists</h3>
               <RefinementList attribute="artists"
                               limit={10} showMore={true} showMoreLimit={1000}
@@ -40,8 +44,8 @@ export default function Home({ videos }) {
                               searchable={true} />
               <h3>Channel</h3>
               <RefinementList attribute="uploader"
-                              limit={10} showMore={true} showMoreLimit={100}
-                              />
+                              limit={10} showMore={true} showMoreLimit={100} />
+
               <Configure hitsPerPage={20} />
             </div>
 
