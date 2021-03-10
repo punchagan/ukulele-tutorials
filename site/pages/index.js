@@ -51,7 +51,7 @@ export default function Home({ videos }) {
                 translations={{placeholder: 'Search your tutorial here...'}} />
               <Hits className={styles.tutorialItems} hitComponent={Video}/>
               <div className="pagination">
-                <Pagination />
+                <Pagination showLast={true} />
               </div>
             </div>
 
