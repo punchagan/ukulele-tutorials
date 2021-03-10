@@ -16,9 +16,7 @@ import {
   Pagination
 } from 'react-instantsearch-dom';
 
-// Include only the reset
 import 'instantsearch.css/themes/reset.css';
-// or include the full Satellite theme
 import 'instantsearch.css/themes/satellite.css';
 
 
@@ -27,25 +25,30 @@ export default function Home({ videos }) {
 
   return (
     <Layout>
-      <main className={styles.main}>
         <InstantSearch searchClient={createSearchClient(videos)}
-                       indexName="videos"
-                       >
-          <div className="left-panel">
-            <SearchBox />
-            <ClearRefinements />
-            <h2>Artists</h2>
-            <RefinementList attribute="artists"
-                            limit={15} showMore={true} showMoreLimit={1000}
-                            searchable={true} />
-            <Configure hitsPerPage={20} />
-          </div>
-          <Hits hitComponent={Video}/>
-          <div className="pagination">
-            <Pagination />
+                       indexName="videos">
+          <div className={styles.searchPanel}>
+            <div className={styles.searchPanelFilters}>
+              <ClearRefinements />
+              <h3>Artists</h3>
+              <RefinementList attribute="artists"
+                              limit={15} showMore={true} showMoreLimit={1000}
+                              searchable={true} />
+              <Configure hitsPerPage={20} />
+            </div>
+
+            <div className={styles.searchPanelResults}>
+              <SearchBox
+                className={styles.tutorialSearch}
+                translations={{placeholder: 'Search your tutorial here...'}} />
+              <Hits className={styles.tutorialItems} hitComponent={Video}/>
+              <div className="pagination">
+                <Pagination />
+              </div>
+            </div>
+
           </div>
         </InstantSearch>
-      </main>
     </Layout>
   )
 }

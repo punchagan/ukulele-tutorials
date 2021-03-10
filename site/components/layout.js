@@ -7,7 +7,7 @@ export default function Layout({
   title = 'This is the default title',
 }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Ukulele Tutorials for Indian Music</title>
         <link rel="icon" href="/favicon.ico" />

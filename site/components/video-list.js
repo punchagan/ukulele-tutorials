@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 export function Video({hit: video}) {
   return (
-    <div className={styles.card} key={video.id}>
+    <div key={video.id}>
       <Link href={`/video/${video.id}`}>
         <h4>{video.uploader}: {video.track || video.title} by {video.artists}</h4>
       </Link>
