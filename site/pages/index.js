@@ -32,7 +32,7 @@ export default function Home({ videos }) {
               <ClearRefinements />
               <h3>Artists</h3>
               <RefinementList attribute="artists"
-                              limit={15} showMore={true} showMoreLimit={1000}
+                              limit={10} showMore={true} showMoreLimit={1000}
                               searchable={true} />
               <h3>Channel</h3>
               <RefinementList attribute="uploader"
