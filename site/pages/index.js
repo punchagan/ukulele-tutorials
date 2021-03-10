@@ -6,14 +6,15 @@ import {Video} from '../components/video-list'
 import {getAllVideos} from '../lib/pages'
 import {createSearchClient} from '../lib/search'
 import styles from '../styles/Home.module.css'
-import { InstantSearch,
-         SearchBox,
-         Hits,
-         ClearRefinements,
-         RefinementList,
-         Configure }
-from 'react-instantsearch-dom';
-
+import {
+  InstantSearch,
+  SearchBox,
+  Hits,
+  ClearRefinements,
+  RefinementList,
+  Configure,
+  Pagination
+} from 'react-instantsearch-dom';
 
 export default function Home({ videos }) {
   const [videoList, setVideoList] = useState(videos)
@@ -26,6 +27,9 @@ export default function Home({ videos }) {
                        >
           <SearchBox />
           <Hits hitComponent={Video}/>
+          <div className="pagination">
+            <Pagination />
+          </div>
         </InstantSearch>
       </main>
     </Layout>

@@ -9,13 +9,19 @@ export const filterVideos = (videos, query) => {
 }
 
 export const createSearchClient = (data) => {
+  const objects = data.map((x) => ({...x, objectID: x.id}))
   const client = {
     addAlgoliaAgent: () => {},
     clearCache: () => {},
     search: async ([q]) => {
-      const videos = filterVideos(data, q.params.query)
-      const hits = videos.map((x) => ({...x, objectID: x.id}))
-      const results = [{hits, page: 0, nbHits: videos.length, hitsPerPage: 10}]
+      console.log(q, '???')
+      const {query, page} = q.params
+      const hitsPerPage = 20
+      const videos = filterVideos(objects, query)
+      const hits = videos.slice(hitsPerPage*page, hitsPerPage*(page+1))
+      const nbHits = videos.length
+      const nbPages = Math.ceil(nbHits/hitsPerPage)
+      const results = [{hits, nbHits, hitsPerPage, nbPages, exhaustiveNbHits: true}]
       return {results}
     },
     searchForFacetValues: (q) => {
