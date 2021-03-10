@@ -40,16 +40,17 @@ const getArtistCounts = (data) => {
   return counts
 }
 
-const getUploaderCounts = (data) => {
+const getCounts = (data, attribute) => {
   const counts = data
         .reduce((acc, video) => {
-          const uploader = video.uploader
-          acc[uploader] = acc[uploader] ? acc[uploader] + 1 : 1
+          const val = video[attribute]
+          acc[val] = acc[val] ? acc[val] + 1 : 1
           return acc
         }, {})
   return counts
 }
 
+const getUploaderCounts = (data) => getCounts(data, "uploader")
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page+1))
   const nbHits = videos.length
