@@ -16,6 +16,12 @@ import {
   Pagination
 } from 'react-instantsearch-dom';
 
+// Include only the reset
+import 'instantsearch.css/themes/reset.css';
+// or include the full Satellite theme
+import 'instantsearch.css/themes/satellite.css';
+
+
 export default function Home({ videos }) {
   const [videoList, setVideoList] = useState(videos)
 

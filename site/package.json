@@ -12,6 +12,7 @@
     "@tombatossals/chords-db": "^0.5.1",
     "@tombatossals/react-chords": "^0.2.10",
     "fs": "^0.0.1-security",
+    "instantsearch.css": "^7.4.5",
     "next": "10.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1",
