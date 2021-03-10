@@ -138,8 +138,21 @@ class Updater:
 
     def _write_data(self, data):
         data.to_csv(self.data_csv, index=False)
-        non_ignored = data.query('ignore != 1')
-        non_ignored.to_json(self.data_json, orient='records', indent=2)
+        non_ignored_rows = data['ignore'] != 1
+
+        def sort_list(x):
+            return sorted(filter(None, x))
+
+        # Split chords and artists into lists
+        data.loc[non_ignored_rows, 'chords'] = data.loc[non_ignored_rows, 'chords']\
+                                                   .fillna('')\
+                                                   .str.split(',').apply(sort_list)
+        data.loc[non_ignored_rows, 'artists'] = data.loc[non_ignored_rows, 'artists']\
+                                                   .fillna('')\
+                                                   .str.replace(', ', ',')\
+                                                   .str.split(',').apply(sort_list)
+        non_ignored = data[non_ignored_rows]
+        non_ignored.to_json(self.data_json, orient='records', indent=2, force_ascii=False)
         print(non_ignored.tail())
         print(f'Updated {self.data_json}')
 

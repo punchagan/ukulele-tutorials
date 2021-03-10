@@ -3,9 +3,20 @@
     "title":"Aise kyun Ukulele Tutorial | Mismatched",
     "track":"Aise Kyun",
     "album":"Mismatched",
-    "artists":"Anurag Saikia, Raghav Chaitanya, Nikhita Gandhi",
+    "artists":[
+      "Anurag Saikia",
+      "Nikhita Gandhi",
+      "Raghav Chaitanya"
+    ],
     "composer":"Anurag Saikia",
-    "chords":"F,Dm,Am,C,Bb,Gm",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "F",
+      "Gm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":576.0,
@@ -21,9 +32,18 @@
     "title":"Chhuker Mere Mann Ko | Kishore Kumar | Easy Ukulele Tutorial",
     "track":"Chookar Mere Mann Ko",
     "album":"Yaarana",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"Rajesh Roshan",
-    "chords":"Am,C,F,G,G7,Gm",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G",
+      "G7",
+      "Gm"
+    ],
     "key":"",
     "loop_start":115.0,
     "loop_end":191.0,
@@ -39,9 +59,16 @@
     "title":"Dil Hai Chhota Sa | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Dil Hai Chhota Sa",
     "album":"Roja",
-    "artists":"Minmini",
+    "artists":[
+      "Minmini"
+    ],
     "composer":"A. R. Rahman",
-    "chords":"D,G,A,C",
+    "chords":[
+      "A",
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":500.0,
@@ -57,9 +84,19 @@
     "title":"Ek Pyaar Ka Naghma Hai | Lata-Mukesh | Easy Ukulele Tutorial",
     "track":"Ek Pyaar Ka Nagma Hai",
     "album":"Shor",
-    "artists":"Lata Mangeshkar, Mukesh",
+    "artists":[
+      "Lata Mangeshkar",
+      "Mukesh"
+    ],
     "composer":"Laxmikant Pyarelal",
-    "chords":"C,Am,F,Dm,C7,G7",
+    "chords":[
+      "Am",
+      "C",
+      "C7",
+      "Dm",
+      "F",
+      "G7"
+    ],
     "key":"",
     "loop_start":130.7,
     "loop_end":191.5,
@@ -75,9 +112,18 @@
     "title":"Ek Pyar Ka Nagma Hai | Shor | Easy Ukulele Tutorial",
     "track":"Ek Pyaar Ka Nagma Hai",
     "album":"Shor",
-    "artists":"Lata Mangeshkar, Mukesh",
+    "artists":[
+      "Lata Mangeshkar",
+      "Mukesh"
+    ],
     "composer":"Laxmikant Pyarelal",
-    "chords":"C,Am,F,G,Dm",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":76.0,
     "loop_end":166.0,
@@ -93,9 +139,18 @@
     "title":"Ek pyaar ka nagma hai Ukulele tutorial",
     "track":"Ek Pyaar Ka Nagma Hai",
     "album":"Shor",
-    "artists":"Lata Mangeshkar, Mukesh",
+    "artists":[
+      "Lata Mangeshkar",
+      "Mukesh"
+    ],
     "composer":"Laxmikant Pyarelal",
-    "chords":"A,Gbm,E7,D,Bm",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "E7",
+      "Gbm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":566.0,
@@ -111,9 +166,18 @@
     "title":"Ek piyar Ka naghma hai - ukulele cover with chords and pattern.",
     "track":"Ek Pyaar Ka Nagma Hai",
     "album":"Shor",
-    "artists":"Lata Mangeshkar, Mukesh",
+    "artists":[
+      "Lata Mangeshkar",
+      "Mukesh"
+    ],
     "composer":"Laxmikant Pyarelal",
-    "chords":"C,G,F,Am,Bb",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "F",
+      "G"
+    ],
     "key":null,
     "loop_start":5.0,
     "loop_end":370.0,
@@ -129,9 +193,20 @@
     "title":"Jab koi baat bigad jaye Ukulele Tutorial with Playalong",
     "track":"Jab Koi Baat Bigad Jaye",
     "album":"Jurm",
-    "artists":"Kumar Sanu, Sadhna Sargam",
+    "artists":[
+      "Kumar Sanu",
+      "Sadhna Sargam"
+    ],
     "composer":"Rajesh Roshan",
-    "chords":"G,C,Am,Em,Bm,Dm,D",
+    "chords":[
+      "Am",
+      "Bm",
+      "C",
+      "D",
+      "Dm",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":673.0,
@@ -147,9 +222,19 @@
     "title":"Mana Ke Hum Yaar Nahin | Parineeti Chopra | Easy Ukulele Tutorial",
     "track":"Mana Ke Hum Yaar Nahin",
     "album":"Meri Pyaari Bindu",
-    "artists":"Parineeti Chopra",
+    "artists":[
+      "Parineeti Chopra"
+    ],
     "composer":"Sachin Jigar",
-    "chords":"Cmaj7,C,F,Fm7,G,G7,Am7",
+    "chords":[
+      "Am7",
+      "C",
+      "Cmaj7",
+      "F",
+      "Fm7",
+      "G",
+      "G7"
+    ],
     "key":"",
     "loop_start":19.8,
     "loop_end":143.0,
@@ -165,9 +250,16 @@
     "title":"Raat Kali Ek Khwab Mein Aayi Ukulele Tutorial with Playalong",
     "track":"Raat Kali Ek Khwab Mein Aayi",
     "album":"Buddha Mil Gaya",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"R.D Burman",
-    "chords":"Dm,C,G,F",
+    "chords":[
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":712.0,
@@ -183,9 +275,15 @@
     "title":"Cold Mess - Hindi Ukulele Tutorial | ukeguide",
     "track":"cold\/mess",
     "album":"cold\/mess",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"Prateek Kuhad",
-    "chords":"C,G,D",
+    "chords":[
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":380.0,
@@ -201,9 +299,15 @@
     "title":"Cold\/Mess(Prateek Kuhad) Ukulele Tutorial for beginners | Sayali Tank",
     "track":"cold\/mess",
     "album":"cold\/mess",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"Prateek Kuhad",
-    "chords":"C,F,G",
+    "chords":[
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1014.0,
@@ -219,9 +323,13 @@
     "title":"Ukulele Tutorial : \"Purano sei diner kotha\" by Manidipa",
     "track":"",
     "album":": \"Purano Sei Diner Kotha\" By Manidipa",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":350.0,
@@ -234,12 +342,16 @@
     "id_related":null
   },
   {
-    "title":"Easy Ukulele Lesson | \u09ad\u09be\u09b2\u09cb \u0986\u099b\u09bf \u09ad\u09be\u09b2\u09cb \u09a5\u09c7\u0995\u09cb \u200d| Bhalo Achi Bhalo Theko",
+    "title":"Easy Ukulele Lesson | ভালো আছি ভালো থেকো ‍| Bhalo Achi Bhalo Theko",
     "track":"",
     "album":"Ukulele Lesson",
-    "artists":"\u09ad\u09be\u09b2\u09cb \u0986\u099b\u09bf \u09ad\u09be\u09b2\u09cb \u09a5\u09c7\u0995\u09cb \u200d",
+    "artists":[
+      "ভালো আছি ভালো থেকো ‍"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":334.0,
@@ -252,12 +364,16 @@
     "id_related":null
   },
   {
-    "title":"UKULELE TUTORIAL | \u09ad\u09be\u09b2\u09cb\u09ac\u09be\u09b8\u09bf | \u09ae\u09b9\u09c0\u09a8\u09c7\u09b0 \u0998\u09cb\u09a1\u09bc\u09be\u0997\u09c1\u09b2\u09bf | Bhalobasi from Moheener Ghoraguli",
+    "title":"UKULELE TUTORIAL | ভালোবাসি | মহীনের ঘোড়াগুলি | Bhalobasi from Moheener Ghoraguli",
     "track":"",
-    "album":"\u09ad\u09be\u09b2\u09cb\u09ac\u09be\u09b8\u09bf",
-    "artists":"\u09ae\u09b9\u09c0\u09a8\u09c7\u09b0 \u0998\u09cb\u09a1\u09bc\u09be\u0997\u09c1\u09b2\u09bf",
+    "album":"ভালোবাসি",
+    "artists":[
+      "মহীনের ঘোড়াগুলি"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":576.0,
@@ -273,9 +389,16 @@
     "title":"15 Bangla Songs | 4 Chords | Ukulele Tutorial (C, G, Am, F) | Nabid Alam",
     "track":"15 Bangla Songs",
     "album":"4 Chords",
-    "artists":"(C, G, Am, F)",
+    "artists":[
+      "(C",
+      "Am",
+      "F)",
+      "G"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":993.0,
@@ -291,9 +414,13 @@
     "title":"2441139 Bela Bosh By Anjan Dutta | Ukulele Tutorial | Beginners | Nabid Alam",
     "track":"2441139 Bela Bosh By Anjan Dutta",
     "album":"Nabid Alam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":529.0,
@@ -309,9 +436,13 @@
     "title":"3 GHAZALS on UKULELE | 3 Chords Only | Jagjit Singh | Hindi Ukulele Tutorial | ukeguide",
     "track":"3 Ghazals On Ukulele",
     "album":"3 Chords Only",
-    "artists":"Jagjit Singh",
+    "artists":[
+      "Jagjit Singh"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":499.0,
@@ -327,9 +458,13 @@
     "title":"4 Famous Arnob Songs | Ukulele | Easy Tutorial | Bangla | Chords | 2020 | Beginners",
     "track":"4 Famous Arnob Songs",
     "album":"Ukulele",
-    "artists":"Bangla",
+    "artists":[
+      "Bangla"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1015.0,
@@ -345,9 +480,16 @@
     "title":"4 Popular Anupam Roy Bengali Songs || Ukulele Tutorial || Easy Open Chords",
     "track":"4 Popular Anupam Roy Bengali Songs",
     "album":"Open Chords",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1272.0,
@@ -363,9 +505,13 @@
     "title":"5 Steps To Get Started With UKULELE - Lesson 1  | ukeguide",
     "track":"5 Steps To Get Started With Ukulele - Lesson 1",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":366.0,
@@ -381,9 +527,13 @@
     "title":"Aaftaab (The Local Train) - Hindi Ukulele Lesson | Ukeguide",
     "track":"Aaftaab  - Hindi Ukulele Lesson",
     "album":"The Local Train",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":630.0,
@@ -399,9 +549,13 @@
     "title":"Aaj Jaane Ki Zid Na Karo | Easy Ukulele Tutorial",
     "track":"Aaj Jaane Ki Zid Na Karo",
     "album":"",
-    "artists":"Farida Khanum",
+    "artists":[
+      "Farida Khanum"
+    ],
     "composer":"Sohali Rana",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":301.0,
@@ -417,9 +571,16 @@
     "title":"Aaj kal tere mere pyaar k Charche Playalong Ukulele Tutorial | Sayali Tank",
     "track":"Aaj Kal Tere Mere Pyaar K Charche",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,Dm,G",
+    "chords":[
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":465.0,
@@ -435,9 +596,13 @@
     "title":"Aaj Se Teri | Padman | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Aaj Se Teri",
     "album":"Padman",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":293.0,
@@ -453,9 +618,13 @@
     "title":"Aane Wala Pal - ukulele cover with tutorial - Hassan khan",
     "track":"Aane Wala Pal - Ukulele Cover With Tutorial - Hassan Khan",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":513.0,
@@ -471,9 +640,13 @@
     "title":"Aao Chalein (Taba Chake) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Aao Chalein  - Hindi",
     "album":"Taba Chake",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":360.0,
@@ -489,9 +662,18 @@
     "title":"Aaoge Jab Tum O Sajna Ukulele Tutorial | Intermediate level",
     "track":"Aaoge Jab Tum O Sajna",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,Dm,Bb,G",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":878.0,
@@ -507,9 +689,14 @@
     "title":"Aap Ki Aankhon Mein | Lata & Kishore | Easy Ukulele Tutorial",
     "track":"Aap Ki Aankhon Mein",
     "album":"Ghar",
-    "artists":"Lata Mangeshkar, Kishore Kumar",
+    "artists":[
+      "Kishore Kumar",
+      "Lata Mangeshkar"
+    ],
     "composer":"R.D Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":187.0,
@@ -525,9 +712,13 @@
     "title":"Aashiqui Theme | Easy Ukulele Tutorial | With TABS",
     "track":"Aashiqui Theme",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":323.0,
@@ -543,9 +734,14 @@
     "title":"Aate Jaate | Lata Mangeshkar | Easy Ukulele Tutorial",
     "track":"Aate Jaate",
     "album":"Maine Pyar Kiya",
-    "artists":"Lata Mangeshkar, S.P. Balasubramanium",
+    "artists":[
+      "Lata Mangeshkar",
+      "S.P. Balasubramanium"
+    ],
     "composer":"Ram Laxman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":110.0,
@@ -558,12 +754,21 @@
     "id_related":null
   },
   {
-    "title":"Abar phire ele | \u0986\u09ac\u09be\u09b0 \u09ab\u09bf\u09b0\u09c7 \u098f\u09b2\u09c7 | Dwitiyo Purush | Ukulele Tutorial",
+    "title":"Abar phire ele | আবার ফিরে এলে | Dwitiyo Purush | Ukulele Tutorial",
     "track":"Abar Phire Ele",
     "album":"Dwitiyo Purush",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"",
-    "chords":"C,F,G,Am,Dm,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":566.0,
@@ -579,9 +784,13 @@
     "title":"Abhi Mujh Mein Kahin | Sonu Nigam | Easy Ukulele Tutorial",
     "track":"Abhi Mujh Mein Kahin",
     "album":"Sonu Nigam",
-    "artists":"Sonu Nigam",
+    "artists":[
+      "Sonu Nigam"
+    ],
     "composer":"Ajay Atul",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":344.0,
@@ -597,9 +806,13 @@
     "title":"Ae Watan Abaad Rahe Tu | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Ae Watan Abaad Rahe Tu",
     "album":"Raazi",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Shankar, Ehsaan, Loy",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1305.0,
@@ -615,9 +828,15 @@
     "title":"Agar Tum Saath Ho Playalong Ukulele Tutorial | Sayali Tank",
     "track":"Agar Tum Saath Ho",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G",
+    "chords":[
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":877.0,
@@ -633,9 +852,13 @@
     "title":"Ajeeb Dastaan Hai Yeh | EASY UKULELE TUTORIAL |",
     "track":"Ajeeb Dastaan Hai Yeh",
     "album":"Dil Apna Aur Preet Parai",
-    "artists":"Lata Mangeshkar",
+    "artists":[
+      "Lata Mangeshkar"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":139.0,
@@ -651,9 +874,13 @@
     "title":"Ajeeb dastan hai ye Ukulele Tutorial | Sayali Tank",
     "track":"Ajeeb Dastan Hai Ye",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":491.0,
@@ -669,9 +896,13 @@
     "title":"ALAG AASMAAN - Hindi Ukulele Tutorial | ukeguide",
     "track":"Alag Aasmaan - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":899.0,
@@ -687,9 +918,13 @@
     "title":"ALARE NEE ENNILE | #alare | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Alare Nee Ennile",
     "album":"Member Rameshan 9Th Ward",
-    "artists":"Malayalam",
+    "artists":[
+      "Malayalam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":708.0,
@@ -702,12 +937,20 @@
     "id_related":null
   },
   {
-    "title":"Amar bela je jaay | \u0986\u09ae\u09be\u09b0 \u09ac\u09c7\u09b2\u09be \u09af\u09c7 \u09af\u09be\u09af\u09bc | Ukulele Cover\/ Tutorial | Rabindrasangeet Ukulele",
+    "title":"Amar bela je jaay | আমার বেলা যে যায় | Ukulele Cover\/ Tutorial | Rabindrasangeet Ukulele",
     "track":"Amar Bela Je Jaay",
-    "album":"\u0986\u09ae\u09be\u09b0 \u09ac\u09c7\u09b2\u09be \u09af\u09c7 \u09af\u09be\u09af\u09bc",
-    "artists":"Ukulele Cover\/ Tutorial",
+    "album":"আমার বেলা যে যায়",
+    "artists":[
+      "Ukulele Cover\/ Tutorial"
+    ],
     "composer":"",
-    "chords":"A,E,D,Em,G#M",
+    "chords":[
+      "A",
+      "D",
+      "E",
+      "Em",
+      "G#M"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":155.0,
@@ -720,12 +963,19 @@
     "id_related":null
   },
   {
-    "title":"Ami sunechi sedin tumi | \u0986\u09ae\u09bf \u09b6\u09c1\u09a8\u09c7\u099b\u09bf \u09b8\u09c7\u09a6\u09bf\u09a8 \u09a4\u09c1\u09ae\u09bf | Mousumi Bhowmik | Ukulele Tutorial",
+    "title":"Ami sunechi sedin tumi | আমি শুনেছি সেদিন তুমি | Mousumi Bhowmik | Ukulele Tutorial",
     "track":"Ami Sunechi Sedin Tumi",
     "album":"Amar Kichu Kotha Chilo",
-    "artists":"Mousumi Bhowmik",
+    "artists":[
+      "Mousumi Bhowmik"
+    ],
     "composer":"",
-    "chords":"C,F,Dm,G",
+    "chords":[
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":286.0,
@@ -741,9 +991,13 @@
     "title":"Avijog Easy Ukulele Tutorial (Em, C, G, D) | Beginners | Nabid Alam",
     "track":"Avijog",
     "album":"(Em, C, G, D)",
-    "artists":"Nabid Alam",
+    "artists":[
+      "Nabid Alam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":461.0,
@@ -756,12 +1010,17 @@
     "id_related":null
   },
   {
-    "title":"Avijog | \u0985\u09ad\u09bf\u09af\u09cb\u0997 | UKULELE TUTORIAL",
+    "title":"Avijog | অভিযোগ | UKULELE TUTORIAL",
     "track":"Avijog",
-    "album":"\u0985\u09ad\u09bf\u09af\u09cb\u0997",
-    "artists":"Tanveer Evan, Benazir",
+    "album":"অভিযোগ",
+    "artists":[
+      "Benazir",
+      "Tanveer Evan"
+    ],
     "composer":"Piran Khan",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":446.0,
@@ -777,9 +1036,13 @@
     "title":"aye mere hamsafar - ukulele - tutorial & cover.",
     "track":"Aye Mere Hamsafar - Ukulele - Tutorial & Cover.",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":498.0,
@@ -795,9 +1058,13 @@
     "title":"Baar Baar Dekho (Mohd. Rafi) - Hindi Ukulele Tutorial",
     "track":"Baar Baar Dekho  - Hindi",
     "album":"Mohd. Rafi",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":445.0,
@@ -813,9 +1080,13 @@
     "title":"Baatein Kuch Ankahee Si | EASY UKULELE TUTORIAL | Life in a metro",
     "track":"Baatein Kuch Ankahee Si",
     "album":"Life In A Metro",
-    "artists":"Suhail Kaul",
+    "artists":[
+      "Suhail Kaul"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":192.0,
@@ -831,9 +1102,18 @@
     "title":"Baatein Kuch ankahi si Ukulele Tutorial",
     "track":"Baatein Kuch Ankahi Si",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"A,D,E,F#M,Bm,C",
+    "chords":[
+      "A",
+      "Bm",
+      "C",
+      "D",
+      "E",
+      "F#M"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1192.0,
@@ -849,9 +1129,13 @@
     "title":"Badan pe sitare - Hindi ukulele Lesson | ukeguide",
     "track":"Badan Pe Sitare - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":335.0,
@@ -867,9 +1151,13 @@
     "title":"Bade Achche Lagte Hain | Easy Ukulele Tutorial",
     "track":"Bade Achche Lagte Hain",
     "album":"Balika Badhu",
-    "artists":"Amit Kumar",
+    "artists":[
+      "Amit Kumar"
+    ],
     "composer":"Rahul Dev Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":464.0,
@@ -885,9 +1173,13 @@
     "title":"BARITONE UKULELE BENEFITS | LESSON 2",
     "track":"Baritone Ukulele Benefits",
     "album":"Lesson 2",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":429.0,
@@ -903,9 +1195,13 @@
     "title":"Bawara Mann (Jubin Nautiyal) -  Hindi Ukulele Tutorial| ukeguide",
     "track":"Bawara Mann  -  Hindi",
     "album":"Jubin Nautiyal",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":309.0,
@@ -921,9 +1217,13 @@
     "title":"Beche Thakar Gaan Ukelele Tutorial using C,Am,F,G Chord Progression",
     "track":"Beche Thakar Gaan Ukelele Tutorial Using C,Am,F,G Chord Progression",
     "album":"Autograph",
-    "artists":"Rupam Islam",
+    "artists":[
+      "Rupam Islam"
+    ],
     "composer":"Anupam Roy, Debojyoti Mishra",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":377.0,
@@ -939,9 +1239,18 @@
     "title":"Bekhayali Playalong Ukulele Tutotrial | Easy Chords",
     "track":"Bekhayali",
     "album":"Chords",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,Dm,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1227.0,
@@ -957,9 +1266,13 @@
     "title":"Bekhayali | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Bekhayali",
     "album":"Kabir Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Sachet- Parampara",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":453.0,
@@ -975,9 +1288,13 @@
     "title":"Bekhayali (Kabir Singh) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Bekhayali  - Hindi",
     "album":"Kabir Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":456.0,
@@ -993,9 +1310,13 @@
     "title":"Bella Ciao Ukulele Tutorial",
     "track":"Bella Ciao",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":651.0,
@@ -1008,12 +1329,16 @@
     "id_related":null
   },
   {
-    "title":"Bhenge Porona Ebhabe | \u09ad\u09c7\u0999\u09cd\u0997\u09c7 \u09aa\u09a1\u09bc\u09cb\u09a8\u09be \u098f\u09ad\u09be\u09ac\u09c7 | Bangla Ukulele Tutorial | Pritom Hasan | Nabid Alam",
+    "title":"Bhenge Porona Ebhabe | ভেঙ্গে পড়োনা এভাবে | Bangla Ukulele Tutorial | Pritom Hasan | Nabid Alam",
     "track":"Bhenge Porona Ebhabe",
-    "album":"\u09ad\u09c7\u0999\u09cd\u0997\u09c7 \u09aa\u09a1\u09bc\u09cb\u09a8\u09be \u098f\u09ad\u09be\u09ac\u09c7",
-    "artists":"Bangla",
+    "album":"ভেঙ্গে পড়োনা এভাবে",
+    "artists":[
+      "Bangla"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":640.0,
@@ -1029,9 +1354,13 @@
     "title":"Bol do na zara Ukulele tutorial",
     "track":"Bol Do Na Zara",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":679.0,
@@ -1047,9 +1376,13 @@
     "title":"Bol Do Na Zara | Only 4 Chords | Armaan Malik | Easy Ukulele Tutorial",
     "track":"Bol Do Na Zara",
     "album":"Azhar",
-    "artists":"Armaan Malik",
+    "artists":[
+      "Armaan Malik"
+    ],
     "composer":"Amaal Malik",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":225.0,
@@ -1065,9 +1398,13 @@
     "title":"BOLNA | KAPOOR & SONS | BARITONE UKULELE TUTORIAL",
     "track":"Bolna",
     "album":"Kapoor & Sons",
-    "artists":"Baritone",
+    "artists":[
+      "Baritone"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":354.0,
@@ -1083,9 +1420,13 @@
     "title":"Can't help falling in love with you | Ukulele Tutorial",
     "track":"Can'T Help Falling In Love With You",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":643.0,
@@ -1101,9 +1442,14 @@
     "title":"Chaar Kadam | Simple Chords | Easy Ukulele Tutorial",
     "track":"Chaar Kadam",
     "album":"Pk",
-    "artists":"Shreya, Shaan",
+    "artists":[
+      "Shaan",
+      "Shreya"
+    ],
     "composer":"Shantanu Moitra",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":448.0,
@@ -1119,9 +1465,13 @@
     "title":"Chad Tara - Miles | Ukulele | Tutorial",
     "track":"Chad Tara - Miles",
     "album":"Ukulele",
-    "artists":"Tutorial",
+    "artists":[
+      "Tutorial"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":444.0,
@@ -1137,9 +1487,13 @@
     "title":"Chal Ghar Chalein | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Chal Ghar Chalein",
     "album":"Malang",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Mithoon",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":353.0,
@@ -1155,9 +1509,13 @@
     "title":"Chan kithan guzari aayi - ukulele tutorial - folk version - ataullah esakhailvi.",
     "track":"Chan Kithan Guzari Aayi -",
     "album":"- Folk Version - Ataullah Esakhailvi.",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":306.0,
@@ -1173,9 +1531,13 @@
     "title":"Chan Kitthan (Ayushmann Khurrana) - Hindi Ukulele Lesson",
     "track":"Chan Kitthan  - Hindi Ukulele Lesson",
     "album":"Ayushmann Khurrana",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":387.0,
@@ -1191,9 +1553,13 @@
     "title":"Channa Mereya | Ae Dil Hai Mushkil | Easy Ukulele Tutorial",
     "track":"Channa Mereya",
     "album":"Ae Dil Hai Mushkil",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":323.0,
@@ -1209,9 +1575,13 @@
     "title":"Channa Mereya - easy ukulele lesson",
     "track":"Channa Mereya -",
     "album":"Ae Dil Hai Mushkil",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":219.0,
@@ -1227,9 +1597,13 @@
     "title":"Chhod Diya | Only 4 Chords | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Chhod Diya",
     "album":"Bazaar",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Kanika Kapoor",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":239.0,
@@ -1245,9 +1619,13 @@
     "title":"Chhoti Si Aasha (Roja)- Ukulele lesson",
     "track":"Chhoti Si Aasha - Ukulele Lesson",
     "album":"Roja",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":466.0,
@@ -1263,9 +1641,13 @@
     "title":"Chhupana Bhi Nahi Aata (Baazigar) - Hindi Ukulele Lesson",
     "track":"Chhupana Bhi Nahi Aata  - Hindi Ukulele Lesson",
     "album":"Baazigar",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":408.0,
@@ -1281,9 +1663,13 @@
     "title":"CHOO LO - Hindi Ukulele Tutorial | ukeguide",
     "track":"Choo Lo - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":887.0,
@@ -1299,9 +1685,13 @@
     "title":"Chunar (Arijit Singh) - Hindi Ukulele Lesson - Mother's Day Special",
     "track":"Chunar  - Hindi Ukulele Lesson - Mother'",
     "album":"Arijit Singh",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":545.0,
@@ -1317,9 +1707,13 @@
     "title":"Chura Liya | Intro Music TABs | Intermediate Ukulele Tutorial",
     "track":"Chura Liya",
     "album":"Intro Music",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":25.0,
@@ -1335,9 +1729,14 @@
     "title":"Chura Liya | Only 3 Chords | Easy Ukulele Tutorial",
     "track":"Chura Liya",
     "album":"Yaadon Ki Baaraat",
-    "artists":"Mohammad Rafi, Asha Bhosle",
+    "artists":[
+      "Asha Bhosle",
+      "Mohammad Rafi"
+    ],
     "composer":"R.D Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":221.0,
@@ -1353,9 +1752,15 @@
     "title":"Chura liya hai tumne jo dil ko Ukulele tutorial",
     "track":"Chura Liya Hai Tumne Jo Dil Ko",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,G,E7",
+    "chords":[
+      "Am",
+      "E7",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":754.0,
@@ -1371,9 +1776,16 @@
     "title":"City Life Ukulele Tutorial",
     "track":"City Life",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"F,C,G,Am",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":495.0,
@@ -1389,9 +1801,13 @@
     "title":"DARYAA | MANMARZIYAAN | BARITONE UKULELE LESSON",
     "track":"Daryaa",
     "album":"Manmarziyaan",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":347.0,
@@ -1407,9 +1823,13 @@
     "title":"Daryaa (Manmarziyaan) - Hindi Ukulele Lesson",
     "track":"Daryaa  - Hindi Ukulele Lesson",
     "album":"Manmarziyaan",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":703.0,
@@ -1425,9 +1845,13 @@
     "title":"DDLJ Theme | Easy Ukulele Tutorial | With TABS",
     "track":"Ddlj Theme",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":181.0,
@@ -1443,9 +1867,13 @@
     "title":"Deewana Hua Badal (Mohd. Rafi) - Easy Ukulele Lesson",
     "track":"Deewana Hua Badal  -",
     "album":"Mohd. Rafi",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":408.0,
@@ -1461,9 +1889,13 @@
     "title":"Dehleez pe Mere Dil Ki (Atif Aslam ) - Hindi Ukulele Lesson | ukeguide",
     "track":"Dehleez Pe Mere Dil Ki  - Hindi Ukulele Lesson",
     "album":"Atif Aslam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":392.0,
@@ -1479,9 +1911,13 @@
     "title":"Dekhte Dekhte | Atif Aslam | Easy Ukulele Tutorial",
     "track":"Dekhte Dekhte",
     "album":"Batti Gul Meter Chalu",
-    "artists":"Atif Aslam",
+    "artists":[
+      "Atif Aslam"
+    ],
     "composer":"Rochak Kohli",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":338.0,
@@ -1497,9 +1933,13 @@
     "title":"Dekhte Dekhte (Atif Aslam) - Hindi Ukulele Lesson",
     "track":"Dekhte Dekhte  - Hindi Ukulele Lesson",
     "album":"Atif Aslam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":520.0,
@@ -1515,9 +1955,13 @@
     "title":"DHAANI (STRINGS) | 3 CHORDS | HINDI UKULELE PLAYALONG",
     "track":"Dhaani",
     "album":"Strings",
-    "artists":"Hindi Ukulele",
+    "artists":[
+      "Hindi Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":158.0,
@@ -1533,9 +1977,14 @@
     "title":"Dhadak | Title Track | Easy Ukulele Tutorial",
     "track":"Dhadak",
     "album":"Title Track",
-    "artists":"Ajay Gogavale, Shreya Ghoshal",
+    "artists":[
+      "Ajay Gogavale",
+      "Shreya Ghoshal"
+    ],
     "composer":"Ajay-Atul",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":419.0,
@@ -1551,9 +2000,14 @@
     "title":"Dheere Dheere Se | Only 2 Chords | Aashiqui | Easy Ukulele Tutorial",
     "track":"Dheere Dheere Se",
     "album":"Aashiqui",
-    "artists":"Anuradha Paudwal, Kumar Sanu",
+    "artists":[
+      "Anuradha Paudwal",
+      "Kumar Sanu"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":174.0,
@@ -1569,9 +2023,16 @@
     "title":"Dil Bechara Ukulele Tutorial",
     "track":"Dil Bechara",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Gm,Bb,F,Dm",
+    "chords":[
+      "Bb",
+      "Dm",
+      "F",
+      "Gm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1130.0,
@@ -1587,9 +2048,13 @@
     "title":"Dil Beparvah - Hindi Ukulele Tutorial | ukeguide",
     "track":"Dil Beparvah - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":587.0,
@@ -1605,9 +2070,13 @@
     "title":"Dil Diyan Gallan | Easy Singing and Ukulele Tutorial",
     "track":"Dil Diyan Gallan",
     "album":"Singing And",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":387.0,
@@ -1623,9 +2092,13 @@
     "title":"Dil Diyan Gallan | Atif Aslam | Easy Ukulele Tutorial",
     "track":"Dil Diyan Gallan",
     "album":"Tiger Zinda Hai",
-    "artists":"Atif Aslam",
+    "artists":[
+      "Atif Aslam"
+    ],
     "composer":"Vishal-Shekhar",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":298.0,
@@ -1641,9 +2114,13 @@
     "title":"Dil Diyan Gallan (Tiger Zinda Hai) - Hindi Ukulele Lesson | ukeguide",
     "track":"Dil Diyan Gallan  - Hindi Ukulele Lesson",
     "album":"Tiger Zinda Hai",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":260.0,
@@ -1659,9 +2136,14 @@
     "title":"Dil Hai Ke Maanta Nahin | Kumar Sanu & Anuradha Paudwal | Easy Ukulele Tutorial",
     "track":"Dil Hai Ke Maanta Nahin",
     "album":"Dil Hai Ke Manta Nahin",
-    "artists":"Anuradha Paudwal, Kumar Sanu",
+    "artists":[
+      "Anuradha Paudwal",
+      "Kumar Sanu"
+    ],
     "composer":"Nadeem-Shravan",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":201.0,
@@ -1677,9 +2159,20 @@
     "title":"Dil ko tumse pyaar hua Ukulele tutorial | Rehna hai tere dil mein",
     "track":"Dil Ko Tumse Pyaar Hua",
     "album":"Rehna Hai Tere Dil Mein",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,Dm,G,E,E7,Bb",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "E",
+      "E7",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1193.0,
@@ -1695,9 +2188,13 @@
     "title":"Dil Mein Ho Tum | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Dil Mein Ho Tum",
     "album":"Satyamev Jayate",
-    "artists":"S.Janaki",
+    "artists":[
+      "S.Janaki"
+    ],
     "composer":"Bappi Lahiri",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":324.0,
@@ -1713,9 +2210,13 @@
     "title":"Dil Mere (The Local Train) - Hindi Ukulele  Lesson | ukeguide",
     "track":"Dil Mere  - Hindi Ukulele  Lesson",
     "album":"The Local Train",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":573.0,
@@ -1731,9 +2232,13 @@
     "title":"Dil To Bacha Hai Ji (Ishqiya) - Hindi ukulele Lesson",
     "track":"Dil To Bacha Hai Ji  - Hindi Ukulele Lesson",
     "album":"Ishqiya",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":421.0,
@@ -1749,9 +2254,13 @@
     "title":"DIMINISHED AUGMENTED CHORDS | LESSON 9 | BARITONE UKULELE",
     "track":"Diminished Augmented Chords",
     "album":"Lesson 9",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":601.0,
@@ -1767,9 +2276,16 @@
     "title":"Do Dil Mil Rahe Hai Ukulele Tutorial | Sayali Tank",
     "track":"Do Dil Mil Rahe Hai",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"F,Dm,Bb,Gm",
+    "chords":[
+      "Bb",
+      "Dm",
+      "F",
+      "Gm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":565.0,
@@ -1785,9 +2301,13 @@
     "title":"Do Dil Mil Rahe Hain | Only 3 Chords | Easy Ukulele Tutorial",
     "track":"Do Dil Mil Rahe Hain",
     "album":"Pardes",
-    "artists":"Kumar Sanu",
+    "artists":[
+      "Kumar Sanu"
+    ],
     "composer":"Nadeem Shravan",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":220.0,
@@ -1803,9 +2323,13 @@
     "title":"Do Lafzoin Ki Dil Ki Kahani - Hindi Ukulele Lesson | ukeguide",
     "track":"Do Lafzoin Ki Dil Ki Kahani - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":366.0,
@@ -1821,9 +2345,13 @@
     "title":"Do Lavzon Ki Hai | Easy Ukulele Tutorial",
     "track":"Do Lavzon Ki Hai",
     "album":"The Great Gambler",
-    "artists":"Asha Bhosle",
+    "artists":[
+      "Asha Bhosle"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":361.0,
@@ -1839,9 +2367,15 @@
     "title":"Don't Worry Be Happy Ukulele Tutorial",
     "track":"Don'T Worry Be Happy",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,Dm",
+    "chords":[
+      "C",
+      "Dm",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":559.0,
@@ -1857,9 +2391,16 @@
     "title":"Dooba dooba rehta hu Ukulele Tutorial | Only 4 simple chords?",
     "track":"Dooba Dooba Rehta Hu",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,D,G",
+    "chords":[
+      "C",
+      "D",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":477.0,
@@ -1872,12 +2413,17 @@
     "id_related":null
   },
   {
-    "title":"Du mutho bikel | \u09a6\u09c1 \u09ae\u09c1\u09a0\u09cb \u09ac\u09bf\u0995\u09c7\u09b2 | Anupam Roy | Easy Ukulele Tutorial",
+    "title":"Du mutho bikel | দু মুঠো বিকেল | Anupam Roy | Easy Ukulele Tutorial",
     "track":"Du Mutho Bikel",
     "album":"Debi",
-    "artists":"Anupam Roy",
+    "artists":[
+      "Anupam Roy"
+    ],
     "composer":"Anupam Roy",
-    "chords":"G,D Only",
+    "chords":[
+      "D Only",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":121.0,
@@ -1893,9 +2439,14 @@
     "title":"Duniya | Only 3 Chords | Easy Ukulele Tutorial | Youtube Live",
     "track":"Duniya",
     "album":"Luka Chuppi",
-    "artists":"Akhil, Dhvani Bhanushali",
+    "artists":[
+      "Akhil",
+      "Dhvani Bhanushali"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":965.0,
@@ -1908,12 +2459,20 @@
     "id_related":null
   },
   {
-    "title":"Durga Puja Song | Maa Go Tumi Sarbojanin | \u09ae\u09be \u0997\u09cb \u09a4\u09c1\u09ae\u09bf \u09b8\u09b0\u09cd\u09ac\u099c\u09a8\u09c0\u09a8 | Ukulele Tutorial",
+    "title":"Durga Puja Song | Maa Go Tumi Sarbojanin | মা গো তুমি সর্বজনীন | Ukulele Tutorial",
     "track":"Durga Puja Song",
     "album":"Maa Go Tumi Sarbojanin",
-    "artists":"Shreya Ghoshal",
+    "artists":[
+      "Shreya Ghoshal"
+    ],
     "composer":"Jeet Ganguly",
-    "chords":"Am,G,F,D,C",
+    "chords":[
+      "Am",
+      "C",
+      "D",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":169.0,
@@ -1929,9 +2488,13 @@
     "title":"Ei Brishti Veja Raate Ukelele Tutorial | Beginners | Chords (A F C G) | Nabid Alam",
     "track":"Ei Brishti Veja Raate Ukelele Tutorial",
     "album":"Chords (A F C G)",
-    "artists":"Nabid Alam",
+    "artists":[
+      "Nabid Alam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":228.0,
@@ -1947,9 +2510,13 @@
     "title":"Ei Meghla Dine Ekla Ukulele Tutorial (G D A chords)",
     "track":"Ei Meghla Dine Ekla",
     "album":"(G D A Chords)",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":459.0,
@@ -1965,9 +2532,13 @@
     "title":"Ek Ajnabee Haseena Se | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Ek Ajnabee Haseena Se",
     "album":"Ajanabee",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"Rahul Dev Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":255.0,
@@ -1983,9 +2554,13 @@
     "title":"Ek Ajnabi Haseena Se (Kishore Kumar) - Easy Ukulele Lesson",
     "track":"Ek Ajnabi Haseena Se  -",
     "album":"Kishore Kumar",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":332.0,
@@ -2001,9 +2576,14 @@
     "title":"Ek Din Aap Yun | Kumar Sanu & Alka Yagnik | Easy Ukulele Tutorial",
     "track":"Ek Din Aap Yun",
     "album":"Yes Boss",
-    "artists":"Kumar Sanu, Alka Yagnik",
+    "artists":[
+      "Alka Yagnik",
+      "Kumar Sanu"
+    ],
     "composer":"Jatin- Lalit",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":276.0,
@@ -2019,9 +2599,13 @@
     "title":"Ek Ladki Ko Dekha | Only 3 Chords | Easy Ukulele Tutorial",
     "track":"Ek Ladki Ko Dekha",
     "album":"1942 A Love Story",
-    "artists":"Kumar Sanu",
+    "artists":[
+      "Kumar Sanu"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":287.0,
@@ -2037,9 +2621,13 @@
     "title":"Ek ladki ko dekha toh Playalong  | Only 3 Chords | Sayali Tank",
     "track":"Ek Ladki Ko Dekha Toh",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1113.0,
@@ -2055,9 +2643,13 @@
     "title":"EK MULAQAT - Hindi Ukulele Tutorial | UKEGUIDE",
     "track":"Ek Mulaqat - Hindi",
     "album":"Ukeguide",
-    "artists":"Jubin Nautiyal",
+    "artists":[
+      "Jubin Nautiyal"
+    ],
     "composer":"Jubin Nautiyal",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":349.0,
@@ -2073,9 +2665,13 @@
     "title":"Ek Tukda Dhoop | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Ek Tukda Dhoop",
     "album":"Thappad",
-    "artists":"Raghav Chaitanya",
+    "artists":[
+      "Raghav Chaitanya"
+    ],
     "composer":"Anurag Saikia",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":296.0,
@@ -2091,9 +2687,13 @@
     "title":"Ekbar Bol - Anupam Roy Ukulele Tutorial (With Chords)",
     "track":"Ekbar Bol - Anupam Roy",
     "album":"(With Chords)",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":438.0,
@@ -2109,9 +2709,13 @@
     "title":"Ekhon Onek Raat | Ukulele Tutorial | Beginners | Nabid Alam",
     "track":"Ekhon Onek Raat",
     "album":"Nabid Alam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":362.0,
@@ -2124,12 +2728,16 @@
     "id_related":null
   },
   {
-    "title":"Ekta Chele | \u098f\u0995\u099f\u09be \u099b\u09c7\u09b2\u09c7 | Sahana Bajpaie | Ukulele Tutorial",
+    "title":"Ekta Chele | একটা ছেলে | Sahana Bajpaie | Ukulele Tutorial",
     "track":"Ekta Chele",
     "album":"Jhalmuri",
-    "artists":"Sahana Bajpaie",
+    "artists":[
+      "Sahana Bajpaie"
+    ],
     "composer":"Arnob",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":773.0,
@@ -2145,9 +2753,13 @@
     "title":"Ekta Chele - Sohana Bajpie Feat Arnob Ukulele Tutorial",
     "track":"Ekta Chele - Sohana Bajpie Feat Arnob",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":418.0,
@@ -2163,9 +2775,13 @@
     "title":"ENDHAN NENJIL NEENGATHA | Ukulele Tamil Tutorial | Short Cover | #shorts | Arathi Unnikrishnan",
     "track":"Endhan Nenjil Neengatha",
     "album":"Kalaignan",
-    "artists":"Short Cover",
+    "artists":[
+      "Short Cover"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":54.0,
@@ -2181,9 +2797,13 @@
     "title":"ETHO MAZHAYIL | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Etho Mazhayil",
     "album":"Vijay Superum Pournamiyum",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":281.0,
@@ -2199,9 +2819,14 @@
     "title":"Fakira | Only 4 Chords | SOTY 2 | Easy Ukulele Tutorial",
     "track":"Fakira",
     "album":"Student Of The Year 2",
-    "artists":"Neeti Mohan, Sanam Puri",
+    "artists":[
+      "Neeti Mohan",
+      "Sanam Puri"
+    ],
     "composer":"Vishal Shekhar",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":217.0,
@@ -2217,9 +2842,13 @@
     "title":"Famous 9 songs with 4 chords | Ukulele Bangla Tutorial (G Em C D) | Beginners | Nabid Alam",
     "track":"Famous 9 Songs With 4 Chords",
     "album":"Ukulele Bangla Tutorial (G Em C D)",
-    "artists":"Nabid Alam",
+    "artists":[
+      "Nabid Alam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1407.0,
@@ -2235,9 +2864,16 @@
     "title":"Feliz Navidad Ukulele Tutorial with Play along",
     "track":"Feliz Navidad",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,D,G,Em",
+    "chords":[
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":579.0,
@@ -2253,9 +2889,13 @@
     "title":"FINGERSTYLE | LESSON 11 | BARITONE UKULELE",
     "track":"Fingerstyle",
     "album":"Lesson 11",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":910.0,
@@ -2271,9 +2911,13 @@
     "title":"Firiye Dao Miles Ukulele Tutorial (Chords)",
     "track":"Firiye Dao Miles",
     "album":"(Chords)",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":568.0,
@@ -2289,9 +2933,13 @@
     "title":"Fitoor Mera (Arijit Singh) -  Hindi Ukulele Tutorial | ukeguide",
     "track":"Fitoor Mera  -  Hindi",
     "album":"Arijit Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":800.0,
@@ -2307,9 +2955,17 @@
     "title":"Fly me to the moon Ukulele Tutorial",
     "track":"Fly Me To The Moon",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C7,A7,Dm,Gm,F",
+    "chords":[
+      "A7",
+      "C7",
+      "Dm",
+      "F",
+      "Gm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":637.0,
@@ -2325,9 +2981,14 @@
     "title":"Ghar | Jab Harry Met Sejal | Easy Ukulele Tutorial with Lyrics",
     "track":"Ghar",
     "album":"Jab Harry Met Sejal",
-    "artists":"Nikhita Gandhi, Mohit Chauhan",
+    "artists":[
+      "Mohit Chauhan",
+      "Nikhita Gandhi"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":320.0,
@@ -2343,9 +3004,13 @@
     "title":"Ghar Se Nikal Te Hi | Armaan Malik | Easy Ukulele Tutorial",
     "track":"Ghar Se Nikal Te Hi",
     "album":"Armaan Malik",
-    "artists":"Armaan Malik",
+    "artists":[
+      "Armaan Malik"
+    ],
     "composer":"Amaal Mallik",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":419.0,
@@ -2361,9 +3026,13 @@
     "title":"Give Me Some Sun Shine Ukelele 3 Chords(C, G, F) Easy Tutorial",
     "track":"Give Me Some Sun Shine Ukelele 3 Chords",
     "album":"C, G, F",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":435.0,
@@ -2379,9 +3048,15 @@
     "title":"Give me some sunshine Ukulele Tutorial | Beginner Level",
     "track":"Give Me Some Sunshine",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G",
+    "chords":[
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":484.0,
@@ -2397,9 +3072,16 @@
     "title":"Gulabi Aankhe On Ukulele with playalong | Only 4 simple chords?",
     "track":"Gulabi Aankhe On Ukulele",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"D,C,Bb,A",
+    "chords":[
+      "A",
+      "Bb",
+      "C",
+      "D"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":529.0,
@@ -2415,9 +3097,13 @@
     "title":"Gulabi Aankhein | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Gulabi Aankhein",
     "album":"The Train",
-    "artists":"Mohammad Rafi",
+    "artists":[
+      "Mohammad Rafi"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":291.0,
@@ -2433,9 +3119,13 @@
     "title":"Gulabi Ankhen | Hindi | Ukulele Tutorial | Nabid Alam | Beginner",
     "track":"Gulabi Ankhen",
     "album":"Hindi",
-    "artists":"Nabid Alam",
+    "artists":[
+      "Nabid Alam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":409.0,
@@ -2451,9 +3141,13 @@
     "title":"gulabi ankhen - chords - strumming- singing - tutorial for ukulele",
     "track":"Gulabi Ankhen - Chords - Strumming- Singing - Tutorial For Ukulele",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":399.0,
@@ -2469,9 +3163,17 @@
     "title":"Haal ae dil Ukulele Tutorial fro beginners | Sayali Tank",
     "track":"Haal Ae Dil",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,C,F,G,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":857.0,
@@ -2487,9 +3189,13 @@
     "title":"Haan Hasi Bann Gaye | Hamari Adhuri Kahaani | Easy Guitar Tutorial |",
     "track":"Haan Hasi Bann Gaye",
     "album":"Hamari Adhuri Kahani",
-    "artists":"Ami Mishra",
+    "artists":[
+      "Ami Mishra"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":166.0,
@@ -2505,9 +3211,17 @@
     "title":"Hai Junoon Ukulele Tutorial | Friendship Day Special",
     "track":"Hai Junoon",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"A,D,G,Em,Bm",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":806.0,
@@ -2523,9 +3237,13 @@
     "title":"Halka Halka (Fanney Khan) - Easy Ukulele Lesson",
     "track":"Halka Halka  -",
     "album":"Fanney Khan",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":430.0,
@@ -2541,9 +3259,13 @@
     "title":"Happy Birthday (Fingerstyle Ukulele) - Easy Ukulele tutorial",
     "track":"Happy Birthday  -",
     "album":"Fingerstyle Ukulele",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":421.0,
@@ -2559,9 +3281,13 @@
     "title":"Hashte Dekho Ayub Bachchu Ukulele Tutorial",
     "track":"Hashte Dekho Ayub Bachchu",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":433.0,
@@ -2577,9 +3303,13 @@
     "title":"Hasi Ban Gaye | Ukulele Tutorial",
     "track":"Hasi Ban Gaye",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":397.0,
@@ -2595,9 +3325,17 @@
     "title":"Hasi Ban Gaye Ukulele Tutorial",
     "track":"Hasi Ban Gaye",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Dm,Bb,Am,F",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":747.0,
@@ -2613,9 +3351,13 @@
     "title":"HAVANA | CAMILA CABELLO | EASY UKULELE TUTORIAL |",
     "track":"Havana",
     "album":"Camila",
-    "artists":"Camila Cabello",
+    "artists":[
+      "Camila Cabello"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":153.0,
@@ -2631,9 +3373,13 @@
     "title":"Hawa Banke (Darshan Raval) - 1 Minute Hindi Ukulele Lesson",
     "track":"Hawa Banke  - 1 Minute Hindi Ukulele Lesson",
     "album":"Darshan Raval",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":90.0,
@@ -2649,9 +3395,13 @@
     "title":"Hawayein Ukulele Tutorial | Simple Chords | Sayali Tank",
     "track":"Hawayein",
     "album":"",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":851.0,
@@ -2667,9 +3417,13 @@
     "title":"Hawayein | Only 4 Chords | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Hawayein",
     "album":"Arijit Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":302.0,
@@ -2685,9 +3439,13 @@
     "title":"Hawayein (Arijit Singh) - Ukulele Lesson",
     "track":"Hawayein  - Ukulele Lesson",
     "album":"Arijit Singh",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":357.0,
@@ -2703,9 +3461,13 @@
     "title":"how to chuck - ukulele easy lesson for beginners !",
     "track":"How To Chuck - Ukulele",
     "album":"Lesson",
-    "artists":"!",
+    "artists":[
+      "!"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":231.0,
@@ -2718,12 +3480,16 @@
     "id_related":null
   },
   {
-    "title":"Hridoyer Rong | \u09b9\u09c3\u09a6\u09af\u09bc\u09c7\u09b0 \u09b0\u0999 | Lagnajita Chakraborty | Easy Ukulele Tutorial",
+    "title":"Hridoyer Rong | হৃদয়ের রঙ | Lagnajita Chakraborty | Easy Ukulele Tutorial",
     "track":"Hridoyer Rong",
     "album":"Ghare Baire",
-    "artists":"Lagnajita Chakraborty",
+    "artists":[
+      "Lagnajita Chakraborty"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":478.0,
@@ -2739,9 +3505,13 @@
     "title":"Humdard (Ek Villain) - Hindi Ukulele Lesson",
     "track":"Humdard  - Hindi Ukulele Lesson",
     "album":"Ek Villain",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":408.0,
@@ -2757,9 +3527,13 @@
     "title":"Humsafar (Badrinath Ki Dulhania) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Humsafar  - Hindi",
     "album":"Badrinath Ki Dulhania",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":409.0,
@@ -2772,12 +3546,16 @@
     "id_related":null
   },
   {
-    "title":"I'm Yours | Jason Mraz | Quick & Easy Ukulele Tutorial \ud83d\udc9f",
+    "title":"I'm Yours | Jason Mraz | Quick & Easy Ukulele Tutorial 💟",
     "track":"I'M Yours",
     "album":"We Sing",
-    "artists":"Jason Mraz",
+    "artists":[
+      "Jason Mraz"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":57.0,
@@ -2793,9 +3571,13 @@
     "title":"Ik Kudi | Udta Punjab | Easy Ukulele Tutorial",
     "track":"Ik Kudi",
     "album":"Udta Punjab",
-    "artists":"Shahid Mallya",
+    "artists":[
+      "Shahid Mallya"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":340.0,
@@ -2811,9 +3593,14 @@
     "title":"Ik Mulaqaat | Ayushmann Khurrana | Dream Girl | Only 3 chords | Easy Ukulele Tutorial for Beginners",
     "track":"Ik Mulaqaat",
     "album":"Ayushmann Khurrana",
-    "artists":"Meet Bros Ft.Altamash Faridi, Palak Muchhal",
+    "artists":[
+      "Meet Bros Ft.Altamash Faridi",
+      "Palak Muchhal"
+    ],
     "composer":"Meet Bros",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":285.0,
@@ -2829,9 +3616,16 @@
     "title":"Iktara Ukulele Playalong Tutorial | Sayali Tank",
     "track":"Iktara",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,C,D,Am",
+    "chords":[
+      "Am",
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":879.0,
@@ -2847,9 +3641,13 @@
     "title":"IKTARA (Wake Up Sid) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Iktara  - Hindi",
     "album":"Wake Up Sid",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":343.0,
@@ -2865,9 +3663,18 @@
     "title":"Illahi Ukulele Tutorial",
     "track":"Illahi",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"A,Dsus2,F#M,Bm,F,G",
+    "chords":[
+      "A",
+      "Bm",
+      "Dsus2",
+      "F",
+      "F#M",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":827.0,
@@ -2883,9 +3690,16 @@
     "title":"In dino Ukulele tutorial",
     "track":"In Dino",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":623.0,
@@ -2901,9 +3715,13 @@
     "title":"Irsha Tahsan Easy Ukulele Tutorial | Kothopokothon | Finger Plucking | Chords | 2020 | Beginner",
     "track":"Irsha Tahsan",
     "album":"Kothopokothon",
-    "artists":"Finger Plucking",
+    "artists":[
+      "Finger Plucking"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":414.0,
@@ -2919,9 +3737,13 @@
     "title":"Ishq Tera Le Dooba - Hindi Ukulele lesson | ukeguide",
     "track":"Ishq Tera Le Dooba - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":357.0,
@@ -2937,9 +3759,13 @@
     "title":"Itni Shakti Hume Dena Data | Soulful Song | Hindi Ukulele Tutorial | ukeguide",
     "track":"Itni Shakti Hume Dena Data",
     "album":"Soulful Song",
-    "artists":"Hindi",
+    "artists":[
+      "Hindi"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":565.0,
@@ -2955,9 +3781,13 @@
     "title":"Jaan Nisaar | Arijit Singh | Only 4 Chords | Intermediate Ukulele Tutorial",
     "track":"Jaan Nisaar",
     "album":"Kedarnath",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":561.0,
@@ -2973,9 +3803,13 @@
     "title":"Jaan Nisaar Hindi Ukulele Tutorial | ukeguide",
     "track":"Jaan Nisaar Hindi",
     "album":"Kedarnath",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":483.0,
@@ -2991,9 +3825,13 @@
     "title":"Jaanam samjha karo | Asha Bhonsle | Easiest Ukulele Tutorial |",
     "track":"Jaanam Samjha Karo",
     "album":"Asha Bhonsle",
-    "artists":"Asha Bhonsle",
+    "artists":[
+      "Asha Bhonsle"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":134.0,
@@ -3009,9 +3847,14 @@
     "title":"Jab Koi Baat | Atif Aslam, Shirley Setia | Easy Ukulele Tutorial",
     "track":"Jab Koi Baat",
     "album":"Jurm",
-    "artists":"Sadhana Sargam, Kumar Sanu",
+    "artists":[
+      "Kumar Sanu",
+      "Sadhana Sargam"
+    ],
     "composer":"Rajesh Roshan",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":235.0,
@@ -3027,9 +3870,13 @@
     "title":"Jab Koi Baat Bigad Jaaye | Jurm |  Easy Ukulele Tutorial",
     "track":"Jab Koi Baat Bigad Jaaye",
     "album":"Jurm",
-    "artists":"Kumar Sanu",
+    "artists":[
+      "Kumar Sanu"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":180.0,
@@ -3045,9 +3892,13 @@
     "title":"jab koi bat - chords - strumming - singing - tutorial on ukulele",
     "track":"Jab Koi Bat - Chords - Strumming - Singing - Tutorial On Ukulele",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":314.0,
@@ -3063,9 +3914,13 @@
     "title":"Jana Gana Mana | Easy Ukulele Tutorial | With TABs",
     "track":"Jana Gana Mana",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":210.0,
@@ -3081,9 +3936,13 @@
     "title":"Jane Tu Ya Jane Na (Title Track) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Jane Tu Ya Jane Na  - Hindi",
     "album":"Title Track",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1148.0,
@@ -3099,9 +3958,13 @@
     "title":"Jekhane Shimanto Tomar Tutorial | Ukulele (With Chords)",
     "track":"Jekhane Shimanto Tomar Tutorial",
     "album":"Ukulele (With Chords)",
-    "artists":"Kumar Bishwajit",
+    "artists":[
+      "Kumar Bishwajit"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":538.0,
@@ -3117,9 +3980,16 @@
     "title":"Jingle Bells Playalong  | Sayali Tank",
     "track":"Jingle Bells",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G7,D",
+    "chords":[
+      "C",
+      "D",
+      "F",
+      "G7"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":652.0,
@@ -3135,9 +4005,16 @@
     "title":"Jiye kyun Ukulele Tutorial | Sayali Tank",
     "track":"Jiye Kyun",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":570.0,
@@ -3153,9 +4030,13 @@
     "title":"Kabhi Jo Badal Barse Ukulele Tutorial | Simple 4 chords Only",
     "track":"Kabhi Jo Badal Barse",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":860.0,
@@ -3171,9 +4052,13 @@
     "title":"KABHI KABHI ADITI - Hindi Ukulele Tutorial | ukeguide",
     "track":"Kabhi Kabhi Aditi - Hindi",
     "album":"Jane Tu Ya Jane Na",
-    "artists":"Rashid Ali",
+    "artists":[
+      "Rashid Ali"
+    ],
     "composer":"Ar Rahman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":658.0,
@@ -3189,9 +4074,17 @@
     "title":"Kaha ho tum Mismatched Ukulele Tutorial Prateek Kuhad",
     "track":"Kaha Ho Tum Mismatched",
     "album":"Prateek Kuhad",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"F,C,Dm,Bb,Eb",
+    "chords":[
+      "Bb",
+      "C",
+      "Dm",
+      "Eb",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":760.0,
@@ -3207,9 +4100,13 @@
     "title":"Kahan Ho Tum | 1 Min Ukulele Lesson | Prateek Kuhad | Mismatched | ukeguide",
     "track":"Kahan Ho Tum",
     "album":"1 Min Ukulele Lesson",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":68.0,
@@ -3225,9 +4122,13 @@
     "title":"Kahi toh hogi woh Ukulele Tutorial | Simple Ukulele Tutorial For beginners | Sayali Tank",
     "track":"Kahi Toh Hogi Woh",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":647.0,
@@ -3243,9 +4144,13 @@
     "title":"Kahin Duur Jab | Anand | Easy Ukulele Tutorial",
     "track":"Kahin Duur Jab",
     "album":"Anand",
-    "artists":"Mukesh",
+    "artists":[
+      "Mukesh"
+    ],
     "composer":"Salil Chowdhury",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":243.0,
@@ -3261,9 +4166,14 @@
     "title":"Kahin Na Jaa | Lata Mangeshkar & Kishore Kumar | Easy Ukulele Tutorial",
     "track":"Kahin Na Jaa",
     "album":"Bade Dilwala",
-    "artists":"Kishore Kumar, Lata Mangeshkar",
+    "artists":[
+      "Kishore Kumar",
+      "Lata Mangeshkar"
+    ],
     "composer":"R.D.Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":90.0,
@@ -3279,9 +4189,13 @@
     "title":"KAHIN TO HOGI - Hindi Ukulele Tutorial | ukeguide",
     "track":"Kahin To Hogi - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":524.0,
@@ -3297,9 +4211,13 @@
     "title":"Kaise hua Ukulele Tutorial",
     "track":"Kaise Hua",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":676.0,
@@ -3315,9 +4233,13 @@
     "title":"Kaise Hua | Kabir Singh | Easy Ukulele Tutorial",
     "track":"Kaise Hua",
     "album":"Kabir Singh",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":309.0,
@@ -3333,9 +4255,13 @@
     "title":"KAISE HUA | KABIR SINGH | BARITONE UKULELE TUTORIAL",
     "track":"Kaise Hua",
     "album":"Kabir Singh",
-    "artists":"Baritone",
+    "artists":[
+      "Baritone"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":343.0,
@@ -3351,9 +4277,13 @@
     "title":"Kaisi Hai Ye Rut (Dil Chahta Hai) - Hindi Ukulele Lesson",
     "track":"Kaisi Hai Ye Rut  - Hindi Ukulele Lesson",
     "album":"Dil Chahta Hai",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":706.0,
@@ -3369,9 +4299,18 @@
     "title":"Kaisi Hai Ye Rut K Jismein Ukulele Playalong Tutorial | Dil Chahta hai | Sayali Tank",
     "track":"Kaisi Hai Ye Rut K Jismein",
     "album":"Dil Chahta Hai",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,D,Fm",
+    "chords":[
+      "Am",
+      "C",
+      "D",
+      "F",
+      "Fm",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":973.0,
@@ -3387,9 +4326,15 @@
     "title":"Kaisi Paheli ZIndagani | Easy Hindi Ukulele tutorial | Only 3 Basic Chords",
     "track":"Kaisi Paheli Zindagani",
     "album":"Hindi",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G",
+    "chords":[
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":480.0,
@@ -3405,9 +4350,13 @@
     "title":"Kaithapoovin Kannikurumbil | Malayalam Short Ukulele Tutorial | #shorts | Arathi Unnikrishnan",
     "track":"Kaithapoovin Kannikurumbil",
     "album":"Kannezhuthi Pottum Thottu",
-    "artists":"#Shorts",
+    "artists":[
+      "#Shorts"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":56.0,
@@ -3423,9 +4372,13 @@
     "title":"KAITHAPOOVIN KANNIKURUMBIL | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Kaithapoovin Kannikurumbil",
     "album":"Kannezhuthi Pottum Thottu",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":231.0,
@@ -3441,9 +4394,13 @@
     "title":"Kajra Mohabbat Wala - Hindi Ukulele Tutorial | ukeguide",
     "track":"Kajra Mohabbat Wala - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":394.0,
@@ -3459,9 +4416,13 @@
     "title":"KAL HO NA HO | BARITONE UKULELE LESSON",
     "track":"Kal Ho Na Ho",
     "album":"Baritone Ukulele Lesson",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":503.0,
@@ -3477,9 +4438,13 @@
     "title":"Kal Ho Na Ho | Easy Ukulele Tutorial",
     "track":"Kal Ho Na Ho",
     "album":"Kal Ho Na Ho",
-    "artists":"Sonu Nigam",
+    "artists":[
+      "Sonu Nigam"
+    ],
     "composer":"Shankar, Ehsaan, Loy",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":258.0,
@@ -3495,9 +4460,13 @@
     "title":"Kalank Ukulele Playalong Tutorial | Sayali Tank",
     "track":"Kalank",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"",
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":794.0,
@@ -3513,9 +4482,13 @@
     "title":"Kalank (Title Track) - Arijit Singh - 1 Minute Ukulele Lesson",
     "track":"Kalank  - Arijit Singh - 1 Minute Ukulele Lesson",
     "album":"Title Track",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":77.0,
@@ -3531,9 +4504,13 @@
     "title":"Kalank Title Track | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Kalank Title Track",
     "album":"Arijit Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":342.0,
@@ -3549,9 +4526,13 @@
     "title":"KANNAM THUMBI PORAMO | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Kannam Thumbi Poramo",
     "album":"Kakkothikavile Appooppan Thaadikal",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":293.0,
@@ -3567,9 +4548,13 @@
     "title":"Kasoor | Prateek Kuhad | Easy Ukulele Tutorial",
     "track":"Kasoor",
     "album":"Prateek Kuhad",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":247.0,
@@ -3585,9 +4570,18 @@
     "title":"Kasoor (Prateek Kuhad) Ukulele Tutorial with Play Along",
     "track":"Kasoor",
     "album":"Prateek Kuhad",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,Dm,Dm7,G",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Dm7",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":811.0,
@@ -3603,9 +4597,13 @@
     "title":"KASOOR - Hindi UKULELE Tutorial | ukeguide",
     "track":"Kasoor - Hindi",
     "album":"Ukeguide",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"Prateek Kuhad",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":505.0,
@@ -3621,9 +4619,13 @@
     "title":"KATHAIPOMA | Tamil Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Kathaipoma",
     "album":"Oh My Kadavule",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":652.0,
@@ -3639,9 +4641,17 @@
     "title":"Kaun Tujhe Ukulele Tutorial",
     "track":"Kaun Tujhe",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,F,C,G,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":780.0,
@@ -3657,9 +4667,18 @@
     "title":"Khairiyat Ukulele Tutorial",
     "track":"Khairiyat",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,F,G,Em,Dm,E7",
+    "chords":[
+      "Am",
+      "Dm",
+      "E7",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":836.0,
@@ -3675,9 +4694,13 @@
     "title":"KHAIRIYAT - Hindi Ukulele Tutorial | ukeguide",
     "track":"Khairiyat - Hindi",
     "album":"Chhichhore",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":928.0,
@@ -3693,9 +4716,13 @@
     "title":"Khamoshiyan | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Khamoshiyan",
     "album":"Khamoshiyan",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Jeet Gannguli",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":288.0,
@@ -3711,9 +4738,16 @@
     "title":"Kho Gaye Hum Kahan Ukulele Tutorial | Intermediate Level",
     "track":"Kho Gaye Hum Kahan",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G Dm",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G Dm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":600.0,
@@ -3729,9 +4763,13 @@
     "title":"Kho Gaye Hum Kahan  - Hindi Ukulele Tutorial | ukeguide",
     "track":"Kho Gaye Hum Kahan  - Hindi",
     "album":"Bar Bar Dekho",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"Prateek Kuhad",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":496.0,
@@ -3747,9 +4785,13 @@
     "title":"KHOJ (PASSING BY) - HINDI Ukulele Tutorial | ukeguide",
     "track":"Khoj  - Hindi",
     "album":"Passing By",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":784.0,
@@ -3765,9 +4807,13 @@
     "title":"KHUD SE (Osho Jain) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Khud Se  - Hindi",
     "album":"Osho Jain",
-    "artists":"Osho Jain",
+    "artists":[
+      "Osho Jain"
+    ],
     "composer":"Osho Jain",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":519.0,
@@ -3783,9 +4829,13 @@
     "title":"Khulne Do | Arijit Singh | Fingerpicking Ukulele Tutorial",
     "track":"Khulne Do",
     "album":"Chhapaak",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Shankar, Ehsaan, Loy",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":402.0,
@@ -3801,9 +4851,14 @@
     "title":"Kis Raste Hai Jaana | Easy Ukulele Tutorial",
     "track":"Kis Raste Hai Jaana",
     "album":"Judgemental Hai Kya",
-    "artists":"Surabhi Dashputra, Arjunna Harjaie",
+    "artists":[
+      "Arjunna Harjaie",
+      "Surabhi Dashputra"
+    ],
     "composer":"Arjunna Harjaie",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":296.0,
@@ -3819,9 +4874,13 @@
     "title":"Kisi Ki Muskurahaton Pe Ho Nisar | Intermediate Ukulele Tutorial",
     "track":"Kisi Ki Muskurahaton Pe Ho Nisar",
     "album":"Anari",
-    "artists":"Mukesh",
+    "artists":[
+      "Mukesh"
+    ],
     "composer":"Shankar Jaikishan",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":570.0,
@@ -3837,9 +4896,13 @@
     "title":"Kodom - Blue Jeans Ukulele Tutorial",
     "track":"Kodom - Blue Jeans",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":478.0,
@@ -3855,9 +4918,17 @@
     "title":"Kuch na Kaho Kuch bhi na kaho Ukulele Tutorial",
     "track":"Kuch Na Kaho Kuch Bhi Na Kaho",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,D",
+    "chords":[
+      "Am",
+      "C",
+      "D",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":867.0,
@@ -3873,9 +4944,13 @@
     "title":"Kuchh Na Kaho ( 1942 A love story ) - Hindi Ukulele Lesson",
     "track":"Kuchh Na Kaho  - Hindi Ukulele Lesson",
     "album":"1942 A Love Story",
-    "artists":"Kumar Sanu",
+    "artists":[
+      "Kumar Sanu"
+    ],
     "composer":"R D Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":346.0,
@@ -3891,9 +4966,13 @@
     "title":"Kya Hua Tera Vaada | Only 4 Chords | Easy Ukulele Tutorial | Fingerpicking",
     "track":"Kya Hua Tera Vaada",
     "album":"Hum Kisise Kum Nahin",
-    "artists":"Mohammad Rafi",
+    "artists":[
+      "Mohammad Rafi"
+    ],
     "composer":"Rahul Dev Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":238.0,
@@ -3909,9 +4988,17 @@
     "title":"Kya hua Tera waada Ukulele Tutorial",
     "track":"Kya Hua Tera Waada",
     "album":"Hum Kisise Kum Nahi",
-    "artists":"Sushma Shreshtha, Mohd. Rafi",
+    "artists":[
+      "Mohd. Rafi",
+      "Sushma Shreshtha"
+    ],
     "composer":"R.D Burman",
-    "chords":"Bb,F,C,Dm",
+    "chords":[
+      "Bb",
+      "C",
+      "Dm",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":549.0,
@@ -3927,9 +5014,13 @@
     "title":"Kya karu (Wake Up Sid) Ukulele tutorial",
     "track":"Kya Karu",
     "album":"Wake Up Sid",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C  G  Am  F  Bb",
+    "chords":[
+      "C  G  Am  F  Bb"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":638.0,
@@ -3945,9 +5036,13 @@
     "title":"Kya Khoob Lagti Ho | Dharmatama | Easiest Ukulele Tutorial",
     "track":"Kya Khoob Lagti Ho",
     "album":"Dharmatama",
-    "artists":"Easiest",
+    "artists":[
+      "Easiest"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":439.0,
@@ -3960,12 +5055,16 @@
     "id_related":null
   },
   {
-    "title":"KYA MUJHE PYAAR HAI | KK | EASY UKUELE TUTORIAL | Valentine's Special \ud83d\udc9f",
+    "title":"KYA MUJHE PYAAR HAI | KK | EASY UKUELE TUTORIAL | Valentine's Special 💟",
     "track":"Kya Mujhe Pyaar Hai",
     "album":"Woh Lamhe",
-    "artists":"Kk",
+    "artists":[
+      "Kk"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":286.0,
@@ -3981,9 +5080,15 @@
     "title":"Kya mujhe pyar hai Playalong Ukulele Tutorial",
     "track":"Kya Mujhe Pyar Hai",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Dm,Bb",
+    "chords":[
+      "Bb",
+      "C",
+      "Dm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":955.0,
@@ -3999,9 +5104,13 @@
     "title":"Kya Pata (Osho Jain) - Hindi Ukulele Lesson | ukeguide",
     "track":"Kya Pata  - Hindi Ukulele Lesson",
     "album":"Osho Jain",
-    "artists":"Osho Jain",
+    "artists":[
+      "Osho Jain"
+    ],
     "composer":"Osho Jain",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":758.0,
@@ -4017,9 +5126,21 @@
     "title":"La vie en rose Ukulele Tutorial | Advance Level",
     "track":"La Vie En Rose",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,G,G6,Gmaj7,G7,D7,Cm6,Bb Dim",
+    "chords":[
+      "Am",
+      "Bb Dim",
+      "C",
+      "Cm6",
+      "D7",
+      "G",
+      "G6",
+      "G7",
+      "Gmaj7"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":884.0,
@@ -4035,9 +5156,13 @@
     "title":"LABB PAR AAYE (BANDISH BANDITS) | Javed Ali |  Easy Ukulele Playalong | ukeguide",
     "track":"Labb Par Aaye",
     "album":"Bandish Bandits",
-    "artists":"Ukulele",
+    "artists":[
+      "Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":76.0,
@@ -4053,9 +5178,13 @@
     "title":"Lag Ja Gale | Easy Ukulele Tutorial",
     "track":"Lag Ja Gale",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":196.0,
@@ -4071,9 +5200,13 @@
     "title":"Lag Ja Gale | Lata Mangeshkar | EASIEST Ukulele Tutorial |",
     "track":"Lag Ja Gale",
     "album":"Woh Kaun Thi",
-    "artists":"Lata Mangeshkar",
+    "artists":[
+      "Lata Mangeshkar"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":133.0,
@@ -4089,9 +5222,13 @@
     "title":"Lag jaa gale Ukulele Tutorial | Play along Tutorial  | Sayali Tank",
     "track":"Lag Jaa Gale",
     "album":"Tutorial",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":822.0,
@@ -4107,9 +5244,13 @@
     "title":"LAMBERGHINI | Doorbeen | Easy  Ukulele Tutorial",
     "track":"Lamberghini",
     "album":"Doorbeen",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":308.0,
@@ -4125,9 +5266,18 @@
     "title":"Lazy Song Ukulele Tutorial for beginners | Bruno Mars",
     "track":"Lazy Song",
     "album":"Bruno Mars",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G,Em,Dm,E7",
+    "chords":[
+      "C",
+      "Dm",
+      "E7",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":578.0,
@@ -4143,9 +5293,13 @@
     "title":"Learning The Ukulele Using A Mobile App | Easy Ukulele Tutorial(HINDI)",
     "track":"Learning The Ukulele Using A Mobile App",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":268.0,
@@ -4161,9 +5315,13 @@
     "title":"LEFT AND RIGHT HAND EXERCISE | LESSON 3 | BARITONE UKULELE",
     "track":"Left And Right Hand Exercise",
     "album":"Lesson 3",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":616.0,
@@ -4179,9 +5337,13 @@
     "title":"LIGGI (Ritviz) - Hindi Ukulele Lesson | ukeguide",
     "track":"Liggi  - Hindi Ukulele Lesson",
     "album":"Ritviz",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":482.0,
@@ -4197,9 +5359,18 @@
     "title":"Like I'm gonna lose you | Meghan Trainor |John Legend | Easy Ukulele Tutorial |",
     "track":"Like I'M Gonna Lose You",
     "album":"Meghan Trainor",
-    "artists":"Meghan Trainor, John Legend",
+    "artists":[
+      "John Legend",
+      "Meghan Trainor"
+    ],
     "composer":"",
-    "chords":"C,Em,Am,F,#Avnikulshreshtha #Ukuleletutorial",
+    "chords":[
+      "#Avnikulshreshtha #Ukuleletutorial",
+      "Am",
+      "C",
+      "Em",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":211.0,
@@ -4215,9 +5386,13 @@
     "title":"Love You Zindagi - Hindi Ukulele Lesson | ukeguide",
     "track":"Love You Zindagi - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":760.0,
@@ -4233,9 +5408,13 @@
     "title":"LUKKA CHUPPI (Rang De Basanti) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Lukka Chuppi  - Hindi",
     "album":"Rang De Basanti",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":376.0,
@@ -4251,9 +5430,13 @@
     "title":"Maa | Shankar Mahadevan | Easy Ukulele Tutorial",
     "track":"Maa",
     "album":"Taare Zameen Par",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"Shankar, Ehsaan, Loy",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":334.0,
@@ -4269,9 +5452,13 @@
     "title":"Maa - James Ukulele Tutorial for Beginners",
     "track":"Maa - James",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":386.0,
@@ -4287,9 +5474,13 @@
     "title":"Maeri | Euphoria | Intermediate Ukulele Tutorial",
     "track":"Maeri",
     "album":"Euphoria",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":626.0,
@@ -4305,9 +5496,13 @@
     "title":"Main Hun Saath Tere | Arijit Singh | Easy Ukulele Tutorial(HINDI)",
     "track":"Main Hun Saath Tere",
     "album":"Shaadi Mein Zaroor Aana",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Kaushik-Akash-Guddu",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":132.0,
@@ -4323,9 +5518,13 @@
     "title":"main jut yamla pagla - ukulele tutorial urdu\/hindi.",
     "track":"Main Jut Yamla Pagla -",
     "album":"Urdu\/Hindi.",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":332.0,
@@ -4341,9 +5540,16 @@
     "title":"Main koi aisa geet gaun Ukulele Tutorial for beginners | Sayali Tank",
     "track":"Main Koi Aisa Geet Gaun",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G,D",
+    "chords":[
+      "C",
+      "D",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":693.0,
@@ -4359,9 +5565,13 @@
     "title":"Main Phir Bhi Tumko Chahunga | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Main Phir Bhi Tumko Chahunga",
     "album":"Aashiqui 2",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Mithoon",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":205.0,
@@ -4377,9 +5587,18 @@
     "title":"Main rahu ya na rahu Ukulele Tutorial",
     "track":"Main Rahu Ya Na Rahu",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,A,D,Am,Em,C",
+    "chords":[
+      "A",
+      "Am",
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1066.0,
@@ -4395,9 +5614,13 @@
     "title":"Main Tenu Samjhawan | Very Easy Ukulele Tutorial | Tarun Mishra",
     "track":"Main Tenu Samjhawan",
     "album":"Very",
-    "artists":"Tarun Mishra",
+    "artists":[
+      "Tarun Mishra"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":372.0,
@@ -4413,9 +5636,13 @@
     "title":"Main Tumhara | Dil Bechara | Ukulele Tutorial",
     "track":"Main Tumhara",
     "album":"Dil Bechara",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"",
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":568.0,
@@ -4431,9 +5658,14 @@
     "title":"Main Tumhara | Dil Bechara | Easy Ukulele Tutorial",
     "track":"Main Tumhara",
     "album":"Dil Bechara",
-    "artists":"Jonita Gandhi, Hriday Gattani",
+    "artists":[
+      "Hriday Gattani",
+      "Jonita Gandhi"
+    ],
     "composer":"A R Rahman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":275.0,
@@ -4449,9 +5681,13 @@
     "title":"MAIN TUMHARA - Hindi UKULELE Tutorial | ukeguide",
     "track":"Main Tumhara - Hindi",
     "album":"Dil Bechara",
-    "artists":"Hriday Gattani",
+    "artists":[
+      "Hriday Gattani"
+    ],
     "composer":"Ar Rahman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":361.0,
@@ -4467,9 +5703,13 @@
     "title":"MAJOR MINOR CHORDS | LESSON 8 | BARITONE UKULELE",
     "track":"Major Minor Chords",
     "album":"Lesson 8",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1029.0,
@@ -4485,9 +5725,13 @@
     "title":"MAJOR MINOR SCALES | LESSON 6 | BARITONE UKULELE",
     "track":"Major Minor Scales",
     "album":"Lesson 6",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":529.0,
@@ -4503,9 +5747,13 @@
     "title":"MAJOR MINOR SCALES PRACTICAL | LESSON 7 | BARITONE UKULELE",
     "track":"Major Minor Scales Practical",
     "album":"Lesson 7",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":622.0,
@@ -4521,9 +5769,13 @@
     "title":"Mana Ke Hum Yaar | Interlude Music TABs | Easy Ukulele Tutorial",
     "track":"Mana Ke Hum Yaar",
     "album":"Interlude Music",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":10.0,
@@ -4539,9 +5791,13 @@
     "title":"MAZHAI VARUM ARIKURI | Tamil Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Mazhai Varum Arikuri",
     "album":"Veppam",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":258.0,
@@ -4557,9 +5813,13 @@
     "title":"MEHRAMA | LOVE AAJ KAL | BARITONE UKULELE LESSON",
     "track":"Mehrama",
     "album":"Love Aaj Kal",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":634.0,
@@ -4575,9 +5835,13 @@
     "title":"MEMORIES (Maroon 5) - Easy Ukulele Lesson | ukeguide",
     "track":"Memories  -",
     "album":"Maroon 5",
-    "artists":"Ukeguide",
+    "artists":[
+      "Ukeguide"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":532.0,
@@ -4593,9 +5857,13 @@
     "title":"Mera Mann + Yahin Hoon Main (Mixtape) \/ Tere Bin - Rabbi Shergill | Ukulele Tutorial",
     "track":"Mera Mann + Yahin Hoon Main  \/ Tere Bin - Rabbi Shergill",
     "album":"Mixtape",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":621.0,
@@ -4611,9 +5879,16 @@
     "title":"Mera Mann Kehne Laga Playalong Ukulele Tutorial | Sayali Tank",
     "track":"Mera Mann Kehne Laga",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,C,Em,D",
+    "chords":[
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1267.0,
@@ -4629,9 +5904,13 @@
     "title":"MERA SOHNEYA | KABIR SINGH | BARITONE UKULELE LESSON",
     "track":"Mera Sohneya",
     "album":"Kabir Singh",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":334.0,
@@ -4647,9 +5926,13 @@
     "title":"Mere Liye Tum Kaafi Ho - Hindi Ukulele Lesson | ukeguide",
     "track":"Mere Liye Tum Kaafi Ho - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":553.0,
@@ -4665,9 +5948,13 @@
     "title":"Mere Naam Tu | Zero | Shahrukh Khan | Easy Ukulele Tutorial(HINDI)",
     "track":"Mere Naam Tu",
     "album":"Zero",
-    "artists":"Abhay Jodhpurkar",
+    "artists":[
+      "Abhay Jodhpurkar"
+    ],
     "composer":"Ajay-Atul",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":323.0,
@@ -4683,9 +5970,14 @@
     "title":"Mere Rashke Qamar | Nusrat & Rahat Fateh Ali Khan | Easy Ukulele Tutorial",
     "track":"Mere Rashke Qamar",
     "album":"Badshaho",
-    "artists":"Nusrat, Rahat Fateh Ali Khan",
+    "artists":[
+      "Nusrat",
+      "Rahat Fateh Ali Khan"
+    ],
     "composer":"Tanishk Bagchi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":142.0,
@@ -4701,9 +5993,16 @@
     "title":"Mere saamne wali khidki mein Ukulele Tutorial",
     "track":"Mere Saamne Wali Khidki Mein",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,C,Am,D",
+    "chords":[
+      "Am",
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":492.0,
@@ -4719,9 +6018,13 @@
     "title":"Mere Samne Wali Khidki ( Kishore Kumar ) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Mere Samne Wali Khidki  - Hindi",
     "album":"Padosan",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":298.0,
@@ -4737,9 +6040,13 @@
     "title":"Mere Sohneya | Kabir Singh | Easy Ukulele tutorial",
     "track":"Mere Sohneya",
     "album":"Kabir Singh",
-    "artists":"Sachet Tandon And Parampara Thakur",
+    "artists":[
+      "Sachet Tandon And Parampara Thakur"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":261.0,
@@ -4755,9 +6062,13 @@
     "title":"Meri Khamoshi Hai | Pari | Easy Ukulele Tutorial with Lyrics",
     "track":"Meri Khamoshi Hai",
     "album":"Pari",
-    "artists":"Ishan Mitra",
+    "artists":[
+      "Ishan Mitra"
+    ],
     "composer":"Anupam Roy",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":317.0,
@@ -4773,9 +6084,13 @@
     "title":"Mishri (Anuv Jain) - Hindi Ukulele Lesson | ukeguide",
     "track":"Mishri  - Hindi Ukulele Lesson",
     "album":"Anuv Jain",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":499.0,
@@ -4791,9 +6106,17 @@
     "title":"Moh Moh Ke Dhaage Ukulele Tutorial for beginners | How to play Moh moh k dhaage on uke | Sayali Tank",
     "track":"Moh Moh Ke Dhaage",
     "album":"How To Play Moh Moh K Dhaage On Uke",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G,Am,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":498.0,
@@ -4806,12 +6129,16 @@
     "id_related":null
   },
   {
-    "title":"Mon Kyamoner Jonmodin | \u09ae\u09a8 \u0995\u09c7\u09ae\u09a8\u09c7\u09b0 \u099c\u09a8\u09cd\u09ae\u09a6\u09bf\u09a8 | Hridpindo | Ukulele Tutorial",
+    "title":"Mon Kyamoner Jonmodin | মন কেমনের জন্মদিন | Hridpindo | Ukulele Tutorial",
     "track":"Mon Kyamoner Jonmodin",
     "album":"Hridpindo",
-    "artists":"Mekhla Dasgupta",
+    "artists":[
+      "Mekhla Dasgupta"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":223.0,
@@ -4827,9 +6154,13 @@
     "title":"Money Heist Theme - Ukulele Playalong | ukeguide",
     "track":"Money Heist Theme - Ukulele",
     "album":"Money Heist",
-    "artists":"Cecilia Krull",
+    "artists":[
+      "Cecilia Krull"
+    ],
     "composer":"Cecilia Krull",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":126.0,
@@ -4845,9 +6176,14 @@
     "title":"Monta Re | Only 2 Chords | Easy Ukulele Tutorial",
     "track":"Monta Re",
     "album":"",
-    "artists":"Swanand Kirkire, Amitabh Bhattacharya",
+    "artists":[
+      "Amitabh Bhattacharya",
+      "Swanand Kirkire"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":260.0,
@@ -4863,9 +6199,13 @@
     "title":"MORA SAIYAAN MOSE BOLE NA | KHAMAJ | BARITONE UKULELE LESSON",
     "track":"Mora Saiyaan Mose Bole Na",
     "album":"Khamaj",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":447.0,
@@ -4881,9 +6221,17 @@
     "title":"Mora Saiyan Mose Bole Na Ukulele Tutorial | Advance Level",
     "track":"Mora Saiyan Mose Bole Na",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":800.0,
@@ -4899,9 +6247,17 @@
     "title":"Mumma Ukulele Tutorial | Mothers Day Special",
     "track":"Mumma",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"F,Dm,Bb,Gm,C",
+    "chords":[
+      "Bb",
+      "C",
+      "Dm",
+      "F",
+      "Gm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":646.0,
@@ -4917,9 +6273,13 @@
     "title":"MUNDHINAM PARTHENE | Tamil Ukulele Tutorial | Arathi Unnikrishnan",
     "track":"Mundhinam Parthene",
     "album":"Vaaranam Aayiram",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":65.0,
@@ -4935,9 +6295,15 @@
     "title":"Musafir Hu Yaaro Ukulele Tutorial",
     "track":"Musafir Hu Yaaro",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,Bb",
+    "chords":[
+      "Bb",
+      "C",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":697.0,
@@ -4953,9 +6319,13 @@
     "title":"Musu Musu | Only 2 Chords | Easy Ukulele Tutorial",
     "track":"Musu Musu",
     "album":"Pyaar Mein Kabhi Kabhi",
-    "artists":"Shaan",
+    "artists":[
+      "Shaan"
+    ],
     "composer":"Vishal Shiraz Samrat",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":295.0,
@@ -4971,9 +6341,13 @@
     "title":"MUTTATH SONG | Halal Love Story | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Muttath Song",
     "album":"Halal Love Story",
-    "artists":"Malayalam",
+    "artists":[
+      "Malayalam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":401.0,
@@ -4989,9 +6363,13 @@
     "title":"NAINA | DANGAL | BARITONE UKULELE LESSON",
     "track":"Naina",
     "album":"Dangal",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":358.0,
@@ -5007,9 +6385,13 @@
     "title":"Naina Banjaare | Pataakha | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Naina Banjaare",
     "album":"Pataakha",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Vishal Bhardwaj",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":257.0,
@@ -5025,9 +6407,13 @@
     "title":"Naina Da Kya Kasoor (Andhadhun) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Naina Da Kya Kasoor  - Hindi",
     "album":"Andhadhun",
-    "artists":"Amit Trivedi",
+    "artists":[
+      "Amit Trivedi"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":402.0,
@@ -5043,9 +6429,13 @@
     "title":"Naino Ne Baandhi | Gold | Akshay Kumar | Easy Ukulele Tutorial",
     "track":"Naino Ne Baandhi",
     "album":"Gold",
-    "artists":"Akshay Kumar",
+    "artists":[
+      "Akshay Kumar"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":354.0,
@@ -5061,9 +6451,13 @@
     "title":"Namo Namo (Kedarnath) - Hindi Ukulele Lesson",
     "track":"Namo Namo  - Hindi Ukulele Lesson",
     "album":"Kedarnath",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":555.0,
@@ -5079,9 +6473,13 @@
     "title":"Nazar Laaye Na (Ranjhanaa) - Hindi Ukulele Lesson",
     "track":"Nazar Laaye Na  - Hindi Ukulele Lesson",
     "album":"Ranjhanaa",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":595.0,
@@ -5097,9 +6495,13 @@
     "title":"Nazm Nazm | Bareilly Ki Barfi | Easy Ukulele Tutorial",
     "track":"Nazm Nazm",
     "album":"Bareilly Ki Barfi",
-    "artists":"Arko",
+    "artists":[
+      "Arko"
+    ],
     "composer":"Arko",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":286.0,
@@ -5115,9 +6517,13 @@
     "title":"Nazm Nazm | Bareilly Ki Barfi | Easy Ukulele Tutorial |",
     "track":"Nazm Nazm",
     "album":"Bareilly Ki Barfi",
-    "artists":"Arko Pravi Mukherjee",
+    "artists":[
+      "Arko Pravi Mukherjee"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":342.0,
@@ -5133,9 +6539,13 @@
     "title":"Nazm Nazm | Bareilly Ki Barfi | Ukulele Tutorial | Chords",
     "track":"Nazm Nazm",
     "album":"Bareilly Ki Barfi",
-    "artists":"Chords",
+    "artists":[
+      "Chords"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":418.0,
@@ -5151,9 +6561,13 @@
     "title":"NEE HIMAMAZHAYAI VAROO | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Nee Himamazhayai Varoo",
     "album":"Edakkad Battalion 06",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":220.0,
@@ -5169,9 +6583,13 @@
     "title":"Neela Ukulele Tutorial by Miles",
     "track":"Neela",
     "album":"By Miles",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":539.0,
@@ -5187,9 +6605,13 @@
     "title":"NENJODU CHERTHU | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Nenjodu Cherthu",
     "album":"Yuvvh",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":517.0,
@@ -5205,9 +6627,13 @@
     "title":"Nindiya | Arijit Singh | Ukulele Tutorial",
     "track":"Nindiya",
     "album":"Sarbjit",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Shashi-Shivamm",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":325.0,
@@ -5223,9 +6649,13 @@
     "title":"O Beta Ji | Only 4 Chords | Intermediate Ukulele Tutorial",
     "track":"O Beta Ji",
     "album":"Albela",
-    "artists":"Chitalkar",
+    "artists":[
+      "Chitalkar"
+    ],
     "composer":"C.Ramchandra",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":288.0,
@@ -5238,12 +6668,16 @@
     "id_related":null
   },
   {
-    "title":"O Je Mane Na Mana | \u0993 \u09af\u09c7 \u09ae\u09be\u09a8\u09c7 \u09a8\u09be \u09ae\u09be\u09a8\u09be | Ukulele Tutorial\/ Guitar Tutorial |  Rabindrasangeet Tutoria",
+    "title":"O Je Mane Na Mana | ও যে মানে না মানা | Ukulele Tutorial\/ Guitar Tutorial |  Rabindrasangeet Tutoria",
     "track":"O Je Mane Na Mana",
-    "album":"\u0993 \u09af\u09c7 \u09ae\u09be\u09a8\u09c7 \u09a8\u09be \u09ae\u09be\u09a8\u09be",
-    "artists":"\/ Guitar Tutorial",
+    "album":"ও যে মানে না মানা",
+    "artists":[
+      "\/ Guitar Tutorial"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":249.0,
@@ -5259,9 +6693,18 @@
     "title":"O mere dil k chain Ukulele Tutorial",
     "track":"O Mere Dil K Chain",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,Em,Dm,C,F,G",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":727.0,
@@ -5277,9 +6720,13 @@
     "title":"O Ri Chiraiya | Satyamev Jayate | Amir Khan | Hindi Ukulele Lesson | ukeguide",
     "track":"O Ri Chiraiya",
     "album":"Satyamev Jayate",
-    "artists":"Amir Khan",
+    "artists":[
+      "Amir Khan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":417.0,
@@ -5295,9 +6742,13 @@
     "title":"O Saathi | Atif Aslam | Baaghi 2 | Easy Ukulele Tutorial",
     "track":"O Saathi",
     "album":"Baaghi 2",
-    "artists":"Atif Aslam",
+    "artists":[
+      "Atif Aslam"
+    ],
     "composer":"Arko",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":344.0,
@@ -5313,9 +6764,13 @@
     "title":"O Saathi | Baaghi 2 | Easy Singing and Ukulele Tutorial",
     "track":"O Saathi",
     "album":"Baaghi 2",
-    "artists":"Singing And",
+    "artists":[
+      "Singing And"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":672.0,
@@ -5331,9 +6786,14 @@
     "title":"O Saathi Re | Omkara | Easy Ukulele Tutorial",
     "track":"O Saathi Re",
     "album":"Omkara",
-    "artists":"Vishal Bhardwaj, Shreya Ghoshal",
+    "artists":[
+      "Shreya Ghoshal",
+      "Vishal Bhardwaj"
+    ],
     "composer":"Vishal Bhardwaj",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":320.0,
@@ -5349,9 +6809,16 @@
     "title":"O sanam ukulele Tutorial",
     "track":"O Sanam",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,A,G,D",
+    "chords":[
+      "A",
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":686.0,
@@ -5367,9 +6834,13 @@
     "title":"O Sanam | Only 4 Chords | Advance Ukulele Tutorial",
     "track":"O Sanam",
     "album":"Sunoh",
-    "artists":"Lucky Ali",
+    "artists":[
+      "Lucky Ali"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":313.0,
@@ -5385,9 +6856,13 @@
     "title":"O Sanam (Unplugged) | 2020 | Lucky Ali | 4 Chords | Hindi Ukulele Tutorial | ukeguide",
     "track":"O Sanam",
     "album":"Unplugged",
-    "artists":"Lucky Ali",
+    "artists":[
+      "Lucky Ali"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":735.0,
@@ -5403,9 +6878,13 @@
     "title":"O Sanam (Lucky Ali) - Easy Ukulele Lesson",
     "track":"O Sanam  -",
     "album":"Lucky Ali",
-    "artists":"Lucky Ali",
+    "artists":[
+      "Lucky Ali"
+    ],
     "composer":"Lucky Ali",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":401.0,
@@ -5421,9 +6900,13 @@
     "title":"Oporadhi Easy Three Chords Tutorial (Am, G, F)",
     "track":"Oporadhi",
     "album":"Three Chords Tutorial (Am, G, F)",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":284.0,
@@ -5439,9 +6922,13 @@
     "title":"Pachtaoge | Arijit Singh | 4 Chords | Hindi Ukulele Lesson",
     "track":"Pachtaoge",
     "album":"Arijit Singh",
-    "artists":"4 Chords",
+    "artists":[
+      "4 Chords"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":417.0,
@@ -5457,9 +6944,13 @@
     "title":"PACHTAOGE | ARIJIT SINGH | BARITONE UKULELE TUTORIAL",
     "track":"Pachtaoge",
     "album":"Arijit Singh",
-    "artists":"Baritone",
+    "artists":[
+      "Baritone"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":429.0,
@@ -5475,9 +6966,13 @@
     "title":"Pahadon Mein (Salman Elahi) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Pahadon Mein  - Hindi",
     "album":"Salman Elahi",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":402.0,
@@ -5493,9 +6988,14 @@
     "title":"Pal | Arijit & Shreya |Only 2 Chords | Easy Ukulele Tutorial (HINDI)",
     "track":"Pal",
     "album":"Jalebi",
-    "artists":"Arijit Singh, Shreya Ghoshal",
+    "artists":[
+      "Arijit Singh",
+      "Shreya Ghoshal"
+    ],
     "composer":"Javed - Mohsin",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":419.0,
@@ -5511,9 +7011,13 @@
     "title":"Pal | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Pal",
     "album":"Monsoon Shootout",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Rochak Kohli",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":254.0,
@@ -5529,9 +7033,13 @@
     "title":"Pal Pal Dil Ke Paas | Kishore Kumar | Easy Ukulele Tutorial",
     "track":"Pal Pal Dil Ke Paas",
     "album":"Blackmail",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"Kalayanji Anandji",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":331.0,
@@ -5547,9 +7055,18 @@
     "title":"Pal Pal Dil Ke Pass Ukulele Tutorial with Playalong",
     "track":"Pal Pal Dil Ke Pass",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Bm,A,D,G,F#M,Em",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "Em",
+      "F#M",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":646.0,
@@ -5565,9 +7082,15 @@
     "title":"Pani da Rang Ukulele Tutorial | Only 3 Simple Chords | Easy Tutorial",
     "track":"Pani Da Rang",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,F,G",
+    "chords":[
+      "Am",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":653.0,
@@ -5583,9 +7106,13 @@
     "title":"Pani Da Rang | Easy Singing and Ukulele Tutorial",
     "track":"Pani Da Rang",
     "album":"Singing And",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":386.0,
@@ -5601,9 +7128,13 @@
     "title":"PANI DA RANG | VICKY DONOR | BARITONE UKULELE LESSON",
     "track":"Pani Da Rang",
     "album":"Vicky Donor",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":500.0,
@@ -5619,9 +7150,13 @@
     "title":"PANJAMI THINGAL | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Panjami Thingal",
     "album":"Friends",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":226.0,
@@ -5637,9 +7172,13 @@
     "title":"PAUSE | Little Things (Netflix) | Hindi Ukulele Tutorial | ukeguide",
     "track":"Pause",
     "album":"Little Things (Netflix)",
-    "artists":"Hindi",
+    "artists":[
+      "Hindi"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":744.0,
@@ -5655,9 +7194,13 @@
     "title":"PAUSE (Prateek Kuhad ) | Little Things by Netflix  - Ukulele Playalong + Songsheet",
     "track":"Pause",
     "album":"Prateek Kuhad",
-    "artists":"+ Songsheet",
+    "artists":[
+      "+ Songsheet"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":81.0,
@@ -5673,9 +7216,13 @@
     "title":"Pee Loon | Mohit Chauhan | Easy Ukulele Hindi Tutorial",
     "track":"Pee Loon",
     "album":"Once Upon A Time In Mumbai",
-    "artists":"Mohit Chauhan",
+    "artists":[
+      "Mohit Chauhan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":196.0,
@@ -5691,9 +7238,14 @@
     "title":"Pehla Nasha | Simple Chords & Strumming | Easy Ukulele Tutorial",
     "track":"Pehla Nasha",
     "album":"Jo Jeeta Wohi Sikandar",
-    "artists":"Sadhana Sargam, Udit Narayan",
+    "artists":[
+      "Sadhana Sargam",
+      "Udit Narayan"
+    ],
     "composer":"Jatin - Lalit",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":360.0,
@@ -5709,9 +7261,13 @@
     "title":"Pehla Pehla Pyar Hai | S.P. Balasubramanium | Easy Ukulele Tutorial",
     "track":"Pehla Pehla Pyar Hai",
     "album":"Hum Aapke Hain Kaun",
-    "artists":"S. P. Balasubramaniam",
+    "artists":[
+      "S. P. Balasubramaniam"
+    ],
     "composer":"Raam Laxman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":269.0,
@@ -5727,9 +7283,13 @@
     "title":"Pehli Dafa | Atif Aslam | Easy Ukulele Tutorial",
     "track":"Pehli Dafa",
     "album":"Atif Aslam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":545.0,
@@ -5745,9 +7305,13 @@
     "title":"Pehli Nazar mein Ukulele Tutorial | Sayali Tank",
     "track":"Pehli Nazar Mein",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":464.0,
@@ -5763,9 +7327,13 @@
     "title":"Perfect (Ed Sheeran) - Easy Ukulele Lesson | ukeguide",
     "track":"Perfect  -",
     "album":"Ed Sheeran",
-    "artists":"Ukeguide",
+    "artists":[
+      "Ukeguide"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":425.0,
@@ -5781,9 +7349,16 @@
     "title":"Phir Dekhiye Playalong Ukulele Tutorial | Sayali Tank",
     "track":"Phir Dekhiye",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,G,Em",
+    "chords":[
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1093.0,
@@ -5799,9 +7374,13 @@
     "title":"Phir Dekhiye | Rock On | Easy Ukulele Playalong | ukeguide",
     "track":"Phir Dekhiye",
     "album":"Rock On",
-    "artists":"Ukulele",
+    "artists":[
+      "Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":98.0,
@@ -5817,9 +7396,15 @@
     "title":"Phir Le Aaya Dil Ukulele Tutorial | Sayali Tank",
     "track":"Phir Le Aaya Dil",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,C,D",
+    "chords":[
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":679.0,
@@ -5835,9 +7420,16 @@
     "title":"Phoolon ka taaron ka Ukulele tutorial | Rakshabandhan Special",
     "track":"Phoolon Ka Taaron Ka",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,C,D,Bm",
+    "chords":[
+      "Bm",
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":477.0,
@@ -5853,9 +7445,14 @@
     "title":"Phulon Ka Taaron Ka | Only 4 Chords | Fingerpicking | Easy Ukulele Tutorial",
     "track":"Phulon Ka Taaron Ka",
     "album":"Hare Rama Hare Krishna",
-    "artists":"Lata Mangeshkar, Kishore Kumar",
+    "artists":[
+      "Kishore Kumar",
+      "Lata Mangeshkar"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":362.0,
@@ -5871,9 +7468,13 @@
     "title":"Play 3 Ritviz Songs on Ukulele - Hindi Ukulele Tutorial | ukeguide",
     "track":"Play 3 Ritviz Songs On Ukulele - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":482.0,
@@ -5889,9 +7490,13 @@
     "title":"POO POOKKUM OSAI | Tamil Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Poo Pookkum Osai",
     "album":"Minsara Kanavu",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":517.0,
@@ -5907,9 +7512,13 @@
     "title":"Poth Chola Ukulele Tutorial by Artcell",
     "track":"Poth Chola",
     "album":"By Artcell",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":684.0,
@@ -5925,9 +7534,13 @@
     "title":"Preet - Khoobsurat | Ukulele Tutorial",
     "track":"Preet - Khoobsurat",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":415.0,
@@ -5943,9 +7556,13 @@
     "title":"Prem's Theme (Papon) - Ukulele Playalong Lesson",
     "track":"Prem'S Theme  - Ukulele",
     "album":"Papon",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":86.0,
@@ -5961,9 +7578,13 @@
     "title":"Prematal | Tahsan | Bangla Ukulele Tutorial",
     "track":"Prematal",
     "album":"Tahsan",
-    "artists":"Bangla",
+    "artists":[
+      "Bangla"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":625.0,
@@ -5976,12 +7597,20 @@
     "id_related":null
   },
   {
-    "title":"Preme pora baron | \u09aa\u09cd\u09b0\u09c7\u09ae\u09c7 \u09aa\u09a1\u09bc\u09be \u09ac\u09be\u09b0\u09a3 | UKULELE TUTORIAL",
+    "title":"Preme pora baron | প্রেমে পড়া বারণ | UKULELE TUTORIAL",
     "track":"Preme Pora Baron",
     "album":"Sweater",
-    "artists":"Lagnajita Chakraborty",
+    "artists":[
+      "Lagnajita Chakraborty"
+    ],
     "composer":"",
-    "chords":"A,F#M,D,E,B",
+    "chords":[
+      "A",
+      "B",
+      "D",
+      "E",
+      "F#M"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":495.0,
@@ -5997,9 +7626,13 @@
     "title":"Pukarta Chala Hun Main | Only 3 Chords | Mohd.Rafi | Easy Ukulele Tutorial",
     "track":"Pukarta Chala Hun Main",
     "album":"Mere Sanam",
-    "artists":"Mohd.Rafi",
+    "artists":[
+      "Mohd.Rafi"
+    ],
     "composer":"O.P.Nayyar",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":172.0,
@@ -6015,9 +7648,16 @@
     "title":"Pyaar deewana hota hai mastana hota hai Ukulele Tutorial",
     "track":"Pyaar Deewana Hota Hai Mastana Hota Hai",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,Bb,Eb",
+    "chords":[
+      "Bb",
+      "C",
+      "Eb",
+      "F"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":642.0,
@@ -6033,9 +7673,14 @@
     "title":"Pyaar Toh Tha | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Pyaar Toh Tha",
     "album":"Bala",
-    "artists":"Jubin Nautiyal, Asees Kaur",
+    "artists":[
+      "Asees Kaur",
+      "Jubin Nautiyal"
+    ],
     "composer":"Sachin-Jigar",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":276.0,
@@ -6051,9 +7696,13 @@
     "title":"Pyar Ke Pal | KK | Easy Ukulele Tutorial",
     "track":"Pyar Ke Pal",
     "album":"Pal",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"Leslie Lewis",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":255.0,
@@ -6069,9 +7718,13 @@
     "title":"Qaafirana - Hindi Ukulele Playalong with Song Sheet | ukeguide",
     "track":"Qaafirana - Hindi Ukulele",
     "album":"Kedarnath",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":91.0,
@@ -6087,9 +7740,14 @@
     "title":"Qafirana | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Qafirana",
     "album":"Kedarnath",
-    "artists":"Arijit Singh, Nikhita Gandhi",
+    "artists":[
+      "Arijit Singh",
+      "Nikhita Gandhi"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":343.0,
@@ -6105,9 +7763,13 @@
     "title":"Raabta | Easy Ukulele Tutorial",
     "track":"Raabta",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":467.0,
@@ -6123,9 +7785,13 @@
     "title":"Raabta (Agent Vinod ) Ukulele Tutorial | Sayali Tank",
     "track":"Raabta",
     "album":"Agent Vinod",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":674.0,
@@ -6141,9 +7807,15 @@
     "title":"Raabta | Fingerpicking | Easy Ukulele Tutorial",
     "track":"Raabta",
     "album":"Agent Vinod",
-    "artists":"Shreya Ghoshal, Arijit Singh, Joi Barua",
+    "artists":[
+      "Arijit Singh",
+      "Joi Barua",
+      "Shreya Ghoshal"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":320.0,
@@ -6159,9 +7831,14 @@
     "title":"Raat Baaki | Asha Bhosle | Easy Ukulele Tutorial",
     "track":"Raat Baaki",
     "album":"Namak Halal",
-    "artists":"Asha Bhosle, Bappi Lahiri",
+    "artists":[
+      "Asha Bhosle",
+      "Bappi Lahiri"
+    ],
     "composer":"Bappi Lahiri",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":69.0,
@@ -6177,9 +7854,14 @@
     "title":"Rang Sharbaton Ka | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Rang Sharbaton Ka",
     "album":"",
-    "artists":"Atif Aslam, Chinmayi Sripaada",
+    "artists":[
+      "Atif Aslam",
+      "Chinmayi Sripaada"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":307.0,
@@ -6195,9 +7877,13 @@
     "title":"Ravi | Sajjad Ali | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Ravi",
     "album":"Sajjad Ali",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":246.0,
@@ -6213,9 +7899,13 @@
     "title":"Rehna Tu | Delhi 6 | Easy Ukulele Tutorial |",
     "track":"Rehna Tu",
     "album":"Delhi",
-    "artists":"A R Rehman",
+    "artists":[
+      "A R Rehman"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":214.0,
@@ -6231,9 +7921,13 @@
     "title":"Rimjhim Gire Sawan | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Rimjhim Gire Sawan",
     "album":"Manzil",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1173.0,
@@ -6249,9 +7943,15 @@
     "title":"Roobaroo Ukulele Tutorial Indepedence day special",
     "track":"Roobaroo",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"A,D,E",
+    "chords":[
+      "A",
+      "D",
+      "E"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":955.0,
@@ -6267,9 +7967,16 @@
     "title":"Roop Tera Masatana Ukulele Tutorial with playalong",
     "track":"Roop Tera Masatana",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"E,D,B,A",
+    "chords":[
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":583.0,
@@ -6285,9 +7992,13 @@
     "title":"Ruk Jaana Nahin | Kishore Kumar | Easy Ukulele Tutorial",
     "track":"Ruk Jaana Nahin",
     "album":"Imtihaan",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"Laxmikant Pyarelal",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":361.0,
@@ -6303,9 +8014,13 @@
     "title":"Saansein (Prateek Kuhad) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Saansein  - Hindi",
     "album":"Karwaan",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"Prateek Kuhad",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":427.0,
@@ -6321,9 +8036,13 @@
     "title":"Saathiya ( A R Rahman) - Easy Ukulele Lesson + Song Sheet",
     "track":"Saathiya  -",
     "album":"A R Rahman",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":614.0,
@@ -6339,9 +8058,13 @@
     "title":"SAAVAN MEIN | HINDI Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Saavan Mein",
     "album":"Falguni Pathak",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":72.0,
@@ -6357,9 +8080,13 @@
     "title":"Sabse Peeche hum khade | Silk Route | Easy Ukulele Hindi Tutorial",
     "track":"Sabse Peeche Hum Khade",
     "album":"Let",
-    "artists":"Silk Route",
+    "artists":[
+      "Silk Route"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":157.0,
@@ -6375,9 +8102,13 @@
     "title":"Sach Keh Raha Hai Deewana (RHTDM) - Ukulele Lesson",
     "track":"Sach Keh Raha Hai Deewana  - Ukulele Lesson",
     "album":"Rhtdm",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":409.0,
@@ -6393,9 +8124,13 @@
     "title":"Sanu Ek Pal Chain | Raid | Easy Ukulele Tutorial with Lyrics",
     "track":"Sanu Ek Pal Chain",
     "album":"Raid",
-    "artists":"Rahat Fateh Ali Khan",
+    "artists":[
+      "Rahat Fateh Ali Khan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":272.0,
@@ -6411,9 +8146,13 @@
     "title":"Sawali Si Raat | Easy Singing and Ukulele Tutorial",
     "track":"Sawali Si Raat",
     "album":"Singing And",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":551.0,
@@ -6429,9 +8168,14 @@
     "title":"Sawan Barse | Ft. Mohua Chakraborty | Easy Ukulele Tutorial",
     "track":"Sawan Barse",
     "album":"Dahek",
-    "artists":"Hariharan, Sadhana Sargam",
+    "artists":[
+      "Hariharan",
+      "Sadhana Sargam"
+    ],
     "composer":"Aadesh Shrivastava",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":146.0,
@@ -6447,9 +8191,13 @@
     "title":"SENORITA - EASY UKULELE TUTORIAL | ukeguide",
     "track":"Senorita -",
     "album":"Ukeguide",
-    "artists":"Camila Cabello",
+    "artists":[
+      "Camila Cabello"
+    ],
     "composer":"Camila Cabello",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":557.0,
@@ -6465,9 +8213,13 @@
     "title":"Shaam | Amit Trivedi | Easy Ukulele Tutorial",
     "track":"Shaam",
     "album":"Aisha",
-    "artists":"Amit Trivedi",
+    "artists":[
+      "Amit Trivedi"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":226.0,
@@ -6483,9 +8235,14 @@
     "title":"Shaam | Aisha | Easy Ukulele tutorial | Switch the subtitles ON please !",
     "track":"Shaam",
     "album":"Aisha",
-    "artists":"Amit Trivedi, Nikhil D",
+    "artists":[
+      "Amit Trivedi",
+      "Nikhil D"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":149.0,
@@ -6501,9 +8258,13 @@
     "title":"Shaayad (Taba Chake) - Hindi Ukulele Tutorial |  ukeguide",
     "track":"Shaayad  - Hindi",
     "album":"Taba Chake",
-    "artists":"Taba Chake",
+    "artists":[
+      "Taba Chake"
+    ],
     "composer":"Taba Chake",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":576.0,
@@ -6519,9 +8280,13 @@
     "title":"Sham (Aisha) | Easy Hindi Ukulele tutorial | Only 4 Basic Chords",
     "track":"Sham",
     "album":"Aisha",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":617.0,
@@ -6537,9 +8302,13 @@
     "title":"Sham | Aisha | Easy Ukulele Tutorial",
     "track":"Sham",
     "album":"Aisha",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":334.0,
@@ -6555,9 +8324,13 @@
     "title":"Sham - Hindi Ukulele Tutorial | ukeguide",
     "track":"Sham - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":442.0,
@@ -6573,9 +8346,18 @@
     "title":"Shayad Ukulele Tutorial",
     "track":"Shayad",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,G,Em,D,Bm",
+    "chords":[
+      "Am",
+      "Bm",
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1049.0,
@@ -6591,9 +8373,13 @@
     "title":"Shayad | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Shayad",
     "album":"Love Aaj Kal",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":301.0,
@@ -6609,9 +8395,13 @@
     "title":"SHAYAD - Hindi Ukulele Lesson | ukeguide",
     "track":"Shayad - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":509.0,
@@ -6627,9 +8417,13 @@
     "title":"She Je Boshe Ache using only 4 easy Chords Ukelele Tutorial",
     "track":"She Je Boshe Ache Using Only 4",
     "album":"Chords Ukelele Tutorial",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":254.0,
@@ -6645,9 +8439,13 @@
     "title":"SHE WILL BE LOVED | Maroon 5 | Easy Ukulele Tutorial",
     "track":"She Will Be Loved",
     "album":"Songs About Jane",
-    "artists":"Maroon 5",
+    "artists":[
+      "Maroon 5"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":230.0,
@@ -6663,9 +8461,13 @@
     "title":"Sholay Theme - 1 min Ukulele Lesson",
     "track":"Sholay Theme - 1 Min Ukulele Lesson",
     "album":"Sholay",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"R D Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":63.0,
@@ -6681,9 +8483,13 @@
     "title":"SLIDE HAMMER PULL OFF | LESSON 4 | BARITONE UKULELE",
     "track":"Slide Hammer Pull Off",
     "album":"Lesson 4",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":536.0,
@@ -6699,9 +8505,14 @@
     "title":"Soch Na Sake | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Soch Na Sake",
     "album":"Arijit Singh",
-    "artists":"Arijit Singh, Tulsi Kumar",
+    "artists":[
+      "Arijit Singh",
+      "Tulsi Kumar"
+    ],
     "composer":"Amaal Mallik",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":297.0,
@@ -6717,9 +8528,13 @@
     "title":"Summer of 69 Easy Ukulele Tutorial",
     "track":"Summer Of 69",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":307.0,
@@ -6735,9 +8550,13 @@
     "title":"Surmayee Ankhiyon Mein | R.I.P. Sridevi | Easy Ukulele Tutorial",
     "track":"Surmayee Ankhiyon Mein",
     "album":"Sadmaa",
-    "artists":"Yesudas",
+    "artists":[
+      "Yesudas"
+    ],
     "composer":"Ilayaraaja",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":287.0,
@@ -6753,9 +8572,13 @@
     "title":"SUSPENDED CHORDS | LESSON 10 | BARITONE UKULELE",
     "track":"Suspended Chords",
     "album":"Lesson 10",
-    "artists":"Baritone Ukulele",
+    "artists":[
+      "Baritone Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":615.0,
@@ -6771,9 +8594,13 @@
     "title":"Tanha Dil (Shaan) - Hindi Ukulele Lesson",
     "track":"Tanha Dil  - Hindi Ukulele Lesson",
     "album":"Shaan",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":648.0,
@@ -6789,9 +8616,13 @@
     "title":"Tarae Tarae Rotiye Debo | Ukelele Tutorial for Beginners | Nabid Alam",
     "track":"Tarae Tarae Rotiye Debo",
     "album":"Ukelele Tutorial",
-    "artists":"Nabid Alam",
+    "artists":[
+      "Nabid Alam"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":413.0,
@@ -6807,9 +8638,14 @@
     "title":"Tareefan | Ukulele Tutorial | Veere Di Wedding",
     "track":"Tareefan",
     "album":"Veere Di Wedding",
-    "artists":"Badshah, Lisa Mishra",
+    "artists":[
+      "Badshah",
+      "Lisa Mishra"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":295.0,
@@ -6825,9 +8661,13 @@
     "title":"Tareefan (Reprise) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Tareefan  - Hindi",
     "album":"Reprise",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":387.0,
@@ -6843,9 +8683,13 @@
     "title":"Tareefan Reprise | Veere Di Wedding | Easy Ukulele Tutorial",
     "track":"Tareefan Reprise",
     "album":"Veere Di Wedding",
-    "artists":"Qaran Ft. Lisa Mishra",
+    "artists":[
+      "Qaran Ft. Lisa Mishra"
+    ],
     "composer":"Qaran",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":344.0,
@@ -6861,9 +8705,17 @@
     "title":"Te Amo Ukulele Tutorial",
     "track":"Te Amo",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Em,Am,F,G",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":583.0,
@@ -6879,9 +8731,13 @@
     "title":"TERA BAN JAUNGA | KABIR SINGH  | BARITONE UKULELE TUTORIAL",
     "track":"Tera Ban Jaunga",
     "album":"Kabir Singh",
-    "artists":"Baritone",
+    "artists":[
+      "Baritone"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":534.0,
@@ -6897,9 +8753,13 @@
     "title":"TERA GHATA | BARITONE UKULELE LESSON | EASY CHORDS",
     "track":"Tera Ghata",
     "album":"Baritone Ukulele Lesson",
-    "artists":"Chords",
+    "artists":[
+      "Chords"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":981.0,
@@ -6915,9 +8775,13 @@
     "title":"Tera Ghata | Gajendra Verma | Easy Ukulele Tutorial for Beginners",
     "track":"Tera Ghata",
     "album":"Gajendra Verma",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":219.0,
@@ -6933,9 +8797,13 @@
     "title":"Tera Ghata (Gajendra Verma) - Hindi  Ukulele Lesson | ukeguide",
     "track":"Tera Ghata  - Hindi  Ukulele Lesson",
     "album":"Gajendra Verma",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":399.0,
@@ -6951,9 +8819,13 @@
     "title":"Tera Mujhse Hai Pehle | Kishore Kumar | Easy Ukulele Tutorial",
     "track":"Tera Mujhse Hai Pehle",
     "album":"Aa Gale Lag Ja",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"R.D.Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":174.0,
@@ -6969,9 +8841,13 @@
     "title":"Tera Woh Pyaar | Coke Studio | Easy Ukulele Tutorial |",
     "track":"Tera Woh Pyaar",
     "album":"Coke Studio",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":301.0,
@@ -6987,9 +8863,13 @@
     "title":"Tera Yaar Hoon Main | Arijit Singh | Ukulele Tutorial(HINDI)",
     "track":"Tera Yaar Hoon Main",
     "album":"Arijit Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Rochak Kohli",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":392.0,
@@ -7005,9 +8885,13 @@
     "title":"Tera Yaar Hoon Main Ukulele and Singing Tutorial | Original Scale",
     "track":"Tera Yaar Hoon Main Ukulele And Singing Tutorial",
     "album":"Original Scale",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":713.0,
@@ -7023,9 +8907,13 @@
     "title":"TERA YAAR HU MAIN | ARIJIT SINGH | BARITONE UKULELE TUTORIAL",
     "track":"Tera Yaar Hu Main",
     "album":"Arijit Singh",
-    "artists":"Baritone",
+    "artists":[
+      "Baritone"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":766.0,
@@ -7041,9 +8929,13 @@
     "title":"Tera Zikr | Easy Ukulele Tutorial",
     "track":"Tera Zikr",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":667.0,
@@ -7059,9 +8951,13 @@
     "title":"Tere Bina Jiya Jaaye Na | Intermediate Ukulele Tutorial",
     "track":"Tere Bina Jiya Jaaye Na",
     "album":"Ghar",
-    "artists":"Lata Mangeshkar",
+    "artists":[
+      "Lata Mangeshkar"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":431.0,
@@ -7077,9 +8973,13 @@
     "title":"Tere Dar Par Sanam | Only 4 Chords | Easy Ukulele Tutorial (HINDI)",
     "track":"Tere Dar Par Sanam",
     "album":"",
-    "artists":"Kumar Sanu",
+    "artists":[
+      "Kumar Sanu"
+    ],
     "composer":"Anu Malik",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":179.0,
@@ -7095,9 +8995,16 @@
     "title":"Tere Mere Milan | Lata & Kishore | Easy Ukulele Tutorial",
     "track":"Tere Mere Milan",
     "album":"Abhimaan",
-    "artists":"Lata Mangeshkar, Kishore Kumar, S.D. Burman, Majrooh Sultanpuri",
+    "artists":[
+      "Kishore Kumar",
+      "Lata Mangeshkar",
+      "Majrooh Sultanpuri",
+      "S.D. Burman"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":263.0,
@@ -7113,9 +9020,13 @@
     "title":"Tere sang yaara Ukulele tutorial | Sayali Tank",
     "track":"Tere Sang Yaara",
     "album":"",
-    "artists":"Atif Aslam",
+    "artists":[
+      "Atif Aslam"
+    ],
     "composer":"Arko",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":662.0,
@@ -7131,9 +9042,13 @@
     "title":"Teri Deewani | Kailash Kher | EASY Ukulele Tutorial",
     "track":"Teri Deewani",
     "album":"Kailasa",
-    "artists":"Kailash Kher",
+    "artists":[
+      "Kailash Kher"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":367.0,
@@ -7149,9 +9064,17 @@
     "title":"Teri Galliyan Ukulele Tutorial",
     "track":"Teri Galliyan",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":582.0,
@@ -7167,9 +9090,13 @@
     "title":"Teri Galliyan - Ek Villain - Hindi Ukulele Tutorial",
     "track":"Teri Galliyan - Ek Villain - Hindi",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":343.0,
@@ -7185,9 +9112,13 @@
     "title":"TERI MERI KAHANI - Super Easy Ukulele Lesson",
     "track":"Teri Meri Kahani - Super",
     "album":"Ukulele Lesson",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":281.0,
@@ -7203,9 +9134,16 @@
     "title":"Teri Mitti (Kesari) Ukulele Tutorial with Playalong",
     "track":"Teri Mitti",
     "album":"Kesari",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"D,Bm,G,A Chords With The Same Chord Progression",
+    "chords":[
+      "A Chords With The Same Chord Progression",
+      "Bm",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":624.0,
@@ -7221,9 +9159,13 @@
     "title":"Thandi Hawa - Hindi Ukulele Lesson | ukeguide",
     "track":"Thandi Hawa - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":741.0,
@@ -7239,9 +9181,18 @@
     "title":"Tik Tik Waajte Dokyat Ukulele Tutorial with Playalong",
     "track":"Tik Tik Waajte Dokyat",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,G7,Dm",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G",
+      "G7"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":726.0,
@@ -7257,9 +9208,13 @@
     "title":"Tinka Tinka | Karam | Alisha Chinoy | Acoustic Guitar Tutorial",
     "track":"Tinka Tinka",
     "album":"Karam",
-    "artists":"Alisha Chinoy",
+    "artists":[
+      "Alisha Chinoy"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":243.0,
@@ -7275,9 +9230,16 @@
     "title":"Tu Aashiqui Hai Ukulele Tutorial | Jhankaar Beats",
     "track":"Tu Aashiqui Hai",
     "album":"Jhankaar Beats",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"A,D,Bm,G",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":982.0,
@@ -7293,9 +9255,15 @@
     "title":"Tu hi hai(Dear Zindagi)| Easy Ukulele Tutorial | Only 3 chords | Sayali Tank",
     "track":"Tu Hi Hai",
     "album":"Dear Zindagi",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,C,D",
+    "chords":[
+      "C",
+      "D",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":681.0,
@@ -7311,9 +9279,13 @@
     "title":"Tu hi hai | Dear Zindagi | Easy Ukulele Tutorial | Finger picking style |",
     "track":"Tu Hi Hai",
     "album":"Dear Zindagi",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":235.0,
@@ -7329,9 +9301,13 @@
     "title":"Tu Hi Hai | Only 3 Chords | Easy Ukulele Tutorial",
     "track":"Tu Hi Hai",
     "album":"Dear Zindagi",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Amit Trivedi",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":373.0,
@@ -7347,9 +9323,13 @@
     "title":"Tu Hi Hai | Half Girlfriend | Ukulele Tutorial | Arjun kapoor & Shraddha Kapoor | Rahul Mishra",
     "track":"Tu Hi Hai",
     "album":"Half Girlfriend",
-    "artists":"Arjun Kapoor & Shraddha Kapoor",
+    "artists":[
+      "Arjun Kapoor & Shraddha Kapoor"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":622.0,
@@ -7365,9 +9345,17 @@
     "title":"Tu hi meri shab hai Ukulele Tutorial",
     "track":"Tu Hi Meri Shab Hai",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Am,F,G,D,E",
+    "chords":[
+      "Am",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":956.0,
@@ -7383,9 +9371,14 @@
     "title":"Tu Hi Re | A.R.Rahman | Easy Ukulele Tutorial",
     "track":"Tu Hi Re",
     "album":"Bombay",
-    "artists":"Hariharan, Kavita Krishnamurthy",
+    "artists":[
+      "Hariharan",
+      "Kavita Krishnamurthy"
+    ],
     "composer":"A.R.Rahman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":280.0,
@@ -7401,9 +9394,13 @@
     "title":"TU HI YAAR MERA | PATI PATNI AUR WOH | BARITONE UKULELE LESSON",
     "track":"Tu Hi Yaar Mera",
     "album":"Pati Patni Aur Woh",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":275.0,
@@ -7419,9 +9416,17 @@
     "title":"Tu mile dil khile Ukulele tutorial",
     "track":"Tu Mile Dil Khile",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Dm,C,F,Am,G",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1091.0,
@@ -7437,9 +9442,14 @@
     "title":"Tu thodi der | Half Girlfriend | Easy Ukulele Tutorial",
     "track":"Tu Thodi Der",
     "album":"Half Girlfriend",
-    "artists":"Shreya Ghoshal, Farhan Saeed",
+    "artists":[
+      "Farhan Saeed",
+      "Shreya Ghoshal"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":132.0,
@@ -7455,9 +9465,19 @@
     "title":"Tu Tu Hai Wahi Ukulele Tutorial",
     "track":"Tu Tu Hai Wahi",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,F,Am,G,Dm,Em,A",
+    "chords":[
+      "A",
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":651.0,
@@ -7473,9 +9493,14 @@
     "title":"Tu Tu hai Wahi | Acoustic Guitar Tutorial |",
     "track":"Tu Tu Hai Wahi",
     "album":"Yeh Vaada Raha",
-    "artists":"Asha Bhonsle , Kishore Kumar",
+    "artists":[
+      "Asha Bhonsle ",
+      "Kishore Kumar"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":129.0,
@@ -7491,9 +9516,13 @@
     "title":"Tu Tu hai wahi | Easy Ukulele Tutorial | Cover |",
     "track":"Tu Tu Hai Wahi",
     "album":"Yeh Vada Raha",
-    "artists":"Asha Bhonsle",
+    "artists":[
+      "Asha Bhonsle"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":197.0,
@@ -7509,9 +9538,13 @@
     "title":"Tu Tu Hai Wohi (Asha Bhosle) - Ukulele Playalong",
     "track":"Tu Tu Hai Wohi  - Ukulele",
     "album":"Asha Bhosle",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":77.0,
@@ -7527,9 +9560,13 @@
     "title":"Tujhe kitna chahne lage | Kabir Singh | Easy Ukulele Tutorial",
     "track":"Tujhe Kitna Chahne Lage",
     "album":"Kabir Singh",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":429.0,
@@ -7545,9 +9582,13 @@
     "title":"Tujhe Kitna Chahne Lage Hum | Easy Ukulele Tutorial",
     "track":"Tujhe Kitna Chahne Lage Hum",
     "album":"Kabir Singh",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":413.0,
@@ -7563,9 +9604,13 @@
     "title":"TUJHE KITNA CHAHNE LAGE HUM | KABIR SINGH | BARITONE UKULELE LESSON",
     "track":"Tujhe Kitna Chahne Lage Hum",
     "album":"Kabir Singh",
-    "artists":"Baritone Ukulele Lesson",
+    "artists":[
+      "Baritone Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":278.0,
@@ -7581,9 +9626,20 @@
     "title":"Tum Ho - Rockstar Ukulele Tutorial",
     "track":"Tum Ho - Rockstar",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,A,Gm,Bb,E",
+    "chords":[
+      "A",
+      "Am",
+      "Bb",
+      "C",
+      "E",
+      "F",
+      "G",
+      "Gm"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":927.0,
@@ -7599,9 +9655,13 @@
     "title":"Tum Jab Pass (Prateek Kuhad) - Hindi Ukulele Lesson",
     "track":"Tum Jab Pass  - Hindi Ukulele Lesson",
     "album":"Prateek Kuhad",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":458.0,
@@ -7617,9 +9677,16 @@
     "title":"Tum jab pass aati ho | Only 4 Simple Chords Ukulele Tutorial",
     "track":"Tum Jab Pass Aati Ho",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":934.0,
@@ -7635,9 +9702,13 @@
     "title":"tum Jo mil Gaye ho - ukulele cover & tutorial - Muhammad Rafi",
     "track":"Tum Jo Mil Gaye Ho - Ukulele Cover & Tutorial - Muhammad Rafi",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":692.0,
@@ -7653,9 +9724,13 @@
     "title":"tum mile dil khile - ukulele tutorial - Kumar sanu.",
     "track":"Tum Mile Dil Khile -",
     "album":"- Kumar Sanu.",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":332.0,
@@ -7671,9 +9746,13 @@
     "title":"Tum se hi | Mohit Chauhan | Easy Hindi Ukulele tutorial",
     "track":"Tum Se Hi",
     "album":"Jab We Met",
-    "artists":"Mohit Chauhan",
+    "artists":[
+      "Mohit Chauhan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":233.0,
@@ -7689,9 +9768,14 @@
     "title":"Tum Se Milke | Easy Ukulele Tutorial (HINDI)",
     "track":"Tum Se Milke",
     "album":"",
-    "artists":"Asha Bhosle, Suresh Wadkar",
+    "artists":[
+      "Asha Bhosle",
+      "Suresh Wadkar"
+    ],
     "composer":"R.D. Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":244.0,
@@ -7707,9 +9791,13 @@
     "title":"Tumne Mujhe Dekha | Mohd Rafi | Easy Ukulele Tutorial",
     "track":"Tumne Mujhe Dekha",
     "album":"Teesri Manzil",
-    "artists":"Mohd.Rafi",
+    "artists":[
+      "Mohd.Rafi"
+    ],
     "composer":"R.D.Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":266.0,
@@ -7725,9 +9813,16 @@
     "title":"Tumse hi(Jab we met) Ukulele Tutorial for beginners | Sayali Tank",
     "track":"Tumse Hi",
     "album":"Jab We Met",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"G,D,C,Em",
+    "chords":[
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":574.0,
@@ -7743,9 +9838,13 @@
     "title":"Tumse Hi | Sadak 2 | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Tumse Hi",
     "album":"Sadak 2",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"Ankit Tiwari",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":261.0,
@@ -7761,9 +9860,17 @@
     "title":"Tumse Mil Ke Ukulele Tutorial",
     "track":"Tumse Mil Ke",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,G,Dm,Am,F",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":438.0,
@@ -7779,9 +9886,13 @@
     "title":"TUNE KAHA - Hindi Ukulele Lesson | ukeguide",
     "track":"Tune Kaha - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"Prateek Kuhad",
+    "artists":[
+      "Prateek Kuhad"
+    ],
     "composer":"Prateek Kuhad",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":475.0,
@@ -7797,9 +9908,13 @@
     "title":"Udd Gaye - Hindi Ukulele Lesson | ukeguide",
     "track":"Udd Gaye - Hindi Ukulele Lesson",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":533.0,
@@ -7815,9 +9930,14 @@
     "title":"Udi Udi Jaaye | Only 3 Chords | Easy Ukulele Tutorial(HINDI)",
     "track":"Udi Udi Jaaye",
     "album":"Raees",
-    "artists":"Sukhwinder Singh, Bhoomi Trivedi.",
+    "artists":[
+      "Bhoomi Trivedi.",
+      "Sukhwinder Singh"
+    ],
     "composer":"Ram Sampath",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":219.0,
@@ -7833,9 +9953,14 @@
     "title":"Vaaste | Dhvani Bhanushali | Nikhil DSouza | Easy Ukulele Tutorial",
     "track":"Vaaste",
     "album":"Dhvani Bhanushali",
-    "artists":"Dhvani Bhanushali, Nikhil D",
+    "artists":[
+      "Dhvani Bhanushali",
+      "Nikhil D"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":234.0,
@@ -7851,9 +9976,13 @@
     "title":"Vande Mataram | Easy Ukulele Tutorial",
     "track":"Vande Mataram",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"Rabindranath Tagore",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":293.0,
@@ -7869,9 +9998,13 @@
     "title":"Waiting For Tonight | Jennifer Lopez | Easy Acoustic Guitar Tutorial",
     "track":"Waiting For Tonight",
     "album":"On The 6",
-    "artists":"Jennifer Lopez",
+    "artists":[
+      "Jennifer Lopez"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":127.0,
@@ -7887,9 +10020,13 @@
     "title":"Walk With Me (Taba Chake ) - Hindi Ukulele Tutorial | ukeguide",
     "track":"Walk With Me  - Hindi",
     "album":"Taba Chake",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":688.0,
@@ -7905,9 +10042,13 @@
     "title":"Waqt Ne Kiya | 102 Not Out | Amitabh Bachchan | Easy Ukulele Tutorial",
     "track":"Waqt Ne Kiya",
     "album":"102 Not Out",
-    "artists":"Amitabh Bachchan",
+    "artists":[
+      "Amitabh Bachchan"
+    ],
     "composer":"S.D.Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":304.0,
@@ -7923,9 +10064,13 @@
     "title":"Warfaze - Purnota Ukelele Easy Tutorial for Beginners | Nabid Alam",
     "track":"Warfaze - Purnota Ukelele",
     "album":"Nabid Alam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":252.0,
@@ -7941,9 +10086,13 @@
     "title":"Who'd have known | Lily Allen | Easy Ukulele Tutorial |",
     "track":"Who'D Have Known",
     "album":"It",
-    "artists":"Lily Allen",
+    "artists":[
+      "Lily Allen"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":260.0,
@@ -7959,9 +10108,13 @@
     "title":"With You For You | Prateek Kuhad | Hindi Ukulele Lesson | ukeguide",
     "track":"With You For You",
     "album":"Prateek Kuhad",
-    "artists":"Hindi Ukulele Lesson",
+    "artists":[
+      "Hindi Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":478.0,
@@ -7977,9 +10130,17 @@
     "title":"Wo dekhne emin kaisi sidhi sadhi ladki Ukulele Tutorial | Sayali Tank",
     "track":"Wo Dekhne Emin Kaisi Sidhi Sadhi Ladki",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,Dm",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":670.0,
@@ -7995,9 +10156,13 @@
     "title":"Woh Din | Arijit Singh | Easy Ukulele Tutorial",
     "track":"Woh Din",
     "album":"Chhichhore",
-    "artists":"Arijit Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":250.0,
@@ -8013,9 +10178,15 @@
     "title":"Woh Lamhe Ukulele tutorial | Only 3 simple chords",
     "track":"Woh Lamhe",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Em,C,D",
+    "chords":[
+      "C",
+      "D",
+      "Em"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":723.0,
@@ -8031,9 +10202,13 @@
     "title":"Woh Lamhe | Easy Ukulele Tutorial",
     "track":"Woh Lamhe",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":257.0,
@@ -8049,9 +10224,15 @@
     "title":"Ya Ali Ukulele Tutorial",
     "track":"Ya Ali",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Em,C,D",
+    "chords":[
+      "C",
+      "D",
+      "Em"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":820.0,
@@ -8067,9 +10248,13 @@
     "title":"Yaaron | KK | Easy Ukulele Tutorial (HINDI)",
     "track":"Yaaron",
     "album":"Pal",
-    "artists":"Kk",
+    "artists":[
+      "Kk"
+    ],
     "composer":"Leslie Lewis",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":269.0,
@@ -8085,9 +10270,17 @@
     "title":"Yaaron Dosti Badi hi Haseen hai |  Ukulele Tutorial",
     "track":"Yaaron Dosti Badi Hi Haseen Hai",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":475.0,
@@ -8103,9 +10296,13 @@
     "title":"Yahin Hoon Main ( Ayushmann Khurrana ) - Hindi Ukulele Lesson",
     "track":"Yahin Hoon Main  - Hindi Ukulele Lesson",
     "album":"Ayushmann Khurrana",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":293.0,
@@ -8121,9 +10318,13 @@
     "title":"YAMUNAI AATRILE | Tamil Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "track":"Yamunai Aatrile",
     "album":"Thalapathi",
-    "artists":"Arathi Unnikrishnan",
+    "artists":[
+      "Arathi Unnikrishnan"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":155.0,
@@ -8139,9 +10340,13 @@
     "title":"Ye Chand Sa Roshan Chehra | Mohd. Rafi | 3 Chords | Hindi Ukulele Lesson | ukeguide",
     "track":"Ye Chand Sa Roshan Chehra",
     "album":"Mohd. Rafi",
-    "artists":"3 Chords",
+    "artists":[
+      "3 Chords"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":341.0,
@@ -8157,9 +10362,13 @@
     "title":"Ye Dosti Hum Nahi Todenge (Sholay) - Hindi Ukulele Lesson",
     "track":"Ye Dosti Hum Nahi Todenge  - Hindi Ukulele Lesson",
     "album":"Sholay",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":366.0,
@@ -8175,9 +10384,13 @@
     "title":"Ye Moh Moh Ke Dhaage - Hindi Ukulele Tutorial | ukeguide",
     "track":"Ye Moh Moh Ke Dhaage - Hindi",
     "album":"Ukeguide",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":299.0,
@@ -8193,9 +10406,13 @@
     "title":"Ye Ratein Ye Mausam | 2 Min Lesson | Ukulele Playalong + Songsheet",
     "track":"Ye Ratein Ye Mausam",
     "album":"2 Min Lesson",
-    "artists":"Ukulele",
+    "artists":[
+      "Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":125.0,
@@ -8211,9 +10428,18 @@
     "title":"Ye Shaam Mastani Ukulele Tutorial",
     "track":"Ye Shaam Mastani",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,D,A,G,Em",
+    "chords":[
+      "A",
+      "Am",
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":423.0,
@@ -8229,9 +10455,13 @@
     "title":"Yeh Dooriyan | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Yeh Dooriyan",
     "album":"Love Aaj Kal",
-    "artists":"Mohit Chauhan",
+    "artists":[
+      "Mohit Chauhan"
+    ],
     "composer":"Pritam",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":389.0,
@@ -8247,9 +10477,13 @@
     "title":"Yeh Jawani Hai Deewani | Easy Ukulele Tutorial",
     "track":"Yeh Jawani Hai Deewani",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":473.0,
@@ -8265,9 +10499,13 @@
     "title":"Yeh Kya Hua | Ey Ki Holo | R.D. Burman | Easy Ukulele Tutorial",
     "track":"Yeh Kya Hua",
     "album":"Rajkumari",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"Rahul Dev Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":222.0,
@@ -8283,9 +10521,13 @@
     "title":"Yeh Nayan Dare Dare | Hemant Kumar | Easy Ukulele Tutorial",
     "track":"Yeh Nayan Dare Dare",
     "album":"Kohra",
-    "artists":"Hemant Kumar",
+    "artists":[
+      "Hemant Kumar"
+    ],
     "composer":"Hemant Kumar",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":175.0,
@@ -8301,9 +10543,13 @@
     "title":"Yeh Pal | Prateek Kuhad |  Hindi Ukulele Lesson | UKEGUIDE",
     "track":"Yeh Pal",
     "album":"Prateek Kuhad",
-    "artists":"Hindi Ukulele Lesson",
+    "artists":[
+      "Hindi Ukulele Lesson"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":615.0,
@@ -8319,9 +10565,13 @@
     "title":"Yeh Shaam Mastani | Easy Ukulele Tutorial",
     "track":"Yeh Shaam Mastani",
     "album":"Kati Patang",
-    "artists":"Kishore Kumar",
+    "artists":[
+      "Kishore Kumar"
+    ],
     "composer":"Rahul Dev Burman",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1445.0,
@@ -8337,9 +10587,13 @@
     "title":"Yellow | Coldplay | Playalong |  Ukulele Tutorial | Sayali Tank",
     "track":"Yellow",
     "album":"Coldplay",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":1133.0,
@@ -8355,9 +10609,18 @@
     "title":"Zara Zara Ukulele Tutorial for complete beginners | Sayali Tank",
     "track":"Zara Zara",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,Dm,G,Em",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":669.0,
@@ -8373,9 +10636,13 @@
     "title":"Zara Zara Behekta Hain  | Ukulele Tutorial | Beginners | Nabid Alam",
     "track":"Zara Zara Behekta Hain",
     "album":"Nabid Alam",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":438.0,
@@ -8391,9 +10658,14 @@
     "title":"Zindagi Ki Yehi Reet Hai | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Zindagi Ki Yehi Reet Hai",
     "album":"Mr",
-    "artists":"Kishore Kumar, Kavita K.",
+    "artists":[
+      "Kavita K.",
+      "Kishore Kumar"
+    ],
     "composer":"Laxmikant Pyarelal",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":339.0,
@@ -8409,9 +10681,16 @@
     "title":"Zombie(Cranberries) Ukulele Tutorial with Playalong.. Easiest song to play?",
     "track":"Zombie",
     "album":"Cranberries",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"Em,C,G,D",
+    "chords":[
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":517.0,
@@ -8424,12 +10703,16 @@
     "id_related":null
   },
   {
-    "title":"[TUTORIAL] \u0995\u09bf\u099a\u09cd\u099b\u09c1 \u099a\u09be\u0987\u09a8\u09bf \u0986\u09ae\u09bf | Shahjahan Regency | UKULELE |",
-    "track":"[Tutorial] \u0995\u09bf\u099a\u09cd\u099b\u09c1 \u099a\u09be\u0987\u09a8\u09bf \u0986\u09ae\u09bf",
+    "title":"[TUTORIAL] কিচ্ছু চাইনি আমি | Shahjahan Regency | UKULELE |",
+    "track":"[Tutorial] কিচ্ছু চাইনি আমি",
     "album":"Shahjahan Regency",
-    "artists":"Ukulele",
+    "artists":[
+      "Ukulele"
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":278.0,
@@ -8442,12 +10725,16 @@
     "id_related":null
   },
   {
-    "title":"[TUTORIAL] \u09af\u09a6\u09bf \u09a4\u09cb\u09b0 \u09a1\u09be\u0995 \u09b6\u09c1\u09a8\u09c7 (Jodi tor daak sune)",
-    "track":"[Tutorial] \u09af\u09a6\u09bf \u09a4\u09cb\u09b0 \u09a1\u09be\u0995 \u09b6\u09c1\u09a8\u09c7",
+    "title":"[TUTORIAL] যদি তোর ডাক শুনে (Jodi tor daak sune)",
+    "track":"[Tutorial] যদি তোর ডাক শুনে",
     "album":"Jodi Tor Daak Sune",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":441.0,
@@ -8460,12 +10747,19 @@
     "id_related":null
   },
   {
-    "title":"\u09ac\u09a1\u09bc \u0986\u09b6\u09be \u0995\u09b0\u09c7 | UKULELE TUTORIAL | Rabindrasangeet Tutorial",
-    "track":"\u09ac\u09a1\u09bc \u0986\u09b6\u09be \u0995\u09b0\u09c7",
+    "title":"বড় আশা করে | UKULELE TUTORIAL | Rabindrasangeet Tutorial",
+    "track":"বড় আশা করে",
     "album":"Rabindrasangeet Tutorial",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"A,F#M,E,D",
+    "chords":[
+      "A",
+      "D",
+      "E",
+      "F#M"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":289.0,
@@ -8478,12 +10772,20 @@
     "id_related":null
   },
   {
-    "title":"\u09ac\u09a8\u09cd\u09a7\u09c1 \u09a4\u09cb\u09ae\u09be\u09af\u09bc | EASY UKULELE TUTORIAL",
-    "track":"\u09ac\u09a8\u09cd\u09a7\u09c1 \u09a4\u09cb\u09ae\u09be\u09af\u09bc",
+    "title":"বন্ধু তোমায় | EASY UKULELE TUTORIAL",
+    "track":"বন্ধু তোমায়",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":"C,Am,F,G,Dm",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":200.0,
@@ -8496,12 +10798,16 @@
     "id_related":null
   },
   {
-    "title":"\u09ad\u09bf\u09a8\u09a6\u09c7\u09b6\u09c0 \u09a4\u09be\u09b0\u09be | Ukulele Tutorial | Easy Bengali Song Tutorial",
-    "track":"\u09ad\u09bf\u09a8\u09a6\u09c7\u09b6\u09c0 \u09a4\u09be\u09b0\u09be",
+    "title":"ভিনদেশী তারা | Ukulele Tutorial | Easy Bengali Song Tutorial",
+    "track":"ভিনদেশী তারা",
     "album":"Bengali Song Tutorial",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":273.0,
@@ -8514,12 +10820,16 @@
     "id_related":null
   },
   {
-    "title":"\u09ae\u09a8 \u0964 \u099a\u09a8\u09cd\u09a6\u09cd\u09b0\u09ac\u09bf\u09a8\u09cd\u09a6\u09c1 \u0964 Easy Ukulele Tutorial |",
-    "track":"\u09ae\u09a8 \u0964 \u099a\u09a8\u09cd\u09a6\u09cd\u09b0\u09ac\u09bf\u09a8\u09cd\u09a6\u09c1 \u0964",
+    "title":"মন । চন্দ্রবিন্দু । Easy Ukulele Tutorial |",
+    "track":"মন । চন্দ্রবিন্দু ।",
     "album":"",
-    "artists":"",
+    "artists":[
+
+    ],
     "composer":"",
-    "chords":null,
+    "chords":[
+
+    ],
     "key":"",
     "loop_start":0.0,
     "loop_end":209.0,

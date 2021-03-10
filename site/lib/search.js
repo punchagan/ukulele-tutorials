@@ -9,16 +9,21 @@ export const filterByQuery = (videos, query) => {
 }
 
 export const filterByFacets = (videos, facetFilters) => {
+  const listFilters = new Set(['chords', 'artists'])
 
-  const filterRegExps = facetFilters?.reduce((obj, ff) => {
-    const key = ff[0].split(':')[0]
-    return {...obj, [key]: new RegExp(ff.map(f => f.split(':')[1]).join("|"))}
+  const filterQ = facetFilters?.reduce((obj, ff) => {
+    const [key, val] = ff[0].split(':')
+    return {...obj, [key]: listFilters.has(key) ? new Set(ff.map(f => f.split(':')[1])) : val}
   }, {})
 
   let data = videos
-  for (let attribute in filterRegExps) {
-    let re = filterRegExps[attribute]
-    data = data.filter(vid => vid[attribute]?.search(re) > -1)
+  for (let attribute in filterQ) {
+    let query = filterQ[attribute]
+    if (listFilters.has(attribute)) {
+      data = data.filter(vid => vid[attribute]?.filter(item => query.has(item)).length > 0)
+    } else {
+      data = data.filter(vid => vid[attribute] === query)
+    }
   }
 
   return data
@@ -26,8 +31,8 @@ export const filterByFacets = (videos, facetFilters) => {
 
 const getListCounts = (data, attribute) => {
   const counts = data
-        .filter(v => v[attribute] !== null)
-        .map(v => v[attribute].replace(", ", ",").split(","))
+        .filter(v => v[attribute].length > 0)
+        .map(v => v[attribute])
         .reduce((acc, attrList) => {
           attrList.forEach(item => {
             if (item == "") {

@@ -32,7 +32,6 @@ export default function Video({ video, videos }) {
         video.id_related.split(',').filter(it => it !== video.id) :
         []
   const otherVersions = otherIds.map(it => videos.find((v) => v.id === it))
-  const videoChords = video.chords?.split(',')
   const instrument = {...ukeChordsDB.main, tunings: ukeChordsDB.tunings}
   const [showChords, setShowChords] = useState(false)
 
@@ -41,10 +40,10 @@ export default function Video({ video, videos }) {
       <div>
         <Player url={`https://youtube.com/v/${video.id}`}
                 start={video.loop_start} end={video.loop_end}/>
-      <p>Chords: {video.chords}</p>
+      <p>Chords: {video.chords.join(", ")}</p>
       <div className={styles.chordDiagrams}>
-        {videoChords && <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>}
-        {showChords && videoChords?.map(chord => (
+        {video.chords && <p><input type="checkbox" onChange={(e) => setShowChords(e.target.checked)}/> Chord Diagrams</p>}
+        {showChords && video.chords?.map(chord => (
           <div key={chord}>
             <h5>{chord}</h5>
             <Chord lite={false} instrument={instrument} chord={findChord(chord)}/>
@@ -53,7 +52,7 @@ export default function Video({ video, videos }) {
       </div>
       <p>Album: {video.album}</p>
       <p>Composer(s): {video.composer}</p>
-      <p>Artist(s): {video.artists}</p>
+      <p>Artist(s): {video.artists.join(", ")}</p>
       <p>
         This video was uploaded by <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>{video.uploader}</Link>.
         Support this channel by subscribing and liking the <Link href={`https://youtube.com/v/${video.id}`}> video on YouTube</Link>.
