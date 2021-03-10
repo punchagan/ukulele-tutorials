@@ -89,9 +89,9 @@
 }
 
 .searchPanelResults {
-    flex: 5;
+    flex: 7;
     align-content: center;
-    padding: 2em;
+    padding: 2em 5em;
 }
 
 .tutorialSearch {
