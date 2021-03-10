@@ -31,7 +31,15 @@ export default function Home({ videos }) {
         <InstantSearch searchClient={createSearchClient(videos)}
                        indexName="videos"
                        >
-          <SearchBox />
+          <div className="left-panel">
+            <SearchBox />
+            <ClearRefinements />
+            <h2>Artists</h2>
+            <RefinementList attribute="artists"
+                            limit={15} showMore={true} showMoreLimit={1000}
+                            searchable={true} />
+            <Configure hitsPerPage={20} />
+          </div>
           <Hits hitComponent={Video}/>
           <div className="pagination">
             <Pagination />
