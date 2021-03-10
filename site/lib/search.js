@@ -1,5 +1,10 @@
 const sortByUploadDate = (a, b) => String(b.upload_date).localeCompare(String(a.upload_date))
 
+export const filterPublished = (videos, f) => {
+  const onlyPublished = f?.flat().filter(x => x.startsWith('publish')).length > 0
+  return !onlyPublished ? videos : videos.filter(v => v.publish === 1)
+}
+
 export const filterByQuery = (videos, query) => {
   const q = query.toLocaleLowerCase()
 
@@ -18,6 +23,9 @@ export const filterByFacets = (videos, facetFilters) => {
 
   let data = videos
   for (let attribute in filterQ) {
+    if (attribute === 'publish') {
+      continue
+    }
     let query = filterQ[attribute]
     if (listFilters.has(attribute)) {
       data = data.filter(vid => vid[attribute]?.filter(item => query.has(item)).length > 0)
@@ -83,7 +91,7 @@ export const createSearchClient = (data) => {
     clearCache: () => {},
     search: async ([q]) => {
       const {query, page, hitsPerPage, facetFilters} = q.params
-      const videos = filterByQuery(objects, query)
+      const videos = filterByQuery(filterPublished(objects, facetFilters), query)
       const videosFaceted = filterByFacets(videos, facetFilters)
       resultsF = makeResult(videosFaceted, page, hitsPerPage)
       resultsA = makeResult(videos, page, hitsPerPage)

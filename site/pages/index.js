@@ -13,7 +13,8 @@ import {
   ClearRefinements,
   RefinementList,
   Configure,
-  Pagination
+  Pagination,
+  ToggleRefinement,
 } from 'react-instantsearch-dom';
 
 import 'instantsearch.css/themes/reset.css';
@@ -22,6 +23,7 @@ import 'instantsearch.css/themes/satellite.css';
 
 export default function Home({ videos }) {
   const [videoList, setVideoList] = useState(videos)
+  const includeUnpublished = process.env.NODE_ENV !== 'production'
 
   return (
     <Layout>
@@ -30,6 +32,11 @@ export default function Home({ videos }) {
           <div className={styles.searchPanel}>
             <div className={styles.searchPanelFilters}>
               <ClearRefinements />
+
+              {includeUnpublished &&
+                <ToggleRefinement attribute="publish" defaultRefinement={true}
+                                  label="only published" value={1} />
+              }
 
               <h3>Chords</h3>
               <RefinementList className={styles.searchChords}
