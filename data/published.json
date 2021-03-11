@@ -108,6 +108,111 @@
     "id_related":null
   },
   {
+    "title":"Amar bela je jaay | আমার বেলা যে যায় | Ukulele Cover\/ Tutorial | Rabindrasangeet Ukulele",
+    "track":"Amar Bela Je Jaay Sanj Belate",
+    "album":"Aami Jokhon Tanr Duyare",
+    "artists":[
+      "Indrani Sen"
+    ],
+    "composer":"Rabindranath Tagore",
+    "chords":[
+      "A",
+      "Abm",
+      "D",
+      "E",
+      "Em"
+    ],
+    "key":"",
+    "loop_start":0.0,
+    "loop_end":155.0,
+    "publish":1,
+    "id":"rR6zJFSz8xQ",
+    "ignore":0,
+    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
+    "upload_date":20200821,
+    "uploader":"ManidipaBaisya",
+    "id_related":null
+  },
+  {
+    "title":"Baatein Kuch Ankahee Si | EASY UKULELE TUTORIAL | Life in a metro",
+    "track":"Baatein Kuch Ankahee",
+    "album":"Life In A Metro",
+    "artists":[
+      "Suhail Kaul"
+    ],
+    "composer":"Pritam",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "F7",
+      "G"
+    ],
+    "key":"",
+    "loop_start":54.0,
+    "loop_end":134.4,
+    "publish":1,
+    "id":"PKJDI5mtGPA",
+    "ignore":0,
+    "channel":"UChYG9VnF6VjXy4IJMwyt9hA",
+    "upload_date":20180516,
+    "uploader":"Avni Kulshreshtha",
+    "id_related":"PKJDI5mtGPA,J8whu5NKHrs"
+  },
+  {
+    "title":"Baatein Kuch ankahi si Ukulele Tutorial",
+    "track":"Baatein Kuch Ankahee",
+    "album":"Life In A Metro",
+    "artists":[
+      "Suhail Kaul"
+    ],
+    "composer":"Pritam",
+    "chords":[
+      "A",
+      "Bm",
+      "C",
+      "D",
+      "E",
+      "Gbm"
+    ],
+    "key":"",
+    "loop_start":943.5,
+    "loop_end":1111.0,
+    "publish":1,
+    "id":"J8whu5NKHrs",
+    "ignore":0,
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200617,
+    "uploader":"Sayali Tank",
+    "id_related":"PKJDI5mtGPA,J8whu5NKHrs"
+  },
+  {
+    "title":"বড় আশা করে | UKULELE TUTORIAL | Rabindrasangeet Tutorial",
+    "track":"Boro Asha Kore",
+    "album":"Rabindrasangeet Tutorial",
+    "artists":[
+
+    ],
+    "composer":"Rabindranath Tagore",
+    "chords":[
+      "A",
+      "D",
+      "E",
+      "Gbm"
+    ],
+    "key":"",
+    "loop_start":1.5,
+    "loop_end":144.8,
+    "publish":1,
+    "id":"kZ4ORG26Wgw",
+    "ignore":0,
+    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
+    "upload_date":20200509,
+    "uploader":"ManidipaBaisya",
+    "id_related":null
+  },
+  {
     "title":"Chhuker Mere Mann Ko | Kishore Kumar | Easy Ukulele Tutorial",
     "track":"Chookar Mere Mann Ko",
     "album":"Yaarana",
@@ -135,6 +240,87 @@
     "id_related":null
   },
   {
+    "title":"Dil Diyan Gallan | Atif Aslam | Easy Ukulele Tutorial",
+    "track":"Dil Diyan Gallan",
+    "album":"Tiger Zinda Hai",
+    "artists":[
+      "Atif Aslam"
+    ],
+    "composer":"Vishal-Shekhar",
+    "chords":[
+      "A",
+      "A7",
+      "Bm7",
+      "D",
+      "Dmaj7",
+      "Em",
+      "Em7",
+      "G",
+      "Gbm7",
+      "Gmaj7"
+    ],
+    "key":"",
+    "loop_start":21.2,
+    "loop_end":172.5,
+    "publish":1,
+    "id":"jZ-I24GLo4w",
+    "ignore":0,
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20171213,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "id_related":"jZ-I24GLo4w,iTQIqZW49Vo,nOVZFOmkbQY"
+  },
+  {
+    "title":"Dil Diyan Gallan | Easy Singing and Ukulele Tutorial",
+    "track":"Dil Diyan Gallan",
+    "album":"Tiger Zinda Hai",
+    "artists":[
+      "Atif Aslam"
+    ],
+    "composer":"Vishal-Shekhar",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "G"
+    ],
+    "key":"",
+    "loop_start":260.0,
+    "loop_end":332.5,
+    "publish":1,
+    "id":"iTQIqZW49Vo",
+    "ignore":0,
+    "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
+    "upload_date":20180110,
+    "uploader":"Tarun Mishra",
+    "id_related":"jZ-I24GLo4w,iTQIqZW49Vo,nOVZFOmkbQY"
+  },
+  {
+    "title":"Dil Diyan Gallan (Tiger Zinda Hai) - Hindi Ukulele Lesson | ukeguide",
+    "track":"Dil Diyan Gallan",
+    "album":"Tiger Zinda Hai",
+    "artists":[
+      "Atif Aslam"
+    ],
+    "composer":"Vishal-Shekhar",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "loop_start":147.0,
+    "loop_end":230.0,
+    "publish":1,
+    "id":"nOVZFOmkbQY",
+    "ignore":0,
+    "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
+    "upload_date":20180117,
+    "uploader":"ukeguide",
+    "id_related":"jZ-I24GLo4w,iTQIqZW49Vo,nOVZFOmkbQY"
+  },
+  {
     "title":"Dil Hai Chhota Sa | Only 4 Chords | Easy Ukulele Tutorial",
     "track":"Dil Hai Chhota Sa",
     "album":"Roja",
@@ -157,6 +343,29 @@
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":20210214,
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "id_related":null
+  },
+  {
+    "title":"Du mutho bikel | দু মুঠো বিকেল | Anupam Roy | Easy Ukulele Tutorial",
+    "track":"Du Mutho Bikel",
+    "album":"Debi",
+    "artists":[
+      "Anupam Roy"
+    ],
+    "composer":"Anupam Roy",
+    "chords":[
+      "D",
+      "G"
+    ],
+    "key":"",
+    "loop_start":0.0,
+    "loop_end":121.0,
+    "publish":1,
+    "id":"oGhVIBi1y7o",
+    "ignore":0,
+    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
+    "upload_date":20200915,
+    "uploader":"ManidipaBaisya",
     "id_related":null
   },
   {
@@ -269,6 +478,33 @@
     "id_related":"ogLIyXBpcsA,hrO1mFjFTmM,OvKBZLm6aiA,FFrFJMbqFnQ"
   },
   {
+    "title":"Illahi Ukulele Tutorial",
+    "track":"Illahi",
+    "album":"Yeh Jawaani Hai Deewani",
+    "artists":[
+      "Mohit Chauhan"
+    ],
+    "composer":"Pritam Chakraborty",
+    "chords":[
+      "A",
+      "Bm",
+      "Dsus2",
+      "F",
+      "G",
+      "Gbm"
+    ],
+    "key":"",
+    "loop_start":421.5,
+    "loop_end":754.0,
+    "publish":1,
+    "id":"L8iO70RSqBo",
+    "ignore":0,
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200701,
+    "uploader":"Sayali Tank",
+    "id_related":null
+  },
+  {
     "title":"Jab koi baat bigad jaye Ukulele Tutorial with Playalong",
     "track":"Jab Koi Baat Bigad Jaye",
     "album":"Jurm",
@@ -350,6 +586,34 @@
     "id_related":"iofvfh7YH-U,LC5fL-BsnVM"
   },
   {
+    "title":"Kya karu (Wake Up Sid) Ukulele tutorial",
+    "track":"Kya Karoon?",
+    "album":"Wake Up Sid",
+    "artists":[
+      "Clinton Cerejo",
+      "Dominique Cerejo",
+      "Loy Mendonsa"
+    ],
+    "composer":"Shankar, Ehsaan, Loy",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "loop_start":315.0,
+    "loop_end":576.6,
+    "publish":1,
+    "id":"ogLzYIu1r5Q",
+    "ignore":0,
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200708,
+    "uploader":"Sayali Tank",
+    "id_related":null
+  },
+  {
     "title":"Mana Ke Hum Yaar Nahin | Parineeti Chopra | Easy Ukulele Tutorial",
     "track":"Mana Ke Hum Yaar Nahin",
     "album":"Meri Pyaari Bindu",
@@ -378,6 +642,85 @@
     "id_related":null
   },
   {
+    "title":"Pal Pal Dil Ke Paas | Kishore Kumar | Easy Ukulele Tutorial",
+    "track":"Pal Pal Dil Ke Paas",
+    "album":"Blackmail",
+    "artists":[
+      "Kishore Kumar"
+    ],
+    "composer":"Kalayanji Anandji",
+    "chords":[
+      "Bbm",
+      "C",
+      "C7",
+      "Dm",
+      "F"
+    ],
+    "key":"",
+    "loop_start":198.8,
+    "loop_end":296.0,
+    "publish":1,
+    "id":"dx3ShFbDfvc",
+    "ignore":0,
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20180318,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "id_related":"dx3ShFbDfvc,ShzPla7KK1Y"
+  },
+  {
+    "title":"Pal Pal Dil Ke Pass Ukulele Tutorial with Playalong",
+    "track":"Pal Pal Dil Ke Paas",
+    "album":"Blackmail",
+    "artists":[
+      "Kishore Kumar"
+    ],
+    "composer":"Kalayanji Anandji",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "Em",
+      "G",
+      "Gbm"
+    ],
+    "key":"",
+    "loop_start":505.5,
+    "loop_end":603.6,
+    "publish":1,
+    "id":"ShzPla7KK1Y",
+    "ignore":0,
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20210310,
+    "uploader":"Sayali Tank",
+    "id_related":"dx3ShFbDfvc,ShzPla7KK1Y"
+  },
+  {
+    "title":"Preme pora baron | প্রেমে পড়া বারণ | UKULELE TUTORIAL",
+    "track":"Preme Pora Baron",
+    "album":"Sweater",
+    "artists":[
+      "Lagnajita Chakraborty"
+    ],
+    "composer":"Ranajoy Bhattacharjee",
+    "chords":[
+      "A",
+      "B",
+      "D",
+      "E",
+      "Gbm"
+    ],
+    "key":"",
+    "loop_start":109.0,
+    "loop_end":495.0,
+    "publish":1,
+    "id":"WS_a4B2dHFI",
+    "ignore":0,
+    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
+    "upload_date":20200801,
+    "uploader":"ManidipaBaisya",
+    "id_related":null
+  },
+  {
     "title":"Raat Kali Ek Khwab Mein Aayi Ukulele Tutorial with Playalong",
     "track":"Raat Kali Ek Khwab Mein Aayi",
     "album":"Buddha Mil Gaya",
@@ -399,6 +742,31 @@
     "ignore":0,
     "channel":"UCJjV2CHB58Xerdqbwyka7QA",
     "upload_date":20210127,
+    "uploader":"Sayali Tank",
+    "id_related":null
+  },
+  {
+    "title":"Teri Mitti (Kesari) Ukulele Tutorial with Playalong",
+    "track":"Teri Mitti",
+    "album":"Kesari",
+    "artists":[
+      "B Praak"
+    ],
+    "composer":"Arko Pravo Mukherjee",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "G"
+    ],
+    "key":"",
+    "loop_start":422.2,
+    "loop_end":570.0,
+    "publish":1,
+    "id":"aG9BccTbTGU",
+    "ignore":0,
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20210120,
     "uploader":"Sayali Tank",
     "id_related":null
   },
@@ -1005,32 +1373,6 @@
     "id_related":null
   },
   {
-    "title":"Amar bela je jaay | আমার বেলা যে যায় | Ukulele Cover\/ Tutorial | Rabindrasangeet Ukulele",
-    "track":"Amar Bela Je Jaay",
-    "album":"আমার বেলা যে যায়",
-    "artists":[
-      "Ukulele Cover\/ Tutorial"
-    ],
-    "composer":"",
-    "chords":[
-      "A",
-      "D",
-      "E",
-      "Em",
-      "G#M"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":155.0,
-    "publish":0,
-    "id":"rR6zJFSz8xQ",
-    "ignore":0,
-    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
-    "upload_date":"20200821",
-    "uploader":"ManidipaBaisya",
-    "id_related":null
-  },
-  {
     "title":"Ami sunechi sedin tumi | আমি শুনেছি সেদিন তুমি | Mousumi Bhowmik | Ukulele Tutorial",
     "track":"Ami Sunechi Sedin Tumi",
     "album":"Amar Kichu Kotha Chilo",
@@ -1142,55 +1484,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20181129",
     "uploader":"ukeguide",
-    "id_related":null
-  },
-  {
-    "title":"Baatein Kuch Ankahee Si | EASY UKULELE TUTORIAL | Life in a metro",
-    "track":"Baatein Kuch Ankahee Si",
-    "album":"Life In A Metro",
-    "artists":[
-      "Suhail Kaul"
-    ],
-    "composer":"Pritam",
-    "chords":[
-
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":192.0,
-    "publish":0,
-    "id":"PKJDI5mtGPA",
-    "ignore":0,
-    "channel":"UChYG9VnF6VjXy4IJMwyt9hA",
-    "upload_date":"20180516",
-    "uploader":"Avni Kulshreshtha",
-    "id_related":null
-  },
-  {
-    "title":"Baatein Kuch ankahi si Ukulele Tutorial",
-    "track":"Baatein Kuch Ankahi Si",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-      "A",
-      "Bm",
-      "C",
-      "D",
-      "E",
-      "F#M"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":1192.0,
-    "publish":0,
-    "id":"J8whu5NKHrs",
-    "ignore":0,
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200617",
-    "uploader":"Sayali Tank",
     "id_related":null
   },
   {
@@ -2113,72 +2406,6 @@
     "id_related":null
   },
   {
-    "title":"Dil Diyan Gallan | Easy Singing and Ukulele Tutorial",
-    "track":"Dil Diyan Gallan",
-    "album":"Singing And",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":387.0,
-    "publish":0,
-    "id":"iTQIqZW49Vo",
-    "ignore":0,
-    "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
-    "upload_date":"20180110",
-    "uploader":"Tarun Mishra",
-    "id_related":null
-  },
-  {
-    "title":"Dil Diyan Gallan | Atif Aslam | Easy Ukulele Tutorial",
-    "track":"Dil Diyan Gallan",
-    "album":"Tiger Zinda Hai",
-    "artists":[
-      "Atif Aslam"
-    ],
-    "composer":"Vishal-Shekhar",
-    "chords":[
-
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":298.0,
-    "publish":0,
-    "id":"jZ-I24GLo4w",
-    "ignore":0,
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20171213",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
-    "id_related":null
-  },
-  {
-    "title":"Dil Diyan Gallan (Tiger Zinda Hai) - Hindi Ukulele Lesson | ukeguide",
-    "track":"Dil Diyan Gallan  - Hindi Ukulele Lesson",
-    "album":"Tiger Zinda Hai",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":260.0,
-    "publish":0,
-    "id":"nOVZFOmkbQY",
-    "ignore":0,
-    "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
-    "upload_date":"20180117",
-    "uploader":"ukeguide",
-    "id_related":null
-  },
-  {
     "title":"Dil Hai Ke Maanta Nahin | Kumar Sanu & Anuradha Paudwal | Easy Ukulele Tutorial",
     "track":"Dil Hai Ke Maanta Nahin",
     "album":"Dil Hai Ke Manta Nahin",
@@ -2434,29 +2661,6 @@
     "channel":"UCJjV2CHB58Xerdqbwyka7QA",
     "upload_date":"20200902",
     "uploader":"Sayali Tank",
-    "id_related":null
-  },
-  {
-    "title":"Du mutho bikel | দু মুঠো বিকেল | Anupam Roy | Easy Ukulele Tutorial",
-    "track":"Du Mutho Bikel",
-    "album":"Debi",
-    "artists":[
-      "Anupam Roy"
-    ],
-    "composer":"Anupam Roy",
-    "chords":[
-      "D Only",
-      "G"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":121.0,
-    "publish":0,
-    "id":"oGhVIBi1y7o",
-    "ignore":0,
-    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
-    "upload_date":"20200915",
-    "uploader":"ManidipaBaisya",
     "id_related":null
   },
   {
@@ -3615,33 +3819,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20180315",
     "uploader":"ukeguide",
-    "id_related":null
-  },
-  {
-    "title":"Illahi Ukulele Tutorial",
-    "track":"Illahi",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-      "A",
-      "Bm",
-      "Dsus2",
-      "F",
-      "F#M",
-      "G"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":827.0,
-    "publish":0,
-    "id":"L8iO70RSqBo",
-    "ignore":0,
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200701",
-    "uploader":"Sayali Tank",
     "id_related":null
   },
   {
@@ -4922,28 +5099,6 @@
     "id_related":null
   },
   {
-    "title":"Kya karu (Wake Up Sid) Ukulele tutorial",
-    "track":"Kya Karu",
-    "album":"Wake Up Sid",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-      "C  G  Am  F  Bb"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":638.0,
-    "publish":0,
-    "id":"ogLzYIu1r5Q",
-    "ignore":0,
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200708",
-    "uploader":"Sayali Tank",
-    "id_related":null
-  },
-  {
     "title":"Kya Khoob Lagti Ho | Dharmatama | Easiest Ukulele Tutorial",
     "track":"Kya Khoob Lagti Ho",
     "album":"Dharmatama",
@@ -5212,33 +5367,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20200111",
     "uploader":"ukeguide",
-    "id_related":null
-  },
-  {
-    "title":"Like I'm gonna lose you | Meghan Trainor |John Legend | Easy Ukulele Tutorial |",
-    "track":"Like I'M Gonna Lose You",
-    "album":"Meghan Trainor",
-    "artists":[
-      "John Legend",
-      "Meghan Trainor"
-    ],
-    "composer":"",
-    "chords":[
-      "#Avnikulshreshtha #Ukuleletutorial",
-      "Am",
-      "C",
-      "Em",
-      "F"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":211.0,
-    "publish":0,
-    "id":"f-UyklSUe_s",
-    "ignore":0,
-    "channel":"UChYG9VnF6VjXy4IJMwyt9hA",
-    "upload_date":"20170504",
-    "uploader":"Avni Kulshreshtha",
     "id_related":null
   },
   {
@@ -6801,55 +6929,6 @@
     "id_related":null
   },
   {
-    "title":"Pal Pal Dil Ke Paas | Kishore Kumar | Easy Ukulele Tutorial",
-    "track":"Pal Pal Dil Ke Paas",
-    "album":"Blackmail",
-    "artists":[
-      "Kishore Kumar"
-    ],
-    "composer":"Kalayanji Anandji",
-    "chords":[
-
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":331.0,
-    "publish":0,
-    "id":"dx3ShFbDfvc",
-    "ignore":0,
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20180318",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
-    "id_related":null
-  },
-  {
-    "title":"Pal Pal Dil Ke Pass Ukulele Tutorial with Playalong",
-    "track":"Pal Pal Dil Ke Pass",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-      "A",
-      "Bm",
-      "D",
-      "Em",
-      "F#M",
-      "G"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":646.0,
-    "publish":0,
-    "id":"ShzPla7KK1Y",
-    "ignore":0,
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20210310",
-    "uploader":"Sayali Tank",
-    "id_related":null
-  },
-  {
     "title":"Pani da Rang Ukulele Tutorial | Only 3 Simple Chords | Easy Tutorial",
     "track":"Pani Da Rang",
     "album":"",
@@ -7343,32 +7422,6 @@
     "channel":"UC6PY2h7NZP_fGKFpIIGmwwg",
     "upload_date":"20180914",
     "uploader":"Nabid Alam",
-    "id_related":null
-  },
-  {
-    "title":"Preme pora baron | প্রেমে পড়া বারণ | UKULELE TUTORIAL",
-    "track":"Preme Pora Baron",
-    "album":"Sweater",
-    "artists":[
-      "Lagnajita Chakraborty"
-    ],
-    "composer":"",
-    "chords":[
-      "A",
-      "B",
-      "D",
-      "E",
-      "F#M"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":495.0,
-    "publish":0,
-    "id":"WS_a4B2dHFI",
-    "ignore":0,
-    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
-    "upload_date":"20200801",
-    "uploader":"ManidipaBaisya",
     "id_related":null
   },
   {
@@ -8789,31 +8842,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20190919",
     "uploader":"ukeguide",
-    "id_related":null
-  },
-  {
-    "title":"Teri Mitti (Kesari) Ukulele Tutorial with Playalong",
-    "track":"Teri Mitti",
-    "album":"Kesari",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-      "A Chords With The Same Chord Progression",
-      "Bm",
-      "D",
-      "G"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":624.0,
-    "publish":0,
-    "id":"aG9BccTbTGU",
-    "ignore":0,
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20210120",
-    "uploader":"Sayali Tank",
     "id_related":null
   },
   {
@@ -10312,31 +10340,6 @@
     "ignore":0,
     "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
     "upload_date":"20190409",
-    "uploader":"ManidipaBaisya",
-    "id_related":null
-  },
-  {
-    "title":"বড় আশা করে | UKULELE TUTORIAL | Rabindrasangeet Tutorial",
-    "track":"বড় আশা করে",
-    "album":"Rabindrasangeet Tutorial",
-    "artists":[
-
-    ],
-    "composer":"",
-    "chords":[
-      "A",
-      "D",
-      "E",
-      "F#M"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":289.0,
-    "publish":0,
-    "id":"kZ4ORG26Wgw",
-    "ignore":0,
-    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
-    "upload_date":"20200509",
     "uploader":"ManidipaBaisya",
     "id_related":null
   },
