@@ -51,7 +51,7 @@ export default function Home({ videos }) {
             {includeUnpublished && (
               <ToggleRefinement
                 attribute="publish"
-                defaultRefinement={true}
+                defaultRefinement={false}
                 label="only published"
                 value={1}
               />
