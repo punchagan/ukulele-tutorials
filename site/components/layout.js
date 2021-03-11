@@ -6,13 +6,13 @@ export default function Layout({ children, title = "This is the default title" }
   return (
     <div>
       <Head>
-        <title>Ukulele Tutorials for Indian Music</title>
+        <title>Ukulele Tutorials for Indian Songs!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header>
         <nav>
-          <Link href="/">Welcome to uke-tutorials.in!</Link>
+          <Link href="/">Ukulele Tutorials for Indian Songs!</Link>
         </nav>
       </header>
 
