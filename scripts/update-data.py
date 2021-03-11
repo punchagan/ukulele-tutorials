@@ -20,6 +20,7 @@ CHANNELS = [
     'https://www.youtube.com/c/AvniKulshreshtha/videos',
     'https://www.youtube.com/c/UkuleleAdda/videos',  # Baritone
     'https://www.youtube.com/channel/UCCHSNlm8UTsY_8sUoEAH5sA/videos',  # Hassan Khan
+    'https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos',  # the chashmish
     # 'https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos', # Uke Bajao - Melody tutorials
 
 ]
