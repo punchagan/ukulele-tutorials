@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/router";
 import Link from "next/link";
 import Layout from "../components/layout";
 import { Video } from "../components/video-list";
@@ -16,9 +17,15 @@ import {
   ToggleRefinement,
   NumericMenu
 } from "react-instantsearch-dom";
+import qs from "qs";
 
 import "instantsearch.css/themes/reset.css";
 import "instantsearch.css/themes/satellite.css";
+
+const createURL = state => `?${qs.stringify(state)}`;
+
+const searchStateToUrl = (router, searchState) =>
+  searchState ? `${location.pathname}${createURL(searchState)}` : "";
 
 export default function Home({ videos }) {
   const includeUnpublished = process.env.NODE_ENV !== "production";
@@ -29,21 +36,49 @@ export default function Home({ videos }) {
     { label: "8 or more chords", start: 8 }
   ];
 
+  const router = useRouter();
+
+  const [searchState, setSearchState] = useState(qs.parse(router.asPath.slice(2)));
+  const [debouncedSetState, setDebouncedSetState] = useState(null);
+  const DEBOUNCE_TIME = 400;
+
+  const onSearchStateChange = updatedSearchState => {
+    clearTimeout(debouncedSetState);
+
+    setDebouncedSetState(
+      setTimeout(() => {
+        router.push(searchStateToUrl(router, updatedSearchState));
+      }, DEBOUNCE_TIME)
+    );
+
+    setSearchState(updatedSearchState);
+  };
+
   const searchModes = [
     { value: "all", label: "Include All the selected chords" },
     { value: "any", label: "Include Any of the selected chords" },
     { value: "exact", label: "Include Exactly the selected chords" },
     { value: "none", label: "Exclude All the selected chords" }
   ];
-  const [chordsSearchMode, setChordsSearchMode] = useState("all");
+  const [chordsSearchMode, setChordsSearchMode] = useState(searchState.chordsSearchMode || "all");
   const changeSearchMode = e => setChordsSearchMode(searchModes[e.target.selectedIndex].value);
+  const chordsSearchModeClassName = `ais-MenuSelect ${styles.chordModeSelect}`;
+
+  useEffect(() => {
+    onSearchStateChange({ ...searchState, chordsSearchMode });
+  }, [chordsSearchMode]);
 
   const searchClient = createSearchClient(videos, chordsSearchMode);
-  const chordsSearchModeClassName = `ais-MenuSelect ${styles.chordModeSelect}`;
 
   return (
     <Layout>
-      <InstantSearch searchClient={searchClient} indexName="videos">
+      <InstantSearch
+        searchClient={searchClient}
+        searchState={searchState}
+        createURL={createURL}
+        onSearchStateChange={onSearchStateChange}
+        indexName="videos"
+      >
         <div className={styles.searchPanel}>
           <div className={styles.searchPanelFilters}>
             <ClearRefinements />
