@@ -97,7 +97,7 @@ class Updater:
         for each in files:
             os.remove(os.path.join(self.json_dir, each))
 
-        with ThreadPoolExecutor(max_workers=4) as e:
+        with ThreadPoolExecutor(max_workers=6) as e:
             for channel in CHANNELS:
                 e.submit(self.download_json, channel)
 
