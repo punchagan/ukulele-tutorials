@@ -15,6 +15,7 @@ import {
   Configure,
   Pagination,
   ToggleRefinement,
+  NumericMenu,
 } from 'react-instantsearch-dom';
 
 import 'instantsearch.css/themes/reset.css';
@@ -41,6 +42,16 @@ export default function Home({ videos }) {
               <h3>Chords</h3>
               <RefinementList className={styles.searchChords}
                               attribute="chords" limit={100} />
+              <h4>Chord Count</h4>
+              <NumericMenu
+                attribute="chordCount"
+                items={[
+                  { label: '1 or 2 chords', end: 2 },
+                  { label: '3 or 4 chords', start: 3, end: 4 },
+                  { label: '5, 6 or 7 chords', start: 5, end: 7 },
+                  { label: '8 or more chords', start: 8 },
+                ]}
+              />
               <h3>Artists</h3>
               <RefinementList attribute="artists"
                               limit={10} showMore={true} showMoreLimit={1000}

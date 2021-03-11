@@ -68,6 +68,7 @@ const getCounts = (data, attribute) => {
 
 const getUploaderCounts = (data) => getCounts(data, "uploader")
 const getAlbumCounts = (data) => getCounts(data, "album")
+const getChordCountCounts = (data) => getCounts(data, "chordCount")
 
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page+1))
@@ -77,23 +78,36 @@ export const makeResult = (videos, page, hitsPerPage) => {
     artists: getArtistsCounts(videos),
     chords: getChordsCounts(videos),
     uploader: getUploaderCounts(videos),
+    chordCount: getChordCountCounts(videos),
     album: getAlbumCounts(videos.filter(v => v.album != ""))
   }
-  return {hits, nbHits, hitsPerPage, nbPages, facets}
+  const facets_stats = {
+    chordCount: {
+      min: Math.min.apply(Math, Object.keys(facets.chordCount)),
+      max: Math.max.apply(Math, Object.keys(facets.chordCount)),
+    }
+  }
+  return {hits, nbHits, hitsPerPage, nbPages, facets, facets_stats}
+}
+
+const filterNumeric = (data, numericFilters) => {
+  const q = numericFilters?.map(x => `v.${x}`).join(' && ')
+  return q === undefined ? data : data.filter((v) => eval(q))
 }
 
 export const createSearchClient = (data) => {
-  const objects = data.map((x) => ({...x, objectID: x.id}))
+  const objects = data.map((x) => ({...x, objectID: x.id, chordCount: x.chords.length}))
   let resultsF, resultsA;
 
   const client = {
     addAlgoliaAgent: () => {},
     clearCache: () => {},
     search: async ([q]) => {
-      const {query, page, hitsPerPage, facetFilters} = q.params
+      const {query, page, hitsPerPage, facetFilters, numericFilters} = q.params
       const videos = filterByQuery(filterPublished(objects, facetFilters), query)
       const videosFaceted = filterByFacets(videos, facetFilters)
-      resultsF = makeResult(videosFaceted, page, hitsPerPage)
+      const videosNumeric = filterNumeric(videosFaceted, numericFilters)
+      resultsF = makeResult(videosNumeric, page, hitsPerPage)
       resultsA = makeResult(videos, page, hitsPerPage)
       const results = [resultsF, resultsA]
       return {results}
