@@ -22,9 +22,7 @@ import "instantsearch.css/themes/reset.css";
 import "instantsearch.css/themes/satellite.css";
 
 export default function Home({ videos }) {
-  const [videoList, setVideoList] = useState(videos);
   const includeUnpublished = process.env.NODE_ENV !== "production";
-
   const chordCountMenuItems = [
     { label: "1 or 2 chords", end: 2 },
     { label: "3 or 4 chords", start: 3, end: 4 },
