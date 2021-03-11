@@ -19,6 +19,6 @@ yarn export
 # popd
 
 # Push to muse-amuse.in
-rsync -azP --delete "${EXPORT_DIR}/" muse-amuse.in:~/public_html/uke-tutorials.in
+rsync -azP --delete "${EXPORT_DIR}/" muse-amuse.in:~/ukulele.muse-amuse.in
 
 popd
