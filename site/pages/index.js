@@ -30,9 +30,20 @@ export default function Home({ videos }) {
     { label: "8 or more chords", start: 8 }
   ];
 
+  const searchModes = [
+    { value: "all", label: "Include All the selected chords" },
+    { value: "any", label: "Include Any of the selected chords" },
+    { value: "exact", label: "Include Exactly the selected chords" },
+    { value: "none", label: "Exclude All the selected chords" }
+  ];
+  const [chordsSearchMode, setChordsSearchMode] = useState("all");
+  const changeSearchMode = e => setChordsSearchMode(searchModes[e.target.selectedIndex].value);
+
+  const searchClient = createSearchClient(videos, chordsSearchMode);
+
   return (
     <Layout>
-      <InstantSearch searchClient={createSearchClient(videos)} indexName="videos">
+      <InstantSearch searchClient={searchClient} indexName="videos">
         <div className={styles.searchPanel}>
           <div className={styles.searchPanelFilters}>
             <ClearRefinements />
@@ -48,6 +59,21 @@ export default function Home({ videos }) {
 
             <h3>Chords</h3>
             <RefinementList className={styles.searchChords} attribute="chords" limit={100} />
+            <h6 className={styles.modeHeading}>Search mode</h6>
+            <div className={`ais-MenuSelect ${styles.chordModeSelect}`}>
+              <select
+                className="ais-MenuSelect-select"
+                onChange={changeSearchMode}
+                value={chordsSearchMode}
+              >
+                {searchModes.map(mode => (
+                  <option className="ais-MenuSelect-option" key={mode.value} value={mode.value}>
+                    {mode.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+
             <h4>Chord Count</h4>
             <NumericMenu attribute="chordCount" items={chordCountMenuItems} />
             <h3>Artists</h3>

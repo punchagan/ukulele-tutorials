@@ -13,12 +13,12 @@ export const filterByQuery = (videos, query) => {
     .sort(sortByUploadDate);
 };
 
-export const filterByFacets = (videos, facetFilters) => {
+export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
   const listFilters = new Set(["chords", "artists"]);
 
   const filterQ = facetFilters?.reduce((obj, ff) => {
     const [key, val] = ff[0].split(":");
-    return { ...obj, [key]: listFilters.has(key) ? new Set(ff.map(f => f.split(":")[1])) : val };
+    return { ...obj, [key]: listFilters.has(key) ? ff.map(f => f.split(":")[1]) : val };
   }, {});
 
   let data = videos;
@@ -27,8 +27,33 @@ export const filterByFacets = (videos, facetFilters) => {
       continue;
     }
     let query = filterQ[attribute];
-    if (listFilters.has(attribute)) {
-      data = data.filter(vid => vid[attribute]?.filter(item => query.has(item)).length > 0);
+
+    const listFilterFuncs = {
+      exact: vid => {
+        const vidChords = new Set(vid[attribute]);
+        return (
+          query.length == vidChords.size &&
+          query.filter(item => vidChords.has(item)).length === query.length
+        );
+      },
+      any: vid => {
+        const vidChords = new Set(vid[attribute]);
+        return query.filter(item => vidChords.has(item)).length > 0;
+      },
+      all: vid => {
+        const vidChords = new Set(vid[attribute]);
+        return query.filter(item => vidChords.has(item)).length === query.length;
+      },
+      none: vid => {
+        const vidChords = new Set(vid[attribute]);
+        return query.filter(item => vidChords.has(item)).length === 0;
+      }
+    };
+
+    if (attribute === "chords") {
+      data = data.filter(listFilterFuncs[chordsSearchMode]);
+    } else if (listFilters.has(attribute)) {
+      data = data.filter(listFilterFuncs.any);
     } else {
       data = data.filter(vid => vid[attribute] === query);
     }
@@ -94,7 +119,7 @@ const filterNumeric = (data, numericFilters) => {
   return q === undefined ? data : data.filter(v => eval(q));
 };
 
-export const createSearchClient = data => {
+export const createSearchClient = (data, chordsSearchMode) => {
   const objects = data.map(x => ({ ...x, objectID: x.id, chordCount: x.chords.length }));
   let resultsF, resultsA;
 
@@ -104,7 +129,7 @@ export const createSearchClient = data => {
     search: async ([q]) => {
       const { query, page, hitsPerPage, facetFilters, numericFilters } = q.params;
       const videos = filterByQuery(filterPublished(objects, facetFilters), query);
-      const videosFaceted = filterByFacets(videos, facetFilters);
+      const videosFaceted = filterByFacets(videos, facetFilters, chordsSearchMode);
       const videosNumeric = filterNumeric(videosFaceted, numericFilters);
       resultsF = makeResult(videosNumeric, page, hitsPerPage);
       resultsA = makeResult(videos, page, hitsPerPage);
