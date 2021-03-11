@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/layout";
 import { Video } from "../components/video-list";
@@ -40,6 +39,7 @@ export default function Home({ videos }) {
   const changeSearchMode = e => setChordsSearchMode(searchModes[e.target.selectedIndex].value);
 
   const searchClient = createSearchClient(videos, chordsSearchMode);
+  const chordsSearchModeClassName = `ais-MenuSelect ${styles.chordModeSelect}`;
 
   return (
     <Layout>
@@ -60,7 +60,7 @@ export default function Home({ videos }) {
             <h3>Chords</h3>
             <RefinementList className={styles.searchChords} attribute="chords" limit={100} />
             <h6 className={styles.modeHeading}>Search mode</h6>
-            <div className={`ais-MenuSelect ${styles.chordModeSelect}`}>
+            <div className={chordsSearchModeClassName}>
               <select
                 className="ais-MenuSelect-select"
                 onChange={changeSearchMode}
