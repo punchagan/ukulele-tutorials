@@ -191,6 +191,7 @@ class Updater:
                          key=lambda x: column_order.index(x) if x in column_order else 100)
         data = data[columns].sort_values(
             ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
+            key=lambda col: col.str.lower() if col.dtype == 'object' else col,
             ascending=[False, False, True, True, True, True])
 
         return data
