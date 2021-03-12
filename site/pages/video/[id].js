@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Head from "next/head";
 import Layout from "../../components/layout";
 import Player from "../../components/player";
 import { VideoList } from "../../components/video-list";
@@ -36,6 +37,18 @@ export default function Video({ video, videos }) {
 
   return (
     <Layout>
+      <Head>
+        <title>
+          {video.uploader}: {video.track} - {video.artists.join(", ")} - Ukulele Video Tutorial
+        </title>
+        <meta
+          name="description"
+          content={`Ukulele video tutorial for the song ${video.track} from the channel ${
+            video.uploader
+          }. Artists: ${video.artists.join(", ")}. Chords: ${video.chords.join(", ")}.`}
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <div>
         <Player
           url={`https://youtube.com/v/${video.id}`}
