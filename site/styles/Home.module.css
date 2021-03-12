@@ -117,6 +117,10 @@
     margin: 0.5rem 0;
 }
 
+.chordName {
+    margin-right: 0.5em;
+}
+
 .chordModeSelect > select {
     font-size: 0.7rem;
     height: 2rem;

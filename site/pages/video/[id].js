@@ -42,7 +42,14 @@ export default function Video({ video, videos }) {
           start={video.loop_start}
           end={video.loop_end}
         />
-        <p>Chords: {video.chords.join(", ")}</p>
+        <p>
+          Chords:{" "}
+          {video.chords?.map(chord => (
+            <Link href={`/?refinementList[chords][0]=${chord}`}>
+              <a className={styles.chordName}>{chord}</a>
+            </Link>
+          ))}
+        </p>
         <div className={styles.chordDiagrams}>
           {video.chords && (
             <p>
@@ -58,9 +65,21 @@ export default function Video({ video, videos }) {
               </div>
             ))}
         </div>
-        <p>Album: {video.album}</p>
+        <p>
+          Album:{" "}
+          <Link href={`/?refinementList[album][0]=${video.album}`}>
+            <a>{video.album}</a>
+          </Link>
+        </p>
+        <p>
+          Artist(s):{" "}
+          {video.artists?.map(artist => (
+            <Link href={`/?refinementList[artists][0]=${artist}`}>
+              <a className={styles.chordName}>{artist}</a>
+            </Link>
+          ))}
+        </p>
         <p>Composer(s): {video.composer}</p>
-        <p>Artist(s): {video.artists.join(", ")}</p>
         <p>
           This video was uploaded by{" "}
           <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
