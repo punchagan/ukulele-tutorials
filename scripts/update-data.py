@@ -73,15 +73,15 @@ class Updater:
                 f.seek(0)
                 data = json.load(f)
 
-        channel['id'] = data['id']
-        channel['name'] = data['uploader']
+        channel['id'] = data.get('uploader_id', data['id'])
+        channel['name'] = data.get('uploader', data['title'])
         name = f"{data['id']}.json"
         with open(os.path.join(self.json_dir, name), 'w') as f:
             json.dump(data, f, indent=2)
 
         n = len(data.get('entries', []))
         t = time.time() - start
-        print(f'Wrote {n} entries for {url} to {f.name} in {t} seconds')
+        print(f'Wrote {n} entries for {channel["name"]} to {f.name} in {t} seconds')
 
     def download_all_jsons(self):
         # Delete all existing JSON files before downloading
