@@ -42,6 +42,8 @@ channels:
 - id: UCpxZQKj_Gwldx5vOYnRHIIw
   name: Ukulele Adda - Videos
   url: https://www.youtube.com/c/UkuleleAdda/videos
+  language: Hindi
+  song_language: Hindi
 - id: UCCHSNlm8UTsY_8sUoEAH5sA
   language: Hindi
   name: Hassan Khan - Videos

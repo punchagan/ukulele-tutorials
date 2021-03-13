@@ -42,7 +42,7 @@ SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|compo
                           flags=re.IGNORECASE|re.MULTILINE)
 
 COLUMNS = ['ignore', 'publish', 'id', 'track', 'chords', 'key',
-           'album', 'artists', 'composer',
+           'album', 'artists', 'composer', 'language',
            'loop_start', 'loop_end',
            'title', 'channel', 'upload_date', 'uploader', 'id_related', 'baritone']
 
@@ -112,6 +112,7 @@ class Updater:
             data = json.load(f)
 
         videos = []
+        channels = self._read_channel_data()
         for i, entry in enumerate(data['entries'], start=1):
             if entry is None:
                 continue
@@ -128,7 +129,7 @@ class Updater:
                 'title': entry['title'],
             }
             if not ignore:
-                video.update(self._extract_info(entry))
+                video.update(self._extract_info(entry, channels))
             videos.append(video)
         return pd.DataFrame(videos)
 
@@ -197,7 +198,7 @@ class Updater:
 
         return data
 
-    def _extract_info(self, entry):
+    def _extract_info(self, entry, channels):
         title, _ = TITLE_RE.subn('|', entry['title'])
         title, _ = re.subn('\s*\|+(\s*\|)*\s*', '|', title)
         track, album, artists = (title.split('|', 3) + [''] * 3)[:3]
@@ -235,6 +236,17 @@ class Updater:
         else:
             composer = ''
 
+        channel = [c for c in channels if c.get('id') == entry['channel_id']][0]
+        languages = {'hindi', 'english', 'telugu', 'tamil', 'malayalam', 'kannada',
+                     'bengali', 'bangla', 'punjabi'}
+        for language in languages:
+            if language in entry['title'].lower():
+                if language == 'bangla':
+                    language = 'bengali'
+                break
+        else:
+            language = channel['song_language']
+
         info = {
             'ignore': int(not title),
             'track': track.title(),
@@ -244,6 +256,7 @@ class Updater:
             'chords': chords,
             'key': '',
             'baritone': int('baritone' in title.lower()),
+            'language': language.title(),
         }
         return info
 
