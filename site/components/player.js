@@ -47,28 +47,43 @@ export default function Player({ url, start, end }) {
           }}
         />
       </div>
-      <p>
-        <input
-          type="checkbox"
-          defaultChecked={useLoop}
-          onChange={e => setUseLoop(e.target.checked)}
-        />
-        Loop
-      </p>
-      <input
-        type="number"
-        step="0.01"
-        min="0"
-        value={loopStart}
-        onChange={e => setLoopStart(e.target.value)}
-      />
-      <input
-        type="number"
-        step="0.01"
-        min="0"
-        value={loopEnd}
-        onChange={e => setLoopEnd(e.target.value)}
-      />
+
+      <ul className={styles.videoLoopControls}>
+        <li className={styles.loopControl}>
+          <span>Loop </span>
+          <span>
+            <input
+              type="checkbox"
+              defaultChecked={useLoop}
+              onChange={e => setUseLoop(e.target.checked)}
+            />
+          </span>
+        </li>
+        <li className={styles.loopControl}>
+          <span>Start </span>
+          <span>
+            <input
+              type="number"
+              step="0.01"
+              min="0"
+              value={loopStart}
+              onChange={e => setLoopStart(e.target.value)}
+            />
+          </span>
+        </li>
+        <li className={styles.loopControl}>
+          <span>End </span>
+          <span>
+            <input
+              type="number"
+              step="0.01"
+              min="0"
+              value={loopEnd}
+              onChange={e => setLoopEnd(e.target.value)}
+            />
+          </span>
+        </li>
+      </ul>
     </div>
   );
 }

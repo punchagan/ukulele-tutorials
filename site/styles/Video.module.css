@@ -72,6 +72,20 @@
     flex-wrap: wrap;
 }
 
+.videoLoopControls {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+    align-content: center;
+}
+
+.loopControl {
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+    align-content: center;
+}
+
 @media (max-width: 768px) {
 
     .panelContainer {
