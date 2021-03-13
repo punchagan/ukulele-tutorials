@@ -40,10 +40,10 @@ channels:
   song_language: Hindi
   url: https://www.youtube.com/c/AvniKulshreshtha/videos
 - id: UCpxZQKj_Gwldx5vOYnRHIIw
-  name: Ukulele Adda - Videos
-  url: https://www.youtube.com/c/UkuleleAdda/videos
   language: Hindi
+  name: Ukulele Adda - Videos
   song_language: Hindi
+  url: https://www.youtube.com/c/UkuleleAdda/videos
 - id: UCCHSNlm8UTsY_8sUoEAH5sA
   language: Hindi
   name: Hassan Khan - Videos
@@ -59,6 +59,26 @@ channels:
   name: One String by Priyanka Ravindran - Videos
   song_language: Hindi
   url: https://www.youtube.com/channel/UC8JGJmLrRlz5Kf9GguiCq6g/videos
+- id: UCTSDR18UOA5SMGmq7Ok7Whw
+  language: English
+  name: Aishu's Telugu Ukulele Tutorials - Videos
+  song_language: Telugu
+  url: https://www.youtube.com/channel/UCTSDR18UOA5SMGmq7Ok7Whw/videos
+- id: UCMsX4epw3cck3D3Jy0oy_zg
+  language: English
+  name: Shivanaay - Videos
+  song_language: Hindi
+  url: https://www.youtube.com/c/Shivanaay/videos
+- id: UCseOAfsBqBoSPH37WzPhIMA
+  language: Tamil
+  name: Magivizhi - Videos
+  song_language: Tamil
+  url: https://www.youtube.com/channel/UCseOAfsBqBoSPH37WzPhIMA/videos
+- id: UCk0nyfHmYrHFadB5fJxFtUQ
+  language: Tamil
+  name: Paul Rohith singh
+  song_language: Tamil
+  url: https://www.youtube.com/watch?list=PLLMiY2Vhdb_gHA4iGvMOAfGwlt2K0RoDy
 - active: false
   comment: Melody, not Rhythm tutorials
   url: https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos
