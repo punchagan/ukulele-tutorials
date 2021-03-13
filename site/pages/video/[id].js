@@ -49,64 +49,71 @@ export default function Video({ video, videos }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>
-        <Player
-          url={`https://youtube.com/v/${video.id}`}
-          start={video.loop_start}
-          end={video.loop_end}
-        />
-        <p>
-          Chords:{" "}
-          {video.chords?.map(chord => (
-            <Link href={`/?refinementList[chords][0]=${chord}`}>
-              <a className={styles.chordName}>{chord}</a>
-            </Link>
-          ))}
-        </p>
-        <div className={styles.chordDiagrams}>
-          {video.chords && (
-            <p>
-              <input type="checkbox" onChange={e => setShowChords(e.target.checked)} /> Chord
-              Diagrams
-            </p>
-          )}
-          {showChords &&
-            video.chords?.map(chord => (
-              <div key={chord}>
-                <h5>{chord}</h5>
-                <Chord lite={false} instrument={instrument} chord={findChord(chord)} />
-              </div>
+
+      <div className={styles.panelContainer}>
+        <div className={styles.leftPanel}>
+          <p>
+            Chords:{" "}
+            {video.chords?.map(chord => (
+              <Link href={`/?refinementList[chords][0]=${chord}`}>
+                <a className={styles.chordName}>{chord}</a>
+              </Link>
             ))}
-        </div>
-        <p>
-          Album:{" "}
-          <Link href={`/?refinementList[album][0]=${video.album}`}>
-            <a>{video.album}</a>
-          </Link>
-        </p>
-        <p>
-          Artist(s):{" "}
-          {video.artists?.map(artist => (
-            <Link href={`/?refinementList[artists][0]=${artist}`}>
-              <a className={styles.chordName}>{artist}</a>
-            </Link>
-          ))}
-        </p>
-        <p>Composer(s): {video.composer}</p>
-        <p>
-          This video was uploaded by{" "}
-          <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
-            {video.uploader}
-          </Link>
-          . Support this channel by subscribing and liking the{" "}
-          <Link href={`https://youtube.com/v/${video.id}`}> video on YouTube</Link>.
-        </p>
-        {video.id_related && (
-          <div>
-            <h2>Other Versions</h2>
-            <VideoList videos={otherVersions} />
+          </p>
+          <div className={styles.chordDiagrams}>
+            {video.chords && (
+              <p>
+                <input type="checkbox" onChange={e => setShowChords(e.target.checked)} /> Chord
+                Diagrams
+              </p>
+            )}
+            {showChords &&
+              video.chords?.map(chord => (
+                <div key={chord}>
+                  <h5>{chord}</h5>
+                  <Chord lite={false} instrument={instrument} chord={findChord(chord)} />
+                </div>
+              ))}
           </div>
-        )}
+          <p>
+            Album:{" "}
+            <Link href={`/?refinementList[album][0]=${video.album}`}>
+              <a>{video.album}</a>
+            </Link>
+          </p>
+          <p>
+            Artist(s):{" "}
+            {video.artists?.map(artist => (
+              <Link href={`/?refinementList[artists][0]=${artist}`}>
+                <a className={styles.chordName}>{artist}</a>
+              </Link>
+            ))}
+          </p>
+          <p>Composer(s): {video.composer}</p>
+          <p>
+            This video was uploaded by{" "}
+            <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
+              {video.uploader}
+            </Link>
+            . Support this channel by subscribing and liking the{" "}
+            <Link href={`https://youtube.com/v/${video.id}`}> video on YouTube</Link>.
+          </p>
+        </div>
+        <div className={styles.centerPanel}>
+          <Player
+            url={`https://youtube.com/v/${video.id}`}
+            start={video.loop_start}
+            end={video.loop_end}
+          />
+        </div>
+        <div className={styles.rightPanel}>
+          {video.id_related && (
+            <div>
+              <h2>Other Versions</h2>
+              <VideoList videos={otherVersions} />
+            </div>
+          )}
+        </div>
       </div>
     </Layout>
   );

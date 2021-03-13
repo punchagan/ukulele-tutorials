@@ -94,6 +94,25 @@
     padding: 2em 5em;
 }
 
+.panelContainer {
+    display: flex;
+    align-content: center;
+}
+
+.leftPanel {
+    flex: 2;
+    padding: 0 1em;
+}
+
+.centerPanel {
+    flex: 5;
+}
+
+.rightPanel {
+    flex: 2;
+    padding: 0 1em;
+}
+
 .tutorialSearch {
     margin-bottom: 2rem;
     width: 300px;
