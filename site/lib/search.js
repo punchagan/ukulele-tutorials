@@ -94,6 +94,7 @@ const getUploaderCounts = data => getCounts(data, "uploader");
 const getAlbumCounts = data => getCounts(data, "album");
 const getChordCountCounts = data => getCounts(data, "chordCount");
 const getTuningCounts = data => getCounts(data, "tuning");
+const getLanguageCounts = data => getCounts(data, "language");
 
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page + 1));
@@ -105,7 +106,8 @@ export const makeResult = (videos, page, hitsPerPage) => {
     uploader: getUploaderCounts(videos),
     chordCount: getChordCountCounts(videos),
     album: getAlbumCounts(videos.filter(v => v.album != "")),
-    tuning: getTuningCounts(videos)
+    tuning: getTuningCounts(videos),
+    language: getLanguageCounts(videos)
   };
   const facets_stats = {
     chordCount: {
