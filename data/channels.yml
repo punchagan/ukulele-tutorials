@@ -15,4 +15,11 @@ channels:
     name: Hassan Khan
   - url: 'https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos'
     name: the chashmish
-    # 'https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos', # Uke Bajao - Melody tutorials
+  - url: https://www.youtube.com/channel/UC8JGJmLrRlz5Kf9GguiCq6g/videos
+    name: One String by Priyanka Ravindran
+
+  # - url: 'https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos'
+  # - comment: Uke Bajao - Melody tutorials
+
+  # - url: https://www.youtube.com/user/ashokmurali/videos
+  #   comment: Has chords in the description, but can't really play along that way...
