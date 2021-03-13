@@ -1,55 +1,62 @@
 channels:
 - id: UCJjV2CHB58Xerdqbwyka7QA
+  language: Hindi
+  name: Sayali Tank - Videos
+  song_language: Hindi
   url: https://www.youtube.com/c/SayaliTank/videos
-  language: Hindi
-  song_language: Hindi
 - id: UCXNmFZc8m5w0tQbpMs6rGyA
+  language: Hindi
+  name: BollyUke - Bollywood Ukulele Tutorials - Videos
+  song_language: Hindi
   url: https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos
-  language: Hindi
-  song_language: Hindi
 - id: UCtYAlKT4ZHsP37o8d7gIjkQ
+  language: Hindi
+  name: ukeguide - Videos
+  song_language: Hindi
   url: https://www.youtube.com/c/ukeguide/videos
-  language: Hindi
-  song_language: Hindi
 - id: UC19UkqR9kSv0ajIuE0q5kPQ
+  language: Bengali
+  name: ManidipaBaisya - Videos
+  song_language: Bengali
   url: https://www.youtube.com/c/ManidipaBaisya/videos
-  language: Bengali
-  song_language: Bengali
-- id: PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni
+- id: UCOrDZAyo1Hga3PRMC2GFlgw
+  language: Hindi
   name: Tarun Mishra
+  song_language: Hindi
   url: https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni
-  language: Hindi
-  song_language: Hindi
-- id: PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ
-  name: Nabid Alam
-  url: https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ
+- id: UC6PY2h7NZP_fGKFpIIGmwwg
   language: Bengali
+  name: Nabid Alam
   song_language: Bengali
+  url: https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ
 - id: UCpaXVJBBAK6AA_DBi43c54A
-  url: https://www.youtube.com/c/ArathiUnnikrishnan/videos
   language: Malayalam
+  name: Arathi Unnikrishnan - Videos
   song_language: Malayalam
+  url: https://www.youtube.com/c/ArathiUnnikrishnan/videos
 - id: UChYG9VnF6VjXy4IJMwyt9hA
-  url: https://www.youtube.com/c/AvniKulshreshtha/videos
   language: Hindi
+  name: Avni Kulshreshtha - Videos
   song_language: Hindi
+  url: https://www.youtube.com/c/AvniKulshreshtha/videos
 - id: UCpxZQKj_Gwldx5vOYnRHIIw
+  name: Ukulele Adda - Videos
   url: https://www.youtube.com/c/UkuleleAdda/videos
 - id: UCCHSNlm8UTsY_8sUoEAH5sA
-  name: Hassan Khan
+  language: Hindi
+  name: Hassan Khan - Videos
+  song_language: Hindi
   url: https://www.youtube.com/channel/UCCHSNlm8UTsY_8sUoEAH5sA/videos
-  language: Hindi
-  song_language: Hindi
 - id: UCTxnAa2uGE2lk1CSfL8Amjw
-  name: the chashmish
+  language: Hindi
+  name: the chashmish - Videos
+  song_language: Hindi
   url: https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos
-  language: Hindi
-  song_language: Hindi
 - id: UC8JGJmLrRlz5Kf9GguiCq6g
-  name: One String by Priyanka Ravindran
-  url: https://www.youtube.com/channel/UC8JGJmLrRlz5Kf9GguiCq6g/videos
   language: Hindi
+  name: One String by Priyanka Ravindran - Videos
   song_language: Hindi
+  url: https://www.youtube.com/channel/UC8JGJmLrRlz5Kf9GguiCq6g/videos
 - active: false
   comment: Melody, not Rhythm tutorials
   url: https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos
