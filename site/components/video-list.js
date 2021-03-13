@@ -20,7 +20,7 @@ export function Video({ hit: video }) {
 
 export function VideoList({ videos }) {
   return (
-    <div className={styles.grid}>
+    <div>
       {videos.map(video => (
         <Video hit={video} />
       ))}
