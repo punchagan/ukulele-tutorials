@@ -119,6 +119,10 @@
     background: lightgoldenrodyellow;
 }
 
+.currentRefinements > ul {
+    grid-auto-flow: row;
+}
+
 @media (max-width: 768px) {
   .grid {
     width: 100%;

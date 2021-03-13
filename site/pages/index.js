@@ -16,7 +16,8 @@ import {
   Pagination,
   ToggleRefinement,
   NumericMenu,
-  connectStats
+  connectStats,
+  CurrentRefinements
 } from "react-instantsearch-dom";
 import qs from "qs";
 
@@ -87,6 +88,7 @@ export default function Home({ videos }) {
         <div className={styles.searchPanel}>
           <div className={styles.searchPanelFilters}>
             <SearchStats />
+            <CurrentRefinements className={styles.currentRefinements} />
             <ClearRefinements />
             {includeUnpublished && (
               <ToggleRefinement
