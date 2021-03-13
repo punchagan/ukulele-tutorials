@@ -113,11 +113,18 @@ export default function Video({ video, videos }) {
 
           <p>
             This video was uploaded by{" "}
-            <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
-              {video.uploader}
+            <Link href={`/?refinementList[uploader][0]=${video.uploader}`}>
+              <a>{video.uploader}</a>
             </Link>
-            . Support this channel by subscribing and liking the{" "}
-            <Link href={`https://youtube.com/v/${video.id}`}> video on YouTube</Link>.
+            . Support{" "}
+            <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
+              <a>this channel</a>
+            </Link>{" "}
+            by subscribing and liking the{" "}
+            <Link href={`https://youtube.com/v/${video.id}`}>
+              <a>video on YouTube</a>
+            </Link>
+            .
           </p>
         </div>
 
