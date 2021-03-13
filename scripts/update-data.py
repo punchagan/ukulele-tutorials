@@ -157,7 +157,9 @@ class Updater:
     def _update_related(self, data):
         def join(row):
             return '' if len(row) == 1 else ','.join(row)
-        related = data.groupby(['track', 'album']).agg({'id': join}).drop_duplicates()
+        related = data.query('ignore != 1')\
+                      .groupby(['track', 'album'])\
+                      .agg({'id': join}).drop_duplicates()
         # Drop existing id_related column, since we are creating a new one
         columns = [c for c in data.columns if c != 'id_related']
         data = data[columns]
