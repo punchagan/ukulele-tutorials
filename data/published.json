@@ -485,7 +485,7 @@
     "channel":"UCCHSNlm8UTsY_8sUoEAH5sA",
     "upload_date":20210228,
     "uploader":"Hassan Khan",
-    "baritone":null,
+    "baritone":0.0,
     "id_related":"FFrFJMbqFnQ,OvKBZLm6aiA,hrO1mFjFTmM,ogLIyXBpcsA"
   },
   {
@@ -825,6 +825,81 @@
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
     "id_related":"ShzPla7KK1Y,dx3ShFbDfvc"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"0LEqL_UpdEI",
+    "track":"Pani Da Rang",
+    "chords":[
+      "C",
+      "D",
+      "Em"
+    ],
+    "key":"",
+    "album":"Vicky Donor",
+    "artists":[
+      "Ayushmann Khurrana"
+    ],
+    "composer":"Rochak Kohli, Ayushmann Khurrana",
+    "loop_start":231.0,
+    "loop_end":355.0,
+    "title":"Pani Da Rang | Easy Singing and Ukulele Tutorial",
+    "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
+    "upload_date":20180223,
+    "uploader":"Tarun Mishra",
+    "baritone":0.0,
+    "id_related":"0LEqL_UpdEI,IzAcGJcpUjo,tSNJgnoo734"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"IzAcGJcpUjo",
+    "track":"Pani Da Rang",
+    "chords":[
+      "C",
+      "D",
+      "Em"
+    ],
+    "key":"",
+    "album":"Vicky Donor",
+    "artists":[
+      "Ayushmann Khurrana"
+    ],
+    "composer":"Rochak Kohli, Ayushmann Khurrana",
+    "loop_start":315.0,
+    "loop_end":492.0,
+    "title":"PANI DA RANG | VICKY DONOR | BARITONE UKULELE LESSON",
+    "channel":"UCpxZQKj_Gwldx5vOYnRHIIw",
+    "upload_date":20200814,
+    "uploader":"Ukulele Adda",
+    "baritone":1.0,
+    "id_related":"0LEqL_UpdEI,IzAcGJcpUjo,tSNJgnoo734"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"tSNJgnoo734",
+    "track":"Pani Da Rang",
+    "chords":[
+      "Am",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Vicky Donor",
+    "artists":[
+      "Ayushmann Khurrana"
+    ],
+    "composer":"Rochak Kohli, Ayushmann Khurrana",
+    "loop_start":257.5,
+    "loop_end":547.5,
+    "title":"Pani da Rang Ukulele Tutorial | Only 3 Simple Chords | Easy Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20190724,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":"0LEqL_UpdEI,IzAcGJcpUjo,tSNJgnoo734"
   },
   {
     "ignore":0,
@@ -7902,77 +7977,6 @@
     "upload_date":"20171222",
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"tSNJgnoo734",
-    "track":"Pani Da Rang",
-    "chords":[
-      "Am",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "loop_start":0.0,
-    "loop_end":653.0,
-    "title":"Pani da Rang Ukulele Tutorial | Only 3 Simple Chords | Easy Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20190724",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"0LEqL_UpdEI",
-    "track":"Pani Da Rang",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Singing And",
-    "artists":[
-
-    ],
-    "composer":"",
-    "loop_start":0.0,
-    "loop_end":386.0,
-    "title":"Pani Da Rang | Easy Singing and Ukulele Tutorial",
-    "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
-    "upload_date":"20180223",
-    "uploader":"Tarun Mishra",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"IzAcGJcpUjo",
-    "track":"Pani Da Rang",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Vicky Donor",
-    "artists":[
-      "Baritone Ukulele Lesson"
-    ],
-    "composer":"",
-    "loop_start":0.0,
-    "loop_end":500.0,
-    "title":"PANI DA RANG | VICKY DONOR | BARITONE UKULELE LESSON",
-    "channel":"UCpxZQKj_Gwldx5vOYnRHIIw",
-    "upload_date":"20200814",
-    "uploader":"Ukulele Adda",
-    "baritone":1.0,
     "id_related":null
   },
   {
