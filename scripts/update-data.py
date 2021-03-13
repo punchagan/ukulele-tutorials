@@ -41,6 +41,10 @@ COMPOSER_RE = re.compile('(?:music(?: director)*|compose(?:r|d)|'
 SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|composer)',
                           flags=re.IGNORECASE|re.MULTILINE)
 
+COLUMNS = ['ignore', 'publish', 'id', 'track', 'chords', 'key',
+           'album', 'artists', 'composer',
+           'loop_start', 'loop_end',
+           'title', 'channel', 'upload_date', 'uploader', 'id_related', 'baritone']
 
 class Updater:
 
@@ -175,14 +179,7 @@ class Updater:
         new = data[~data['id'].isin(hand_processed['id'])]
         data = pd.concat([hand_processed, new]).drop_duplicates()
 
-        # Sort columns and values
-        column_order = [
-            'title', 'track', 'album', 'artists', 'composer', 'chords',
-            'key', 'loop_start', 'loop_end', 'publish',
-        ]
-        columns = sorted(data.columns,
-                         key=lambda x: column_order.index(x) if x in column_order else 100)
-        data = data[columns].sort_values(
+        data = data[COLUMNS].sort_values(
             ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
             key=lambda col: col.str.lower() if col.dtype == 'object' else col,
             ascending=[False, False, True, True, True, True])
@@ -235,6 +232,7 @@ class Updater:
             'composer': composer.title(),
             'chords': chords,
             'key': '',
+            'baritone': int('baritone' in title.lower()),
         }
         return info
 
