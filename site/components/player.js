@@ -1,5 +1,6 @@
 import { useState, useRef } from "react";
 import ReactPlayer from "react-player";
+import styles from "../styles/Video.module.css";
 
 export default function Player({ url, start, end }) {
   const player = useRef(null);
@@ -22,28 +23,30 @@ export default function Player({ url, start, end }) {
 
   return (
     <div>
-      <ReactPlayer
-        url={url}
-        light={false}
-        controls={true}
-        playing={playing}
-        ref={player}
-        width="800px"
-        height="450px"
-        progressInterval={100}
-        onProgress={progressCallback}
-        onEnded={playFromStart}
-        config={{
-          youtube: {
-            playerVars: {
-              color: "white",
-              modestbranding: 1,
-              rel: 0,
-              showinfo: 0
+      <div className={styles.reactWrapper}>
+        <ReactPlayer
+          className={styles.playerWrapper}
+          url={url}
+          light={false}
+          controls={true}
+          playing={playing}
+          ref={player}
+          width="100%"
+          progressInterval={100}
+          onProgress={progressCallback}
+          onEnded={playFromStart}
+          config={{
+            youtube: {
+              playerVars: {
+                color: "white",
+                modestbranding: 1,
+                rel: 0,
+                showinfo: 0
+              }
             }
-          }
-        }}
-      />
+          }}
+        />
+      </div>
       <p>
         <input
           type="checkbox"

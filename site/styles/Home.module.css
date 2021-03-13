@@ -94,25 +94,6 @@
     padding: 2em 5em;
 }
 
-.panelContainer {
-    display: flex;
-    align-content: center;
-}
-
-.leftPanel {
-    flex: 2;
-    padding: 0 1em;
-}
-
-.centerPanel {
-    flex: 5;
-}
-
-.rightPanel {
-    flex: 2;
-    padding: 0 1em;
-}
-
 .tutorialSearch {
     margin-bottom: 2rem;
     width: 300px;
@@ -136,24 +117,9 @@
     margin: 0.5rem 0;
 }
 
-.chordName {
-    margin-right: 0.5em;
-}
-
 .chordModeSelect > select {
     font-size: 0.7rem;
     height: 2rem;
-}
-
-.chordDiagrams svg {
-    height: 10em;
-    width: 10em;
-}
-.chordDiagrams h5 {
-    display: inline-block;
-}
-.chordDiagrams div {
-    display: inline-block;
 }
 
 .siteHeader {
@@ -162,7 +128,7 @@
     background: lightgoldenrodyellow;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .grid {
     width: 100%;
     flex-direction: column;

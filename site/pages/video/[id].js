@@ -5,7 +5,7 @@ import Layout from "../../components/layout";
 import Player from "../../components/player";
 import { VideoList } from "../../components/video-list";
 import { getAllVideos } from "../../lib/pages";
-import styles from "../../styles/Home.module.css";
+import styles from "../../styles/Video.module.css";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 

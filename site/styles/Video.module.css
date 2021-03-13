@@ -1,0 +1,62 @@
+.panelContainer {
+    display: flex;
+    align-content: center;
+}
+
+.leftPanel {
+    flex: 2;
+    padding: 0 1em;
+}
+
+.centerPanel {
+    flex: 5;
+}
+
+.rightPanel {
+    flex: 2;
+    padding: 0 1em;
+}
+
+.chordName {
+    margin-right: 0.5em;
+}
+
+.chordDiagrams svg {
+    height: 10em;
+    width: 10em;
+}
+
+.chordDiagrams h5 {
+    display: inline-block;
+}
+
+.chordDiagrams div {
+    display: inline-block;
+}
+
+.playerWrapper {
+    position: relative;
+    min-height: 600px;
+}
+
+.reactPlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+
+    .panelContainer {
+        flex-direction: column;
+    }
+
+    .centerPanel {
+        order: -1;
+    }
+
+    .playerWrapper {
+        min-height: 300px;
+    }
+
+}
