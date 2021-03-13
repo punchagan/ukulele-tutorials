@@ -28,6 +28,8 @@ export default function Player({ url, start, end }) {
         controls={true}
         playing={playing}
         ref={player}
+        width="800px"
+        height="450px"
         progressInterval={100}
         onProgress={progressCallback}
         onEnded={playFromStart}
