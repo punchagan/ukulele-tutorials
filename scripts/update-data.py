@@ -238,7 +238,7 @@ class Updater:
 
     def _ignore_video(self, entry):
         title = entry['title'].lower()
-        select_words = {'tutorial', 'playalong', 'lesson'}
+        select_words = {'tutorial', 'playalong', 'lesson', 'with chords'}
         drop_words = {'mashup', 'medley', 'unboxing', 'how to practise', 'what is', 'ukebox',
                       'introduction'}
         for word in drop_words:
