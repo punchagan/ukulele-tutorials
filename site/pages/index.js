@@ -98,12 +98,21 @@ export default function Home({ videos }) {
                 value={1}
               />
             )}
+
             <h3>Tuning</h3>
             <RefinementList attribute="tuning" limit={2} showMore={false} />
+
             <h3>Language</h3>
             <RefinementList attribute="language" />
+
             <h3>Chords</h3>
-            <RefinementList className={styles.searchChords} attribute="chords" limit={100} />
+            <RefinementList
+              className={styles.searchChords}
+              attribute="chords"
+              limit={10}
+              showMore={true}
+              showMoreLimit={1000}
+            />
             <h6 className={styles.modeHeading}>Search mode</h6>
             <div className={chordsSearchModeClassName}>
               <select
@@ -120,24 +129,27 @@ export default function Home({ videos }) {
             </div>
             <h4>Chord Count</h4>
             <NumericMenu attribute="chordCount" items={chordCountMenuItems} />
+
             <h3>Artists</h3>
             <RefinementList
               attribute="artists"
-              limit={10}
+              limit={5}
               showMore={true}
               showMoreLimit={1000}
               searchable={true}
             />
+
             <h3>Album</h3>
             <RefinementList
               attribute="album"
-              limit={10}
+              limit={5}
               showMore={true}
               showMoreLimit={1000}
               searchable={true}
             />
+
             <h3>Channel</h3>
-            <RefinementList attribute="uploader" limit={10} showMore={true} showMoreLimit={100} />
+            <RefinementList attribute="uploader" limit={5} showMore={true} showMoreLimit={100} />
             <Configure hitsPerPage={20} />
           </div>
 
