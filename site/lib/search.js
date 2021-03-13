@@ -93,6 +93,7 @@ const getCounts = (data, attribute) => {
 const getUploaderCounts = data => getCounts(data, "uploader");
 const getAlbumCounts = data => getCounts(data, "album");
 const getChordCountCounts = data => getCounts(data, "chordCount");
+const getTuningCounts = data => getCounts(data, "tuning");
 
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page + 1));
@@ -103,7 +104,8 @@ export const makeResult = (videos, page, hitsPerPage) => {
     chords: getChordsCounts(videos),
     uploader: getUploaderCounts(videos),
     chordCount: getChordCountCounts(videos),
-    album: getAlbumCounts(videos.filter(v => v.album != ""))
+    album: getAlbumCounts(videos.filter(v => v.album != "")),
+    tuning: getTuningCounts(videos)
   };
   const facets_stats = {
     chordCount: {
@@ -120,7 +122,12 @@ const filterNumeric = (data, numericFilters) => {
 };
 
 export const createSearchClient = (data, chordsSearchMode) => {
-  const objects = data.map(x => ({ ...x, objectID: x.id, chordCount: x.chords.length }));
+  const objects = data.map(x => ({
+    ...x,
+    objectID: x.id,
+    chordCount: x.chords.length,
+    tuning: x.baritone ? "Baritone" : "Standard"
+  }));
   let resultsF, resultsA;
 
   const client = {

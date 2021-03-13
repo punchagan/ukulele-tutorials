@@ -98,6 +98,8 @@ export default function Home({ videos }) {
                 value={1}
               />
             )}
+            <h3>Tuning</h3>
+            <RefinementList attribute="tuning" limit={2} showMore={false} />
             <h3>Chords</h3>
             <RefinementList className={styles.searchChords} attribute="chords" limit={100} />
             <h6 className={styles.modeHeading}>Search mode</h6>
