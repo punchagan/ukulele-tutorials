@@ -794,6 +794,32 @@
     "id_related":null
   },
   {
+    "title":"tera chehra - ukulele - cover with tutorial -",
+    "track":"Tera Chehra",
+    "album":"Tera Chehra",
+    "artists":[
+      "Adnan Sami"
+    ],
+    "composer":"Tera Chehra",
+    "chords":[
+      "A",
+      "Bm",
+      "F",
+      "G",
+      "Gbm"
+    ],
+    "key":"",
+    "loop_start":6.0,
+    "loop_end":253.0,
+    "publish":1,
+    "id":"CLFjDO8pM7c",
+    "ignore":0,
+    "channel":"UCCHSNlm8UTsY_8sUoEAH5sA",
+    "upload_date":20210311,
+    "uploader":"Hassan Khan",
+    "id_related":null
+  },
+  {
     "title":"Teri Mitti (Kesari) Ukulele Tutorial with Playalong",
     "track":"Teri Mitti",
     "album":"Kesari",
@@ -9121,29 +9147,6 @@
     "channel":"UCpxZQKj_Gwldx5vOYnRHIIw",
     "upload_date":"20200606",
     "uploader":"Ukulele Adda",
-    "id_related":null
-  },
-  {
-    "title":"tera chehra - ukulele - cover with tutorial -",
-    "track":"Tera Chehra - Ukulele - Cover With Tutorial -",
-    "album":"",
-    "artists":[
-      "Adnan Sami"
-    ],
-    "composer":"",
-    "chords":[
-      "  F#M",
-      "A  G   F   Bm"
-    ],
-    "key":"",
-    "loop_start":0.0,
-    "loop_end":451.0,
-    "publish":0,
-    "id":"CLFjDO8pM7c",
-    "ignore":0,
-    "channel":"UCCHSNlm8UTsY_8sUoEAH5sA",
-    "upload_date":"20210311",
-    "uploader":"Hassan Khan",
     "id_related":null
   },
   {
