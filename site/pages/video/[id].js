@@ -54,6 +54,11 @@ export default function Video({ video, videos }) {
         <div className={styles.leftPanel}>
           <ul className={styles.songInfo}>
             <li className={styles.songInfoEntry}>
+              <span className={styles.songInfoKey}>Track</span>
+              <span className={styles.songInfoValue}>{video.track}</span>
+            </li>
+
+            <li className={styles.songInfoEntry}>
               <span className={styles.songInfoKey}>
                 Chords <br />
                 (Diagrams:
@@ -122,7 +127,7 @@ export default function Video({ video, videos }) {
             </Link>{" "}
             by subscribing and liking the{" "}
             <Link href={`https://youtube.com/v/${video.id}`}>
-              <a>video on YouTube</a>
+              <a title={video.title}>video on YouTube</a>
             </Link>
             .
           </p>
