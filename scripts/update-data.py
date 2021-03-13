@@ -7,23 +7,8 @@ import re
 import time
 
 import pandas as pd
+import yaml
 import youtube_dl
-
-CHANNELS = [
-    'https://www.youtube.com/c/SayaliTank/videos',
-    'https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos',
-    'https://www.youtube.com/c/ukeguide/videos',
-    'https://www.youtube.com/c/ManidipaBaisya/videos',
-    'https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni', # TarunMishram
-    'https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ', # NabidAlam360
-    'https://www.youtube.com/c/ArathiUnnikrishnan/videos',
-    'https://www.youtube.com/c/AvniKulshreshtha/videos',
-    'https://www.youtube.com/c/UkuleleAdda/videos',  # Baritone
-    'https://www.youtube.com/channel/UCCHSNlm8UTsY_8sUoEAH5sA/videos',  # Hassan Khan
-    'https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos',  # the chashmish
-    # 'https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos', # Uke Bajao - Melody tutorials
-
-]
 
 HERE = os.path.abspath(os.path.dirname(__file__))
 TITLE_RE = re.compile(
@@ -73,7 +58,8 @@ class Updater:
         self.data_json = os.path.join(self.data_dir, 'published.json')
         os.makedirs(self.json_dir, exist_ok=True)
 
-    def download_json(self, url):
+    def download_json(self, channel):
+        url = channel['url']
         print(f'Downloading json for {url} ...')
         start = time.time()
         with youtube_dl.YoutubeDL(self.ydl_opts) as ydl:
@@ -97,9 +83,16 @@ class Updater:
         for each in files:
             os.remove(os.path.join(self.json_dir, each))
 
+        channels = self._read_channel_data()
+
         with ThreadPoolExecutor(max_workers=6) as e:
-            for channel in CHANNELS:
+            for channel in channels:
                 e.submit(self.download_json, channel)
+
+    def _read_channel_data(self):
+        with open(os.path.join(self.data_dir, 'channels.yml')) as f:
+            data = yaml.load(f, Loader=yaml.FullLoader)
+        return data['channels']
 
     def parse_json(self, path):
         with open(path) as f:

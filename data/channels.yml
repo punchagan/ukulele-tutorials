@@ -1,0 +1,18 @@
+channels:
+  - url: 'https://www.youtube.com/c/SayaliTank/videos'
+  - url: 'https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos'
+  - url: 'https://www.youtube.com/c/ukeguide/videos'
+  - url: 'https://www.youtube.com/c/ManidipaBaisya/videos'
+  - url: 'https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni'
+    name: TarunMishram
+  - url: 'https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ'
+    name: NabidAlam360
+  - url: 'https://www.youtube.com/c/ArathiUnnikrishnan/videos'
+  - url: 'https://www.youtube.com/c/AvniKulshreshtha/videos'
+  - url: 'https://www.youtube.com/c/UkuleleAdda/videos'
+    is_baritone: True
+  - url: 'https://www.youtube.com/channel/UCCHSNlm8UTsY_8sUoEAH5sA/videos'
+    name: Hassan Khan
+  - url: 'https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos'
+    name: the chashmish
+    # 'https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos', # Uke Bajao - Melody tutorials
