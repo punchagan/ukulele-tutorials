@@ -137,6 +137,12 @@
     display: inline-block;
 }
 
+.siteHeader {
+    padding: 20px;
+    flex-wrap: wrap;
+    background: lightgoldenrodyellow;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

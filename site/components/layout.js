@@ -10,10 +10,13 @@ export default function Layout({ children, title = "This is the default title" }
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header>
-        <nav>
-          <Link href="/">Ukulele Tutorials for Indian Songs!</Link>
-        </nav>
+      <header className={styles.siteHeader}>
+        <div>
+          <Link href="/">
+            <a>Ukulele Tutorials for Indian Songs!</a>
+          </Link>
+        </div>
+        <nav />
       </header>
 
       {children}
