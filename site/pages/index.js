@@ -109,7 +109,7 @@ export default function Home({ videos }) {
             <RefinementList
               className={styles.searchChords}
               attribute="chords"
-              limit={10}
+              limit={12}
               showMore={true}
               showMoreLimit={1000}
             />
