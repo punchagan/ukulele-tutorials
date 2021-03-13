@@ -21,17 +21,22 @@
     margin-right: 0.5em;
 }
 
+.chordDiagram {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 5em;;
+
+}
+
 .chordDiagrams svg {
-    height: 10em;
-    width: 10em;
+    margin: auto;
+    width: 100%;
 }
 
 .chordDiagrams h5 {
     display: inline-block;
-}
-
-.chordDiagrams div {
-    display: inline-block;
+    margin: auto;
 }
 
 .playerWrapper {
@@ -43,6 +48,28 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.songInfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.songInfoEntry {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1em;
+}
+
+.songInfoKey {
+    flex: 3;
+}
+.songInfoValue {
+    flex: 5;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 768px) {

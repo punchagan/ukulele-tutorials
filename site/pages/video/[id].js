@@ -33,7 +33,7 @@ export default function Video({ video, videos }) {
     : [];
   const otherVersions = otherIds.map(it => videos.find(v => v.id === it));
   const instrument = { ...ukeChordsDB.main, tunings: ukeChordsDB.tunings };
-  const [showChords, setShowChords] = useState(false);
+  const [showChords, setShowChords] = useState(true);
 
   return (
     <Layout>
@@ -52,44 +52,65 @@ export default function Video({ video, videos }) {
 
       <div className={styles.panelContainer}>
         <div className={styles.leftPanel}>
-          <p>
-            Chords:{" "}
-            {video.chords?.map(chord => (
-              <Link href={`/?refinementList[chords][0]=${chord}`}>
-                <a className={styles.chordName}>{chord}</a>
-              </Link>
-            ))}
-          </p>
-          <div className={styles.chordDiagrams}>
-            {video.chords && (
-              <p>
-                <input type="checkbox" onChange={e => setShowChords(e.target.checked)} /> Chord
-                Diagrams
-              </p>
-            )}
-            {showChords &&
-              video.chords?.map(chord => (
-                <div key={chord}>
-                  <h5>{chord}</h5>
-                  <Chord lite={false} instrument={instrument} chord={findChord(chord)} />
-                </div>
-              ))}
-          </div>
-          <p>
-            Album:{" "}
-            <Link href={`/?refinementList[album][0]=${video.album}`}>
-              <a>{video.album}</a>
-            </Link>
-          </p>
-          <p>
-            Artist(s):{" "}
-            {video.artists?.map(artist => (
-              <Link href={`/?refinementList[artists][0]=${artist}`}>
-                <a className={styles.chordName}>{artist}</a>
-              </Link>
-            ))}
-          </p>
-          <p>Composer(s): {video.composer}</p>
+          <ul className={styles.songInfo}>
+            <li className={styles.songInfoEntry}>
+              <span className={styles.songInfoKey}>
+                Chords <br />
+                (Diagrams:
+                <input
+                  checked={showChords}
+                  type="checkbox"
+                  onChange={e => setShowChords(e.target.checked)}
+                />
+                )
+              </span>
+              <span className={styles.songInfoValue}>
+                {video.chords?.map(chord => (
+                  <Link href={`/?refinementList[chords][0]=${chord}`}>
+                    <a className={styles.chordName}>{chord}</a>
+                  </Link>
+                ))}
+              </span>
+            </li>
+
+            <li className={`${styles.chordDiagrams} ${styles.songInfoEntry}`}>
+              <span className={styles.songInfoValue}>
+                {showChords &&
+                  video.chords?.map(chord => (
+                    <span className={styles.chordDiagram} key={chord}>
+                      <h5>{chord}</h5>
+                      <Chord lite={false} instrument={instrument} chord={findChord(chord)} />
+                    </span>
+                  ))}
+              </span>
+            </li>
+
+            <li className={styles.songInfoEntry}>
+              <span className={styles.songInfoKey}>Album</span>
+              <span className={styles.songInfoValue}>
+                <Link href={`/?refinementList[album][0]=${video.album}`}>
+                  <a>{video.album}</a>
+                </Link>
+              </span>
+            </li>
+
+            <li className={styles.songInfoEntry}>
+              <span className={styles.songInfoKey}>Artist(s)</span>
+              <span className={styles.songInfoValue}>
+                {video.artists?.map(artist => (
+                  <Link href={`/?refinementList[artists][0]=${artist}`}>
+                    <a className={styles.chordName}>{artist}</a>
+                  </Link>
+                ))}
+              </span>
+            </li>
+
+            <li className={styles.songInfoEntry}>
+              <span className={styles.songInfoKey}>Composer(s)</span>
+              <span className={styles.songInfoValue}>{video.composer}</span>
+            </li>
+          </ul>
+
           <p>
             This video was uploaded by{" "}
             <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
@@ -99,6 +120,7 @@ export default function Video({ video, videos }) {
             <Link href={`https://youtube.com/v/${video.id}`}> video on YouTube</Link>.
           </p>
         </div>
+
         <div className={styles.centerPanel}>
           <Player
             url={`https://youtube.com/v/${video.id}`}
