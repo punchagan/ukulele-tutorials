@@ -61,13 +61,17 @@ export default function Video({ video, videos }) {
             <li className={styles.songInfoEntry}>
               <span className={styles.songInfoKey}>
                 Chords <br />
-                (Diagrams:
-                <input
-                  checked={showChords}
-                  type="checkbox"
-                  onChange={e => setShowChords(e.target.checked)}
-                />
-                )
+                {!video.baritone && (
+                  <span>
+                    (Diagrams:
+                    <input
+                      checked={showChords}
+                      type="checkbox"
+                      onChange={e => setShowChords(e.target.checked)}
+                    />
+                    )
+                  </span>
+                )}
               </span>
               <span className={styles.songInfoValue}>
                 {video.chords?.map(chord => (
@@ -78,17 +82,18 @@ export default function Video({ video, videos }) {
               </span>
             </li>
 
-            <li className={`${styles.chordDiagrams} ${styles.songInfoEntry}`}>
-              <span className={styles.songInfoValue}>
-                {showChords &&
-                  video.chords?.map(chord => (
+            {showChords && !video.baritone && (
+              <li className={`${styles.chordDiagrams} ${styles.songInfoEntry}`}>
+                <span className={styles.songInfoValue}>
+                  {video.chords?.map(chord => (
                     <span className={styles.chordDiagram} key={chord}>
                       <h5>{chord}</h5>
                       <Chord lite={false} instrument={instrument} chord={findChord(chord)} />
                     </span>
                   ))}
-              </span>
-            </li>
+                </span>
+              </li>
+            )}
 
             <li className={styles.songInfoEntry}>
               <span className={styles.songInfoKey}>Album</span>
