@@ -73,6 +73,8 @@ class Updater:
                 f.seek(0)
                 data = json.load(f)
 
+        channel['id'] = data['id']
+        channel['name'] = data['uploader']
         name = f"{data['id']}.json"
         with open(os.path.join(self.json_dir, name), 'w') as f:
             json.dump(data, f, indent=2)
@@ -88,15 +90,22 @@ class Updater:
             os.remove(os.path.join(self.json_dir, each))
 
         channels = self._read_channel_data()
+        active_channels = [channel for channel in channels if channel.get('active', True)]
 
         with ThreadPoolExecutor(max_workers=6) as e:
-            for channel in channels:
+            for channel in active_channels:
                 e.submit(self.download_json, channel)
+
+        self._write_channel_data(channels)
 
     def _read_channel_data(self):
         with open(os.path.join(self.data_dir, 'channels.yml')) as f:
             data = yaml.load(f, Loader=yaml.FullLoader)
         return data['channels']
+
+    def _write_channel_data(self, channels):
+        with open(os.path.join(self.data_dir, 'channels.yml'), 'w') as f:
+            yaml.dump({'channels': channels}, f)
 
     def parse_json(self, path):
         with open(path) as f:

@@ -1,24 +1,36 @@
 channels:
-  - url: 'https://www.youtube.com/c/SayaliTank/videos'
-  - url: 'https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos'
-  - url: 'https://www.youtube.com/c/ukeguide/videos'
-  - url: 'https://www.youtube.com/c/ManidipaBaisya/videos'
-  - url: 'https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni'
-    name: TarunMishram
-  - url: 'https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ'
-    name: NabidAlam360
-  - url: 'https://www.youtube.com/c/ArathiUnnikrishnan/videos'
-  - url: 'https://www.youtube.com/c/AvniKulshreshtha/videos'
-  - url: 'https://www.youtube.com/c/UkuleleAdda/videos'
-  - url: 'https://www.youtube.com/channel/UCCHSNlm8UTsY_8sUoEAH5sA/videos'
-    name: Hassan Khan
-  - url: 'https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos'
-    name: the chashmish
-  - url: https://www.youtube.com/channel/UC8JGJmLrRlz5Kf9GguiCq6g/videos
-    name: One String by Priyanka Ravindran
-
-  # - url: 'https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos'
-  # - comment: Uke Bajao - Melody tutorials
-
-  # - url: https://www.youtube.com/user/ashokmurali/videos
-  #   comment: Has chords in the description, but can't really play along that way...
+- id: UCJjV2CHB58Xerdqbwyka7QA
+  url: https://www.youtube.com/c/SayaliTank/videos
+- id: UCXNmFZc8m5w0tQbpMs6rGyA
+  url: https://www.youtube.com/c/BollyUkeBollywoodUkuleleTutorials/videos
+- id: UCtYAlKT4ZHsP37o8d7gIjkQ
+  url: https://www.youtube.com/c/ukeguide/videos
+- id: UC19UkqR9kSv0ajIuE0q5kPQ
+  url: https://www.youtube.com/c/ManidipaBaisya/videos
+- id: PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni
+  name: Tarun Mishra
+  url: https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni
+- id: PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ
+  name: Nabid Alam
+  url: https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ
+- id: UCpaXVJBBAK6AA_DBi43c54A
+  url: https://www.youtube.com/c/ArathiUnnikrishnan/videos
+- id: UChYG9VnF6VjXy4IJMwyt9hA
+  url: https://www.youtube.com/c/AvniKulshreshtha/videos
+- id: UCpxZQKj_Gwldx5vOYnRHIIw
+  url: https://www.youtube.com/c/UkuleleAdda/videos
+- id: UCCHSNlm8UTsY_8sUoEAH5sA
+  name: Hassan Khan
+  url: https://www.youtube.com/channel/UCCHSNlm8UTsY_8sUoEAH5sA/videos
+- id: UCTxnAa2uGE2lk1CSfL8Amjw
+  name: the chashmish
+  url: https://www.youtube.com/channel/UCTxnAa2uGE2lk1CSfL8Amjw/videos
+- id: UC8JGJmLrRlz5Kf9GguiCq6g
+  name: One String by Priyanka Ravindran
+  url: https://www.youtube.com/channel/UC8JGJmLrRlz5Kf9GguiCq6g/videos
+- active: false
+  comment: Melody, not Rhythm tutorials
+  url: https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos
+- active: false
+  comment: Has chords in the description, but can't really play along that way...
+  url: https://www.youtube.com/user/ashokmurali/videos
