@@ -15,7 +15,8 @@ import {
   Configure,
   Pagination,
   ToggleRefinement,
-  NumericMenu
+  NumericMenu,
+  connectStats
 } from "react-instantsearch-dom";
 import qs from "qs";
 
@@ -26,6 +27,10 @@ const createURL = state => `?${qs.stringify(state)}`;
 
 const searchStateToUrl = (router, searchState) =>
   searchState ? `${location.pathname}${createURL(searchState)}` : "";
+
+const SearchStats = connectStats(({ processingTimeMS, nbHits, nbSortedHits, areHitsSorted }) => (
+  <p>{`${nbHits.toLocaleString()} tutorials found`}</p>
+));
 
 export default function Home({ videos }) {
   const includeUnpublished = process.env.NODE_ENV !== "production";
@@ -81,8 +86,8 @@ export default function Home({ videos }) {
       >
         <div className={styles.searchPanel}>
           <div className={styles.searchPanelFilters}>
+            <SearchStats />
             <ClearRefinements />
-
             {includeUnpublished && (
               <ToggleRefinement
                 attribute="publish"
@@ -91,7 +96,6 @@ export default function Home({ videos }) {
                 value={1}
               />
             )}
-
             <h3>Chords</h3>
             <RefinementList className={styles.searchChords} attribute="chords" limit={100} />
             <h6 className={styles.modeHeading}>Search mode</h6>
@@ -108,7 +112,6 @@ export default function Home({ videos }) {
                 ))}
               </select>
             </div>
-
             <h4>Chord Count</h4>
             <NumericMenu attribute="chordCount" items={chordCountMenuItems} />
             <h3>Artists</h3>
@@ -129,7 +132,6 @@ export default function Home({ videos }) {
             />
             <h3>Channel</h3>
             <RefinementList attribute="uploader" limit={10} showMore={true} showMoreLimit={100} />
-
             <Configure hitsPerPage={20} />
           </div>
 
