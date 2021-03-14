@@ -75,7 +75,7 @@ export default function Video({ video, videos }) {
               </span>
               <span className={styles.songInfoValue}>
                 {video.chords?.map(chord => (
-                  <Link href={`/?refinementList[chords][0]=${chord}`}>
+                  <Link key={chord} href={`/?refinementList[chords][0]=${chord}`}>
                     <a className={styles.chordName}>{chord}</a>
                   </Link>
                 ))}
@@ -108,7 +108,7 @@ export default function Video({ video, videos }) {
               <span className={styles.songInfoKey}>Artist(s)</span>
               <span className={styles.songInfoValue}>
                 {video.artists?.map(artist => (
-                  <Link href={`/?refinementList[artists][0]=${artist}`}>
+                  <Link key={artist} href={`/?refinementList[artists][0]=${artist}`}>
                     <a className={styles.chordName}>{artist}</a>
                   </Link>
                 ))}

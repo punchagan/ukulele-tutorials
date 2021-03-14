@@ -22,7 +22,7 @@ export function VideoList({ videos }) {
   return (
     <div>
       {videos.map(video => (
-        <Video hit={video} />
+        <Video key={video.id} hit={video} />
       ))}
     </div>
   );
