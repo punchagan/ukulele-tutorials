@@ -119,6 +119,15 @@ export default function Video({ video, videos }) {
               <span className={styles.songInfoKey}>Composer(s)</span>
               <span className={styles.songInfoValue}>{video.composer}</span>
             </li>
+
+            <li className={styles.songInfoEntry}>
+              <span className={styles.songInfoKey}>Language</span>
+              <span className={styles.songInfoValue}>
+                <Link href={`/?refinementList[language][0]=${video.language}`}>
+                  <a className={styles.chordName}>{video.language}</a>
+                </Link>
+              </span>
+            </li>
           </ul>
 
           <p>
