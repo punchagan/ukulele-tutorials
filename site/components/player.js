@@ -1,4 +1,4 @@
-import { useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Video.module.css";
 
@@ -9,6 +9,11 @@ export default function Player({ url, start, end }) {
   const [loopStart, setLoopStart] = useState(start);
   const [loopEnd, setLoopEnd] = useState(end);
   const [useLoop, setUseLoop] = useState(true);
+
+  useEffect(() => {
+    setLoopStart(start);
+    setLoopEnd(end);
+  }, [start, end]);
 
   const playFromStart = () => {
     player.current.seekTo(loopStart, "seconds");
