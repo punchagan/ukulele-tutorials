@@ -79,6 +79,11 @@ channels:
   name: Paul Rohith singh
   song_language: Tamil
   url: https://www.youtube.com/watch?list=PLLMiY2Vhdb_gHA4iGvMOAfGwlt2K0RoDy
+- id: UC8LY9RfQk75FaLSqV2b8aKg
+  language: Hindi
+  name: heyitzola - Videos
+  song_language: Hindi
+  url: https://www.youtube.com/channel/UC8LY9RfQk75FaLSqV2b8aKg/videos
 - active: false
   comment: Melody, not Rhythm tutorials
   url: https://www.youtube.com/channel/UCX86Z7SknJnTtTsGABezFdQ/videos
