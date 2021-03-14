@@ -43,6 +43,9 @@ export default function Video({ video, videos }) {
     ssr: false
   });
 
+  const dateStr = String(video.upload_date);
+  const uploadDate = new Date(dateStr.slice(0, 4), dateStr.slice(4, 6) - 1, dateStr.slice(6, 8));
+
   return (
     <Layout>
       <Head>
@@ -147,8 +150,8 @@ export default function Video({ video, videos }) {
             This video was uploaded by{" "}
             <Link href={`/?refinementList[uploader][0]=${video.uploader}`}>
               <a>{video.uploader}</a>
-            </Link>
-            . Support{" "}
+            </Link>{" "}
+            on {uploadDate.toLocaleDateString()}. Support{" "}
             <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
               <a>this channel</a>
             </Link>{" "}
