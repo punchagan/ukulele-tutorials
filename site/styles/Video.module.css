@@ -87,6 +87,11 @@
     align-content: center;
 }
 
+.favIcon {
+    padding-left: 0.25em;
+    margin-top: -0.25em;
+}
+
 @media (max-width: 768px) {
 
     .panelContainer {

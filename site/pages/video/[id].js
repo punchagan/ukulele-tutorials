@@ -5,9 +5,11 @@ import Layout from "../../components/layout";
 import Player from "../../components/player";
 import { VideoList } from "../../components/video-list";
 import { getAllVideos } from "../../lib/pages";
+import { isFavorite } from "../../lib/favorite";
 import styles from "../../styles/Video.module.css";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
+import dynamic from "next/dynamic";
 
 const findChord = chord => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
@@ -28,12 +30,18 @@ const findChord = chord => {
 };
 
 export default function Video({ video, videos }) {
+  const favorite = isFavorite(video.id);
+  video.favorite = favorite;
   const otherIds = video.id_related
     ? video.id_related.split(",").filter(it => it !== video.id)
     : [];
   const otherVersions = otherIds.map(it => videos.find(v => v.id === it));
   const instrument = { ...ukeChordsDB.main, tunings: ukeChordsDB.tunings };
   const [showChords, setShowChords] = useState(true);
+
+  const Favorite = dynamic(() => import("../../components/video-list").then(mod => mod.Favorite), {
+    ssr: false
+  });
 
   return (
     <Layout>
@@ -55,7 +63,12 @@ export default function Video({ video, videos }) {
           <ul className={styles.songInfo}>
             <li className={styles.songInfoEntry}>
               <span className={styles.songInfoKey}>Track</span>
-              <span className={styles.songInfoValue}>{video.track}</span>
+              <span className={styles.songInfoValue}>
+                {video.track}
+                <div className={styles.favIcon}>
+                  <Favorite video={video} />
+                </div>
+              </span>
             </li>
 
             <li className={styles.songInfoEntry}>

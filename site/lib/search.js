@@ -123,6 +123,15 @@ const filterNumeric = (data, numericFilters) => {
   return q === undefined ? data : data.filter(v => eval(q));
 };
 
+const setFavorite = results => {
+  if (!window) {
+    return;
+  }
+  const favorites = JSON.parse(localStorage.getItem("favorites", [])) || {};
+  const hits = results.hits.map(v => ({ ...v, favorite: Boolean(favorites[v.id]) }));
+  return { ...results, hits };
+};
+
 export const createSearchClient = (data, chordsSearchMode) => {
   const objects = data.map(x => ({
     ...x,
@@ -140,7 +149,7 @@ export const createSearchClient = (data, chordsSearchMode) => {
       const videos = filterByQuery(filterPublished(objects, facetFilters), query);
       const videosFaceted = filterByFacets(videos, facetFilters, chordsSearchMode);
       const videosNumeric = filterNumeric(videosFaceted, numericFilters);
-      resultsF = makeResult(videosNumeric, page, hitsPerPage);
+      resultsF = setFavorite(makeResult(videosNumeric, page, hitsPerPage));
       resultsA = makeResult(videos, page, hitsPerPage);
       const results = [resultsF, resultsA];
       return { results };
