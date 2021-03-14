@@ -99,6 +99,13 @@ export default function Home({ videos }) {
               />
             )}
 
+            <ToggleRefinement
+              attribute="favorite"
+              defaultRefinement={false}
+              label="Show Only Favorites"
+              value={true}
+            />
+
             <h3>Tuning</h3>
             <RefinementList attribute="tuning" limit={2} showMore={false} />
 

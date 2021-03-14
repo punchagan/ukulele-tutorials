@@ -5,6 +5,11 @@ export const filterPublished = (videos, f) => {
   return !onlyPublished ? videos : videos.filter(v => v.publish === 1);
 };
 
+export const filterFavorites = (videos, f) => {
+  const onlyFavorite = f?.flat().filter(x => x.startsWith("favorite")).length > 0;
+  return !onlyFavorite ? videos : videos.filter(v => v.favorite);
+};
+
 export const filterByQuery = (videos, query) => {
   const q = query.toLocaleLowerCase();
 
@@ -23,7 +28,8 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
 
   let data = videos;
   for (let attribute in filterQ) {
-    if (attribute === "publish") {
+    console.log(attribute, 3);
+    if (attribute === "publish" || attribute === "favorite") {
       continue;
     }
     let query = filterQ[attribute];
@@ -123,21 +129,14 @@ const filterNumeric = (data, numericFilters) => {
   return q === undefined ? data : data.filter(v => eval(q));
 };
 
-const setFavorite = results => {
-  if (!window) {
-    return;
-  }
-  const favorites = JSON.parse(localStorage.getItem("favorites", [])) || {};
-  const hits = results.hits.map(v => ({ ...v, favorite: Boolean(favorites[v.id]) }));
-  return { ...results, hits };
-};
-
 export const createSearchClient = (data, chordsSearchMode) => {
+  const favorites = JSON.parse(process.browser && localStorage.getItem("favorites", [])) || {};
   const objects = data.map(x => ({
     ...x,
     objectID: x.id,
     chordCount: x.chords.length,
-    tuning: x.baritone ? "Baritone" : "Standard"
+    tuning: x.baritone ? "Baritone" : "Standard",
+    favorite: Boolean(favorites[x.id])
   }));
   let resultsF, resultsA;
 
@@ -146,10 +145,13 @@ export const createSearchClient = (data, chordsSearchMode) => {
     clearCache: () => {},
     search: async ([q]) => {
       const { query, page, hitsPerPage, facetFilters, numericFilters } = q.params;
-      const videos = filterByQuery(filterPublished(objects, facetFilters), query);
+      const publishedVideos = filterPublished(objects, facetFilters);
+      const favVideos = filterFavorites(publishedVideos, facetFilters);
+      const videos = filterByQuery(favVideos, query);
       const videosFaceted = filterByFacets(videos, facetFilters, chordsSearchMode);
       const videosNumeric = filterNumeric(videosFaceted, numericFilters);
-      resultsF = setFavorite(makeResult(videosNumeric, page, hitsPerPage));
+      console.log(videosNumeric, 999);
+      resultsF = makeResult(videosNumeric, page, hitsPerPage);
       resultsA = makeResult(videos, page, hitsPerPage);
       const results = [resultsF, resultsA];
       return { results };
