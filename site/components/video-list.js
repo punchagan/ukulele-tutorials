@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { toggleFavorite } from "../lib/favorite";
+import { markIgnored } from "../lib/api";
 
 export function Favorite({ video }) {
   const [fav, setFav] = useState(Boolean(video.favorite));
@@ -33,6 +34,11 @@ export function Video({ hit: video }) {
       </Link>
       <img className={styles.thumbnail} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />
       <Favorite video={video} />
+      {!video.publish && (
+        <span onClick={() => markIgnored(video.id)} style={{ float: "right", cursor: "pointer" }}>
+          &#10060;
+        </span>
+      )}
     </div>
   );
 }
