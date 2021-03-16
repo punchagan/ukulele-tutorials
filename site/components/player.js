@@ -9,6 +9,9 @@ export default function Player({ url, start, end, onChange }) {
   const [useLoop, setUseLoop] = useState(true);
 
   const playFromStart = () => {
+    if (!useLoop) {
+      return;
+    }
     player.current.seekTo(start, "seconds");
     setPlaying(true);
   };
