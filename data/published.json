@@ -258,7 +258,7 @@
     "upload_date":20210314,
     "uploader":"Ukulele Adda",
     "baritone":1.0,
-    "id_related":"40G_RFpsmXY,HmcxECZLBKQ"
+    "id_related":"40G_RFpsmXY,HmcxECZLBKQ,LvYeaOJNRtM,uag2SErGbW0"
   },
   {
     "ignore":0,
@@ -289,7 +289,63 @@
     "upload_date":20190610,
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
-    "id_related":"40G_RFpsmXY,HmcxECZLBKQ"
+    "id_related":"40G_RFpsmXY,HmcxECZLBKQ,LvYeaOJNRtM,uag2SErGbW0"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"LvYeaOJNRtM",
+    "track":"Bekhayali",
+    "chords":[
+      "Am",
+      "D",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Kabir Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composer":"Sachet-Parampara",
+    "language":"Hindi",
+    "loop_start":171.5,
+    "loop_end":456.0,
+    "title":"Bekhayali (Kabir Singh) - Hindi Ukulele Tutorial | ukeguide",
+    "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
+    "upload_date":20190620,
+    "uploader":"ukeguide",
+    "baritone":0.0,
+    "id_related":"40G_RFpsmXY,HmcxECZLBKQ,LvYeaOJNRtM,uag2SErGbW0"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"uag2SErGbW0",
+    "track":"Bekhayali",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Kabir Singh",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composer":"Sachet-Parampara",
+    "language":"Hindi",
+    "loop_start":388.8,
+    "loop_end":1159.0,
+    "title":"Bekhayali Playalong Ukulele Tutotrial | Easy Chords",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20190717,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":"40G_RFpsmXY,HmcxECZLBKQ,LvYeaOJNRtM,uag2SErGbW0"
   },
   {
     "ignore":0,
@@ -344,6 +400,33 @@
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":20181026,
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"Dsis_xEfy9w",
+    "track":"City Life",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"",
+    "artists":[
+      "Raghav Meattle"
+    ],
+    "composer":"Raghav Meattle",
+    "language":"English",
+    "loop_start":252.5,
+    "loop_end":436.2,
+    "title":"City Life Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200515,
+    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -1502,6 +1585,7 @@
     "track":"Tera Mujhse Hai Pehle Ka Naata Koi",
     "chords":[
       "Bb",
+      "C",
       "C7",
       "Dm",
       "F",
@@ -3109,59 +3193,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"uag2SErGbW0",
-    "track":"Bekhayali",
-    "chords":[
-      "Am",
-      "C",
-      "Dm",
-      "Em",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"Chords",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":1227.0,
-    "title":"Bekhayali Playalong Ukulele Tutotrial | Easy Chords",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20190717",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"LvYeaOJNRtM",
-    "track":"Bekhayali  - Hindi",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Kabir Singh",
-    "artists":[
-      "Arijit Singh"
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":456.0,
-    "title":"Bekhayali (Kabir Singh) - Hindi Ukulele Tutorial | ukeguide",
-    "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
-    "upload_date":"20190620",
-    "uploader":"ukeguide",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"occ4MHwQm8A",
     "track":"Besabriyaan ~ Armaan Malik ~",
     "chords":[
@@ -3976,33 +4007,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200917",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"Dsis_xEfy9w",
-    "track":"City Life",
-    "chords":[
-      "Am",
-      "C",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":495.0,
-    "title":"City Life Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200515",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
