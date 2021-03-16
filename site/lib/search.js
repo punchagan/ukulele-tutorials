@@ -28,7 +28,6 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
 
   let data = videos;
   for (let attribute in filterQ) {
-    console.log(attribute, 3);
     if (attribute === "publish" || attribute === "favorite") {
       continue;
     }
@@ -150,7 +149,6 @@ export const createSearchClient = (data, chordsSearchMode) => {
       const videos = filterByQuery(favVideos, query);
       const videosFaceted = filterByFacets(videos, facetFilters, chordsSearchMode);
       const videosNumeric = filterNumeric(videosFaceted, numericFilters);
-      console.log(videosNumeric, 999);
       resultsF = makeResult(videosNumeric, page, hitsPerPage);
       resultsA = makeResult(videos, page, hitsPerPage);
       const results = [resultsF, resultsA];
