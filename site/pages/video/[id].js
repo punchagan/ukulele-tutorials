@@ -36,7 +36,7 @@ const findChord = (chord, db, isBaritone) => {
   };
 };
 
-const LeftPanel = ({ video }) => {
+const SongInfo = ({ video }) => {
   const [showChords, setShowChords] = useState(true);
   const chordsDB = video.baritone ? guitarChordsDB : ukeChordsDB;
   const {
@@ -55,7 +55,7 @@ const LeftPanel = ({ video }) => {
   });
 
   return (
-    <div className={styles.leftPanel}>
+    <>
       <ul className={styles.songInfo}>
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Track</span>
@@ -162,7 +162,7 @@ const LeftPanel = ({ video }) => {
         </Link>
         .
       </p>
-    </div>
+    </>
   );
 };
 
@@ -190,7 +190,9 @@ export default function Video({ video, videos }) {
       </Head>
 
       <div className={styles.panelContainer}>
-        <LeftPanel video={video} />
+        <div className={styles.leftPanel}>
+          <SongInfo video={video} />
+        </div>
         <div className={styles.centerPanel}>
           <Player
             url={`https://youtube.com/v/${video.id}`}
