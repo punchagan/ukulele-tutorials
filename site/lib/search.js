@@ -23,7 +23,7 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
 
   const filterQ = facetFilters?.reduce((obj, ff) => {
     const [key, val] = ff[0].split(":");
-    return { ...obj, [key]: listFilters.has(key) ? ff.map(f => f.split(":")[1]) : val };
+    return { ...obj, [key]: ff.map(f => f.split(":")[1]) };
   }, {});
 
   let data = videos;
@@ -60,7 +60,8 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
     } else if (listFilters.has(attribute)) {
       data = data.filter(listFilterFuncs.any);
     } else {
-      data = data.filter(vid => vid[attribute] === query);
+      const q = new Set(query);
+      data = data.filter(vid => q.has(vid[attribute]));
     }
   }
 
