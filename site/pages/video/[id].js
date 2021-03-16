@@ -9,9 +9,10 @@ import { isFavorite } from "../../lib/favorite";
 import styles from "../../styles/Video.module.css";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
+import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import dynamic from "next/dynamic";
 
-const findChord = chord => {
+const findChord = (chord, db, isBaritone) => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
   let suffix;
   switch (s) {
@@ -25,13 +26,27 @@ const findChord = chord => {
       suffix = s;
       break;
   }
-  const chordData = ukeChordsDB.chords[key].find(it => it.suffix === suffix);
-  return chordData?.positions[0];
+  const chordData = db.chords[key].find(it => it.suffix === suffix)?.positions[0];
+  const { frets, fingers, barres } = chordData;
+  return {
+    ...chordData,
+    frets: frets.slice(-4),
+    fingers: isBaritone ? [] : fingers,
+    barres: isBaritone ? [] : barres
+  };
 };
 
 const LeftPanel = ({ video }) => {
   const [showChords, setShowChords] = useState(true);
-  const instrument = { ...ukeChordsDB.main, tunings: ukeChordsDB.tunings };
+  const chordsDB = video.baritone ? guitarChordsDB : ukeChordsDB;
+  const {
+    tunings: { standard }
+  } = chordsDB;
+  const instrument = {
+    ...chordsDB.main,
+    strings: 4,
+    tunings: { standard: standard.slice(-4, 0) }
+  };
   const dateStr = String(video.upload_date);
   const uploadDate = new Date(dateStr.slice(0, 4), dateStr.slice(4, 6) - 1, dateStr.slice(6, 8));
 
@@ -55,17 +70,15 @@ const LeftPanel = ({ video }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>
             Chords <br />
-            {!video.baritone && (
-              <span>
-                (Diagrams:
-                <input
-                  checked={showChords}
-                  type="checkbox"
-                  onChange={e => setShowChords(e.target.checked)}
-                />
-                )
-              </span>
-            )}
+            <span>
+              (Diagrams:
+              <input
+                checked={showChords}
+                type="checkbox"
+                onChange={e => setShowChords(e.target.checked)}
+              />
+              )
+            </span>
           </span>
           <span className={styles.songInfoValue}>
             {video.chords?.map(chord => (
@@ -73,16 +86,26 @@ const LeftPanel = ({ video }) => {
                 <a className={styles.chordName}>{chord}</a>
               </Link>
             ))}
+            {video.baritone && video.chords?.[0] && (
+              <small>
+                * we use modified guitar chord diagrams for Baritone Ukulele, and cannot show
+                correct finger numbers or barre-ing diagrams
+              </small>
+            )}
           </span>
         </li>
 
-        {showChords && !video.baritone && (
+        {showChords && (
           <li className={`${styles.chordDiagrams} ${styles.songInfoEntry}`}>
             <span className={styles.songInfoValue}>
               {video.chords?.map(chord => (
                 <span className={styles.chordDiagram} key={chord}>
                   <h5>{chord}</h5>
-                  <Chord lite={false} instrument={instrument} chord={findChord(chord)} />
+                  <Chord
+                    lite={false}
+                    instrument={instrument}
+                    chord={findChord(chord, chordsDB, video.baritone)}
+                  />
                 </span>
               ))}
             </span>
