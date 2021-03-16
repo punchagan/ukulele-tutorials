@@ -5,6 +5,7 @@ import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import styles from "../styles/Video.module.css";
+import { postData } from "../lib/api";
 
 const findChord = (chord, db, isBaritone) => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
@@ -30,7 +31,7 @@ const findChord = (chord, db, isBaritone) => {
   };
 };
 
-export const SongInfo = ({ video }) => {
+const ShowSongInfo = ({ video }) => {
   const [showChords, setShowChords] = useState(true);
   const isBaritone = video.baritone !== 0;
   const chordsDB = isBaritone ? guitarChordsDB : ukeChordsDB;
@@ -158,6 +159,85 @@ export const SongInfo = ({ video }) => {
         </Link>
         .
       </p>
+    </>
+  );
+};
+
+const EditSongInfo = ({ video, onChange }) => {
+  const publishData = () => {
+    postData(video.id, { ...video, publish: 1 });
+  };
+  return (
+    <>
+      <ul className={styles.songInfo}>
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoKey}>Track</span>
+          <span className={styles.songInfoValue}>
+            <input type="text" name="track" defaultValue={video.track} onChange={onChange} />
+          </span>
+        </li>
+
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoKey}>Chords</span>
+          <span className={styles.songInfoValue}>
+            <input
+              name="chords"
+              type="text"
+              defaultValue={video.chords?.join(",")}
+              onChange={onChange}
+            />
+          </span>
+        </li>
+
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoKey}>Album</span>
+          <span className={styles.songInfoValue}>
+            <input type="text" name="album" defaultValue={video.album} onChange={onChange} />
+          </span>
+        </li>
+
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoKey}>Artist(s)</span>
+          <span className={styles.songInfoValue}>
+            <input
+              type="text"
+              name="artists"
+              defaultValue={video.artists?.join(",")}
+              onChange={onChange}
+            />
+          </span>
+        </li>
+
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoKey}>Composer(s)</span>
+          <span className={styles.songInfoValue}>
+            <input type="text" name="composer" defaultValue={video.composer} onChange={onChange} />
+          </span>
+        </li>
+
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoKey}>Language</span>
+          <span className={styles.songInfoValue}>
+            <input type="text" name="language" defaultValue={video.language} onChange={onChange} />
+          </span>
+        </li>
+      </ul>
+      <button onClick={publishData}>Publish</button>
+    </>
+  );
+};
+
+export const SongInfo = ({ video, onChange, devEnv }) => {
+  const [edit, setEdit] = useState(!video.publish);
+  const Info = edit ? EditSongInfo : ShowSongInfo;
+
+  return (
+    <>
+      <span style={{ float: "right" }} onClick={() => setEdit(!edit)}>
+        {devEnv && !edit && <span>&#128393;</span>}
+        {devEnv && edit && <span>&#128065;</span>}
+      </span>
+      <Info video={video} onChange={onChange} />
     </>
   );
 };

@@ -2,26 +2,19 @@ import { useEffect, useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Video.module.css";
 
-export default function Player({ url, start, end }) {
+export default function Player({ url, start, end, onChange }) {
   const player = useRef(null);
   const [loop, setLoop] = useState(false);
   const [playing, setPlaying] = useState(false);
-  const [loopStart, setLoopStart] = useState(start);
-  const [loopEnd, setLoopEnd] = useState(end);
   const [useLoop, setUseLoop] = useState(true);
 
-  useEffect(() => {
-    setLoopStart(start);
-    setLoopEnd(end);
-  }, [start, end]);
-
   const playFromStart = () => {
-    player.current.seekTo(loopStart, "seconds");
+    player.current.seekTo(start, "seconds");
     setPlaying(true);
   };
 
   const progressCallback = data => {
-    if (useLoop && (data.playedSeconds >= loopEnd || data.playedSeconds < loopStart)) {
+    if (useLoop && (data.playedSeconds >= end || data.playedSeconds < start)) {
       playFromStart();
     }
   };
@@ -68,11 +61,12 @@ export default function Player({ url, start, end }) {
           <span>Start </span>
           <span>
             <input
+              name="loop_start"
               type="number"
               step="0.01"
               min="0"
-              value={loopStart}
-              onChange={e => setLoopStart(e.target.value)}
+              defaultValue={start}
+              onChange={onChange}
             />
           </span>
         </li>
@@ -80,11 +74,12 @@ export default function Player({ url, start, end }) {
           <span>End </span>
           <span>
             <input
+              name="loop_end"
               type="number"
               step="0.01"
               min="0"
-              value={loopEnd}
-              onChange={e => setLoopEnd(e.target.value)}
+              value={end}
+              onChange={onChange}
             />
           </span>
         </li>
