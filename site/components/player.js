@@ -68,7 +68,7 @@ export default function Player({ url, start, end, onChange }) {
               type="number"
               step="0.01"
               min="0"
-              defaultValue={start}
+              value={start}
               onChange={onChange}
             />
           </span>

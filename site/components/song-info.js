@@ -173,26 +173,21 @@ const EditSongInfo = ({ video, onChange }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Track</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="track" defaultValue={video.track} onChange={onChange} />
+            <input type="text" name="track" value={video.track} onChange={onChange} />
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Chords</span>
           <span className={styles.songInfoValue}>
-            <input
-              name="chords"
-              type="text"
-              defaultValue={video.chords?.join(",")}
-              onChange={onChange}
-            />
+            <input name="chords" type="text" value={video.chords?.join(",")} onChange={onChange} />
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Album</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="album" defaultValue={video.album} onChange={onChange} />
+            <input type="text" name="album" value={video.album} onChange={onChange} />
           </span>
         </li>
 
@@ -202,7 +197,7 @@ const EditSongInfo = ({ video, onChange }) => {
             <input
               type="text"
               name="artists"
-              defaultValue={video.artists?.join(",")}
+              value={video.artists?.join(",")}
               onChange={onChange}
             />
           </span>
@@ -211,14 +206,14 @@ const EditSongInfo = ({ video, onChange }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Composer(s)</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="composer" defaultValue={video.composer} onChange={onChange} />
+            <input type="text" name="composer" value={video.composer} onChange={onChange} />
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Language</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="language" defaultValue={video.language} onChange={onChange} />
+            <input type="text" name="language" value={video.language} onChange={onChange} />
           </span>
         </li>
       </ul>
