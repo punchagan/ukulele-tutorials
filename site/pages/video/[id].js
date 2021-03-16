@@ -38,7 +38,8 @@ const findChord = (chord, db, isBaritone) => {
 
 const SongInfo = ({ video }) => {
   const [showChords, setShowChords] = useState(true);
-  const chordsDB = video.baritone ? guitarChordsDB : ukeChordsDB;
+  const isBaritone = video.baritone !== 0;
+  const chordsDB = isBaritone ? guitarChordsDB : ukeChordsDB;
   const {
     tunings: { standard }
   } = chordsDB;
@@ -80,13 +81,14 @@ const SongInfo = ({ video }) => {
               )
             </span>
           </span>
+
           <span className={styles.songInfoValue}>
             {video.chords?.map(chord => (
               <Link key={chord} href={`/?refinementList[chords][0]=${chord}`}>
                 <a className={styles.chordName}>{chord}</a>
               </Link>
             ))}
-            {video.baritone && video.chords?.[0] && (
+            {isBaritone && video.chords?.length > 0 && (
               <small>
                 * we use modified guitar chord diagrams for Baritone Ukulele, and cannot show
                 correct finger numbers or barre-ing diagrams
@@ -104,7 +106,7 @@ const SongInfo = ({ video }) => {
                   <Chord
                     lite={false}
                     instrument={instrument}
-                    chord={findChord(chord, chordsDB, video.baritone)}
+                    chord={findChord(chord, chordsDB, isBaritone)}
                   />
                 </span>
               ))}
