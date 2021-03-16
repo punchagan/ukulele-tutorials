@@ -13,9 +13,11 @@ export const filterFavorites = (videos, f) => {
 export const filterByQuery = (videos, query) => {
   const q = query.toLocaleLowerCase();
 
-  return videos
-    .filter(vid => (vid.track || vid.title).toLocaleLowerCase().indexOf(q) > -1)
-    .sort(sortByUploadDate);
+  const match = vid =>
+    vid?.track?.toLocaleLowerCase().indexOf(q) > -1 ||
+    vid?.title?.toLocaleLowerCase().indexOf(q) > -1;
+
+  return videos.filter(match).sort(sortByUploadDate);
 };
 
 export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
