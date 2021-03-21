@@ -8,6 +8,12 @@ export default function Layout({ children, title = "This is the default title" }
       <Head>
         <title>Ukulele Tutorials for Indian Songs!</title>
         <link rel="icon" href="/favicon.ico" />
+        <script
+          async
+          defer
+          data-domain="ukulele.muse-amuse.in"
+          src="https://plausible.io/js/plausible.js"
+        />
       </Head>
 
       <header className={styles.siteHeader}>
