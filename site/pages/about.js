@@ -24,13 +24,11 @@ export default function About() {
           displays the Chord fingerings for each songs, and allow looping over specific sections of
           the videos.
         </p>
-
         <h3>Who creates these video tutorials?</h3>
         <p>
           These videos are aggregated from several different YouTube Channels/playlists. You can
           find a list of them in the Channels section on the index page.
         </p>
-
         <h3>Who maintains this website?</h3>
         <p>
           This website was created and is maintained by{" "}
@@ -43,7 +41,6 @@ export default function About() {
           </Link>
           . Do let your Ukulele playing friends know about it, too!
         </p>
-
         <h3>How are these tutorials aggregated?</h3>
         <p>
           I maintain a list of YouTube channels that have Indian Ukulele Song Tutorials. Once or
@@ -58,7 +55,6 @@ export default function About() {
           curating newly "scraped" videos, and adding the required metadata to them, and publishing
           them onto the site.{" "}
         </p>
-
         <h3>Why does a song on a channel not appear on this site?</h3>
         <p>
           The video probably hasn't yet been manually processed to add the required metadata. It
@@ -69,7 +65,6 @@ export default function About() {
           </Link>
           .
         </p>
-
         <h3>How can I submit requests for aggregating new YouTube Channels?</h3>
         <p>
           Please submit information about the new channel using this{" "}
@@ -78,14 +73,28 @@ export default function About() {
           </Link>
           .
         </p>
-
         <h3>How can I submit requests for tutorials on specific songs?</h3>
         <p>
           You should get in touch with one of the channels from where we aggregate, and request them
           to do a tutorial for a song. There's no way to request for new song tutorials on this
           site, currently.
         </p>
-      </div>
+        <h3>What technologies do you use to create this website?</h3>
+        <p>
+          The song metadata is collected using{" "}
+          <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a>. The front-end/UI for the
+          site is built using <a href="https://nextjs.org/">Next.js</a>. The site is served as a
+          static site using{" "}
+          <a href="https://nextjs.org/docs/advanced-features/static-html-export">
+            <code>next export</code>
+          </a>
+          . The search functionality is built using{" "}
+          <a href="https://www.algolia.com/doc/guides/building-search-ui/what-is-instantsearch/react/">
+            React InstantSearch
+          </a>{" "}
+          by Algolia.
+        </p>{" "}
+      </div>{" "}
     </Layout>
   );
 }
