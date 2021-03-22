@@ -1,10 +1,5 @@
 const sortByUploadDate = (a, b) => String(b.upload_date).localeCompare(String(a.upload_date));
 
-export const filterPublished = (videos, f) => {
-  const onlyPublished = f?.flat().filter(x => x.startsWith("publish")).length > 0;
-  return !onlyPublished ? videos : videos.filter(v => v.publish === 1);
-};
-
 export const filterFavorites = (videos, f) => {
   const onlyFavorite = f?.flat().filter(x => x.startsWith("favorite")).length > 0;
   return !onlyFavorite ? videos : videos.filter(v => v.favorite);
@@ -30,7 +25,7 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
 
   let data = videos;
   for (let attribute in filterQ) {
-    if (attribute === "publish" || attribute === "favorite") {
+    if (attribute === "favorite") {
       continue;
     }
     let query = filterQ[attribute];
@@ -103,6 +98,7 @@ const getAlbumCounts = data => getCounts(data, "album");
 const getChordCountCounts = data => getCounts(data, "chordCount");
 const getTuningCounts = data => getCounts(data, "tuning");
 const getLanguageCounts = data => getCounts(data, "language");
+const getPublishedCounts = data => getCounts(data, "published");
 
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page + 1));
@@ -115,7 +111,8 @@ export const makeResult = (videos, page, hitsPerPage) => {
     chordCount: getChordCountCounts(videos),
     album: getAlbumCounts(videos.filter(v => v.album != "")),
     tuning: getTuningCounts(videos),
-    language: getLanguageCounts(videos)
+    language: getLanguageCounts(videos),
+    published: getPublishedCounts(videos)
   };
   const facets_stats = {
     chordCount: {
@@ -138,7 +135,8 @@ export const createSearchClient = (data, chordsSearchMode) => {
     objectID: x.id,
     chordCount: x.chords.length,
     tuning: x.baritone ? "Baritone" : "Standard",
-    favorite: Boolean(favorites[x.id])
+    favorite: Boolean(favorites[x.id]),
+    published: x.publish === 1 ? "Published" : "Unpublished"
   }));
   let resultsF, resultsA;
 
@@ -147,8 +145,7 @@ export const createSearchClient = (data, chordsSearchMode) => {
     clearCache: () => {},
     search: async ([q]) => {
       const { query, page, hitsPerPage, facetFilters, numericFilters } = q.params;
-      const publishedVideos = filterPublished(objects, facetFilters);
-      const favVideos = filterFavorites(publishedVideos, facetFilters);
+      const favVideos = filterFavorites(objects, facetFilters);
       const videos = filterByQuery(favVideos, query);
       const videosFaceted = filterByFacets(videos, facetFilters, chordsSearchMode);
       const videosNumeric = filterNumeric(videosFaceted, numericFilters);
