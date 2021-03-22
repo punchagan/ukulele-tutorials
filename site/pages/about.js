@@ -41,6 +41,15 @@ export default function About() {
           </Link>
           . Do let your Ukulele playing friends know about it, too!
         </p>
+        <h3>How can I help with adding new content to the website?</h3>
+        <p>
+          We currently do not have a streamlined process for letting users help us, but feel free to
+          get in touch with us, using this{" "}
+          <Link href="/feedback">
+            <a>form</a>
+          </Link>
+          .
+        </p>
         <h3>How are these tutorials aggregated?</h3>
         <p>
           I maintain a list of YouTube channels that have Indian Ukulele Song Tutorials. Once or
@@ -49,11 +58,11 @@ export default function About() {
           for videos from these channels.
         </p>
         <p>
-          The video descriptions and other metadata don't contain all the metadata required to add a
-          video onto this site - for example, the actual chords used, artist information, start/end
-          timestamps for the actual play-along for the song. I spend some time every week manually
-          curating newly "scraped" videos, and adding the required metadata to them, and publishing
-          them onto the site.{" "}
+          The video descriptions and other metadata do not contain all the metadata required to add
+          a video onto this site - for example, the actual chords used, artist information,
+          start/end timestamps for the actual play-along for the song. I spend some time every week
+          manually curating newly "scraped" videos, and adding the required metadata to them, and
+          publishing them onto the site.{" "}
         </p>
         <h3>Why does a song on a channel not appear on this site?</h3>
         <p>
@@ -76,7 +85,7 @@ export default function About() {
         <h3>How can I submit requests for tutorials on specific songs?</h3>
         <p>
           You should get in touch with one of the channels from where we aggregate, and request them
-          to do a tutorial for a song. There's no way to request for new song tutorials on this
+          to do a tutorial for a song. There is no way to request for new song tutorials on this
           site, currently.
         </p>
         <h3>What technologies do you use to create this website?</h3>
