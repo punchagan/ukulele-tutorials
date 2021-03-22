@@ -1,3 +1,9 @@
+.container {
+    margin: auto;
+    max-width: 600px;
+    padding: 2em 0;
+    margin-bottom: 75px;
+}
 .footer {
   width: 100%;
   height: 75px;
@@ -102,9 +108,15 @@
 .siteHeader {
     padding: 20px;
     flex-wrap: wrap;
-    background: lightgoldenrodyellow;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
 }
-
+.siteTitle {
+    flex: 2;
+}
+.navItem {
+    margin-left: 1em;
+}
 .currentRefinements > ul {
     grid-auto-flow: row;
 }

@@ -17,12 +17,17 @@ export default function Layout({ children, title = "This is the default title" }
       </Head>
 
       <header className={styles.siteHeader}>
-        <div>
-          <Link href="/">
-            <a>Ukulele Tutorials for Indian Songs!</a>
+        <Link href="/">
+          <a className={styles.siteTitle}>Ukulele Tutorials for Indian Songs!</a>
+        </Link>
+        <nav>
+          <Link href="/about">
+            <a className={styles.navItem}>About</a>
           </Link>
-        </div>
-        <nav />
+          <Link href="/feedback">
+            <a className={styles.navItem}>Feedback</a>
+          </Link>
+        </nav>
       </header>
 
       {children}
