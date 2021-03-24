@@ -172,7 +172,7 @@ const EditSongInfo = ({ video, onChange }) => {
   const [original, setOriginal] = useState({});
   useEffect(() => {
     getVideoMetadata(video).then(data => setMeta(data));
-    setOriginal({ ...original, q: `${video.track} ${video.album}` });
+    setOriginal({ ...original, q: `${video.track} ${video.album} original` });
   }, [video]);
 
   const search = e => {
@@ -246,7 +246,8 @@ const EditSongInfo = ({ video, onChange }) => {
         <p>
           <a href={`https://youtube.com/v/${original.id}`} target="_blank">
             {original.title}
-          </a>
+          </a>{" "}
+          - ({original.uploader})
         </p>
       )}
       {original?.description?.split("\n").map(d => <p>{d}</p>)}
