@@ -1,11 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import styles from "../styles/Video.module.css";
-import { postData } from "../lib/api";
+import { postData, getVideoMetadata } from "../lib/api";
 
 const findChord = (chord, db, isBaritone) => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
@@ -167,6 +167,11 @@ const EditSongInfo = ({ video, onChange }) => {
   const publishData = () => {
     postData(video.id, { ...video, publish: 1 });
   };
+  const [meta, setMeta] = useState();
+  useEffect(() => {
+    getVideoMetadata(video).then(data => setMeta(data));
+  }, [video]);
+
   return (
     <>
       <ul className={styles.songInfo}>
@@ -216,8 +221,15 @@ const EditSongInfo = ({ video, onChange }) => {
             <input type="text" name="language" value={video.language} onChange={onChange} />
           </span>
         </li>
+
+        <li className={styles.songInfoEntry}>
+          <span className={styles.songInfoValue}>
+            <button onClick={publishData}>Publish</button>
+          </span>
+        </li>
       </ul>
-      <button onClick={publishData}>Publish</button>
+      {meta?.description && <h3>Original Video Description</h3>}
+      {meta?.description.split("\n").map(d => <p>{d}</p>)}
     </>
   );
 };

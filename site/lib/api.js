@@ -1,3 +1,8 @@
+export const getVideoMetadata = ({ id, channel }) => {
+  return fetch(`/api/video/get-metadata?id=${id}&channel=${channel}`).then(response =>
+    response.json()
+  );
+};
 export const postData = (videoId, data) => {
   fetch(`/api/video/${videoId}`, {
     method: "PUT",
