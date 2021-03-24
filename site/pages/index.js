@@ -91,7 +91,7 @@ export default function Home({ videos }) {
             <CurrentRefinements className={styles.currentRefinements} />
             <ClearRefinements />
             {includeUnpublished && (
-              <RefinementList attribute="published" defaultRefinement={["Published"]} limit={2} />
+              <RefinementList attribute="published" defaultRefinement={["Unpublished"]} limit={2} />
             )}
 
             <ToggleRefinement
