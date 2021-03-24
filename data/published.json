@@ -537,7 +537,89 @@
     "upload_date":20210302,
     "uploader":"the chashmish",
     "baritone":0.0,
-    "id_related":"TYTXye-HKik,UyvyDdmcWqM"
+    "id_related":"TYTXye-HKik,UyvyDdmcWqM,Wd0L2FpwkUI,uh-kmNxXcqM"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"UyvyDdmcWqM",
+    "track":"Channa Mereya",
+    "chords":[
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
+    "key":"",
+    "album":"Ae Dil Hai Mushkil",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composer":"Pritam",
+    "language":"Hindi",
+    "loop_start":208.0,
+    "loop_end":294.0,
+    "title":"Channa Mereya | Ae Dil Hai Mushkil | Easy Ukulele Tutorial",
+    "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
+    "upload_date":20170909,
+    "uploader":"Tarun Mishra",
+    "baritone":0.0,
+    "id_related":"TYTXye-HKik,UyvyDdmcWqM,Wd0L2FpwkUI,uh-kmNxXcqM"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"Wd0L2FpwkUI",
+    "track":"Channa Mereya",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Ae Dil Hai Mushkil",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composer":"Pritam",
+    "language":"Hindi",
+    "loop_start":0.0,
+    "loop_end":124.0,
+    "title":"Channa Mereya - Ukelele Cover (with chords)",
+    "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
+    "upload_date":20200518,
+    "uploader":"One String by Priyanka Ravindran",
+    "baritone":0.0,
+    "id_related":"TYTXye-HKik,UyvyDdmcWqM,Wd0L2FpwkUI,uh-kmNxXcqM"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"uh-kmNxXcqM",
+    "track":"Channa Mereya",
+    "chords":[
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
+    "key":"",
+    "album":"Ae Dil Hai Mushkil",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composer":"Pritam",
+    "language":"Hindi",
+    "loop_start":137.0,
+    "loop_end":204.0,
+    "title":"Channa Mereya - easy ukulele lesson",
+    "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
+    "upload_date":20171113,
+    "uploader":"ukeguide",
+    "baritone":0.0,
+    "id_related":"TYTXye-HKik,UyvyDdmcWqM,Wd0L2FpwkUI,uh-kmNxXcqM"
   },
   {
     "ignore":0,
@@ -784,6 +866,64 @@
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":20210214,
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"2i4dtdGXotw",
+    "track":"Dil Ko Tumse Pyaar Hua",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "E",
+      "E7",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Rehna Hai Tere Dil Mein",
+    "artists":[
+      "Roop Kumar Rathod"
+    ],
+    "composer":"Harris Jayaraj",
+    "language":"Hindi",
+    "loop_start":985.2,
+    "loop_end":1155.6,
+    "title":"Dil ko tumse pyaar hua Ukulele tutorial | Rehna hai tere dil mein",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200909,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"EgVMIVjezgs",
+    "track":"Dooba Dooba Rehta Hu",
+    "chords":[
+      "C",
+      "D",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Boondein",
+    "artists":[
+      "Mohit Chauhan"
+    ],
+    "composer":"Silk Route",
+    "language":"Hindi",
+    "loop_start":247.5,
+    "loop_end":420.0,
+    "title":"Dooba dooba rehta hu Ukulele Tutorial | Only 4 simple chords?",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200902,
+    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -1045,6 +1185,34 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"UjfOXzDHMJU",
+    "track":"Hasi Ban Gaye",
+    "chords":[
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "F"
+    ],
+    "key":"",
+    "album":"Hamari Adhur Kahani",
+    "artists":[
+      "Ami Mishra"
+    ],
+    "composer":"Jeet Gannguli",
+    "language":"Hindi",
+    "loop_start":563.5,
+    "loop_end":693.5,
+    "title":"Hasi Ban Gaye Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201014,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"L8iO70RSqBo",
     "track":"Illahi",
     "chords":[
@@ -1216,6 +1384,34 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"RvDm1N9rCk8",
+    "track":"Kaha Ho Tum",
+    "chords":[
+      "Bb",
+      "C",
+      "Dm",
+      "Eb",
+      "F"
+    ],
+    "key":"",
+    "album":"Mismatched",
+    "artists":[
+      "Prateek Kuhad"
+    ],
+    "composer":"Prateek Kuhad",
+    "language":"Hindi",
+    "loop_start":555.5,
+    "loop_end":717.0,
+    "title":"Kaha ho tum Mismatched Ukulele Tutorial Prateek Kuhad",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201230,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"pQPT9lLXJSs",
     "track":"Kahin Duur Jab",
     "chords":[
@@ -1295,6 +1491,35 @@
     "uploader":"Arathi Unnikrishnan",
     "baritone":0.0,
     "id_related":"fatRgPVNk0s,vjZrf5vRY_4"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"B95AKOjwLO4",
+    "track":"Kasoor",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "Dm7",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Kasoor",
+    "artists":[
+      "Prateek Kuhad"
+    ],
+    "composer":"Prateek Kuhad",
+    "language":"Hindi",
+    "loop_start":619.0,
+    "loop_end":759.0,
+    "title":"Kasoor (Prateek Kuhad) Ukulele Tutorial with Play Along",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201209,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
   },
   {
     "ignore":0,
@@ -1437,6 +1662,34 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"N-BK6l_emMY",
+    "track":"Kya Hua Tera Waada",
+    "chords":[
+      "Bb",
+      "C",
+      "Dm",
+      "F"
+    ],
+    "key":"",
+    "album":"Hum Kisi Se Kum Nahi",
+    "artists":[
+      "Mohammed Rafi",
+      "Sushma Shrestha"
+    ],
+    "composer":"R. D. Burman",
+    "language":"Hindi",
+    "loop_start":340.0,
+    "loop_end":502.0,
+    "title":"Kya hua Tera waada Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200916,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"ogLzYIu1r5Q",
     "track":"Kya Karoon?",
     "chords":[
@@ -1547,6 +1800,33 @@
     "upload_date":20210306,
     "uploader":"Ukulele Adda",
     "baritone":1.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"fiYfnt2P_UE",
+    "track":"Mere Saamne Wali Khidki Mein",
+    "chords":[
+      "Am",
+      "C",
+      "D",
+      "G"
+    ],
+    "key":"",
+    "album":"Padosan",
+    "artists":[
+      "Kishore Kumar"
+    ],
+    "composer":"R. D. Burman",
+    "language":"Hindi",
+    "loop_start":390.0,
+    "loop_end":450.0,
+    "title":"Mere saamne wali khidki mein Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201125,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
     "id_related":null
   },
   {
@@ -2255,6 +2535,35 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"WoU8p7RB3ec",
+    "track":"Shayad",
+    "chords":[
+      "Am",
+      "Bm",
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
+    "key":"",
+    "album":"Love Aaj Kal",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composer":"Pritam",
+    "language":"Hindi",
+    "loop_start":854.0,
+    "loop_end":1014.0,
+    "title":"Shayad Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200930,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":"WoU8p7RB3ec,x6GUBTF3ELU"
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"7YQgAfZgN4E",
     "track":"Sun Raha Hai Na Tu",
     "chords":[
@@ -2450,6 +2759,36 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"_Np6iIZ2Gcs",
+    "track":"Tik Tik Waajte Dokyat",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G",
+      "G7"
+    ],
+    "key":"",
+    "album":"Duniyadari",
+    "artists":[
+      "Sayali Pankaj",
+      "Sonu Nigam"
+    ],
+    "composer":"Pankaj Padghan",
+    "language":"Marathi",
+    "loop_start":584.0,
+    "loop_end":689.0,
+    "title":"Tik Tik Waajte Dokyat Ukulele Tutorial with Playalong",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201223,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"tDbK6ZjVcRI",
     "track":"Titliaan",
     "chords":[
@@ -2470,6 +2809,126 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":20210102,
     "uploader":"One String by Priyanka Ravindran",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"TTjWWMAc1Xo",
+    "track":"Tu Aashiqui Hai",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "G"
+    ],
+    "key":"",
+    "album":"Jhankaar Beats",
+    "artists":[
+      "KK"
+    ],
+    "composer":"Vishal-Shekhar",
+    "language":"Hindi",
+    "loop_start":728.3,
+    "loop_end":925.5,
+    "title":"Tu Aashiqui Hai Ukulele Tutorial | Jhankaar Beats",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201028,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"OoHHB8zOd7o",
+    "track":"Tu Hi Meri Shab Hai",
+    "chords":[
+      "Am",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Gangster",
+    "artists":[
+      "Abhijit",
+      "James",
+      "KK",
+      "Kavita Seth",
+      "Sunidhi Chauhan",
+      "Zubeen"
+    ],
+    "composer":"Preetam",
+    "language":"Hindi",
+    "loop_start":765.5,
+    "loop_end":907.0,
+    "title":"Tu hi meri shab hai Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201007,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"5kZ-ksFRUGs",
+    "track":"Tu Mile Dil Khile",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Criminal",
+    "artists":[
+      "Alka Yagnik ",
+      "Kumar Sanu"
+    ],
+    "composer":"M. M. Keeravani",
+    "language":"Hindi",
+    "loop_start":799.0,
+    "loop_end":1048.0,
+    "title":"Tu mile dil khile Ukulele tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201021,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"8ZPouviHFSc",
+    "track":"Tum Ho Paas Mere",
+    "chords":[
+      "A",
+      "Am",
+      "Bb",
+      "C",
+      "E",
+      "F",
+      "G",
+      "Gm"
+    ],
+    "key":"",
+    "album":"Rockstar",
+    "artists":[
+      "Mohit Chauhan"
+    ],
+    "composer":"A. R. Rahman",
+    "language":"Hindi",
+    "loop_start":672.2,
+    "loop_end":864.0,
+    "title":"Tum Ho - Rockstar Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20210106,
+    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -2553,6 +3012,61 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":20200604,
     "uploader":"ukeguide",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"MKHboVCo8jw",
+    "track":"Ya Ali",
+    "chords":[
+      "C",
+      "D",
+      "Em"
+    ],
+    "key":"",
+    "album":"Gangster",
+    "artists":[
+      "Zubeen Garg"
+    ],
+    "composer":"Pritam Chakraborty",
+    "language":"Hindi",
+    "loop_start":525.0,
+    "loop_end":770.0,
+    "title":"Ya Ali Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20201111,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"Imq_noh-Ua0",
+    "track":"Ye Shaam Mastani",
+    "chords":[
+      "A",
+      "Am",
+      "C",
+      "D",
+      "Em",
+      "G"
+    ],
+    "key":"",
+    "album":"Kati Patang",
+    "artists":[
+      "Kishore Kumar"
+    ],
+    "composer":"R. D. Burman",
+    "language":"Hindi",
+    "loop_start":243.0,
+    "loop_end":363.0,
+    "title":"Ye Shaam Mastani Ukulele Tutorial",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20200826,
+    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -4502,78 +5016,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"UyvyDdmcWqM",
-    "track":"Channa Mereya",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Ae Dil Hai Mushkil",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":323.0,
-    "title":"Channa Mereya | Ae Dil Hai Mushkil | Easy Ukulele Tutorial",
-    "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
-    "upload_date":"20170909",
-    "uploader":"Tarun Mishra",
-    "baritone":0.0,
-    "id_related":"TYTXye-HKik,UyvyDdmcWqM"
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"uh-kmNxXcqM",
-    "track":"Channa Mereya -",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Ae Dil Hai Mushkil",
-    "artists":[
-
-    ],
-    "composer":"Pritam",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":219.0,
-    "title":"Channa Mereya - easy ukulele lesson",
-    "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
-    "upload_date":"20171113",
-    "uploader":"ukeguide",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"Wd0L2FpwkUI",
-    "track":"Channa Mereya - Ukelele Cover",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"With Chords",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":124.0,
-    "title":"Channa Mereya - Ukelele Cover (with chords)",
-    "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
-    "upload_date":"20200518",
-    "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"7__SuMEqLsM",
     "track":"Chhod Diya",
     "chords":[
@@ -5351,37 +5793,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"2i4dtdGXotw",
-    "track":"Dil Ko Tumse Pyaar Hua",
-    "chords":[
-      "Am",
-      "Bb",
-      "C",
-      "Dm",
-      "E",
-      "E7",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"Rehna Hai Tere Dil Mein",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":1193.0,
-    "title":"Dil ko tumse pyaar hua Ukulele tutorial | Rehna hai tere dil mein",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200909",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"D9upCqi0V8k",
     "track":"Dil Mein Ho Tum",
     "chords":[
@@ -5619,33 +6030,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201022",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"EgVMIVjezgs",
-    "track":"Dooba Dooba Rehta Hu",
-    "chords":[
-      "C",
-      "D",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":477.0,
-    "title":"Dooba dooba rehta hu Ukulele Tutorial | Only 4 simple chords?",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200902",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -6793,35 +7177,7 @@
     "upload_date":"20171021",
     "uploader":"Tarun Mishra",
     "baritone":0.0,
-    "id_related":"pNMbPm90wmU,UjfOXzDHMJU"
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"UjfOXzDHMJU",
-    "track":"Hasi Ban Gaye",
-    "chords":[
-      "Am",
-      "Bb",
-      "C",
-      "Dm",
-      "F"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":747.0,
-    "title":"Hasi Ban Gaye Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201014",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":"pNMbPm90wmU,UjfOXzDHMJU"
+    "id_related":null
   },
   {
     "ignore":0,
@@ -8275,34 +8631,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"RvDm1N9rCk8",
-    "track":"Kaha Ho Tum Mismatched",
-    "chords":[
-      "Bb",
-      "C",
-      "Dm",
-      "Eb",
-      "F"
-    ],
-    "key":"",
-    "album":"Prateek Kuhad",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":760.0,
-    "title":"Kaha ho tum Mismatched Ukulele Tutorial Prateek Kuhad",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201230",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"_B4XI61RJog",
     "track":"Kahaan Ho Tum",
     "chords":[
@@ -8930,36 +9258,7 @@
     "upload_date":"20200805",
     "uploader":"Tarun Mishra",
     "baritone":0.0,
-    "id_related":"FpcCsEkk1qg,B95AKOjwLO4"
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"B95AKOjwLO4",
-    "track":"Kasoor",
-    "chords":[
-      "Am",
-      "C",
-      "Dm",
-      "Dm7",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"Prateek Kuhad",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":811.0,
-    "title":"Kasoor (Prateek Kuhad) Ukulele Tutorial with Play Along",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201209",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":"FpcCsEkk1qg,B95AKOjwLO4"
+    "id_related":null
   },
   {
     "ignore":0,
@@ -9669,34 +9968,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200602",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"N-BK6l_emMY",
-    "track":"Kya Hua Tera Waada",
-    "chords":[
-      "Bb",
-      "C",
-      "Dm",
-      "F"
-    ],
-    "key":"",
-    "album":"Hum Kisise Kum Nahi",
-    "artists":[
-      "Mohd. Rafi",
-      "Sushma Shreshtha"
-    ],
-    "composer":"R.D Burman",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":549.0,
-    "title":"Kya hua Tera waada Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200916",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -10986,33 +11257,6 @@
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":"20171122",
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"fiYfnt2P_UE",
-    "track":"Mere Saamne Wali Khidki Mein",
-    "chords":[
-      "Am",
-      "C",
-      "D",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":492.0,
-    "title":"Mere saamne wali khidki mein Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201125",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -14334,35 +14578,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"WoU8p7RB3ec",
-    "track":"Shayad",
-    "chords":[
-      "Am",
-      "Bm",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":1049.0,
-    "title":"Shayad Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200930",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"x6GUBTF3ELU",
     "track":"Shayad",
     "chords":[
@@ -14382,7 +14597,7 @@
     "upload_date":"20200214",
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"WoU8p7RB3ec,x6GUBTF3ELU"
   },
   {
     "ignore":0,
@@ -15673,35 +15888,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"_Np6iIZ2Gcs",
-    "track":"Tik Tik Waajte Dokyat",
-    "chords":[
-      "Am",
-      "C",
-      "Dm",
-      "F",
-      "G",
-      "G7"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":726.0,
-    "title":"Tik Tik Waajte Dokyat Ukulele Tutorial with Playalong",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201223",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"_0jBpiRzrtA",
     "track":"Tinka Tinka",
     "chords":[
@@ -15768,33 +15954,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200514",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"TTjWWMAc1Xo",
-    "track":"Tu Aashiqui Hai",
-    "chords":[
-      "A",
-      "Bm",
-      "D",
-      "G"
-    ],
-    "key":"",
-    "album":"Jhankaar Beats",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":982.0,
-    "title":"Tu Aashiqui Hai Ukulele Tutorial | Jhankaar Beats",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201028",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -15995,34 +16154,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"OoHHB8zOd7o",
-    "track":"Tu Hi Meri Shab Hai",
-    "chords":[
-      "Am",
-      "D",
-      "E",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":956.0,
-    "title":"Tu hi meri shab hai Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201007",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"lL8sjpYL3fU",
     "track":"Tu Hi Re",
     "chords":[
@@ -16114,34 +16245,6 @@
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20210210",
     "uploader":"the chashmish",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"5kZ-ksFRUGs",
-    "track":"Tu Mile Dil Khile",
-    "chords":[
-      "Am",
-      "C",
-      "Dm",
-      "F",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":1091.0,
-    "title":"Tu mile dil khile Ukulele tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201021",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -16510,37 +16613,6 @@
     "channel":"UC8LY9RfQk75FaLSqV2b8aKg",
     "upload_date":"20200110",
     "uploader":"heyitzola",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"8ZPouviHFSc",
-    "track":"Tum Ho - Rockstar",
-    "chords":[
-      "A",
-      "Am",
-      "Bb",
-      "C",
-      "E",
-      "F",
-      "G",
-      "Gm"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":927.0,
-    "title":"Tum Ho - Rockstar Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20210106",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -17286,32 +17358,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"MKHboVCo8jw",
-    "track":"Ya Ali",
-    "chords":[
-      "C",
-      "D",
-      "Em"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":820.0,
-    "title":"Ya Ali Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20201111",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"2Z6GbkdBnAU",
     "track":"Yaaridamum - Tamil Ukulele Cover\/Chords\/Tutorial",
     "chords":[
@@ -17598,35 +17644,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20191208",
     "uploader":"ukeguide",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"Imq_noh-Ua0",
-    "track":"Ye Shaam Mastani",
-    "chords":[
-      "A",
-      "Am",
-      "C",
-      "D",
-      "Em",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composer":"",
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":423.0,
-    "title":"Ye Shaam Mastani Ukulele Tutorial",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20200826",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
