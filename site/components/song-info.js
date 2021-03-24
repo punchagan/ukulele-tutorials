@@ -5,7 +5,7 @@ import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import styles from "../styles/Video.module.css";
-import { postData, getVideoMetadata } from "../lib/api";
+import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
 
 const findChord = (chord, db, isBaritone) => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
@@ -167,10 +167,17 @@ const EditSongInfo = ({ video, onChange }) => {
   const publishData = () => {
     postData(video.id, { ...video, publish: 1 });
   };
+
   const [meta, setMeta] = useState();
+  const [original, setOriginal] = useState({});
   useEffect(() => {
     getVideoMetadata(video).then(data => setMeta(data));
+    setOriginal({ ...original, q: `${video.track} ${video.album}` });
   }, [video]);
+
+  const search = e => {
+    ytSearchDescription(original.q).then(data => setOriginal(data));
+  };
 
   return (
     <>
@@ -228,7 +235,22 @@ const EditSongInfo = ({ video, onChange }) => {
           </span>
         </li>
       </ul>
-      {meta?.description && <h3>Original Video Description</h3>}
+      <h3>Search Original Song</h3>
+      <input
+        type="text"
+        value={original.q}
+        onChange={e => setOriginal({ ...original, q: e.target.value })}
+      />
+      <button onClick={search}>Search</button>
+      {original?.id && (
+        <p>
+          <a href={`https://youtube.com/v/${original.id}`} target="_blank">
+            {original.title}
+          </a>
+        </p>
+      )}
+      {original?.description?.split("\n").map(d => <p>{d}</p>)}
+      {meta?.description && <h3>Uploaded Video Description</h3>}
       {meta?.description.split("\n").map(d => <p>{d}</p>)}
     </>
   );

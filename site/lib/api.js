@@ -3,6 +3,7 @@ export const getVideoMetadata = ({ id, channel }) => {
     response.json()
   );
 };
+
 export const postData = (videoId, data) => {
   fetch(`/api/video/${videoId}`, {
     method: "PUT",
@@ -14,3 +15,7 @@ export const postData = (videoId, data) => {
 };
 
 export const markIgnored = videoId => postData(videoId, { ignore: 1 });
+
+export const ytSearchDescription = q => {
+  return fetch(`/api/yt-search?q=${q}`).then(response => response.json());
+};
