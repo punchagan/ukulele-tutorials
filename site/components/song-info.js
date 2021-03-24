@@ -164,8 +164,11 @@ const ShowSongInfo = ({ video }) => {
 };
 
 const EditSongInfo = ({ video, onChange }) => {
+  const [error, setError] = useState();
   const publishData = () => {
-    postData(video.id, { ...video, publish: 1 });
+    postData(video.id, { ...video, publish: 1 })
+      .catch(err => setError(err.message))
+      .then(data => setError(""));
   };
 
   const [meta, setMeta] = useState();
@@ -232,6 +235,7 @@ const EditSongInfo = ({ video, onChange }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoValue}>
             <button onClick={publishData}>Publish</button>
+            <p>{error}</p>
           </span>
         </li>
       </ul>
