@@ -91,9 +91,10 @@ export default function About() {
         <h3>What technologies do you use to create this website?</h3>
         <p>
           The song metadata is collected using{" "}
-          <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a>. The front-end/UI for the
-          site is built using <a href="https://nextjs.org/">Next.js</a>. The site is served as a
-          static site using{" "}
+          <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a>. I use{" "}
+          <a href="https://pandas.pydata.org/">Pandas</a> to process and/or create JSONs and CSV
+          files. The front-end/UI for the site is built using{" "}
+          <a href="https://nextjs.org/">Next.js</a>. The site is served as a static site using{" "}
           <a href="https://nextjs.org/docs/advanced-features/static-html-export">
             <code>next export</code>
           </a>
@@ -102,8 +103,37 @@ export default function About() {
             React InstantSearch
           </a>{" "}
           by Algolia.
-        </p>{" "}
-      </div>{" "}
+        </p>
+        <p>
+          The chord diagrams are generated using the two wonderful packages by{" "}
+          <a href="https://github.com/tombatossals">David Rubert</a> &mdash;{" "}
+          <a href="https://github.com/tombatossals/chords-db">chords-db</a> and{" "}
+          <a href="https://github.com/tombatossals/react-chords">react-chords</a>.
+        </p>
+        <h3>Can you add a page with all the chord diagrams?</h3>
+        <p>
+          You can find a page <a href="https://tombatossals.github.io/chords-db/ukulele">here</a>{" "}
+          created using chords-db and react-chords. If you are using a Baritone Ukulele, you can see
+          the Guitar chord shapes, and ignore the top two strings. This site also generates the
+          diagrams for Baritone Ukulele songs, using this technique.
+        </p>
+        <h3>
+          I am a beginner/intermediate Ukulele player who can play a few chords and a few songs. Do
+          you have any tips that you wish someone told you when you started?
+        </h3>
+        <p>
+          I really like these 12 tips in{" "}
+          <a href="https://www.youtube.com/watch?v=PfndlSCeWeo">this</a> video. My top 5 tips from
+          this video are:
+        </p>
+        <dl>
+          <dt>Tip #12</dt> <dd>Sleep &ndash; It helps consolidate learning </dd>
+          <dt>Tip #9</dt> <dd>Promise yourself to practice 5 minutes every day</dd>
+          <dt>Tip #1</dt> <dd>Learn complete songs that you actually love!</dd>
+          <dt>Tip #4</dt> <dd>Learn to play in time</dd>
+          <dt>Tip #11</dt> <dd>Practice playing in the dark</dd>
+        </dl>
+      </div>
     </Layout>
   );
 }
