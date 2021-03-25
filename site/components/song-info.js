@@ -329,7 +329,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
           </span>
         </li>
       </ul>
-      <h3>Search Original Song</h3>
+      <h2>Search Original Song</h2>
       <Input
         style={{ width: "60%" }}
         value={original.q}
@@ -345,7 +345,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
         </p>
       )}
       {original?.description?.split("\n").map(d => <p>{d}</p>)}
-      {meta?.description && <h3>Uploaded Video Description</h3>}
+      {meta?.description && <h2>Uploaded Video Description</h2>}
       {meta?.description.split("\n").map(d => <p>{d}</p>)}
     </>
   );
