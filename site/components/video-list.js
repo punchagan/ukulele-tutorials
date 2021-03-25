@@ -48,11 +48,12 @@ export function Video({ hit: video }) {
       href={`https://youtube.com/v/${video.id}`}
     >
       <YoutubeFilled />
-    </a>,
-    !video.publish && (
-      <CloseOutlined onClick={() => markIgnored(video.id)} title="Mark as Ignored" />
-    )
+    </a>
   ];
+
+  if (!video.publish) {
+    actions.push(<CloseOutlined onClick={() => markIgnored(video.id)} title="Mark as Ignored" />);
+  }
 
   return (
     <Card
