@@ -352,7 +352,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
       )}
       {original?.description?.split("\n").map((d, i) => <p key={i}>{d}</p>)}
       {meta?.description && <h2>Uploaded Video Description</h2>}
-      {meta?.description.split("\n").map((d, i) => <p key={i}>{d}</p>)}
+      {meta?.description?.split("\n").map((d, i) => <p key={i}>{d}</p>)}
     </>
   );
 };
