@@ -32,7 +32,7 @@ ALBUM2_RE = re.compile('(?:movie|film|album)\s*(?:–|:|-)+\s*((?:\w| )+)',
                        flags=re.IGNORECASE|re.MULTILINE)
 ARTISTS_RE = re.compile('(?:singer\(*s*\)*|artists*)\s*(?:–|:|-)+\s*((?:[A-Za-z0-9]| |\.|&|,)+)',
                         flags=re.IGNORECASE|re.MULTILINE)
-COMPOSER_RE = re.compile('(?:music(?: director)*|compose(?:r|d)|'
+COMPOSERS_RE = re.compile('(?:music(?: director)*|compose(?:r|d)|'
                          'arranged|reprised|recreated)\s*'
                          '(?: by){0,1}\s*'
                          '(?:–|:|-)+\s*'
@@ -42,7 +42,7 @@ SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|compo
                           flags=re.IGNORECASE|re.MULTILINE)
 
 COLUMNS = ['ignore', 'publish', 'id', 'track', 'chords', 'key',
-           'album', 'artists', 'composer', 'language',
+           'album', 'artists', 'composers', 'language',
            'loop_start', 'loop_end',
            'title', 'channel', 'upload_date', 'uploader', 'id_related', 'baritone']
 
@@ -159,7 +159,7 @@ class Updater:
                                                    .fillna('')\
                                                    .str.replace(', ', ',')\
                                                    .str.split(',').apply(sort_list)
-        data.loc[non_ignored_rows, 'composer'] = data.loc[non_ignored_rows, 'composer']\
+        data.loc[non_ignored_rows, 'composers'] = data.loc[non_ignored_rows, 'composers']\
                                                      .fillna('')\
                                                      .str.replace(', ', ',')\
                                                      .str.split(',').apply(sort_list)
@@ -234,11 +234,11 @@ class Updater:
         if artists_match is not None:
             artists = artists_match.group(1).strip().strip(',').replace(' &', ',')
 
-        composer_match = COMPOSER_RE.search(entry['description'])
-        if composer_match is not None:
-            composer = composer_match.group(1).strip().strip(',').replace(' &', ',')
+        composers_match = COMPOSERS_RE.search(entry['description'])
+        if composers_match is not None:
+            composers = composers_match.group(1).strip().strip(',').replace(' &', ',')
         else:
-            composer = ''
+            composers = ''
 
         channel = [c for c in channels if c.get('id') == entry['channel_id']][0]
         languages = {'hindi', 'english', 'telugu', 'tamil', 'malayalam', 'kannada',
@@ -256,7 +256,7 @@ class Updater:
             'track': track.title(),
             'artists': artists.title(),
             'album': album.title(),
-            'composer': composer.title(),
+            'composers': composers.title(),
             'chords': chords,
             'key': '',
             'baritone': int('baritone' in title.lower()),

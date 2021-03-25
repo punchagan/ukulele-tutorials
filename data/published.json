@@ -17,7 +17,7 @@
     "artists":[
       "Farida Khanum"
     ],
-    "composer":[
+    "composers":[
       "Sohali Rana"
     ],
     "language":"Hindi",
@@ -46,7 +46,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -76,7 +76,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R. D. Burman"
     ],
     "language":"Hindi",
@@ -104,7 +104,7 @@
     "artists":[
       "Taba Chake"
     ],
-    "composer":[
+    "composers":[
       "Taba Chake"
     ],
     "language":"Hindi",
@@ -135,7 +135,7 @@
       "Kishore Kumar",
       "Lata Mangeshkar"
     ],
-    "composer":[
+    "composers":[
       "R.D Burman"
     ],
     "language":"Hindi",
@@ -166,7 +166,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Anupam Roy"
     ],
     "language":"Bengali",
@@ -195,7 +195,7 @@
       "Alka Yagnik",
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "A. R. Rahman"
     ],
     "language":"Hindi",
@@ -224,7 +224,7 @@
       "Alka Yagnik",
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "A. R. Rahman"
     ],
     "language":"Hindi",
@@ -257,7 +257,7 @@
       "Nikhita Gandhi",
       "Raghav Chaitanya"
     ],
-    "composer":[
+    "composers":[
       "Anurag Saikia"
     ],
     "language":"Hindi",
@@ -287,7 +287,7 @@
     "artists":[
       "Indrani Sen"
     ],
-    "composer":[
+    "composers":[
       "Rabindranath Tagore"
     ],
     "language":"Bengali",
@@ -318,7 +318,7 @@
     "artists":[
       "Suhail Kaul"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -349,7 +349,7 @@
     "artists":[
       "Suhail Kaul"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -381,7 +381,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Sachet-Parampara"
     ],
     "language":"Hindi",
@@ -414,7 +414,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Sachet-Parampara"
     ],
     "language":"Hindi",
@@ -443,7 +443,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Sachet-Parampara"
     ],
     "language":"Hindi",
@@ -474,7 +474,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Sachet-Parampara"
     ],
     "language":"Hindi",
@@ -503,7 +503,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "Rabindranath Tagore"
     ],
     "language":"Bengali",
@@ -534,7 +534,7 @@
     "artists":[
       "Rabbi Shergill"
     ],
-    "composer":[
+    "composers":[
       "Rabbi Shergill"
     ],
     "language":"Punjabi",
@@ -564,7 +564,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -593,7 +593,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -623,7 +623,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -652,7 +652,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -683,7 +683,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Rajesh Roshan"
     ],
     "language":"Hindi",
@@ -712,7 +712,7 @@
     "artists":[
       "Raghav Meattle"
     ],
-    "composer":[
+    "composers":[
       "Raghav Meattle"
     ],
     "language":"English",
@@ -740,7 +740,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"English",
@@ -768,7 +768,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"English",
@@ -796,7 +796,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"English",
@@ -825,7 +825,7 @@
     "artists":[
       "Atif Aslam"
     ],
-    "composer":[
+    "composers":[
       "Vishal-Shekhar"
     ],
     "language":"Hindi",
@@ -860,7 +860,7 @@
     "artists":[
       "Atif Aslam"
     ],
-    "composer":[
+    "composers":[
       "Vishal-Shekhar"
     ],
     "language":"Hindi",
@@ -889,7 +889,7 @@
     "artists":[
       "Atif Aslam"
     ],
-    "composer":[
+    "composers":[
       "Vishal-Shekhar"
     ],
     "language":"Hindi",
@@ -918,7 +918,7 @@
     "artists":[
       "Minmini"
     ],
-    "composer":[
+    "composers":[
       "A. R. Rahman"
     ],
     "language":"Hindi",
@@ -951,7 +951,7 @@
     "artists":[
       "Roop Kumar Rathod"
     ],
-    "composer":[
+    "composers":[
       "Harris Jayaraj"
     ],
     "language":"Hindi",
@@ -980,7 +980,7 @@
     "artists":[
       "Mohit Chauhan"
     ],
-    "composer":[
+    "composers":[
       "Silk Route"
     ],
     "language":"Hindi",
@@ -1007,7 +1007,7 @@
     "artists":[
       "Anupam Roy"
     ],
-    "composer":[
+    "composers":[
       "Anupam Roy"
     ],
     "language":"Bengali",
@@ -1038,7 +1038,7 @@
       "Lata Mangeshkar",
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Laxmikant Pyarelal"
     ],
     "language":"Hindi",
@@ -1069,7 +1069,7 @@
       "Lata Mangeshkar",
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Laxmikant Pyarelal"
     ],
     "language":"Hindi",
@@ -1100,7 +1100,7 @@
       "Lata Mangeshkar",
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Laxmikant Pyarelal"
     ],
     "language":"Hindi",
@@ -1132,7 +1132,7 @@
       "Lata Mangeshkar",
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Laxmikant Pyarelal"
     ],
     "language":"Hindi",
@@ -1163,7 +1163,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "A.R.Rahman"
     ],
     "language":"Hindi",
@@ -1193,7 +1193,7 @@
       "Sid Sriram",
       "Sunitha Sarathy"
     ],
-    "composer":[
+    "composers":[
       "A. R. Rahman"
     ],
     "language":"Tamil",
@@ -1224,7 +1224,7 @@
       "Shweta Mohan",
       "Vijay Yesudas"
     ],
-    "composer":[
+    "composers":[
       "Prince George"
     ],
     "language":"Malayalam",
@@ -1253,7 +1253,7 @@
     "artists":[
       "Mohammed Rafi"
     ],
-    "composer":[
+    "composers":[
       "R. D. Burman"
     ],
     "language":"Hindi",
@@ -1283,7 +1283,7 @@
     "artists":[
       "Ami Mishra"
     ],
-    "composer":[
+    "composers":[
       "Jeet Gannguli"
     ],
     "language":"Hindi",
@@ -1314,7 +1314,7 @@
     "artists":[
       "Mohit Chauhan"
     ],
-    "composer":[
+    "composers":[
       "Pritam Chakraborty"
     ],
     "language":"Hindi",
@@ -1343,7 +1343,7 @@
     "artists":[
       "Soham"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -1376,7 +1376,7 @@
       "Kumar Sanu",
       "Sadhna Sargam"
     ],
-    "composer":[
+    "composers":[
       "Rajesh Roshan"
     ],
     "language":"Hindi",
@@ -1407,7 +1407,7 @@
     "artists":[
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Shankar Jaikishan"
     ],
     "language":"Hindi",
@@ -1436,7 +1436,7 @@
     "artists":[
       "Papon"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -1466,7 +1466,7 @@
     "artists":[
       "Papon"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -1496,7 +1496,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -1527,7 +1527,7 @@
     "artists":[
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Salil Chowdhury"
     ],
     "language":"Hindi",
@@ -1556,7 +1556,7 @@
       "K. S. Chithra",
       "Mohanlal"
     ],
-    "composer":[
+    "composers":[
       "M. G. Radhakrishnan"
     ],
     "language":"Malayalam",
@@ -1585,7 +1585,7 @@
       "K. S. Chithra",
       "Mohanlal"
     ],
-    "composer":[
+    "composers":[
       "M. G. Radhakrishnan"
     ],
     "language":"Malayalam",
@@ -1616,7 +1616,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -1646,7 +1646,7 @@
     "artists":[
       "Sid Sriram"
     ],
-    "composer":[
+    "composers":[
       "Leon James"
     ],
     "language":"Tamil",
@@ -1676,7 +1676,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -1706,7 +1706,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -1735,7 +1735,7 @@
     "artists":[
       "Shaan"
     ],
-    "composer":[
+    "composers":[
       "Shankar-Ehsaan-Loy"
     ],
     "language":"Hindi",
@@ -1764,7 +1764,7 @@
     "artists":[
       "Mohammed Rafi"
     ],
-    "composer":[
+    "composers":[
       "Rahul Dev Burman"
     ],
     "language":"Hindi",
@@ -1794,7 +1794,7 @@
       "Mohammed Rafi",
       "Sushma Shrestha"
     ],
-    "composer":[
+    "composers":[
       "R. D. Burman"
     ],
     "language":"Hindi",
@@ -1826,7 +1826,7 @@
       "Dominique Cerejo",
       "Loy Mendonsa"
     ],
-    "composer":[
+    "composers":[
       "Ehsaan",
       "Loy",
       "Shankar"
@@ -1858,7 +1858,7 @@
     "artists":[
       "Sunidhi Chauhan"
     ],
-    "composer":[
+    "composers":[
       "Rochak Kohli"
     ],
     "language":"Hindi",
@@ -1886,7 +1886,7 @@
     "artists":[
       "Jubin Nautiyal"
     ],
-    "composer":[
+    "composers":[
       "Tanishk Bagchi"
     ],
     "language":"Hindi",
@@ -1918,7 +1918,7 @@
     "artists":[
       "Parineeti Chopra"
     ],
-    "composer":[
+    "composers":[
       "Sachin Jigar"
     ],
     "language":"Hindi",
@@ -1947,7 +1947,7 @@
       "Antara Mitra",
       "Darshan Raval"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -1976,7 +1976,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R. D. Burman"
     ],
     "language":"Hindi",
@@ -2005,7 +2005,7 @@
     "artists":[
       "Raghu Dixit"
     ],
-    "composer":[
+    "composers":[
       "Raghu Dixit"
     ],
     "language":"Kannada",
@@ -2034,7 +2034,7 @@
     "artists":[
       "Soumya Ramakrishnan"
     ],
-    "composer":[
+    "composers":[
       "Bijibal"
     ],
     "language":"Malayalam",
@@ -2062,7 +2062,7 @@
     "artists":[
       "Gowtham Bharadwaj V"
     ],
-    "composer":[
+    "composers":[
       "Justin Prabhakaran"
     ],
     "language":"Telugu",
@@ -2096,7 +2096,7 @@
       "Hariharan",
       "V. V. Prassanna"
     ],
-    "composer":[
+    "composers":[
       "Harris Jayaraj"
     ],
     "language":"Tamil",
@@ -2125,7 +2125,7 @@
     "artists":[
       "Lucky Ali"
     ],
-    "composer":[
+    "composers":[
       "Lucky Ali"
     ],
     "language":"Hindi",
@@ -2154,7 +2154,7 @@
     "artists":[
       "Lucky Ali"
     ],
-    "composer":[
+    "composers":[
       "Lucky Ali"
     ],
     "language":"Hindi",
@@ -2183,7 +2183,7 @@
     "artists":[
       "Lucky Ali"
     ],
-    "composer":[
+    "composers":[
       "Lucky Ali"
     ],
     "language":"Hindi",
@@ -2212,7 +2212,7 @@
     "artists":[
       "Lucky Ali"
     ],
-    "composer":[
+    "composers":[
       "Lucky Ali"
     ],
     "language":"Hindi",
@@ -2242,7 +2242,7 @@
     "artists":[
       "Lucky Ali"
     ],
-    "composer":[
+    "composers":[
       "Lucky Ali"
     ],
     "language":"Hindi",
@@ -2272,7 +2272,7 @@
     "artists":[
       "Karthik"
     ],
-    "composer":[
+    "composers":[
       "Deepak Dev"
     ],
     "language":"Malayalam",
@@ -2303,7 +2303,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Kalayanji Anandji"
     ],
     "language":"Hindi",
@@ -2333,7 +2333,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Kalayanji Anandji"
     ],
     "language":"Hindi",
@@ -2363,7 +2363,7 @@
     "artists":[
       "M. G. Sreekumar"
     ],
-    "composer":[
+    "composers":[
       "Ilayaraja"
     ],
     "language":"Malayalam",
@@ -2391,7 +2391,7 @@
     "artists":[
       "Ayushmann Khurrana"
     ],
-    "composer":[
+    "composers":[
       "Ayushmann Khurrana",
       "Rochak Kohli"
     ],
@@ -2420,7 +2420,7 @@
     "artists":[
       "Ayushmann Khurrana"
     ],
-    "composer":[
+    "composers":[
       "Ayushmann Khurrana",
       "Rochak Kohli"
     ],
@@ -2449,7 +2449,7 @@
     "artists":[
       "Ayushmann Khurrana"
     ],
-    "composer":[
+    "composers":[
       "Ayushmann Khurrana",
       "Rochak Kohli"
     ],
@@ -2482,7 +2482,7 @@
       "Sadhana Sargam",
       "Unni Krishnan"
     ],
-    "composer":[
+    "composers":[
       "A. R. Rahman"
     ],
     "language":"Telugu",
@@ -2512,7 +2512,7 @@
     "artists":[
       "Lagnajita Chakraborty"
     ],
-    "composer":[
+    "composers":[
       "Ranajoy Bhattacharjee"
     ],
     "language":"Bengali",
@@ -2541,7 +2541,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R.D Burman"
     ],
     "language":"Hindi",
@@ -2570,7 +2570,7 @@
     "artists":[
       "Taba Chake"
     ],
-    "composer":[
+    "composers":[
       "Taba Chake"
     ],
     "language":"Hindi",
@@ -2600,7 +2600,7 @@
       "Amit Trivedi",
       "Nikhil D'Souza"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -2631,7 +2631,7 @@
       "Amit Trivedi",
       "Nikhil D'Souza"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -2662,7 +2662,7 @@
       "Amit Trivedi",
       "Nikhil D'Souza"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -2701,7 +2701,7 @@
       "Amit Trivedi",
       "Nikhil D'Souza"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -2732,7 +2732,7 @@
       "Amit Trivedi",
       "Nikhil D'Souza"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -2762,7 +2762,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -2792,7 +2792,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -2823,7 +2823,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -2852,7 +2852,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -2883,7 +2883,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -2915,7 +2915,7 @@
     "artists":[
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
       "Ankit Tiwari"
     ],
     "language":"Hindi",
@@ -2945,7 +2945,7 @@
       "Shashaa Tirupati",
       "Sid Sriram"
     ],
-    "composer":[
+    "composers":[
       "Darbuka Siva"
     ],
     "language":"Tamil",
@@ -2974,7 +2974,7 @@
     "artists":[
       "Shaan"
     ],
-    "composer":[
+    "composers":[
       "Ram Sampath"
     ],
     "language":"Hindi",
@@ -3004,7 +3004,7 @@
     "artists":[
       "Adnan Sami"
     ],
-    "composer":[
+    "composers":[
       "Tera Chehra"
     ],
     "language":"Hindi",
@@ -3032,7 +3032,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R.D.Burman"
     ],
     "language":"Hindi",
@@ -3063,7 +3063,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R.D.Burman"
     ],
     "language":"Hindi",
@@ -3092,7 +3092,7 @@
     "artists":[
       "B Praak"
     ],
-    "composer":[
+    "composers":[
       "Arko Pravo Mukherjee"
     ],
     "language":"Hindi",
@@ -3124,7 +3124,7 @@
       "Sayali Pankaj",
       "Sonu Nigam"
     ],
-    "composer":[
+    "composers":[
       "Pankaj Padghan"
     ],
     "language":"Marathi",
@@ -3152,7 +3152,7 @@
     "artists":[
       "Afsana Khan"
     ],
-    "composer":[
+    "composers":[
       "Avvy Sra"
     ],
     "language":"Punjabi",
@@ -3181,7 +3181,7 @@
     "artists":[
       "KK"
     ],
-    "composer":[
+    "composers":[
       "Vishal-Shekhar"
     ],
     "language":"Hindi",
@@ -3209,7 +3209,7 @@
     "artists":[
       "Osho Jain"
     ],
-    "composer":[
+    "composers":[
       "Osho Jain"
     ],
     "language":"Hindi",
@@ -3244,7 +3244,7 @@
       "Sunidhi Chauhan",
       "Zubeen"
     ],
-    "composer":[
+    "composers":[
       "Preetam"
     ],
     "language":"Hindi",
@@ -3275,7 +3275,7 @@
       "Alka Yagnik ",
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "M. M. Keeravani"
     ],
     "language":"Hindi",
@@ -3308,7 +3308,7 @@
     "artists":[
       "Mohit Chauhan"
     ],
-    "composer":[
+    "composers":[
       "A. R. Rahman"
     ],
     "language":"Hindi",
@@ -3339,7 +3339,7 @@
     "artists":[
       "Mohammed Rafi"
     ],
-    "composer":[
+    "composers":[
       "R. D. Burman"
     ],
     "language":"Hindi",
@@ -3369,7 +3369,7 @@
       "Dhvani Bhanushali",
       "Nikhil D’Souza"
     ],
-    "composer":[
+    "composers":[
       "Tanishk Bagchi"
     ],
     "language":"Hindi",
@@ -3397,7 +3397,7 @@
     "artists":[
       "Taba Chake"
     ],
-    "composer":[
+    "composers":[
       "Taba Chake"
     ],
     "language":"English",
@@ -3425,7 +3425,7 @@
     "artists":[
       "Zubeen Garg"
     ],
-    "composer":[
+    "composers":[
       "Pritam Chakraborty"
     ],
     "language":"Hindi",
@@ -3456,7 +3456,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R. D. Burman"
     ],
     "language":"Hindi",
@@ -3486,7 +3486,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -3516,7 +3516,7 @@
       "Kavita Krishnamurthy",
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Laxmikant Pyarelal"
     ],
     "language":"Hindi",
@@ -3542,7 +3542,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -3568,7 +3568,7 @@
     "artists":[
       "ভালো আছি ভালো থেকো ‍"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -3594,7 +3594,7 @@
     "artists":[
       "মহীনের ঘোড়াগুলি"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -3620,7 +3620,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -3646,7 +3646,7 @@
     "artists":[
       "Ukulele"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -3672,7 +3672,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -3698,7 +3698,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3724,7 +3724,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3750,7 +3750,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3776,7 +3776,7 @@
     "artists":[
       "Chords And"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -3803,7 +3803,7 @@
       "Karthik",
       "Shilpa Rao"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3829,7 +3829,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3855,7 +3855,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3884,7 +3884,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3910,7 +3910,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3936,7 +3936,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3962,7 +3962,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -3988,7 +3988,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4019,7 +4019,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4045,7 +4045,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4071,7 +4071,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4097,7 +4097,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4123,7 +4123,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4149,7 +4149,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4175,7 +4175,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4202,7 +4202,7 @@
       "Lata Mangeshkar",
       "S.P. Balasubramanium"
     ],
-    "composer":[
+    "composers":[
       "Ram Laxman"
     ],
     "language":"Hindi",
@@ -4228,7 +4228,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4254,7 +4254,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4280,7 +4280,7 @@
     "artists":[
       "Sonu Nigam"
     ],
-    "composer":[
+    "composers":[
       "Ajay Atul"
     ],
     "language":"Hindi",
@@ -4306,7 +4306,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4332,7 +4332,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -4358,7 +4358,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4384,7 +4384,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Ehsaan",
       "Loy",
       "Shankar"
@@ -4412,7 +4412,7 @@
     "artists":[
       "Lata Mangeshkar"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4438,7 +4438,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4464,7 +4464,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4490,7 +4490,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4516,7 +4516,7 @@
     "artists":[
       "Malayalam"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Malayalam",
@@ -4542,7 +4542,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4568,7 +4568,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4597,7 +4597,7 @@
     "artists":[
       "Mousumi Bhowmik"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -4623,7 +4623,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4649,7 +4649,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4675,7 +4675,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4701,7 +4701,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4727,7 +4727,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4753,7 +4753,7 @@
     "artists":[
       "Nabid Alam"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -4780,7 +4780,7 @@
       "Benazir",
       "Tanveer Evan"
     ],
-    "composer":[
+    "composers":[
       "Piran Khan"
     ],
     "language":"Bengali",
@@ -4806,7 +4806,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4832,7 +4832,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4858,7 +4858,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4884,7 +4884,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4910,7 +4910,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4936,7 +4936,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4962,7 +4962,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -4988,7 +4988,7 @@
     "artists":[
       "Amit Kumar"
     ],
-    "composer":[
+    "composers":[
       "Rahul Dev Burman"
     ],
     "language":"Hindi",
@@ -5014,7 +5014,7 @@
     "artists":[
       "Main Rahu Ya Na Rahu"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5040,7 +5040,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5066,7 +5066,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5092,7 +5092,7 @@
     "artists":[
       "Rupam Islam"
     ],
-    "composer":[
+    "composers":[
       "Anupam Roy",
       "Debojyoti Mishra"
     ],
@@ -5119,7 +5119,7 @@
     "artists":[
       "Hindi Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5145,7 +5145,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5171,7 +5171,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5197,7 +5197,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5223,7 +5223,7 @@
     "artists":[
       "Bangla"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -5249,7 +5249,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5275,7 +5275,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5301,7 +5301,7 @@
     "artists":[
       "Armaan Malik"
     ],
-    "composer":[
+    "composers":[
       "Amaal Malik"
     ],
     "language":"Hindi",
@@ -5327,7 +5327,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5353,7 +5353,7 @@
     "artists":[
       "Baritone"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5379,7 +5379,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -5406,7 +5406,7 @@
       "Shaan",
       "Shreya"
     ],
-    "composer":[
+    "composers":[
       "Shantanu Moitra"
     ],
     "language":"Hindi",
@@ -5432,7 +5432,7 @@
     "artists":[
       "Tutorial"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -5458,7 +5458,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5484,7 +5484,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Mithoon"
     ],
     "language":"Hindi",
@@ -5510,7 +5510,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5536,7 +5536,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5562,7 +5562,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5588,7 +5588,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Kanika Kapoor"
     ],
     "language":"Hindi",
@@ -5614,7 +5614,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5640,7 +5640,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5666,7 +5666,7 @@
     "artists":[
       "Vilen"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5692,7 +5692,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5718,7 +5718,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5744,7 +5744,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5770,7 +5770,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5797,7 +5797,7 @@
       "Asha Bhosle",
       "Mohammad Rafi"
     ],
-    "composer":[
+    "composers":[
       "R.D Burman"
     ],
     "language":"Hindi",
@@ -5825,7 +5825,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5851,7 +5851,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5877,7 +5877,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5903,7 +5903,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5929,7 +5929,7 @@
     "artists":[
       "Baar Baar Dekho"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5955,7 +5955,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -5981,7 +5981,7 @@
     "artists":[
       "Baritone Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6007,7 +6007,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6033,7 +6033,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6059,7 +6059,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6085,7 +6085,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6111,7 +6111,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6137,7 +6137,7 @@
     "artists":[
       "Atif Aslam"
     ],
-    "composer":[
+    "composers":[
       "Rochak Kohli"
     ],
     "language":"Hindi",
@@ -6163,7 +6163,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6189,7 +6189,7 @@
     "artists":[
       "Hindi Ukulele"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6216,7 +6216,7 @@
       "Ajay Gogavale",
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
       "Ajay-Atul"
     ],
     "language":"Hindi",
@@ -6242,7 +6242,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6269,7 +6269,7 @@
       "Anuradha Paudwal",
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6298,7 +6298,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6324,7 +6324,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6351,7 +6351,7 @@
       "Anuradha Paudwal",
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "Nadeem-Shravan"
     ],
     "language":"Hindi",
@@ -6377,7 +6377,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6403,7 +6403,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6429,7 +6429,7 @@
     "artists":[
       "S.Janaki"
     ],
-    "composer":[
+    "composers":[
       "Bappi Lahiri"
     ],
     "language":"Hindi",
@@ -6455,7 +6455,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6481,7 +6481,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6507,7 +6507,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6536,7 +6536,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6562,7 +6562,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6588,7 +6588,7 @@
     "artists":[
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "Nadeem Shravan"
     ],
     "language":"Hindi",
@@ -6614,7 +6614,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6640,7 +6640,7 @@
     "artists":[
       "Asha Bhosle"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -6666,7 +6666,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6692,7 +6692,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6718,7 +6718,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6745,7 +6745,7 @@
       "Akhil",
       "Dhvani Bhanushali"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6771,7 +6771,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6801,7 +6801,7 @@
     "artists":[
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
       "Jeet Ganguly"
     ],
     "language":"Bengali",
@@ -6827,7 +6827,7 @@
     "artists":[
       "Nabid Alam"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -6853,7 +6853,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -6879,7 +6879,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Rahul Dev Burman"
     ],
     "language":"Hindi",
@@ -6905,7 +6905,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -6932,7 +6932,7 @@
       "Alka Yagnik",
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "Jatin- Lalit"
     ],
     "language":"Hindi",
@@ -6958,7 +6958,7 @@
     "artists":[
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -6984,7 +6984,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7010,7 +7010,7 @@
     "artists":[
       "Jubin Nautiyal"
     ],
-    "composer":[
+    "composers":[
       "Jubin Nautiyal"
     ],
     "language":"Hindi",
@@ -7036,7 +7036,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7062,7 +7062,7 @@
     "artists":[
       "Raghav Chaitanya"
     ],
-    "composer":[
+    "composers":[
       "Anurag Saikia"
     ],
     "language":"Hindi",
@@ -7088,7 +7088,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7114,7 +7114,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7140,7 +7140,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -7166,7 +7166,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -7192,7 +7192,7 @@
     "artists":[
       "Sahana Bajpaie"
     ],
-    "composer":[
+    "composers":[
       "Arnob"
     ],
     "language":"Bengali",
@@ -7218,7 +7218,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -7244,7 +7244,7 @@
     "artists":[
       "Short Cover"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -7270,7 +7270,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7296,7 +7296,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7322,7 +7322,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7348,7 +7348,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7374,7 +7374,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7401,7 +7401,7 @@
       "Neeti Mohan",
       "Sanam Puri"
     ],
-    "composer":[
+    "composers":[
       "Vishal Shekhar"
     ],
     "language":"Hindi",
@@ -7427,7 +7427,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -7453,7 +7453,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -7480,7 +7480,7 @@
       "Mohit Chauhan",
       "Nikhita Gandhi"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -7506,7 +7506,7 @@
     "artists":[
       "Armaan Malik"
     ],
-    "composer":[
+    "composers":[
       "Amaal Mallik"
     ],
     "language":"Hindi",
@@ -7532,7 +7532,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7558,7 +7558,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7584,7 +7584,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -7612,7 +7612,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7638,7 +7638,7 @@
     "artists":[
       "Mohammad Rafi"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -7664,7 +7664,7 @@
     "artists":[
       "Nabid Alam"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7690,7 +7690,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7720,7 +7720,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7746,7 +7746,7 @@
     "artists":[
       "Ami Mishra"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7772,7 +7772,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7802,7 +7802,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7828,7 +7828,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7854,7 +7854,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7880,7 +7880,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -7906,7 +7906,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7932,7 +7932,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7958,7 +7958,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -7984,7 +7984,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -8010,7 +8010,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -8036,7 +8036,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8062,7 +8062,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8088,7 +8088,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8114,7 +8114,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8140,7 +8140,7 @@
     "artists":[
       "Jaywant Kulkarni"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8166,7 +8166,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8192,7 +8192,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8218,7 +8218,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8244,7 +8244,7 @@
     "artists":[
       "Lagnajita Chakraborty"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -8270,7 +8270,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Rahul Dev Burman"
     ],
     "language":"Hindi",
@@ -8296,7 +8296,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8322,7 +8322,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8348,7 +8348,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8374,7 +8374,7 @@
     "artists":[
       "Uke Tutorial"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8400,7 +8400,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -8426,7 +8426,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8452,7 +8452,7 @@
     "artists":[
       "Shahid Mallya"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -8479,7 +8479,7 @@
       "Meet Bros Ft.Altamash Faridi",
       "Palak Muchhal"
     ],
-    "composer":[
+    "composers":[
       "Meet Bros"
     ],
     "language":"Hindi",
@@ -8505,7 +8505,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8534,7 +8534,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8560,7 +8560,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8586,7 +8586,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8612,7 +8612,7 @@
     "artists":[
       "Finger Plucking"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -8638,7 +8638,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8664,7 +8664,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8690,7 +8690,7 @@
     "artists":[
       "Hindi"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8716,7 +8716,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8742,7 +8742,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -8768,7 +8768,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8794,7 +8794,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -8820,7 +8820,7 @@
     "artists":[
       "Asha Bhonsle"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8846,7 +8846,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8873,7 +8873,7 @@
       "Kumar Sanu",
       "Sadhana Sargam"
     ],
-    "composer":[
+    "composers":[
       "Rajesh Roshan"
     ],
     "language":"Hindi",
@@ -8899,7 +8899,7 @@
     "artists":[
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8925,7 +8925,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8951,7 +8951,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -8977,7 +8977,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9003,7 +9003,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9029,7 +9029,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9055,7 +9055,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9081,7 +9081,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9107,7 +9107,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9133,7 +9133,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9159,7 +9159,7 @@
     "artists":[
       "Kumar Bishwajit"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -9188,7 +9188,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9214,7 +9214,7 @@
     "artists":[
       "Uke Lessons"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9240,7 +9240,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9267,7 +9267,7 @@
       "Bela Shende",
       "Swapnil Bandodkar"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9293,7 +9293,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9319,7 +9319,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9345,7 +9345,7 @@
     "artists":[
       "Rashid Ali"
     ],
-    "composer":[
+    "composers":[
       "Ar Rahman"
     ],
     "language":"Hindi",
@@ -9371,7 +9371,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9397,7 +9397,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9423,7 +9423,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9449,7 +9449,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9475,7 +9475,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9501,7 +9501,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9527,7 +9527,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9553,7 +9553,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9579,7 +9579,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9605,7 +9605,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9632,7 +9632,7 @@
       "Kishore Kumar",
       "Lata Mangeshkar"
     ],
-    "composer":[
+    "composers":[
       "R.D.Burman"
     ],
     "language":"Hindi",
@@ -9658,7 +9658,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9684,7 +9684,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9710,7 +9710,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9736,7 +9736,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9762,7 +9762,7 @@
     "artists":[
       "Baritone"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9788,7 +9788,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9814,7 +9814,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9845,7 +9845,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9873,7 +9873,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9899,7 +9899,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9925,7 +9925,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -9951,7 +9951,7 @@
     "artists":[
       "Sonu Nigam"
     ],
-    "composer":[
+    "composers":[
       "Ehsaan",
       "Loy",
       "Shankar"
@@ -9979,7 +9979,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10005,7 +10005,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10031,7 +10031,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10057,7 +10057,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -10083,7 +10083,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10109,7 +10109,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -10135,7 +10135,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Malayalam",
@@ -10161,7 +10161,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10187,7 +10187,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10213,7 +10213,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -10239,7 +10239,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10269,7 +10269,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10295,7 +10295,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10321,7 +10321,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10352,7 +10352,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10378,7 +10378,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -10404,7 +10404,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10430,7 +10430,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Jeet Gannguli"
     ],
     "language":"Hindi",
@@ -10456,7 +10456,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10482,7 +10482,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10509,7 +10509,7 @@
       "Jasleen Kaur Royal",
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10535,7 +10535,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10561,7 +10561,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10587,7 +10587,7 @@
     "artists":[
       "Osho Jain"
     ],
-    "composer":[
+    "composers":[
       "Osho Jain"
     ],
     "language":"Hindi",
@@ -10613,7 +10613,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Ehsaan",
       "Loy",
       "Shankar"
@@ -10642,7 +10642,7 @@
       "Arjunna Harjaie",
       "Surabhi Dashputra"
     ],
-    "composer":[
+    "composers":[
       "Arjunna Harjaie"
     ],
     "language":"Hindi",
@@ -10668,7 +10668,7 @@
     "artists":[
       "Mukesh"
     ],
-    "composer":[
+    "composers":[
       "Shankar Jaikishan"
     ],
     "language":"Hindi",
@@ -10694,7 +10694,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -10720,7 +10720,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10750,7 +10750,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10776,7 +10776,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10802,7 +10802,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10828,7 +10828,7 @@
     "artists":[
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "R D Burman"
     ],
     "language":"Hindi",
@@ -10854,7 +10854,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10880,7 +10880,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10906,7 +10906,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10932,7 +10932,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10958,7 +10958,7 @@
     "artists":[
       "Easiest"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -10984,7 +10984,7 @@
     "artists":[
       "Kk"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11012,7 +11012,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11038,7 +11038,7 @@
     "artists":[
       "Osho Jain"
     ],
-    "composer":[
+    "composers":[
       "Osho Jain"
     ],
     "language":"Hindi",
@@ -11064,7 +11064,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11090,7 +11090,7 @@
     "artists":[
       "Ukulele"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11116,7 +11116,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11142,7 +11142,7 @@
     "artists":[
       "Lata Mangeshkar"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11168,7 +11168,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11194,7 +11194,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11220,7 +11220,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -11246,7 +11246,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11272,7 +11272,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11298,7 +11298,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11324,7 +11324,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11350,7 +11350,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11376,7 +11376,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11402,7 +11402,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "Ehsaan",
       "Loy",
       "Shankar"
@@ -11430,7 +11430,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -11456,7 +11456,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11482,7 +11482,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11508,7 +11508,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11534,7 +11534,7 @@
     "artists":[
       "Armaan Malik"
     ],
-    "composer":[
+    "composers":[
       "Amaal Mallik"
     ],
     "language":"Hindi",
@@ -11560,7 +11560,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Kaushik-Akash-Guddu"
     ],
     "language":"Hindi",
@@ -11586,7 +11586,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11612,7 +11612,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11641,7 +11641,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11667,7 +11667,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Mithoon"
     ],
     "language":"Hindi",
@@ -11698,7 +11698,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11724,7 +11724,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11750,7 +11750,7 @@
     "artists":[
       "Tarun Mishra"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11776,7 +11776,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11803,7 +11803,7 @@
       "Hriday Gattani",
       "Jonita Gandhi"
     ],
-    "composer":[
+    "composers":[
       "A R Rahman"
     ],
     "language":"Hindi",
@@ -11829,7 +11829,7 @@
     "artists":[
       "Hriday Gattani"
     ],
-    "composer":[
+    "composers":[
       "Ar Rahman"
     ],
     "language":"Hindi",
@@ -11855,7 +11855,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11883,7 +11883,7 @@
       "Tanishk Bagchi",
       "Yasser Desai"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11909,7 +11909,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11935,7 +11935,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -11961,7 +11961,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -11987,7 +11987,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12013,7 +12013,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12039,7 +12039,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12065,7 +12065,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12091,7 +12091,7 @@
     "artists":[
       "Table No.21"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12117,7 +12117,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12143,7 +12143,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -12169,7 +12169,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12198,7 +12198,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12224,7 +12224,7 @@
     "artists":[
       "Baritone Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12250,7 +12250,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12276,7 +12276,7 @@
     "artists":[
       "Abhay Jodhpurkar"
     ],
-    "composer":[
+    "composers":[
       "Ajay-Atul"
     ],
     "language":"Hindi",
@@ -12303,7 +12303,7 @@
       "Nusrat",
       "Rahat Fateh Ali Khan"
     ],
-    "composer":[
+    "composers":[
       "Tanishk Bagchi"
     ],
     "language":"Hindi",
@@ -12329,7 +12329,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12355,7 +12355,7 @@
     "artists":[
       "Sachet Tandon And Parampara Thakur"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12381,7 +12381,7 @@
     "artists":[
       "Ishan Mitra"
     ],
-    "composer":[
+    "composers":[
       "Anupam Roy"
     ],
     "language":"Hindi",
@@ -12407,7 +12407,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12435,7 +12435,7 @@
       "Priya Andrews",
       "Rekha Bharadwaj"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12461,7 +12461,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12487,7 +12487,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12513,7 +12513,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12543,7 +12543,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12569,7 +12569,7 @@
     "artists":[
       "Mekhla Dasgupta"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -12596,7 +12596,7 @@
       "Amitabh Bhattacharya",
       "Swanand Kirkire"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -12623,7 +12623,7 @@
       "Amitabh Bhattacharya",
       "Swanand Kirkire"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Bengali",
@@ -12649,7 +12649,7 @@
     "artists":[
       "Baritone Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12679,7 +12679,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12705,7 +12705,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12735,7 +12735,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12761,7 +12761,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12787,7 +12787,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12813,7 +12813,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -12839,7 +12839,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -12865,7 +12865,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12893,7 +12893,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12919,7 +12919,7 @@
     "artists":[
       "Shaan"
     ],
-    "composer":[
+    "composers":[
       "Vishal Shiraz Samrat"
     ],
     "language":"Hindi",
@@ -12945,7 +12945,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12971,7 +12971,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -12997,7 +12997,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13023,7 +13023,7 @@
     "artists":[
       "Baritone Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13049,7 +13049,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Vishal Bhardwaj"
     ],
     "language":"Hindi",
@@ -13075,7 +13075,7 @@
     "artists":[
       "Amit Trivedi"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -13101,7 +13101,7 @@
     "artists":[
       "Akshay Kumar"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13127,7 +13127,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13153,7 +13153,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13179,7 +13179,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -13205,7 +13205,7 @@
     "artists":[
       "Basic Chords"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13231,7 +13231,7 @@
     "artists":[
       "Dhvani Bhanushali"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13257,7 +13257,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13283,7 +13283,7 @@
     "artists":[
       "Arko"
     ],
-    "composer":[
+    "composers":[
       "Arko"
     ],
     "language":"Hindi",
@@ -13309,7 +13309,7 @@
     "artists":[
       "Arko Pravi Mukherjee"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13335,7 +13335,7 @@
     "artists":[
       "Chords"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13361,7 +13361,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Malayalam",
@@ -13387,7 +13387,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -13413,7 +13413,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Malayalam",
@@ -13439,7 +13439,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -13465,7 +13465,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -13491,7 +13491,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13517,7 +13517,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Shashi-Shivamm"
     ],
     "language":"Hindi",
@@ -13543,7 +13543,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13569,7 +13569,7 @@
     "artists":[
       "Chitalkar"
     ],
-    "composer":[
+    "composers":[
       "C.Ramchandra"
     ],
     "language":"Hindi",
@@ -13595,7 +13595,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13621,7 +13621,7 @@
     "artists":[
       "\/ Guitar Tutorial"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -13647,7 +13647,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13678,7 +13678,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13704,7 +13704,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13730,7 +13730,7 @@
     "artists":[
       "Amir Khan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13756,7 +13756,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13782,7 +13782,7 @@
     "artists":[
       "Atif Aslam"
     ],
-    "composer":[
+    "composers":[
       "Arko"
     ],
     "language":"Hindi",
@@ -13808,7 +13808,7 @@
     "artists":[
       "Singing And"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13835,7 +13835,7 @@
       "Shreya Ghoshal",
       "Vishal Bhardwaj"
     ],
-    "composer":[
+    "composers":[
       "Vishal Bhardwaj"
     ],
     "language":"Hindi",
@@ -13861,7 +13861,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -13887,7 +13887,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13913,7 +13913,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -13939,7 +13939,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13965,7 +13965,7 @@
     "artists":[
       "4 Chords"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -13991,7 +13991,7 @@
     "artists":[
       "Baritone"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14017,7 +14017,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14044,7 +14044,7 @@
       "Arijit Singh",
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
       "Javed - Mohsin"
     ],
     "language":"Hindi",
@@ -14070,7 +14070,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Rochak Kohli"
     ],
     "language":"Hindi",
@@ -14096,7 +14096,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14122,7 +14122,7 @@
     "artists":[
       "Hindi"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14148,7 +14148,7 @@
     "artists":[
       "+ Songsheet"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14174,7 +14174,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14200,7 +14200,7 @@
     "artists":[
       "Mohit Chauhan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14227,7 +14227,7 @@
       "Sadhana Sargam",
       "Udit Narayan"
     ],
-    "composer":[
+    "composers":[
       "Jatin - Lalit"
     ],
     "language":"Hindi",
@@ -14253,7 +14253,7 @@
     "artists":[
       "S. P. Balasubramaniam"
     ],
-    "composer":[
+    "composers":[
       "Raam Laxman"
     ],
     "language":"Hindi",
@@ -14279,7 +14279,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14305,7 +14305,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14334,7 +14334,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14360,7 +14360,7 @@
     "artists":[
       "Ukulele"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14388,7 +14388,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14414,7 +14414,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14443,7 +14443,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14470,7 +14470,7 @@
       "Kishore Kumar",
       "Lata Mangeshkar"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -14496,7 +14496,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14522,7 +14522,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14548,7 +14548,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14574,7 +14574,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -14600,7 +14600,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -14626,7 +14626,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14652,7 +14652,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14678,7 +14678,7 @@
     "artists":[
       "Bangla"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -14704,7 +14704,7 @@
     "artists":[
       "Mohd.Rafi"
     ],
-    "composer":[
+    "composers":[
       "O.P.Nayyar"
     ],
     "language":"Hindi",
@@ -14733,7 +14733,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14760,7 +14760,7 @@
       "Asees Kaur",
       "Jubin Nautiyal"
     ],
-    "composer":[
+    "composers":[
       "Sachin-Jigar"
     ],
     "language":"Hindi",
@@ -14786,7 +14786,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14812,7 +14812,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14838,7 +14838,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "Leslie Lewis"
     ],
     "language":"Hindi",
@@ -14864,7 +14864,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -14890,7 +14890,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14917,7 +14917,7 @@
       "Arijit Singh",
       "Nikhita Gandhi"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -14943,7 +14943,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14969,7 +14969,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -14996,7 +14996,7 @@
       "Arijit Singh",
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15024,7 +15024,7 @@
       "Joi Barua",
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -15050,7 +15050,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15077,7 +15077,7 @@
       "Asha Bhosle",
       "Bappi Lahiri"
     ],
-    "composer":[
+    "composers":[
       "Bappi Lahiri"
     ],
     "language":"Hindi",
@@ -15104,7 +15104,7 @@
       "Atif Aslam",
       "Chinmayi Sripaada"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -15130,7 +15130,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15156,7 +15156,7 @@
     "artists":[
       "A R Rehman"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15182,7 +15182,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15208,7 +15208,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15234,7 +15234,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -15260,7 +15260,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15288,7 +15288,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15314,7 +15314,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15343,7 +15343,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15369,7 +15369,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Laxmikant Pyarelal"
     ],
     "language":"Hindi",
@@ -15395,7 +15395,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15421,7 +15421,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15447,7 +15447,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -15473,7 +15473,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15499,7 +15499,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15525,7 +15525,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15551,7 +15551,7 @@
     "artists":[
       "Silk Route"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15577,7 +15577,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15603,7 +15603,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15629,7 +15629,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15655,7 +15655,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -15681,7 +15681,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15707,7 +15707,7 @@
     "artists":[
       "Rahat Fateh Ali Khan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15733,7 +15733,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15760,7 +15760,7 @@
       "Hariharan",
       "Sadhana Sargam"
     ],
-    "composer":[
+    "composers":[
       "Aadesh Shrivastava"
     ],
     "language":"Hindi",
@@ -15786,7 +15786,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15812,7 +15812,7 @@
     "artists":[
       "Camila Cabello"
     ],
-    "composer":[
+    "composers":[
       "Camila Cabello"
     ],
     "language":"Hindi",
@@ -15838,7 +15838,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15864,7 +15864,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15890,7 +15890,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15916,7 +15916,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -15942,7 +15942,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -15968,7 +15968,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "R D Burman"
     ],
     "language":"Hindi",
@@ -15995,7 +15995,7 @@
       "Arijit Singh",
       "Tulsi Kumar"
     ],
-    "composer":[
+    "composers":[
       "Amaal Mallik"
     ],
     "language":"Hindi",
@@ -16021,7 +16021,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16047,7 +16047,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16073,7 +16073,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16099,7 +16099,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16125,7 +16125,7 @@
     "artists":[
       "Yesudas"
     ],
-    "composer":[
+    "composers":[
       "Ilayaraaja"
     ],
     "language":"Hindi",
@@ -16151,7 +16151,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16177,7 +16177,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16203,7 +16203,7 @@
     "artists":[
       "Theeran"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -16230,7 +16230,7 @@
       "Naresh Iyer",
       "Prashanthini"
     ],
-    "composer":[
+    "composers":[
       "Harris Jayaraj"
     ],
     "language":"Tamil",
@@ -16256,7 +16256,7 @@
     "artists":[
       "Oh My Kadavule"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -16282,7 +16282,7 @@
     "artists":[
       "Anirudh Ravichander"
     ],
-    "composer":[
+    "composers":[
       "Anirudh Ravichander"
     ],
     "language":"Tamil",
@@ -16308,7 +16308,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16334,7 +16334,7 @@
     "artists":[
       "Nabid Alam"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -16361,7 +16361,7 @@
       "Badshah",
       "Lisa Mishra"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16387,7 +16387,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16413,7 +16413,7 @@
     "artists":[
       "Qaran Ft. Lisa Mishra"
     ],
-    "composer":[
+    "composers":[
       "Qaran"
     ],
     "language":"Hindi",
@@ -16443,7 +16443,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16469,7 +16469,7 @@
     "artists":[
       "M Hello"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Telugu",
@@ -16495,7 +16495,7 @@
     "artists":[
       "Baritone"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16521,7 +16521,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16547,7 +16547,7 @@
     "artists":[
       "Chords"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16573,7 +16573,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -16599,7 +16599,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16625,7 +16625,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16651,7 +16651,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16677,7 +16677,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Rochak Kohli"
     ],
     "language":"Hindi",
@@ -16703,7 +16703,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16729,7 +16729,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16755,7 +16755,7 @@
     "artists":[
       "Baritone"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16781,7 +16781,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16807,7 +16807,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16833,7 +16833,7 @@
     "artists":[
       "Lata Mangeshkar"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -16859,7 +16859,7 @@
     "artists":[
       "Kumar Sanu"
     ],
-    "composer":[
+    "composers":[
       "Anu Malik"
     ],
     "language":"Hindi",
@@ -16888,7 +16888,7 @@
       "Majrooh Sultanpuri",
       "S.D. Burman"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16914,7 +16914,7 @@
     "artists":[
       "Atif Aslam"
     ],
-    "composer":[
+    "composers":[
       "Arko"
     ],
     "language":"Hindi",
@@ -16940,7 +16940,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16966,7 +16966,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -16992,7 +16992,7 @@
     "artists":[
       "Kailash Kher"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17018,7 +17018,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17048,7 +17048,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17074,7 +17074,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17100,7 +17100,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17126,7 +17126,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17152,7 +17152,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17178,7 +17178,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17204,7 +17204,7 @@
     "artists":[
       "Alisha Chinoy"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17230,7 +17230,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17256,7 +17256,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17282,7 +17282,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17310,7 +17310,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17336,7 +17336,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17362,7 +17362,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Amit Trivedi"
     ],
     "language":"Hindi",
@@ -17388,7 +17388,7 @@
     "artists":[
       "Arjun Kapoor & Shraddha Kapoor"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17414,7 +17414,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17440,7 +17440,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17467,7 +17467,7 @@
       "Hariharan",
       "Kavita Krishnamurthy"
     ],
-    "composer":[
+    "composers":[
       "A.R.Rahman"
     ],
     "language":"Hindi",
@@ -17493,7 +17493,7 @@
     "artists":[
       "Baritone Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17519,7 +17519,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17545,7 +17545,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17571,7 +17571,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17598,7 +17598,7 @@
       "Farhan Saeed",
       "Shreya Ghoshal"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17630,7 +17630,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17657,7 +17657,7 @@
       "Asha Bhonsle ",
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17683,7 +17683,7 @@
     "artists":[
       "Asha Bhonsle"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17709,7 +17709,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17735,7 +17735,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17761,7 +17761,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17787,7 +17787,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17813,7 +17813,7 @@
     "artists":[
       "Baritone Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17839,7 +17839,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17865,7 +17865,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17891,7 +17891,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17917,7 +17917,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17943,7 +17943,7 @@
     "artists":[
       "Hindi Uke Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17969,7 +17969,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -17995,7 +17995,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18021,7 +18021,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18050,7 +18050,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18076,7 +18076,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18102,7 +18102,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18128,7 +18128,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18154,7 +18154,7 @@
     "artists":[
       "Mohit Chauhan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18181,7 +18181,7 @@
       "Asha Bhosle",
       "Suresh Wadkar"
     ],
-    "composer":[
+    "composers":[
       "R.D. Burman"
     ],
     "language":"Hindi",
@@ -18210,7 +18210,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18236,7 +18236,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "Ankit Tiwari"
     ],
     "language":"Hindi",
@@ -18266,7 +18266,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18292,7 +18292,7 @@
     "artists":[
       "Prateek Kuhad"
     ],
-    "composer":[
+    "composers":[
       "Prateek Kuhad"
     ],
     "language":"Hindi",
@@ -18318,7 +18318,7 @@
     "artists":[
       "Momina Mustehsan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18344,7 +18344,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18370,7 +18370,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18397,7 +18397,7 @@
       "Bhoomi Trivedi.",
       "Sukhwinder Singh"
     ],
-    "composer":[
+    "composers":[
       "Ram Sampath"
     ],
     "language":"Hindi",
@@ -18423,7 +18423,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18450,7 +18450,7 @@
       "Dhvani Bhanushali",
       "Nikhil D"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18476,7 +18476,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
       "Rabindranath Tagore"
     ],
     "language":"Hindi",
@@ -18502,7 +18502,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18528,7 +18528,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18554,7 +18554,7 @@
     "artists":[
       "The Kidd"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Punjabi",
@@ -18580,7 +18580,7 @@
     "artists":[
       "Amitabh Bachchan"
     ],
-    "composer":[
+    "composers":[
       "S.D.Burman"
     ],
     "language":"Hindi",
@@ -18606,7 +18606,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -18636,7 +18636,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18662,7 +18662,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18688,7 +18688,7 @@
     "artists":[
       "Arijit Singh"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -18716,7 +18716,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18742,7 +18742,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18768,7 +18768,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -18794,7 +18794,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18820,7 +18820,7 @@
     "artists":[
       "Kk"
     ],
-    "composer":[
+    "composers":[
       "Leslie Lewis"
     ],
     "language":"Hindi",
@@ -18846,7 +18846,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18876,7 +18876,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18902,7 +18902,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18928,7 +18928,7 @@
     "artists":[
       "Arathi Unnikrishnan"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Tamil",
@@ -18954,7 +18954,7 @@
     "artists":[
       "3 Chords"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -18980,7 +18980,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19006,7 +19006,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19032,7 +19032,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19058,7 +19058,7 @@
     "artists":[
       "Ukulele"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19084,7 +19084,7 @@
     "artists":[
       "Pardes"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19110,7 +19110,7 @@
     "artists":[
       "Mohit Chauhan"
     ],
-    "composer":[
+    "composers":[
       "Pritam"
     ],
     "language":"Hindi",
@@ -19136,7 +19136,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19162,7 +19162,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19188,7 +19188,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Rahul Dev Burman"
     ],
     "language":"Hindi",
@@ -19214,7 +19214,7 @@
     "artists":[
       "Hemant Kumar"
     ],
-    "composer":[
+    "composers":[
       "Hemant Kumar"
     ],
     "language":"Hindi",
@@ -19240,7 +19240,7 @@
     "artists":[
       "Hindi Ukulele Lesson"
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19266,7 +19266,7 @@
     "artists":[
       "Kishore Kumar"
     ],
-    "composer":[
+    "composers":[
       "Rahul Dev Burman"
     ],
     "language":"Hindi",
@@ -19292,7 +19292,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19323,7 +19323,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19349,7 +19349,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -19375,7 +19375,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Hindi",
@@ -19405,7 +19405,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -19431,7 +19431,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",
@@ -19457,7 +19457,7 @@
     "artists":[
 
     ],
-    "composer":[
+    "composers":[
 
     ],
     "language":"Bengali",

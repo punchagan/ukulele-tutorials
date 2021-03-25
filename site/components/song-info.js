@@ -132,7 +132,7 @@ const ShowSongInfo = ({ video }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Composer(s)</span>
           <span className={styles.songInfoValue}>
-            {video.composer?.map(composer => <span class={styles.chordName}>{composer}</span>)}
+            {video.composers?.map(composer => <span class={styles.chordName}>{composer}</span>)}
           </span>
         </li>
 
@@ -223,7 +223,12 @@ const EditSongInfo = ({ video, onChange }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Composer(s)</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="composer" value={video.composer} onChange={onChange} />
+            <input
+              type="text"
+              name="composers"
+              value={video.composers?.join(",")}
+              onChange={onChange}
+            />
           </span>
         </li>
 
