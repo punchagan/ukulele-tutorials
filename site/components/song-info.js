@@ -192,8 +192,12 @@ const EditSongInfo = ({ video, videos, onChange }) => {
   const albums = Array.from(new Set(videos.map(v => v.album).flat())).sort();
   const languages = Array.from(new Set(videos.map(v => v.language).flat())).sort();
   const tracks = Array.from(new Set(videos.map(v => v.track).flat())).sort();
-  // FIXME: Generate chords using all the available values from chords-db
-  const chords = Array.from(new Set(videos.map(v => v.chords).flat())).sort();
+
+  const suffix = s => (s === "major" ? "" : s === "minor" ? "m" : s);
+  const chordsAll = ukeChordsDB.keys
+    .map(k => ukeChordsDB.chords[k].map(chord => `${chord.key}${suffix(chord.suffix)}`))
+    .flat();
+  const chords = Array.from(new Set(chordsAll)).sort();
 
   return (
     <>
@@ -227,6 +231,10 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               style={{ width: "100%" }}
               placeholder="Please select the chords"
               defaultValue={video.chords}
+              filterSort={(a, b) => (a < b ? -1 : a > b ? 1 : 0)}
+              filterOption={(value, option) =>
+                option.value.toLocaleLowerCase().startsWith(value.toLocaleLowerCase())
+              }
               onChange={value => onChange({ target: { name: "chords", value } })}
             >
               {chords.map(a => (
