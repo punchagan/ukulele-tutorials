@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Video.module.css";
-import { Slider, Switch } from "antd";
+import { Button, Slider, Switch } from "antd";
 
 export default function Player({ url, start, end, onChange }) {
   const player = useRef(null);
@@ -39,6 +39,11 @@ export default function Player({ url, start, end, onChange }) {
     if (useLoop && (data.playedSeconds >= end || data.playedSeconds < start)) {
       playFromStart();
     }
+  };
+
+  const testLoop = () => {
+    player.current.seekTo(end - 3, "seconds");
+    setPlaying(true);
   };
 
   return (
@@ -86,6 +91,9 @@ export default function Player({ url, start, end, onChange }) {
           tooltipVisible={showLoopInfo}
           onChange={sliderChange}
         />
+        <Button type="dashed" size="small" onClick={testLoop}>
+          Test Loop
+        </Button>
       </div>
     </div>
   );
