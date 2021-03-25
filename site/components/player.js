@@ -52,7 +52,7 @@ export default function Player({ url, start, end, onChange }) {
           playing={playing}
           ref={player}
           width="100%"
-          progressInterval={100}
+          progressInterval={50}
           onDuration={durationCallback}
           onProgress={progressCallback}
           onEnded={playFromStart}
