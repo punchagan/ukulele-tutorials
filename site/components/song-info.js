@@ -5,7 +5,7 @@ import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
-import { AutoComplete, Button, Input, Select } from "antd";
+import { AutoComplete, Button, Input, Select, Switch } from "antd";
 
 import "antd/dist/antd.css";
 import styles from "../styles/Video.module.css";
@@ -70,13 +70,13 @@ const ShowSongInfo = ({ video }) => {
           <span className={styles.songInfoKey}>
             Chords <br />
             <span>
-              (Diagrams:
-              <input
+              <Switch
+                checkedChildren="hide diagrams"
+                unCheckedChildren="show diagrams"
+                size="small"
                 checked={showChords}
-                type="checkbox"
-                onChange={e => setShowChords(e.target.checked)}
+                onChange={setShowChords}
               />
-              )
             </span>
           </span>
 
