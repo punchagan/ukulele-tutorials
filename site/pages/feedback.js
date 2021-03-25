@@ -18,9 +18,9 @@ export default function About() {
           src="https://docs.google.com/forms/d/e/1FAIpQLSf2cCvp-z0k9DX6E8DLlHUC5X8SBEOCFF0-rPsTrQl6oznuuA/viewform?embedded=true"
           width="100%"
           height="1200"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
+          frameBorder="0"
+          marginHeight="0"
+          marginWidth="0"
         >
           Loading…
         </iframe>
