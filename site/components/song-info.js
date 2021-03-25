@@ -158,7 +158,7 @@ const ShowSongInfo = ({ video }) => {
         <Link href={`/?refinementList[uploader][0]=${video.uploader}`}>
           <a>{video.uploader}</a>
         </Link>{" "}
-        on {uploadDate.toLocaleDateString()}. Support{" "}
+        on {uploadDate.toDateString()}. Support{" "}
         <Link href={`https://youtube.com/channel/${video.channel}?sub_confirmation=1`}>
           <a>this channel</a>
         </Link>{" "}
