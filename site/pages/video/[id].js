@@ -22,7 +22,7 @@ export default function Video({ video, videos }) {
   useEffect(() => setForm(video), [video]);
   const onChange = e => {
     const name = e.target.name;
-    const listAttributes = ["artists", "chords"];
+    const listAttributes = ["artists", "chords", "composer"];
     const value =
       listAttributes.indexOf(name) > -1
         ? e.target.value.replace(", ", ",").split(",")

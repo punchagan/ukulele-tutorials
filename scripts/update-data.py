@@ -159,6 +159,10 @@ class Updater:
                                                    .fillna('')\
                                                    .str.replace(', ', ',')\
                                                    .str.split(',').apply(sort_list)
+        data.loc[non_ignored_rows, 'composer'] = data.loc[non_ignored_rows, 'composer']\
+                                                     .fillna('')\
+                                                     .str.replace(', ', ',')\
+                                                     .str.split(',').apply(sort_list)
         non_ignored = data[non_ignored_rows]
         non_ignored.to_json(self.data_json, orient='records', indent=2, force_ascii=False)
         print(non_ignored.tail())

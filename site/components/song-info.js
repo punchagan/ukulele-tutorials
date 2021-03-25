@@ -131,7 +131,9 @@ const ShowSongInfo = ({ video }) => {
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Composer(s)</span>
-          <span className={styles.songInfoValue}>{video.composer}</span>
+          <span className={styles.songInfoValue}>
+            {video.composer?.map(composer => <span class={styles.chordName}>{composer}</span>)}
+          </span>
         </li>
 
         <li className={styles.songInfoEntry}>
