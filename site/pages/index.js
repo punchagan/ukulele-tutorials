@@ -89,7 +89,7 @@ export default function Home({ videos }) {
           <div className={styles.searchPanelFilters}>
             <SearchStats />
             <CurrentRefinements className={styles.currentRefinements} />
-            <ClearRefinements />
+            <ClearRefinements clearsQuery={true} />
             {includeUnpublished && (
               <RefinementList attribute="published" defaultRefinement={["Unpublished"]} limit={2} />
             )}
