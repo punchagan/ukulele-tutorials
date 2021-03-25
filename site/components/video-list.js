@@ -3,13 +3,13 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { toggleFavorite } from "../lib/favorite";
 import { markIgnored } from "../lib/api";
-import { HeartOutlined, HeartFilled } from "@ant-design/icons";
-
+import { CloseOutlined, HeartOutlined, HeartFilled } from "@ant-design/icons";
 
 export function Favorite({ video }) {
   const [fav, setFav] = useState(Boolean(video.favorite));
   const favClass = fav ? styles.favoriteVideo : styles.notFavoriteVideo;
-  const Icon = fav ? HeartFilled : HeartOutlined
+  const Icon = fav ? HeartFilled : HeartOutlined;
+  const title = fav ? "Remove from Favorites" : "Add to Favorites";
 
   const clickFavorite = e => {
     setFav(!fav);
@@ -18,7 +18,7 @@ export function Favorite({ video }) {
 
   return (
     <span onClick={clickFavorite} className={`${styles.changeFavorite} ${favClass}`}>
-      <Icon />
+      <Icon title={title} />
     </span>
   );
 }
@@ -39,7 +39,7 @@ export function Video({ hit: video }) {
       <Favorite video={video} />
       {!video.publish && (
         <span onClick={() => markIgnored(video.id)} style={{ float: "right", cursor: "pointer" }}>
-          &#10060;
+          <CloseOutlined title="Mark as Ignored" />
         </span>
       )}
     </div>
