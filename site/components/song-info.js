@@ -274,7 +274,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
           <span className={styles.songInfoKey}>Artist(s)</span>
           <span className={styles.songInfoValue}>
             <Select
-              mode="multiple"
+              mode="tags"
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select artist(s)"
@@ -292,7 +292,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
           <span className={styles.songInfoKey}>Composer(s)</span>
           <span className={styles.songInfoValue}>
             <Select
-              mode="multiple"
+              mode="tags"
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select composer(s)"
