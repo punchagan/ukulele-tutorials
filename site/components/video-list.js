@@ -3,7 +3,16 @@ import Link from "next/link";
 import styles from "../styles/Home.module.css";
 import { toggleFavorite } from "../lib/favorite";
 import { markIgnored } from "../lib/api";
-import { CloseOutlined, HeartOutlined, HeartFilled } from "@ant-design/icons";
+import { Card } from "antd";
+import {
+  CloseOutlined,
+  HeartFilled,
+  HeartOutlined,
+  PlayCircleOutlined,
+  YoutubeFilled
+} from "@ant-design/icons";
+
+const { Meta } = Card;
 
 export function Favorite({ video }) {
   const [fav, setFav] = useState(Boolean(video.favorite));
@@ -24,25 +33,43 @@ export function Favorite({ video }) {
 }
 
 export function Video({ hit: video }) {
-  const heading = (
-    <h4>
-      {video.uploader}: {video.track || video.title} by {video.artists.join(", ")}
-    </h4>
-  );
+  const title = video.track || video.title;
+  const actions = [
+    <Link href={`/video/${video.id}`}>
+      <a title="Watch Tutorial">
+        <PlayCircleOutlined />
+      </a>
+    </Link>,
+
+    <Favorite video={video} />,
+    <a
+      className={styles.externalLink}
+      title="Watch on YouTube"
+      href={`https://youtube.com/v/${video.id}`}
+    >
+      <YoutubeFilled />
+    </a>,
+    !video.publish && (
+      <CloseOutlined onClick={() => markIgnored(video.id)} title="Mark as Ignored" />
+    )
+  ];
 
   return (
-    <div key={video.id}>
-      <Link href={`/video/${video.id}`}>
-        <a>{heading}</a>
-      </Link>
-      <img className={styles.thumbnail} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />
-      <Favorite video={video} />
-      {!video.publish && (
-        <span onClick={() => markIgnored(video.id)} style={{ float: "right", cursor: "pointer" }}>
-          <CloseOutlined title="Mark as Ignored" />
-        </span>
-      )}
-    </div>
+    <Card
+      size="small"
+      className={styles.videoCard}
+      cover={<img alt={video.title} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />}
+      actions={actions}
+    >
+      <Meta
+        title={
+          <Link href={`/video/${video.id}`}>
+            <a title="Watch Tutorial">{title}</a>
+          </Link>
+        }
+        description={video.artists.join(", ") || "..."}
+      />
+    </Card>
   );
 }
 

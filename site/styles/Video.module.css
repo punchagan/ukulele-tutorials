@@ -88,8 +88,7 @@
 }
 
 .favIcon {
-    padding-left: 0.25em;
-    margin-top: -0.25em;
+    padding-left: 0.4em;
 }
 
 @media (max-width: 768px) {

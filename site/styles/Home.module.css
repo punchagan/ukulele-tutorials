@@ -44,6 +44,15 @@
   font-size: 1.5rem;
 }
 
+.videoCard {
+    width: 280px;
+    height: 335px;
+}
+
+.externalLink {
+    color: red;
+}
+
 .thumbnail {
     max-height: 200px;
 }
@@ -121,16 +130,8 @@
     grid-auto-flow: row;
 }
 
-.changeFavorite {
-    font-size: 1.5em;
-    cursor: pointer;
-}
 .favoriteVideo {
     color: red;
-}
-.notFavoriteVideo {
-    color: lightgray;
-    opacity: 0.7;
 }
 
 @media (max-width: 768px) {
