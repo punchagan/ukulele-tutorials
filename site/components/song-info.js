@@ -201,7 +201,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
   const chordsAll = ukeChordsDB.keys
     .map(k => ukeChordsDB.chords[k].map(chord => `${chord.key}${suffix(chord.suffix)}`))
     .flat();
-  const chords = Array.from(new Set(chordsAll)).sort();
+  const chords = Array.from(new Set(chordsAll))
+    .sort()
+    .filter(c => video.chords.indexOf(c) === -1);
 
   return (
     <>
