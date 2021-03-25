@@ -27,7 +27,7 @@ import "instantsearch.css/themes/satellite.css";
 const createURL = state => `?${qs.stringify(state)}`;
 
 const searchStateToUrl = (router, searchState) =>
-  searchState ? `${location.pathname}${createURL(searchState)}` : "";
+  searchState ? `${location.pathname}${createURL(searchState)}${location.hash}` : "";
 
 const SearchStats = connectStats(({ processingTimeMS, nbHits, nbSortedHits, areHitsSorted }) => (
   <p>{`${nbHits.toLocaleString()} tutorials found`}</p>
@@ -150,7 +150,7 @@ export default function Home({ videos }) {
               searchable={true}
             />
 
-            <h3>Channel</h3>
+            <h3 id="channel">Channel</h3>
             <RefinementList attribute="uploader" limit={5} showMore={true} showMoreLimit={100} />
             <Configure hitsPerPage={20} />
           </div>

@@ -27,7 +27,11 @@ export default function About() {
         <h2>Who creates these video tutorials?</h2>
         <p>
           These videos are aggregated from several different YouTube Channels/playlists. You can
-          find a list of them in the Channels section on the index page.
+          find a list of them in the{" "}
+          <Link href="/#channel">
+            <a>channels section</a>
+          </Link>{" "}
+          on the index page.
         </p>
         <h2>Who maintains this website?</h2>
         <p>
