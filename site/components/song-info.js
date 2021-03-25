@@ -5,7 +5,7 @@ import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
-import { AutoComplete, Select } from "antd";
+import { AutoComplete, Button, Input, Select } from "antd";
 
 import "antd/dist/antd.css";
 import styles from "../styles/Video.module.css";
@@ -314,18 +314,20 @@ const EditSongInfo = ({ video, videos, onChange }) => {
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoValue}>
-            <button onClick={publishData}>Publish</button>
+            <Button type="primary" onClick={publishData}>
+              Publish
+            </Button>
             <p>{error}</p>
           </span>
         </li>
       </ul>
       <h3>Search Original Song</h3>
-      <input
-        type="text"
+      <Input
+        style={{ width: "60%" }}
         value={original.q}
         onChange={e => setOriginal({ ...original, q: e.target.value })}
       />
-      <button onClick={search}>Search</button>
+      <Button onClick={search}>Search</Button>
       {original?.id && (
         <p>
           <a href={`https://youtube.com/v/${original.id}`} target="_blank">
