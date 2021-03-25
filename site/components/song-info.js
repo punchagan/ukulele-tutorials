@@ -4,8 +4,11 @@ import dynamic from "next/dynamic";
 import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
-import styles from "../styles/Video.module.css";
 import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
+import { AutoComplete, Select } from "antd";
+
+import "antd/dist/antd.css";
+import styles from "../styles/Video.module.css";
 
 const findChord = (chord, db, isBaritone) => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
@@ -165,7 +168,7 @@ const ShowSongInfo = ({ video }) => {
   );
 };
 
-const EditSongInfo = ({ video, onChange }) => {
+const EditSongInfo = ({ video, videos, onChange }) => {
   const [error, setError] = useState();
   const publishData = () => {
     postData(video.id, { ...video, publish: 1 })
@@ -184,58 +187,128 @@ const EditSongInfo = ({ video, onChange }) => {
     ytSearchDescription(original.q).then(data => setOriginal(data));
   };
 
+  const artists = Array.from(new Set(videos.map(v => v.artists).flat())).sort();
+  const composers = Array.from(new Set(videos.map(v => v.composers).flat())).sort();
+  const albums = Array.from(new Set(videos.map(v => v.album).flat())).sort();
+  const languages = Array.from(new Set(videos.map(v => v.language).flat())).sort();
+  const tracks = Array.from(new Set(videos.map(v => v.track).flat())).sort();
+  // FIXME: Generate chords using all the available values from chords-db
+  const chords = Array.from(new Set(videos.map(v => v.chords).flat())).sort();
+
   return (
     <>
       <ul className={styles.songInfo}>
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Track</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="track" value={video.track} onChange={onChange} />
+            <AutoComplete
+              allowClear
+              style={{ width: "100%" }}
+              placeholder="Please enter track title"
+              defaultValue={video.track}
+              filterOption={(value, option) =>
+                option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
+              }
+              onChange={value => onChange({ target: { name: "track", value } })}
+            >
+              {tracks.map(a => (
+                <AutoComplete.Option key={a}>{a}</AutoComplete.Option>
+              ))}
+            </AutoComplete>
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Chords</span>
           <span className={styles.songInfoValue}>
-            <input name="chords" type="text" value={video.chords?.join(",")} onChange={onChange} />
+            <Select
+              mode="multiple"
+              allowClear
+              style={{ width: "100%" }}
+              placeholder="Please select the chords"
+              defaultValue={video.chords}
+              onChange={value => onChange({ target: { name: "chords", value } })}
+            >
+              {chords.map(a => (
+                <Select.Option key={a}>{a}</Select.Option>
+              ))}
+            </Select>
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Album</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="album" value={video.album} onChange={onChange} />
+            <AutoComplete
+              allowClear
+              style={{ width: "100%" }}
+              placeholder="Please select album"
+              defaultValue={video.album}
+              filterOption={(value, option) =>
+                option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
+              }
+              onChange={value => onChange({ target: { name: "album", value } })}
+            >
+              {albums.map(a => (
+                <AutoComplete.Option key={a}>{a}</AutoComplete.Option>
+              ))}
+            </AutoComplete>
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Artist(s)</span>
           <span className={styles.songInfoValue}>
-            <input
-              type="text"
-              name="artists"
-              value={video.artists?.join(",")}
-              onChange={onChange}
-            />
+            <Select
+              mode="multiple"
+              allowClear
+              style={{ width: "100%" }}
+              placeholder="Please select artist(s)"
+              defaultValue={video.artists}
+              onChange={value => onChange({ target: { name: "artists", value } })}
+            >
+              {artists.map(a => (
+                <Select.Option key={a}>{a}</Select.Option>
+              ))}
+            </Select>
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Composer(s)</span>
           <span className={styles.songInfoValue}>
-            <input
-              type="text"
-              name="composers"
-              value={video.composers?.join(",")}
-              onChange={onChange}
-            />
+            <Select
+              mode="multiple"
+              allowClear
+              style={{ width: "100%" }}
+              placeholder="Please select composer(s)"
+              defaultValue={video.composers}
+              onChange={value => onChange({ target: { name: "composers", value } })}
+            >
+              {composers.map(a => (
+                <Select.Option key={a}>{a}</Select.Option>
+              ))}
+            </Select>
           </span>
         </li>
 
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Language</span>
           <span className={styles.songInfoValue}>
-            <input type="text" name="language" value={video.language} onChange={onChange} />
+            <AutoComplete
+              allowClear
+              style={{ width: "100%" }}
+              placeholder="Please select language"
+              defaultValue={video.language}
+              filterOption={(value, option) =>
+                option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
+              }
+              onChange={value => onChange({ target: { name: "language", value } })}
+            >
+              {languages.map(a => (
+                <AutoComplete.Option key={a}>{a}</AutoComplete.Option>
+              ))}
+            </AutoComplete>
           </span>
         </li>
 
@@ -268,7 +341,7 @@ const EditSongInfo = ({ video, onChange }) => {
   );
 };
 
-export const SongInfo = ({ video, onChange, devEnv }) => {
+export const SongInfo = ({ video, videos, onChange, devEnv }) => {
   const [edit, setEdit] = useState(!video.publish);
   const Info = edit ? EditSongInfo : ShowSongInfo;
 
@@ -278,7 +351,7 @@ export const SongInfo = ({ video, onChange, devEnv }) => {
         {devEnv && !edit && <span>&#128393;</span>}
         {devEnv && edit && <span>&#128065;</span>}
       </span>
-      <Info video={video} onChange={onChange} />
+      <Info video={video} onChange={onChange} videos={videos} />
     </>
   );
 };

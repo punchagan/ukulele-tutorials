@@ -21,12 +21,7 @@ export default function Video({ video, videos }) {
   const [form, setForm] = useState(video);
   useEffect(() => setForm(video), [video]);
   const onChange = e => {
-    const name = e.target.name;
-    const listAttributes = ["artists", "chords", "composers"];
-    const value =
-      listAttributes.indexOf(name) > -1
-        ? e.target.value.replace(", ", ",").split(",")
-        : e.target.value;
+    const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
 
@@ -47,7 +42,7 @@ export default function Video({ video, videos }) {
 
       <div className={styles.panelContainer}>
         <div className={styles.leftPanel}>
-          <SongInfo video={form} onChange={onChange} devEnv={devEnv} />
+          <SongInfo video={form} onChange={onChange} devEnv={devEnv} videos={videos} />
         </div>
         <div className={styles.centerPanel}>
           <Player

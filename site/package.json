@@ -11,6 +11,7 @@
   "dependencies": {
     "@tombatossals/chords-db": "^0.5.1",
     "@tombatossals/react-chords": "^0.2.10",
+    "antd": "^4.14.1",
     "fast-csv": "^4.3.6",
     "fs": "^0.0.1-security",
     "instantsearch.css": "^7.4.5",
