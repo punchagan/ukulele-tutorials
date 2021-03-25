@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import "antd/dist/antd.css";
 
 export default function Layout({ children, title = "This is the default title" }) {
   return (
