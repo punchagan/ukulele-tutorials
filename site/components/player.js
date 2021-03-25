@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Video.module.css";
+import { Switch } from "antd";
 
 export default function Player({ url, start, end, onChange }) {
   const player = useRef(null);
@@ -49,17 +50,16 @@ export default function Player({ url, start, end, onChange }) {
         />
       </div>
 
+      <div>
+        <Switch
+          size="small"
+          checkedChildren="loop"
+          defaultChecked={useLoop}
+          onChange={e => setUseLoop(e)}
+        />
+      </div>
+
       <ul className={styles.videoLoopControls}>
-        <li className={styles.loopControl}>
-          <span>Loop </span>
-          <span>
-            <input
-              type="checkbox"
-              defaultChecked={useLoop}
-              onChange={e => setUseLoop(e.target.checked)}
-            />
-          </span>
-        </li>
         <li className={styles.loopControl}>
           <span>Start </span>
           <span>
