@@ -81,6 +81,9 @@ export default function Player({ url, start, end, onChange }) {
           defaultChecked={useLoop}
           onChange={e => setUseLoop(e)}
         />
+        <Button style={{ float: "right" }} type="dashed" size="small" onClick={testLoop}>
+          Test Loop
+        </Button>
         <Slider
           value={[start, end]}
           max={duration}
@@ -91,9 +94,6 @@ export default function Player({ url, start, end, onChange }) {
           tooltipVisible={showLoopInfo}
           onChange={sliderChange}
         />
-        <Button type="dashed" size="small" onClick={testLoop}>
-          Test Loop
-        </Button>
       </div>
     </div>
   );
