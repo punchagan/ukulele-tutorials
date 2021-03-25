@@ -92,6 +92,14 @@ export default function About() {
           to do a tutorial for a song. There is no way to request for new song tutorials on this
           site, currently.
         </p>
+
+        <h2>I saved my favourites on my phone. How do I see them on my desktop?</h2>
+        <p>
+          This website does not have a "backend" and does not store any user information about the
+          users. All your favorites are saved in your browser's local storage. You can only see them
+          on the browser that you saved them in.
+        </p>
+
         <h2>What technologies do you use to create this website?</h2>
         <p>
           The song metadata is collected using{" "}
