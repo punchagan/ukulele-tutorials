@@ -44,6 +44,7 @@ export default function Player({ url, start, end, onChange }) {
   const testLoop = () => {
     player.current.seekTo(end - 3, "seconds");
     setPlaying(true);
+    player.current.getInternalPlayer().playVideo();
   };
 
   return (
