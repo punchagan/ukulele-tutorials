@@ -1,11 +1,12 @@
 import { useEffect, useState, useRef } from "react";
 import ReactPlayer from "react-player";
 import styles from "../styles/Video.module.css";
-import { Button, Slider, Switch } from "antd";
+import { Button, Descriptions, Slider, Switch } from "antd";
 
 export default function Player({ url, start, end, onChange }) {
   const player = useRef(null);
   const [loop, setLoop] = useState(false);
+  const [currentTime, setCurrentTime] = useState(0);
   const [playing, setPlaying] = useState(false);
   const [useLoop, setUseLoop] = useState(true);
   const [showLoopInfo, setShowLoopInfo] = useState(false);
@@ -36,6 +37,7 @@ export default function Player({ url, start, end, onChange }) {
   };
 
   const progressCallback = data => {
+    setCurrentTime(data.playedSeconds);
     if (useLoop && (data.playedSeconds >= end || data.playedSeconds < start)) {
       playFromStart();
     }
@@ -46,6 +48,9 @@ export default function Player({ url, start, end, onChange }) {
     setPlaying(true);
     player.current.getInternalPlayer().playVideo();
   };
+
+  const formatSeconds = value =>
+    `${Math.floor(value / 60)}m ${Math.floor((value % 60) * 100) / 100}s`;
 
   return (
     <div>
@@ -85,12 +90,15 @@ export default function Player({ url, start, end, onChange }) {
         <Button style={{ float: "right" }} type="dashed" size="small" onClick={testLoop}>
           Test Loop
         </Button>
+        <Descriptions>
+          <Descriptions.Item label="Played Seconds">{formatSeconds(currentTime)}</Descriptions.Item>
+        </Descriptions>
         <Slider
           value={[start, end]}
           max={duration}
           step={0.1}
           range={true}
-          tipFormatter={value => `${Math.floor(value / 60)}m ${((value * 10) % 600) / 10}s`}
+          tipFormatter={formatSeconds}
           tooltipPlacement="bottom"
           tooltipVisible={showLoopInfo}
           onChange={sliderChange}
