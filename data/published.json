@@ -120,6 +120,35 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"V3BUxKzshfQ",
+    "track":"Aaoge Jab Tum",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Jab We Met",
+    "artists":[
+      "Ustad Rashid Khan"
+    ],
+    "composers":[
+      "Sandesh Sandilya"
+    ],
+    "language":"Hindi",
+    "loop_start":89.6,
+    "loop_end":229.3,
+    "title":"Aaoge Jab Tum O Saajna | Jab We Met | Ukulele Tutorial | Shivanaay",
+    "channel":"UCMsX4epw3cck3D3Jy0oy_zg",
+    "upload_date":20210324,
+    "uploader":"Shivanaay",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"9cuaU-djqxI",
     "track":"Aap Ki Aankhon Mein",
     "chords":[
@@ -273,6 +302,36 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"-YiTdH7YKiA",
+    "track":"Alare Nee Ennile",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Member Rameshan 9Th Ward",
+    "artists":[
+      "Ayraan",
+      "Nithya Mammen"
+    ],
+    "composers":[
+      "Kailas Menon"
+    ],
+    "language":"Malayalam",
+    "loop_start":477.9,
+    "loop_end":696.1,
+    "title":"ALARE NEE ENNILE | #alare | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
+    "channel":"UCpaXVJBBAK6AA_DBi43c54A",
+    "upload_date":20210309,
+    "uploader":"Arathi Unnikrishnan",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"rR6zJFSz8xQ",
     "track":"Amar Bela Je Jaay Sanj Belate",
     "chords":[
@@ -361,6 +420,36 @@
     "uploader":"Avni Kulshreshtha",
     "baritone":0.0,
     "id_related":"J8whu5NKHrs,PKJDI5mtGPA"
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"gYoZdVpaCVM",
+    "track":"Bas Itna Hai Tumse Kehna",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Main Rahoon Ya Na Rahoon",
+    "artists":[
+      "Armaan Malik"
+    ],
+    "composers":[
+      "Amaal Mallik"
+    ],
+    "language":"Hindi",
+    "loop_start":48.8,
+    "loop_end":158.6,
+    "title":"Bas Itna Hai Tumse Kehna - Easy Ukulele Cover & Tutorial |Main rahu ya na rahu|",
+    "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
+    "upload_date":20210317,
+    "uploader":"the chashmish",
+    "baritone":0.0,
+    "id_related":null
   },
   {
     "ignore":0,
@@ -967,6 +1056,37 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"qnfoh9bltdk",
+    "track":"Do Lafzon Ki Hai Dil Ki Kahani",
+    "chords":[
+      "A",
+      "Bb",
+      "C",
+      "D",
+      "Dm",
+      "F"
+    ],
+    "key":"",
+    "album":"The Great Gambler",
+    "artists":[
+      "Asha Bhosle"
+    ],
+    "composers":[
+      "R. D. Burman"
+    ],
+    "language":"Hindi",
+    "loop_start":204.0,
+    "loop_end":349.2,
+    "title":"Do Lavzon Ki Hai | Easy Ukulele Tutorial",
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20210305,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"EgVMIVjezgs",
     "track":"Dooba Dooba Rehta Hu",
     "chords":[
@@ -1269,6 +1389,34 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"jED4dw_Lhw0",
+    "track":"Hardum Humdum",
+    "chords":[
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Ludo",
+    "artists":[
+      "Arijit Singh"
+    ],
+    "composers":[
+      "Pritam"
+    ],
+    "language":"Hindi",
+    "loop_start":172.8,
+    "loop_end":259.3,
+    "title":"Hardum Humdum | Only 3 Chords | Easy Ukulele Tutorial",
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20210326,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"UjfOXzDHMJU",
     "track":"Hasi Ban Gaye",
     "chords":[
@@ -1293,6 +1441,64 @@
     "channel":"UCJjV2CHB58Xerdqbwyka7QA",
     "upload_date":20201014,
     "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"fLwQzZX76cw",
+    "track":"Hum Bewafaa",
+    "chords":[
+      "C",
+      "D",
+      "G"
+    ],
+    "key":"",
+    "album":"Shalimar",
+    "artists":[
+      "Kishore Kumar"
+    ],
+    "composers":[
+      "R. D. Burman"
+    ],
+    "language":"Hindi",
+    "loop_start":184.1,
+    "loop_end":288.8,
+    "title":"Hum Bewafa | Only 3 Chords | Easy Ukulele Tutorial",
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20210320,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"XQ7uHssCuY4",
+    "track":"Hum Mar Jayenge",
+    "chords":[
+      "Am",
+      "C",
+      "Dm",
+      "G"
+    ],
+    "key":"",
+    "album":"Aashiqui 2",
+    "artists":[
+      "Arijit Singh",
+      "Tulsi Kumar"
+    ],
+    "composers":[
+      "Jeet Gannguli"
+    ],
+    "language":"Hindi",
+    "loop_start":0.0,
+    "loop_end":137.0,
+    "title":"Hum Mar Jayenge-Ukulele Cover (with chords)",
+    "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
+    "upload_date":20210321,
+    "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
     "id_related":null
   },
@@ -1385,6 +1591,37 @@
     "title":"Jab koi baat bigad jaye Ukulele Tutorial with Playalong",
     "channel":"UCJjV2CHB58Xerdqbwyka7QA",
     "upload_date":20210217,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"4j_KqZ15j7I",
+    "track":"Jashn-E-Bahaaraa",
+    "chords":[
+      "A",
+      "Bm",
+      "D",
+      "Em",
+      "G",
+      "Gbm"
+    ],
+    "key":"",
+    "album":"Jodhaa Akbar",
+    "artists":[
+      "Javed Ali"
+    ],
+    "composers":[
+      "A. R. Rahman"
+    ],
+    "language":"Hindi",
+    "loop_start":504.0,
+    "loop_end":669.4,
+    "title":"Jashn-e-bahara Ukulele Tutorial with Playalong",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20210324,
     "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
@@ -1902,6 +2139,36 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"yYz3Qx9dzmU",
+    "track":"Maeri",
+    "chords":[
+      "Bb",
+      "C",
+      "Eb",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Phir Dhoom - Euphoria",
+    "artists":[
+      "Palash Sen"
+    ],
+    "composers":[
+      "Euphoria"
+    ],
+    "language":"Hindi",
+    "loop_start":338.5,
+    "loop_end":613.9,
+    "title":"Maeri | Euphoria | Intermediate Ukulele Tutorial",
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20210226,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"UaAnEwnpRe4",
     "track":"Main Hoon Na Tere Saath",
     "chords":[
@@ -2133,6 +2400,65 @@
     "title":"MUTTATH SONG | Halal Love Story | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
     "channel":"UCpaXVJBBAK6AA_DBi43c54A",
     "upload_date":20201126,
+    "uploader":"Arathi Unnikrishnan",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"B4hUTH7cd2I",
+    "track":"Namo Namo",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Kedarnath",
+    "artists":[
+      "Amit Trivedi"
+    ],
+    "composers":[
+      "Amit Trivedi"
+    ],
+    "language":"Hindi",
+    "loop_start":29.9,
+    "loop_end":171.1,
+    "title":"Namo Namo - Easy Ukulele Tutorial & Cover | Basic Chords | Kedarnath |",
+    "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
+    "upload_date":20210310,
+    "uploader":"the chashmish",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"yjOrHx9_R2A",
+    "track":"Nee Himamazhayai",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Edakkad Battalion 06",
+    "artists":[
+      "Hari Sankar K. S.",
+      "Nithya Mammen"
+    ],
+    "composers":[
+      "Kailas Menon"
+    ],
+    "language":"Malayalam",
+    "loop_start":75.0,
+    "loop_end":207.7,
+    "title":"NEE HIMAMAZHAYAI VAROO | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
+    "channel":"UCpaXVJBBAK6AA_DBi43c54A",
+    "upload_date":20210310,
     "uploader":"Arathi Unnikrishnan",
     "baritone":0.0,
     "id_related":null
@@ -2640,6 +2966,35 @@
     "title":"Raat Kali Ek Khwab Mein Aayi Ukulele Tutorial with Playalong",
     "channel":"UCJjV2CHB58Xerdqbwyka7QA",
     "upload_date":20210127,
+    "uploader":"Sayali Tank",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
+    "id":"YOXRwszyUHc",
+    "track":"Roop Tera Mastana",
+    "chords":[
+      "A",
+      "B",
+      "D",
+      "E"
+    ],
+    "key":"",
+    "album":"Aradhana",
+    "artists":[
+      "Kishore Kumar"
+    ],
+    "composers":[
+      "S. D. Burman"
+    ],
+    "language":"Hindi",
+    "loop_start":439.7,
+    "loop_end":524.4,
+    "title":"Roop Tera Masatana Ukulele Tutorial with playalong",
+    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
+    "upload_date":20210303,
     "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
@@ -3169,6 +3524,37 @@
   {
     "ignore":0,
     "publish":1,
+    "id":"13dsSQVQIxQ",
+    "track":"Tere Bina Jiya Jaaye Na",
+    "chords":[
+      "A",
+      "Bb",
+      "D",
+      "Em",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Ghar",
+    "artists":[
+      "Lata Mangeshkar"
+    ],
+    "composers":[
+      "R. D. Burman"
+    ],
+    "language":"Hindi",
+    "loop_start":331.2,
+    "loop_end":418.6,
+    "title":"Tere Bina Jiya Jaaye Na | Intermediate Ukulele Tutorial",
+    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
+    "upload_date":20210304,
+    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
+    "publish":1,
     "id":"aG9BccTbTGU",
     "track":"Teri Mitti",
     "chords":[
@@ -3681,6 +4067,35 @@
   },
   {
     "ignore":0,
+    "publish":1,
+    "id":"YkQjypOq9Q4",
+    "track":"অভিমান",
+    "chords":[
+      "Am",
+      "C",
+      "F",
+      "G"
+    ],
+    "key":"",
+    "album":"Best Friend 3",
+    "artists":[
+      "Tanveer Evan"
+    ],
+    "composers":[
+      "Piran Khan"
+    ],
+    "language":"Bengali",
+    "loop_start":2.0,
+    "loop_end":169.0,
+    "title":"অভিমান | Oviman | UKULELE TUTORIAL | Best Friend 3 | Tanveer Evan | Piran Khan",
+    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
+    "upload_date":20210324,
+    "uploader":"ManidipaBaisya",
+    "baritone":0.0,
+    "id_related":null
+  },
+  {
+    "ignore":0,
     "publish":0,
     "id":"xBo3xxSTbdc",
     "track":"",
@@ -4148,32 +4563,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200916",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"V3BUxKzshfQ",
-    "track":"Aaoge Jab Tum O Saajna",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Jab We Met",
-    "artists":[
-      "Ustad Rashid Khan"
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":270.0,
-    "title":"Aaoge Jab Tum O Saajna | Jab We Met | Ukulele Tutorial | Shivanaay",
-    "channel":"UCMsX4epw3cck3D3Jy0oy_zg",
-    "upload_date":"20210324",
-    "uploader":"Shivanaay",
     "baritone":0.0,
     "id_related":null
   },
@@ -4682,32 +5071,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"-YiTdH7YKiA",
-    "track":"Alare Nee Ennile",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Member Rameshan 9Th Ward",
-    "artists":[
-      "Malayalam"
-    ],
-    "composers":[
-
-    ],
-    "language":"Malayalam",
-    "loop_start":0.0,
-    "loop_end":708.0,
-    "title":"ALARE NEE ENNILE | #alare | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
-    "channel":"UCpaXVJBBAK6AA_DBi43c54A",
-    "upload_date":"20210309",
-    "uploader":"Arathi Unnikrishnan",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"cr7JcS_SUME",
     "track":"Ambar",
     "chords":[
@@ -5174,32 +5537,6 @@
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":"20180813",
     "uploader":"BollyUke - Bollywood Ukulele Tutorials",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"gYoZdVpaCVM",
-    "track":"Bas Itna Hai Tumse Kehna -",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Ukulele Cover & Tutorial",
-    "artists":[
-      "Main Rahu Ya Na Rahu"
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":167.0,
-    "title":"Bas Itna Hai Tumse Kehna - Easy Ukulele Cover & Tutorial |Main rahu ya na rahu|",
-    "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
-    "upload_date":"20210317",
-    "uploader":"the chashmish",
     "baritone":0.0,
     "id_related":null
   },
@@ -5930,32 +6267,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20180510",
     "uploader":"ukeguide",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"SesKA7bgS-o",
-    "track":"Chura Liya",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Intro Music",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":25.0,
-    "title":"Chura Liya | Intro Music TABs | Intermediate Ukulele Tutorial",
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20210226",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
     "id_related":null
   },
@@ -6800,32 +7111,6 @@
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20190524",
     "uploader":"ukeguide",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"qnfoh9bltdk",
-    "track":"Do Lavzon Ki Hai",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"The Great Gambler",
-    "artists":[
-      "Asha Bhosle"
-    ],
-    "composers":[
-      "R.D. Burman"
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":361.0,
-    "title":"Do Lavzon Ki Hai | Easy Ukulele Tutorial",
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20210305",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
     "id_related":null
   },
@@ -8436,32 +8721,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"fLwQzZX76cw",
-    "track":"Hum Bewafa",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Shalimar",
-    "artists":[
-      "Kishore Kumar"
-    ],
-    "composers":[
-      "Rahul Dev Burman"
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":300.0,
-    "title":"Hum Bewafa | Only 3 Chords | Easy Ukulele Tutorial",
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20210320",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"pbMsbtUT4WM",
     "track":"Hum Bewafa-Ukulele Cover",
     "chords":[
@@ -8481,32 +8740,6 @@
     "title":"Hum Bewafa-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20210119",
-    "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"XQ7uHssCuY4",
-    "track":"Hum Mar Jayenge-Ukulele Cover",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"With Chords",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":137.0,
-    "title":"Hum Mar Jayenge-Ukulele Cover (with chords)",
-    "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
-    "upload_date":"20210321",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
     "id_related":null
@@ -9267,38 +9500,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200712",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"4j_KqZ15j7I",
-    "track":"Jashn-E-Bahara",
-    "chords":[
-      "A",
-      "Bm",
-      "C",
-      "D",
-      "Em",
-      "F#M",
-      "G"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":715.0,
-    "title":"Jashn-e-bahara Ukulele Tutorial with Playalong",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20210324",
-    "uploader":"Sayali Tank",
     "baritone":0.0,
     "id_related":null
   },
@@ -11732,32 +11933,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"yYz3Qx9dzmU",
-    "track":"Maeri",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Euphoria",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":626.0,
-    "title":"Maeri | Euphoria | Intermediate Ukulele Tutorial",
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20210226",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"Ea4cPcRxdXA",
     "track":"Main Hun Saath Tere",
     "chords":[
@@ -13348,32 +13523,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"B4hUTH7cd2I",
-    "track":"Namo Namo -",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"& Cover",
-    "artists":[
-      "Basic Chords"
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":180.0,
-    "title":"Namo Namo - Easy Ukulele Tutorial & Cover | Basic Chords | Kedarnath |",
-    "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
-    "upload_date":"20210310",
-    "uploader":"the chashmish",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"huzfMFUhBW8",
     "track":"Nayan -",
     "chords":[
@@ -13500,32 +13649,6 @@
     "uploader":"Tarun Mishra",
     "baritone":0.0,
     "id_related":"BOrGEN4lJFk,2NY9vTd0buc,ryCT3Yim3GU"
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"yjOrHx9_R2A",
-    "track":"Nee Himamazhayai Varoo",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Edakkad Battalion 06",
-    "artists":[
-      "Arathi Unnikrishnan"
-    ],
-    "composers":[
-
-    ],
-    "language":"Malayalam",
-    "loop_start":0.0,
-    "loop_end":220.0,
-    "title":"NEE HIMAMAZHAYAI VAROO | Malayalam Ukulele Tutorial | ARATHI UNNIKRISHNAN",
-    "channel":"UCpaXVJBBAK6AA_DBi43c54A",
-    "upload_date":"20210310",
-    "uploader":"Arathi Unnikrishnan",
-    "baritone":0.0,
-    "id_related":null
   },
   {
     "ignore":0,
@@ -15483,35 +15606,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"YOXRwszyUHc",
-    "track":"Roop Tera Masatana",
-    "chords":[
-      "A",
-      "B",
-      "D",
-      "E"
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":583.0,
-    "title":"Roop Tera Masatana Ukulele Tutorial with playalong",
-    "channel":"UCJjV2CHB58Xerdqbwyka7QA",
-    "upload_date":"20210303",
-    "uploader":"Sayali Tank",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"rTfFW4Yenxc",
     "track":"Ruk Jaana Nahin",
     "chords":[
@@ -16970,32 +17064,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200915",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"13dsSQVQIxQ",
-    "track":"Tere Bina Jiya Jaaye Na",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Ghar",
-    "artists":[
-      "Lata Mangeshkar"
-    ],
-    "composers":[
-      "R.D. Burman"
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":431.0,
-    "title":"Tere Bina Jiya Jaaye Na | Intermediate Ukulele Tutorial",
-    "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
-    "upload_date":"20210304",
-    "uploader":"BollyUke - Bollywood Ukulele Tutorials",
     "baritone":0.0,
     "id_related":null
   },
@@ -19486,32 +19554,6 @@
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200822",
     "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"YkQjypOq9Q4",
-    "track":"অভিমান",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"Oviman",
-    "artists":[
-      "Best Friend 3"
-    ],
-    "composers":[
-      "Piran Khan"
-    ],
-    "language":"Bengali",
-    "loop_start":0.0,
-    "loop_end":171.0,
-    "title":"অভিমান | Oviman | UKULELE TUTORIAL | Best Friend 3 | Tanveer Evan | Piran Khan",
-    "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
-    "upload_date":"20210324",
-    "uploader":"ManidipaBaisya",
     "baritone":0.0,
     "id_related":null
   },
