@@ -55,8 +55,6 @@ export default function Player({ url, start, end, onChange }) {
   const formatSeconds = value =>
     `${Math.floor(value / 60)}m ${Math.floor((value % 60) * 100) / 100}s`;
 
-  const decStart = start => start => sliderChange([Math.max(0, start - 0.1), end]);
-
   // Hot-keys
   useHotkeys("i", () => {
     const [_, E] = slider.current.props.value;
