@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useReducer } from "react";
 import Head from "next/head";
 import Layout from "../../components/layout";
 import Player from "../../components/player";
@@ -18,17 +18,17 @@ export default function Video({ video, videos }) {
     : [];
   const otherVersions = otherIds.map(it => videos.find(v => v.id === it));
 
-  const [form, setForm] = useState(video);
-  useEffect(() => setForm(video), [video]);
-  const onChange = e => {
+  const reducer = (state, e) => {
     const { name, value } = e.target;
     if (name === "loop") {
       const [loop_start, loop_end] = value;
-      setForm({ ...form, loop_start, loop_end });
+      return { ...state, loop_start, loop_end };
     } else {
-      setForm({ ...form, [name]: value });
+      return { ...state, [name]: value };
     }
   };
+
+  const [form, dispatch] = useReducer(reducer, video);
 
   return (
     <Layout>
@@ -47,14 +47,14 @@ export default function Video({ video, videos }) {
 
       <div className={styles.panelContainer}>
         <div className={styles.leftPanel}>
-          <SongInfo video={form} onChange={onChange} devEnv={devEnv} videos={videos} />
+          <SongInfo video={form} onChange={dispatch} devEnv={devEnv} videos={videos} />
         </div>
         <div className={styles.centerPanel}>
           <Player
             url={`https://youtube.com/v/${video.id}`}
             start={form.loop_start}
             end={form.loop_end}
-            onChange={onChange}
+            onChange={dispatch}
           />
         </div>
         <div className={styles.rightPanel}>
