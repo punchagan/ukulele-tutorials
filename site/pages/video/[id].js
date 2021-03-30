@@ -22,7 +22,12 @@ export default function Video({ video, videos }) {
   useEffect(() => setForm(video), [video]);
   const onChange = e => {
     const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
+    if (name === "loop") {
+      const [loop_start, loop_end] = value;
+      setForm({ ...form, loop_start, loop_end });
+    } else {
+      setForm({ ...form, [name]: value });
+    }
   };
 
   return (

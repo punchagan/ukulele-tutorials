@@ -16,14 +16,7 @@ export default function Player({ url, start, end, onChange }) {
   const [showHelp, setShowHelp] = useState(false);
 
   const sliderChange = r => {
-    const [rStart, rEnd] = r;
-    let e;
-    if (start === rStart) {
-      e = { target: { name: "loop_end", value: rEnd } };
-    } else {
-      e = { target: { name: "loop_start", value: rStart } };
-    }
-    onChange(e);
+    onChange({ target: { name: "loop", value: r } });
   };
 
   const durationCallback = d => {
