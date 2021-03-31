@@ -16,7 +16,7 @@ const editCSVRow = (videoId, data) => {
     return row;
   });
   fs.writeFileSync(csvFile, csv.stringify(updatedData, { header: true }), { encoding: "utf-8" });
-  execFileSync(script);
+  execFileSync(script, ["-j"]);
   console.log("Updated published.json");
 };
 
