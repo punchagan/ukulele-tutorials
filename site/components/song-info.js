@@ -6,6 +6,7 @@ import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
 import { Alert, AutoComplete, Button, Input, Select, Switch } from "antd";
+import { EditOutlined, EyeOutlined } from "@ant-design/icons";
 
 import "antd/dist/antd.css";
 import styles from "../styles/Video.module.css";
@@ -359,8 +360,8 @@ export const SongInfo = ({ video, videos, onChange, devEnv }) => {
   return (
     <>
       <span style={{ float: "right" }} onClick={() => setEdit(!edit)}>
-        {devEnv && !edit && <span>&#128393;</span>}
-        {devEnv && edit && <span>&#128065;</span>}
+        {devEnv && !edit && <EditOutlined />}
+        {devEnv && edit && <EyeOutlined />}
       </span>
       <Info video={video} onChange={onChange} videos={videos} />
     </>
