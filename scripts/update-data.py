@@ -144,8 +144,16 @@ class Updater:
         data = self._update_related(data)
         self._write_data(data)
 
+    def refresh_json_output(self):
+        data = pd.read_csv(self.data_csv, dtype={'upload_date': str})\
+                 .fillna({'key': '', 'album': ''})
+        self._write_json_data(data)
+
     def _write_data(self, data):
         data.to_csv(self.data_csv, index=False)
+        self._write_json_data(data)
+
+    def _write_json_data(self, data):
         non_ignored_rows = data['ignore'] != 1
 
         def sort_list(x):
@@ -280,12 +288,19 @@ class Updater:
 
 if __name__ == "__main__":
     import argparse
+    import sys
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-d', '--download-data', action='store_true', default=False)
+    parser.add_argument('-j', '--refresh-json-output', action='store_true', default=False)
 
     options = parser.parse_args()
     u = Updater()
+
+    if options.refresh_json_output:
+        u.refresh_json_output()
+        sys.exit()
+
     if options.download_data:
         u.download_all_jsons()
     u.parse_all_jsons()
