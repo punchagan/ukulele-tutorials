@@ -5,7 +5,7 @@ import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
-import { AutoComplete, Button, Input, Select, Switch } from "antd";
+import { Alert, AutoComplete, Button, Input, Select, Switch } from "antd";
 
 import "antd/dist/antd.css";
 import styles from "../styles/Video.module.css";
@@ -176,8 +176,8 @@ const EditSongInfo = ({ video, videos, onChange }) => {
   const [error, setError] = useState();
   const publishData = () => {
     postData(video.id, { ...video, publish: 1 })
-      .catch(err => setError(err.message))
-      .then(data => setError(""));
+      .then(data => setError(""))
+      .catch(err => setError(err.message));
   };
 
   const [meta, setMeta] = useState();
@@ -325,16 +325,11 @@ const EditSongInfo = ({ video, videos, onChange }) => {
             </AutoComplete>
           </span>
         </li>
-
-        <li className={styles.songInfoEntry}>
-          <span className={styles.songInfoValue}>
-            <Button type="primary" onClick={publishData}>
-              Publish
-            </Button>
-            <p>{error}</p>
-          </span>
-        </li>
       </ul>
+      <Button type="primary" onClick={publishData}>
+        Publish
+      </Button>
+      {error && <Alert message="Error" description={error} type="error" showIcon />}
       <h2>Search Original Song</h2>
       <Input
         style={{ width: "60%" }}
