@@ -19,7 +19,10 @@ def check_missing_metadata():
                 continue
             print(f"{entry['track']} is broken ({entry['id']})")
             count += 1
-    print(f"{count} videos are broken...")
+    if count > 0:
+        print(f"{count} videos are broken...")
+    else:
+        print(f"👍 Nothing is broken. All is well ✨🚀")
 
 
 if __name__ == "__main__":
