@@ -36,10 +36,11 @@ export default function About() {
         <h2>Who maintains this website?</h2>
         <p>
           This website was created and is maintained by{" "}
-          <a href="https://twitter.com/punchagan">punchagan</a>. I have recently started learning to
-          play the Ukulele, and created this site to make the process of finding new songs to learn,
-          and the process of learning them slightly easier for myself. If you find this website
-          useful, feel free to let me know via twitter or this{" "}
+          <a href="https://twitter.com/punchagan">punchagan</a> along with some{" "}
+          <a href="https://github.com/punchagan/ukulele-tutorials/graphs/contributors">friends</a>.
+          I have recently started learning to play the Ukulele, and created this site to make the
+          process of finding new songs to learn, and the process of learning them slightly easier
+          for myself. If you find this website useful, feel free to let me know via twitter or this{" "}
           <Link href="/feedback">
             <a>form</a>
           </Link>
