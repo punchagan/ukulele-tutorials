@@ -64,7 +64,8 @@ class Updater:
 
     def download_json(self, channel):
         url = channel['url']
-        print(f'Downloading json for {url} ...')
+        name = channel.get('name', url)
+        print(f'Downloading json for {name} ...')
         start = time.time()
         with youtube_dl.YoutubeDL(self.ydl_opts) as ydl:
             with io.StringIO() as f:
@@ -81,7 +82,7 @@ class Updater:
 
         n = len(data.get('entries', []))
         t = time.time() - start
-        print(f'Wrote {n} entries for {channel["name"]} to {f.name} in {t} seconds')
+        print(f'Wrote {n} entries for {name} to {f.name} in {t} seconds')
 
     def download_all_jsons(self):
         # Delete all existing JSON files before downloading
