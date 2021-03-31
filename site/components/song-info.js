@@ -174,11 +174,12 @@ const ShowSongInfo = ({ video }) => {
 };
 
 const EditSongInfo = ({ video, videos, onChange }) => {
-  const [error, setError] = useState();
+  const [error, setError] = useState({});
   const publishData = () => {
+    setError({ type: "info", message: "Publishing..." });
     postData(video.id, { ...video, publish: 1 })
-      .then(data => setError(""))
-      .catch(err => setError(err.message));
+      .then(data => setError({ type: "success", message: "Published!" }))
+      .catch(err => setError({ type: "error", message: err.message }));
   };
 
   const [meta, setMeta] = useState();
@@ -330,7 +331,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
       <Button type="primary" onClick={publishData}>
         Publish
       </Button>
-      {error && <Alert message="Error" description={error} type="error" showIcon />}
+      {error?.type && <Alert message={error.message} type={error.type} showIcon />}
       <h2>Search Original Song</h2>
       <Input
         style={{ width: "60%" }}
