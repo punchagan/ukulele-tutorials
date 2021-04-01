@@ -82,7 +82,7 @@ class Updater:
 
         n = len(data.get('entries', []))
         t = time.time() - start
-        print(f'Wrote {n} entries for {name} to {f.name} in {t} seconds')
+        print(f'Wrote {n} entries for {channel["name"]} to {f.name} in {t} seconds')
 
     def download_all_jsons(self):
         # Delete all existing JSON files before downloading
