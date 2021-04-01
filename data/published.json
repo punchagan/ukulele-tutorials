@@ -5455,23 +5455,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"S3sEE5a5Y9w",
     "track":"Adiga Adiga",
     "chords":[
-
+      "Am",
+      "Bm",
+      "C",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"M Ninu Kori With Chords(Same For Guitar)",
+    "album":"Ninnu Kori",
     "artists":[
-
+      "Sid Sriram"
     ],
     "composers":[
-
+      "Gopi Sunder"
     ],
     "language":"Telugu",
-    "loop_start":0.0,
-    "loop_end":459.0,
+    "loop_start":261.0964890172,
+    "loop_end":437.1840397826,
     "title":"Adiga Adiga Ukulele Tutorial from Ninu Kori with Chords(Same for guitar)",
     "channel":"UCTSDR18UOA5SMGmq7Ok7Whw",
     "upload_date":"20210109",
@@ -5613,23 +5618,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"uGa7OTYDpiY",
-    "track":"Ambarsariya - Ukulele Cover & Tutorial",
+    "track":"Ambarsariya",
     "chords":[
-
+      "C",
+      "Dm",
+      "Gm"
     ],
     "key":"",
     "album":"Fukrey",
     "artists":[
-
+      "Sona Mohapatra"
     ],
     "composers":[
-
+      "Ram Sampath"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":143.0,
+    "loop_start":16.8106868875,
+    "loop_end":136.3806429008,
     "title":"Ambarsariya - Ukulele Cover & Tutorial |Fukrey|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201224",
@@ -5746,19 +5753,21 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"s4mxK79tXIk",
     "track":"Aur Ahista",
     "chords":[
-
+      "C",
+      "Dm",
+      "F"
     ],
     "key":"",
-    "album":"Pankaj Udhas)-Ukulele Cover (With Chords",
+    "album":"Pankaj Udhas",
     "artists":[
-
+      "Pankaj Udhas"
     ],
     "composers":[
-
+      "Pankaj Udhas"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -5929,23 +5938,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"o1AFv_c-2JY",
-    "track":"Baarishein - Ukulele Cover & Tutorial",
+    "track":"Baarishein",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Anuv Jain",
     "artists":[
-
+      "Anuv Jain"
     ],
     "composers":[
-
+      "Anuv Jain"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":192.0,
+    "loop_start":24.9608511583,
+    "loop_end":186.092901061,
     "title":"Baarishein - Ukulele Cover & Tutorial |anuv jain|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201218",
@@ -6164,23 +6176,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"C1kLAnD6B2w",
-    "track":"Bewafa - Ukulele Cover & Tutorial",
+    "track":"Bewafa",
     "chords":[
-
+      "C",
+      "D",
+      "Em"
     ],
     "key":"",
     "album":"Imran Khan",
     "artists":[
-
+      "Imran Khan"
     ],
     "composers":[
-
+      "Imran Khan"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":144.0,
+    "loop_start":21.2659410744,
+    "loop_end":136.833632061,
     "title":"Bewafa - Ukulele Cover & Tutorial |Imran khan|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201227",
@@ -6659,23 +6673,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"pcCvIoOXOcU",
-    "track":"Chidiya -",
+    "track":"Chidiya",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Chidiya",
     "artists":[
       "Vilen"
     ],
     "composers":[
-
+      "Vilen"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":94.0,
+    "loop_start":24.3758509619,
+    "loop_end":87.0279890229,
     "title":"Chidiya - Easy Ukulele Tutorial & Cover|Vilen|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201023",
@@ -6896,23 +6913,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"aWpu0PXt5Yg",
-    "track":"Dariya -",
+    "track":"Dariya",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"Ukulele Cover & Tutorial",
+    "album":"Baar Baar Dekho",
     "artists":[
-      "Baar Baar Dekho"
+      "Arko"
     ],
     "composers":[
-
+      "Arko"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":146.0,
+    "loop_start":23.9877079447,
+    "loop_end":138.0471129943,
     "title":"Dariya - Easy Ukulele Cover & Tutorial |Baar Baar Dekho |",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20210105",
@@ -7370,23 +7390,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"zGUUmXmfAPs",
-    "track":"Dil Ibaadat -",
+    "track":"Dil Ibaadat",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F"
     ],
     "key":"",
-    "album":"Ukulele Cover & Tutorial ❤️",
+    "album":"Tum Mile",
     "artists":[
-
+      "K. K."
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":102.0,
+    "loop_start":23.1631650572,
+    "loop_end":96.2332789695,
     "title":"Dil Ibaadat - Easy Ukulele Cover & Tutorial ❤️",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201031",
@@ -7659,23 +7682,24 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"P0Oh4cs5sJA",
-    "track":"Duji Vaar Pyar -",
+    "track":"Duji Vaar Pyar",
     "chords":[
-
+      "D",
+      "Em"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Duji Vaar Pyar",
     "artists":[
-
+      "Sunanda Sharma"
     ],
     "composers":[
-
+      "Sukh-E"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":128.0,
+    "loop_start":22.1371140019,
+    "loop_end":119.7349281392,
     "title":"Duji Vaar Pyar - Ukulele Tutorial & Cover",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201215",
@@ -9106,11 +9130,13 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"_VTYNV1cCVw",
     "track":"Hridoyer Rong",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Ghare Baire",
@@ -9118,11 +9144,11 @@
       "Lagnajita Chakraborty"
     ],
     "composers":[
-
+      "Anupam Roy"
     ],
     "language":"Bengali",
-    "loop_start":0.0,
-    "loop_end":478.0,
+    "loop_start":81.0645388131,
+    "loop_end":470.0689739866,
     "title":"Hridoyer Rong | হৃদয়ের রঙ | Lagnajita Chakraborty | Easy Ukulele Tutorial",
     "channel":"UC19UkqR9kSv0ajIuE0q5kPQ",
     "upload_date":"20210110",
@@ -11214,23 +11240,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"N5v4VgRpqVY",
-    "track":"Kho Gaye Hum Kaha -",
+    "track":"Kho Gaye Hum Kaha",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Baar Baar Dekho",
     "artists":[
-
+      "Jasleen Kaur Royal",
+      "Prateek Kuhad"
     ],
     "composers":[
-
+      "Jasleen Kaur Royal"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":102.0,
+    "loop_start":17.9641871583,
+    "loop_end":94.5530620553,
     "title":"Kho Gaye Hum Kaha - Easy Ukulele Tutorial & Cover",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201202",
@@ -11240,11 +11270,14 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"k94lh4_pV1Q",
     "track":"Kho Gaye Hum Kahan",
     "chords":[
-
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Baar Baar Dekho",
@@ -11253,11 +11286,11 @@
       "Prateek Kuhad"
     ],
     "composers":[
-
+      "Jasleen Kaur Royal"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":263.0,
+    "loop_start":66.2840559847,
+    "loop_end":242.5,
     "title":"Kho Gaye Hum Kahan Ukulele Tutorial | Shivanaay",
     "channel":"UCMsX4epw3cck3D3Jy0oy_zg",
     "upload_date":"20210112",
@@ -11482,23 +11515,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"kE6_7uZJk74",
-    "track":"Kuch Toh Bata Zindagi -",
+    "track":"Zindagi Kuch Toh Bata",
     "chords":[
-
+      "Am",
+      "C",
+      "F"
     ],
     "key":"",
-    "album":"Ukulele Cover & Tutorial",
+    "album":"Bajrangi Bhaijaan",
     "artists":[
-
+      "Jubin Nautiyal",
+      "Pritam"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":83.0,
+    "loop_start":22.3683598741,
+    "loop_end":75.3850470343,
     "title":"Kuch toh bata Zindagi - Easy Ukulele Cover & Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201124",
@@ -13009,23 +13045,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"9aaoa9015CY",
-    "track":"Mishri  - Hindi Ukulele Lesson",
+    "track":"Mishri",
     "chords":[
-
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "F"
     ],
     "key":"",
     "album":"Anuv Jain",
     "artists":[
-
+      "Anuv Jain"
     ],
     "composers":[
-
+      "Angad Singh Bahra"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":499.0,
+    "loop_start":354.0,
+    "loop_end":489.4,
     "title":"Mishri (Anuv Jain) - Hindi Ukulele Lesson | ukeguide",
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20210114",
@@ -13143,11 +13183,12 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"mP9TDNdP_Cs",
-    "track":"Monta Re",
+    "track":"Monta Re Lootera",
     "chords":[
-
+      "B7",
+      "E"
     ],
     "key":"",
     "album":"",
@@ -13159,8 +13200,8 @@
       "Amit Trivedi"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":260.0,
+    "loop_start":168.0,
+    "loop_end":246.5,
     "title":"Monta Re | Only 2 Chords | Easy Ukulele Tutorial",
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":"20210111",
@@ -13308,23 +13349,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"JKZ5qjb6h04",
-    "track":"Munbe Vaa Tamil Ukulele Cover\/Chords\/Tutorial",
+    "track":"Munbe Vaa",
     "chords":[
-      "Em C D Am"
+      "Am",
+      "C",
+      "D",
+      "Em"
     ],
     "key":"",
-    "album":"",
+    "album":"Sillunu Oru Kadhal",
     "artists":[
-
+      "Naresh Iyer",
+      "Shreya Ghoshal"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Tamil",
     "loop_start":0.0,
-    "loop_end":92.0,
+    "loop_end":91.3585340477,
     "title":"Munbe vaa tamil ukulele cover\/chords\/tutorial",
     "channel":"UCseOAfsBqBoSPH37WzPhIMA",
     "upload_date":"20210112",
@@ -13700,23 +13745,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"huzfMFUhBW8",
-    "track":"Nayan -",
+    "track":"Nayan",
     "chords":[
-
+      "C",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Nayan",
     "artists":[
-      "Dhvani Bhanushali"
+      "Dhvani Bhanushali",
+      "Jubin Nautiyal"
     ],
     "composers":[
-
+      "Appu"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":140.0,
+    "loop_start":19.0468270172,
+    "loop_end":132.7716899352,
     "title":"Nayan -  Easy Ukulele Tutorial & Cover |dhvani bhanushali |Cover song |",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201209",
@@ -14012,11 +14061,14 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"k_j9cxYX8CI",
     "track":"O Beta Ji",
     "chords":[
-
+      "A",
+      "C",
+      "Dm",
+      "G"
     ],
     "key":"",
     "album":"Albela",
@@ -14027,8 +14079,8 @@
       "C.Ramchandra"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":288.0,
+    "loop_start":220.3,
+    "loop_end":274.5,
     "title":"O Beta Ji | Only 4 Chords | Intermediate Ukulele Tutorial",
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":"20210113",
@@ -14460,23 +14512,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"3Vf1OT56HeY",
-    "track":"Pahadon Mein  - Hindi",
+    "track":"Pahadon Mein",
     "chords":[
-
+      "C",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Salman Elahi",
     "artists":[
-
+      "Salman Elahi"
     ],
     "composers":[
-
+      "Salman Elahi"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":402.0,
+    "loop_start":307.462351227,
+    "loop_end":390.6283548932,
     "title":"Pahadon Mein (Salman Elahi) - Hindi Ukulele Tutorial | ukeguide",
     "channel":"UCtYAlKT4ZHsP37o8d7gIjkQ",
     "upload_date":"20210106",
@@ -14539,23 +14594,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"is5u2ZqHN1o",
-    "track":"Pal Ek Pal-Ukulele Cover",
+    "track":"Pal Ek Pal",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Jalebi",
     "artists":[
-
+      "Arijit Singh",
+      "Shreya Ghoshal"
     ],
     "composers":[
-
+      "Javed - Mohsin"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":112.0,
+    "loop_end":110.5761519161,
     "title":"Pal Ek Pal-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20210113",
@@ -15467,23 +15526,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"rJDq4uazXNQ",
-    "track":"Raabta -",
+    "track":"Raabta",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Agent Vinod",
     "artists":[
-
+      "Arijit Singh",
+      "Hamsika",
+      "Joi"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":89.0,
+    "loop_start":23.6210000362,
+    "loop_end":83.2991800687,
     "title":"Raabta - Easy Ukulele Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201105",
@@ -16017,23 +16081,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"tREX7Kl1FcQ",
     "track":"Samajavaragamana Very",
     "chords":[
-
+      "Am",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"-",
+    "album":"Ala Vaikunthapurramuloo",
     "artists":[
-
+      "Sid Sriram"
     ],
     "composers":[
-
+      "S. Thaman"
     ],
     "language":"Telugu",
-    "loop_start":0.0,
-    "loop_end":343.0,
+    "loop_start":182.3351369752,
+    "loop_end":341.7445328875,
     "title":"Samajavaragamana very easy Ukulele Tutorial - Only 3 Chords",
     "channel":"UCTSDR18UOA5SMGmq7Ok7Whw",
     "upload_date":"20210102",
@@ -16435,23 +16501,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"8VwxQBMhPFU",
-    "track":"Suno Na Sangemarmar - Ukulele Cover & Tutorial",
+    "track":"Suno Na Sangemarmar",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Youngistaan",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Jeet Gannguli"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":156.0,
+    "loop_start":37.9819159447,
+    "loop_end":148.5905640954,
     "title":"Suno Na Sangemarmar - Ukulele Cover & Tutorial | Youngistaan |",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201231",
@@ -17250,23 +17319,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"zFZa0O60294",
-    "track":"Teri Ban Jaungi -",
+    "track":"Teri Ban Jaungi",
     "chords":[
-
+      "A",
+      "D"
     ],
     "key":"",
     "album":"Kabir Singh",
     "artists":[
-
+      "Akhil Sachdeva",
+      "Tulsi Kumar"
     ],
     "composers":[
-
+      "Akhil Sachdeva"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":129.0,
+    "loop_start":12.8178849828,
+    "loop_end":122.4531688131,
     "title":"Teri ban jaungi - Easy Ukulele Tutorial | only 2 chords|Kabir Singh|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201115",
@@ -17829,19 +17900,22 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Gi8ACFN8u_A",
-    "track":"Tu Jaane Na-Ukulele Cover",
+    "track":"Tu Jaane Na",
     "chords":[
-
+      "C",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Ajab Prem Ki Gazab Kahani",
     "artists":[
-
+      "Atif Aslam"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -18602,11 +18676,14 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"mGA-yZllha8",
-    "track":"Uchiyaan Dewaraan -",
+    "track":"Uchiyaan Dewaraan",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Baari 2",
@@ -18614,11 +18691,11 @@
       "Momina Mustehsan"
     ],
     "composers":[
-
+      "Bilal Saeed"
     ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":103.0,
+    "language":"Punjabi",
+    "loop_start":19.0474189962,
+    "loop_end":96.3761260305,
     "title":"Uchiyaan Dewaraan (Baari 2)- Easy Ukulele Tutorial & Cover |Momina Mustehsan|Bilal Saeed |",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201204",
@@ -18838,23 +18915,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Qf83XhYabz0",
-    "track":"Waalian - Ukulele Cover & Tutorial",
+    "track":"Waalian",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Harnoor",
     "artists":[
-      "The Kidd"
+      "Harnoor",
+      "Katierose Bae"
     ],
     "composers":[
-
+      "Gifty"
     ],
     "language":"Punjabi",
-    "loop_start":0.0,
-    "loop_end":161.0,
+    "loop_start":26.0464880629,
+    "loop_end":154.230721918,
     "title":"Waalian - Ukulele Cover & Tutorial |Harnoor| The Kidd| Latest Punjabi song 2020|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201212",
@@ -19290,23 +19371,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"x5dxRMm4Z_s",
-    "track":"Yeh Dil Deewana -",
+    "track":"Yeh Dil Deewana",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Pardes",
     "artists":[
-      "Pardes"
+      "Sonu Nigam"
     ],
     "composers":[
-
+      "Nadeem-Shravan"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":129.0,
+    "loop_start":24.2442759084,
+    "loop_end":121.737111815,
     "title":"Yeh Dil Deewana - Ukulele Tutorial & Cover |Pardes|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201229",
