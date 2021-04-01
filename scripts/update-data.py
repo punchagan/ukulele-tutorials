@@ -163,6 +163,7 @@ class Updater:
         # Split chords and artists into lists
         data.loc[non_ignored_rows, 'chords'] = data.loc[non_ignored_rows, 'chords']\
                                                    .fillna('')\
+                                                   .str.replace(', ', ',')\
                                                    .str.split(',').apply(sort_list)
         data.loc[non_ignored_rows, 'artists'] = data.loc[non_ignored_rows, 'artists']\
                                                    .fillna('')\
