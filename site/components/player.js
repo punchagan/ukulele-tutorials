@@ -68,10 +68,12 @@ export default function Player({ url, start, end, onChange }) {
     sliderChange([Math.max(0, s + 0.1), e]);
   });
   useHotkeys("shift+,", () => {
+    const duration = player.current.getDuration();
     const [s, e] = slider.current.props.value;
     sliderChange([s, Math.min(duration, e - 0.1)]);
   });
   useHotkeys("shift+.", () => {
+    const duration = player.current.getDuration();
     const [s, e] = slider.current.props.value;
     sliderChange([s, Math.min(duration, e + 0.1)]);
   });
