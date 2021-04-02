@@ -1,4 +1,4 @@
-import { useReducer } from "react";
+import { useEffect, useReducer } from "react";
 import Head from "next/head";
 import Layout from "../../components/layout";
 import Player from "../../components/player";
@@ -19,6 +19,10 @@ export default function Video({ video, videos }) {
   const otherVersions = otherIds.map(it => videos.find(v => v.id === it));
 
   const reducer = (state, e) => {
+    if (e.target === undefined && e.id) {
+      // when video is completely replaced
+      return e;
+    }
     const { name, value } = e.target;
     if (name === "loop") {
       const [loop_start, loop_end] = value;
@@ -29,6 +33,9 @@ export default function Video({ video, videos }) {
   };
 
   const [form, dispatch] = useReducer(reducer, video);
+  useEffect(() => {
+    dispatch(video);
+  }, [video.id]);
 
   return (
     <Layout>
