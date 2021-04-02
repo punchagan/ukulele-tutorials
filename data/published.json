@@ -2202,8 +2202,9 @@
       "G"
     ],
     "key":"",
-    "album":"Bar Bar Dekho",
+    "album":"Baar Baar Dekho",
     "artists":[
+      "Jasleen Kaur Royal",
       "Prateek Kuhad"
     ],
     "composers":[
@@ -2217,7 +2218,7 @@
     "upload_date":"20200226",
     "uploader":"Sayali Tank",
     "baritone":0.0,
-    "id_related":"LC5fL-BsnVM,iofvfh7YH-U"
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
   },
   {
     "ignore":0,
@@ -2232,8 +2233,9 @@
       "G"
     ],
     "key":"",
-    "album":"Bar Bar Dekho",
+    "album":"Baar Baar Dekho",
     "artists":[
+      "Jasleen Kaur Royal",
       "Prateek Kuhad"
     ],
     "composers":[
@@ -2247,7 +2249,7 @@
     "upload_date":"20190315",
     "uploader":"ukeguide",
     "baritone":0.0,
-    "id_related":"LC5fL-BsnVM,iofvfh7YH-U"
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
   },
   {
     "ignore":0,
@@ -11256,7 +11258,7 @@
     "ignore":0,
     "publish":1,
     "id":"N5v4VgRpqVY",
-    "track":"Kho Gaye Hum Kaha",
+    "track":"Kho Gaye Hum Kahan",
     "chords":[
       "Am",
       "C",
@@ -11280,7 +11282,7 @@
     "upload_date":"20201202",
     "uploader":"the chashmish",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
   },
   {
     "ignore":0,
@@ -11310,7 +11312,7 @@
     "upload_date":"20210112",
     "uploader":"Shivanaay",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
   },
   {
     "ignore":0,
