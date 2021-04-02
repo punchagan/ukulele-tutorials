@@ -142,7 +142,6 @@ class Updater:
             parsed.append(self.parse_json(path))
 
         data = self._merge_into_existing(pd.concat(parsed))
-        data = self._update_related(data)
         self._write_data(data)
 
     def refresh_json_output(self):
@@ -173,6 +172,7 @@ class Updater:
                                                      .fillna('')\
                                                      .str.replace(', ', ',')\
                                                      .str.split(',').apply(sort_list)
+        data = self._update_related(data)
         non_ignored = data[non_ignored_rows]
         non_ignored.to_json(self.data_json, orient='records', indent=2, force_ascii=False)
         print(non_ignored.tail())
@@ -184,9 +184,6 @@ class Updater:
         related = data.query('ignore != 1')\
                       .groupby(['track', 'album'])\
                       .agg({'id': join}).drop_duplicates()
-        # Drop existing id_related column, since we are creating a new one
-        columns = [c for c in data.columns if c != 'id_related']
-        data = data[columns]
         return data.merge(related, how='left', on=['track', 'album'], suffixes=['', '_related'])
 
     def _merge_into_existing(self, data):
