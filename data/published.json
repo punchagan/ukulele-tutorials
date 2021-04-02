@@ -9052,23 +9052,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"UrQp4kDvm4o",
-    "track":"Hi Chaal Turu Turu-",
+    "track":"Hi Chaal Turu Turu",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"Ukulele Cover  & Tutorial",
+    "album":"Kavi Gaurav Shanta Shelke",
     "artists":[
-
+      "Jaywant Kulkarni"
     ],
     "composers":[
-
+      "Devdatta Sable"
     ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":115.0,
+    "language":"Marathi",
+    "loop_start":30.2521569466,
+    "loop_end":106.4714421354,
     "title":"Hi Chaal Turu Turu-Easy Ukulele Cover  & Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200816",
@@ -9578,23 +9580,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"ZRPBBGW0v3M",
-    "track":"Jaan Nisaar - Ukulele Cover & Tutorial",
+    "track":"Jaan Nisaar",
     "chords":[
-
+      "A",
+      "Bm",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Kedarnath",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Amit Trivedi"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":114.0,
+    "loop_start":29.2,
+    "loop_end":108.1,
     "title":"Jaan Nisaar - Ukulele Cover & Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200909",
@@ -9865,23 +9871,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Sj6i5EWrqBk",
-    "track":"Jashn-E-Bahara -",
+    "track":"Jashn-E-Bahara",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Jodhaa Akbar",
     "artists":[
-
+      "Javed Ali"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":285.0,
+    "loop_start":133.1,
+    "loop_end":276.2,
     "title":"Jashn-e-bahara - Easy Ukulele Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200725",
@@ -10181,23 +10192,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Ens43-2Rhew",
-    "track":"Kabhi Kabhi Aditi - Ukulele Cover & Tutorial ❤️",
+    "track":"Kabhi Kabhi Aditi",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Jaane Tu Ya Jaane Na",
     "artists":[
-
+      "Rashid Ali"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":76.0,
+    "loop_start":23.2595101011,
+    "loop_end":70.2354481507,
     "title":"Kabhi Kabhi Aditi - Ukulele Cover & Tutorial ❤️",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201010",
@@ -12493,23 +12507,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"wkOoj8EwKQ8",
-    "track":"Main Tumhara-",
+    "track":"Main Tumhara",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Dil Bechara",
     "artists":[
-
+      "Hriday Gattani",
+      "Jonita Gandhi"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":99.0,
+    "loop_start":29.7862689809,
+    "loop_end":92.4704259523,
     "title":"Main Tumhara-Ukulele Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200813",
@@ -12677,23 +12695,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"mlkm2MMqzuA",
-    "track":"Manjha -",
+    "track":"Manjha",
     "chords":[
-
+      "Am",
+      "Bb",
+      "C",
+      "Dm",
+      "F",
+      "Gm"
     ],
     "key":"",
     "album":"",
     "artists":[
-
+      "Vishal Mishra"
     ],
     "composers":[
-
+      "Vishal Mishra"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":189.0,
+    "loop_start":80.292330794,
+    "loop_end":182.9674830477,
     "title":"Manjha - Ukulele Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200802",
@@ -12729,23 +12752,24 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"eU77Nr8i3yE",
-    "track":"Mann Mera -",
+    "track":"Mann Mera",
     "chords":[
-
+      "C",
+      "Dm"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Table No. 21",
     "artists":[
-      "Table No.21"
+      " Gajendra Verma"
     ],
     "composers":[
-
+      "Hitesh Sonik"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":155.0,
+    "loop_start":16.2,
+    "loop_end":149.2403609981,
     "title":"Mann Mera - Easy Ukulele Tutorial & Cover |Table no.21|",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201016",
@@ -14142,23 +14166,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"wI6w763iVOI",
-    "track":"O Meherma -",
+    "track":"O Meherma",
     "chords":[
-
+      "Am",
+      "C",
+      "C7",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Love Aaj Kal",
     "artists":[
-
+      "Antara Mitra",
+      "Darshan Raval"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":261.0,
+    "loop_start":105.5635690954,
+    "loop_end":247.5071830935,
     "title":"O MEHERMA - EASY  UKULELE TUTORIAL",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200721",
@@ -17821,23 +17850,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"piVQW30Bu2E",
-    "track":"Tu Hi Haqeeqat -Ukulele Cover & Tutorial",
+    "track":"Tu Hi Haqeeqat",
     "chords":[
-
+      "C",
+      "D",
+      "Dm",
+      "Em"
     ],
     "key":"",
-    "album":"",
+    "album":"Tum Mile",
     "artists":[
-
+      "Irshan Ashraf",
+      "Javed Ali",
+      "Shadab"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":111.0,
+    "loop_start":27.9819048608,
+    "loop_end":104.519752979,
     "title":"Tu hi Haqeeqat -Ukulele Cover & Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200922",
@@ -18197,23 +18231,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"fArkaRhIp4o",
-    "track":"Tujhko Jo Paaya - Ukulele Cover & Tutorial",
+    "track":"Tujhko Jo Paaya",
     "chords":[
-
+      "Bm",
+      "C",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Crook",
     "artists":[
-
+      "Nikhil D'Souza"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":167.0,
+    "loop_start":99.2178350668,
+    "loop_end":160.3936399371,
     "title":"Tujhko Jo Paaya - Ukulele Cover & Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20201003",
@@ -18223,23 +18260,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"iW520DzFjRE",
-    "track":"Tujhme Rab Dikhta Hai - Ukulele Cover & Tutorial ❤️",
+    "track":"Tujhme Rab Dikhta Hai",
     "chords":[
-
+      "Am",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Rab Ne Bana Di Jodi",
     "artists":[
-
+      "Roop Kumar Rathod"
     ],
     "composers":[
-
+      "Salim",
+      "Sulaiman"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":104.0,
+    "loop_start":20.9968769752,
+    "loop_end":98.3315820038,
     "title":"Tujhme Rab Dikhta Hai - Ukulele Cover & Tutorial ❤️",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200924",
@@ -18460,23 +18500,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"xfWhFCwJxLk",
-    "track":"Tum Mile - Ukulele Cover & Tutorial",
+    "track":"Tum Mile",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Tum Mile",
     "artists":[
-
+      "Neeraj Shridhar"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":99.0,
+    "loop_start":21.3796399619,
+    "loop_end":93.9586181259,
     "title":"Tum Mile - Ukulele Cover & Tutorial",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200915",
@@ -19293,23 +19336,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"xr3YbiLipRk",
-    "track":"Ye Ladka Haye Allah -",
+    "track":"Ye Ladka Haye Allah",
     "chords":[
-
+      "C",
+      "D",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"& Cover",
+    "album":"Kabhi Khushi Kabhi Gham",
     "artists":[
-
+      "Alka Yagnik",
+      "Udit Narayan"
     ],
     "composers":[
-
+      "Jatin - Lalit"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":87.0,
+    "loop_start":27.1132030381,
+    "loop_end":80.7669170839,
     "title":"Ye Ladka Haye Allah - Ukulele Tutorial & Cover",
     "channel":"UCTxnAa2uGE2lk1CSfL8Amjw",
     "upload_date":"20200829",
