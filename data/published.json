@@ -9028,11 +9028,13 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Y46i8YWAgVQ",
     "track":"Hi Chaal Turu Turu",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Kavi Gaurav Shanta Shelke",
@@ -9040,11 +9042,11 @@
       "Jaywant Kulkarni"
     ],
     "composers":[
-
+      "Devdatta Sable"
     ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":251.0,
+    "language":"Marathi",
+    "loop_start":129.1799870763,
+    "loop_end":211.9237209313,
     "title":"Hi Chaal Turu Turu | Ukulele Tutorial | Shivanaay",
     "channel":"UCMsX4epw3cck3D3Jy0oy_zg",
     "upload_date":"20201103",
@@ -12430,23 +12432,32 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"_kDzE1Uek2s",
     "track":"Main Tumhara",
     "chords":[
-
+      "Am",
+      "Bb",
+      "C",
+      "D",
+      "Dm",
+      "Eb",
+      "Em",
+      "G",
+      "Gm"
     ],
     "key":"",
     "album":"Dil Bechara",
     "artists":[
-
+      "Hriday Gattani",
+      "Jonita Gandhi"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":568.0,
+    "loop_start":254.1,
+    "loop_end":545.8904998436,
     "title":"Main Tumhara | Dil Bechara | Ukulele Tutorial",
     "channel":"UCOrDZAyo1Hga3PRMC2GFlgw",
     "upload_date":"20200811",
@@ -12456,11 +12467,17 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"x3F3ub93y1A",
     "track":"Main Tumhara",
     "chords":[
-
+      "Am",
+      "Am7",
+      "C",
+      "D",
+      "Dm",
+      "Em",
+      "G"
     ],
     "key":"",
     "album":"Dil Bechara",
@@ -12469,11 +12486,11 @@
       "Jonita Gandhi"
     ],
     "composers":[
-      "A R Rahman"
+      "A. R. Rahman"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":275.0,
+    "loop_start":190.0401810439,
+    "loop_end":261.8432750114,
     "title":"Main Tumhara | Dil Bechara | Easy Ukulele Tutorial",
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":"20200809",
@@ -15476,23 +15493,28 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"O4F9Od7TtK0",
     "track":"Raabta",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Agent Vinod",
     "artists":[
-
+      "Arijit Singh",
+      "Hamsika",
+      "Joi Barua"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":674.0,
+    "loop_start":360.4987349104,
+    "loop_end":629.5058140381,
     "title":"Raabta (Agent Vinod ) Ukulele Tutorial | Sayali Tank",
     "channel":"UCJjV2CHB58Xerdqbwyka7QA",
     "upload_date":"20190814",
@@ -15502,24 +15524,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"AYdcAWPv3AU",
     "track":"Raabta",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Agent Vinod",
     "artists":[
       "Arijit Singh",
-      "Shreya Ghoshal"
+      "Hamsika",
+      "Joi Barua"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":334.0,
+    "loop_start":110.9710431163,
+    "loop_end":290.3588551125,
     "title":"Raabta Ukulele Tutorial | Agent Vinod | Arijit Singh, Shreya Ghoshal | Shivanaay",
     "channel":"UCMsX4epw3cck3D3Jy0oy_zg",
     "upload_date":"20201205",
@@ -15529,25 +15556,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"ezETrMBIz3E",
     "track":"Raabta",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Agent Vinod",
     "artists":[
       "Arijit Singh",
-      "Joi Barua",
-      "Shreya Ghoshal"
+      "Hamsika",
+      "Joi Barua"
     ],
     "composers":[
       "Pritam"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":320.0,
+    "loop_start":152.9861361392,
+    "loop_end":306.2940221049,
     "title":"Raabta | Fingerpicking | Easy Ukulele Tutorial",
     "channel":"UCXNmFZc8m5w0tQbpMs6rGyA",
     "upload_date":"20200410",
@@ -15571,7 +15602,7 @@
     "artists":[
       "Arijit Singh",
       "Hamsika",
-      "Joi"
+      "Joi Barua"
     ],
     "composers":[
       "Pritam"
