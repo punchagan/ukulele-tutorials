@@ -44,7 +44,7 @@ SONG_INFO_RE = re.compile('(, )(music|lyrics|singers*|music director|movie|compo
 COLUMNS = ['ignore', 'publish', 'id', 'track', 'chords', 'key',
            'album', 'artists', 'composers', 'language',
            'loop_start', 'loop_end',
-           'title', 'channel', 'upload_date', 'uploader', 'id_related', 'baritone']
+           'title', 'channel', 'upload_date', 'uploader', 'baritone']
 
 class Updater:
 
