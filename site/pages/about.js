@@ -69,6 +69,10 @@ export default function About() {
           manually curating newly "scraped" videos, and adding the required metadata to them, and
           publishing them onto the site.{" "}
         </p>
+        <p>
+          You can find a link to the code for generating this site{" "}
+          <a href="https://github.com/punchagan/ukulele-tutorials/">here</a>
+        </p>
         <h2>Why does a song on a channel not appear on this site?</h2>
         <p>
           The video probably hasn't yet been manually processed to add the required metadata. It
