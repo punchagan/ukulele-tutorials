@@ -26,7 +26,7 @@
     "upload_date":"20210114",
     "uploader":"the chashmish",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"dTW_vNop5PE,aV06CUiHaD8"
   },
   {
     "ignore":0,
@@ -2218,7 +2218,7 @@
     "upload_date":"20200226",
     "uploader":"Sayali Tank",
     "baritone":0.0,
-    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q,1Eg_YUJuizk"
   },
   {
     "ignore":0,
@@ -2249,7 +2249,7 @@
     "upload_date":"20190315",
     "uploader":"ukeguide",
     "baritone":0.0,
-    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q,1Eg_YUJuizk"
   },
   {
     "ignore":0,
@@ -4849,19 +4849,22 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"aV06CUiHaD8",
-    "track":"Aabaad Barbaad - Ukulele Cover",
+    "track":"Aabaad Barbaad",
     "chords":[
-
+      "C",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Ludo",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -4871,7 +4874,7 @@
     "upload_date":"20201220",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"dTW_vNop5PE,aV06CUiHaD8"
   },
   {
     "ignore":0,
@@ -5087,23 +5090,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"xGFTGn2PDLw",
-    "track":"Aao Milo Chalein - Ukulele Cover",
+    "track":"Aao Milo Chalen",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Jab We Met",
     "artists":[
-
+      "Shaan",
+      "Ustad Sultan Khan"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":131.0,
+    "loop_end":129.5587530992,
     "title":"Aao Milo Chalein - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201023",
@@ -5170,23 +5179,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"C2IwmCP9M6Y",
-    "track":"Aap Jaisa Koi-Ukulele Cover",
+    "track":"Aap Jaisa Koi",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Qurbani (1980)",
     "artists":[
-
+      "Nazia Hassan"
     ],
     "composers":[
-
+      "Kalyanji-Anandji"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":109.0,
+    "loop_end":106.7011919447,
     "title":"Aap Jaisa Koi-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201007",
@@ -5248,19 +5261,21 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"lV742d0-Y80",
-    "track":"Aasaan Nahi Yahan - Guitar Cover",
+    "track":"Aasaan Nahi Yahan",
     "chords":[
-
+      "C",
+      "D",
+      "Em"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Aashiqui 2",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Jeet Gannguli"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -5300,19 +5315,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"PF9OqLvZUf0",
     "track":"Aashiyan",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"Barfi) - Ukulele Cover (With Chords",
+    "album":"Barfi",
     "artists":[
-
+      "Nikhil Paul George",
+      "Pritam",
+      "Shreya Ghoshal"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -5379,19 +5400,24 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"DVR0CqyKx2c",
-    "track":"Ab Mujhe Raat Din-Ukelele Cover",
+    "track":"Ab Mujhe Raat Din",
     "chords":[
-
+      "Am",
+      "C",
+      "D",
+      "Dm",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Deewana",
     "artists":[
-
+      "Sonu Nigam"
     ],
     "composers":[
-
+      "Sajid Wajid"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -5431,23 +5457,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"fX5TPizP-J4",
-    "track":"Abhi Mujh Mein Kahin-Ukulele Cover",
+    "track":"Abhi Mujh Mein Kahi",
     "chords":[
-
+      "A",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Agneepath",
     "artists":[
-
+      "Sonu Nigam"
     ],
     "composers":[
-
+      "Ajay Atul"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":172.0,
+    "loop_end":170.531424103,
     "title":"Abhi Mujh Mein Kahin-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201002",
@@ -5677,19 +5706,22 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"8dwx9ja3VSM",
     "track":"Anjaane",
     "chords":[
-
+      "C",
+      "D",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"Strings) - Ukulele Cover (With Chords",
+    "album":"Duur (2000)",
     "artists":[
-
+      "Strings"
     ],
     "composers":[
-
+      "Bilal Maqsood"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -5703,21 +5735,23 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"tzT5C4p8olY",
-    "track":"Annal Mele Panithuli-Ukulele Cover",
+    "track":"Annal Maelae",
     "chords":[
-
+      "Am",
+      "D",
+      "Em"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Vaaranam Aayiram",
     "artists":[
-
+      "Sudha Raghunathan"
     ],
     "composers":[
-
+      "Harris Jayaraj"
     ],
-    "language":"Hindi",
+    "language":"Tamil",
     "loop_start":0.0,
     "loop_end":117.0,
     "title":"Annal Mele Panithuli-Ukulele Cover (with chords)",
@@ -5862,23 +5896,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"03clMvXOlLA",
-    "track":"Awari-Ukulele Cover",
+    "track":"Awari",
     "chords":[
-
+      "Am",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Ek Villain",
     "artists":[
-
+      "Adnan Dhool",
+      "Momina Mustehsan"
     ],
     "composers":[
-
+      "Adnan Dhool",
+      "Rabbi Ahmed"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":191.0,
+    "loop_end":189.4390329714,
     "title":"Awari-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201012",
@@ -6206,23 +6244,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"FljxYLZL37g",
-    "track":"Bhaage Re Mann -Ukulele Cover",
+    "track":"Bhaage Re Mann",
     "chords":[
-
+      "Am",
+      "Dm",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Chameli",
     "artists":[
-
+      "Sunidhi Chauhan"
     ],
     "composers":[
-
+      "Sandesh Shandilya"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":108.0,
+    "loop_end":106.4514201011,
     "title":"Bhaage Re Mann -Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201112",
@@ -6730,23 +6770,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"5RKR9eXO-UM",
     "track":"Chunar",
     "chords":[
-
+      "A",
+      "Dm",
+      "G"
     ],
     "key":"",
-    "album":"Arijit Singh)-Ukulele Cover (With Chords",
+    "album":"ABCD 2",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Sachin-Jigar"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":129.0,
+    "loop_end":127.308742958,
     "title":"Chunar (Arijit Singh)-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201030",
@@ -6863,21 +6905,22 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"H51Fsh6SuzY",
     "track":"Dakini Thangarareh",
     "chords":[
-
+      "C",
+      "F"
     ],
     "key":"",
-    "album":"Jaro Local)-Ukulele Cover (With Chords",
+    "album":"Jaro Local",
     "artists":[
-
+      "Jaro Local"
     ],
     "composers":[
-
+      "Jaro Local"
     ],
-    "language":"Hindi",
+    "language":"Ghari",
     "loop_start":0.0,
     "loop_end":99.0,
     "title":"Dakini Thangarareh (Jaro Local)-Ukulele Cover (with chords)",
@@ -6944,23 +6987,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"IEZ84PYdqyk",
-    "track":"Darkhaast-Ukulele Cover",
+    "track":"Darkhaast",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Shivaay",
     "artists":[
-
+      "Arijit Singh",
+      "Sunidhi Chauhan"
     ],
     "composers":[
-
+      "Mithoon"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":148.0,
+    "loop_end":147.4924251392,
     "title":"Darkhaast-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201101",
@@ -7366,23 +7415,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"KbWdSjrmzU8",
-    "track":"Dil Hi Toh Hai-Ukulele Cover",
+    "track":"Dil Hi Toh Hai",
     "chords":[
-
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"The Sky Is Pink",
     "artists":[
-
+      "Antara Mitra",
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":180.0,
+    "loop_end":177.981,
     "title":"Dil Hi Toh Hai-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201222",
@@ -7632,23 +7685,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"O0GQQjoOAdU",
     "track":"Dooba Dooba",
     "chords":[
-
+      "C",
+      "D",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"Silk Route) - Ukulele Cover (With Chords",
+    "album":"Silk Route",
     "artists":[
-
+      "Mohit Chauhan",
+      "Silk Route"
     ],
     "composers":[
-
+      "Atul Mittal",
+      "Kem Trivedi",
+      "Mohit Chauhan"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":118.0,
+    "loop_end":116.9877072155,
     "title":"Dooba Dooba (Silk Route) - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201022",
@@ -7738,23 +7797,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"PD4DKIkFgTQ",
-    "track":"Duniya-Ukulele Cover",
+    "track":"Duniya",
     "chords":[
-
+      "Am",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Khaab",
     "artists":[
-
+      "Akhil"
     ],
     "composers":[
-
+      "Bob"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":84.0,
+    "loop_end":83.4686730648,
     "title":"Duniya-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201216",
@@ -8716,19 +8778,23 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"JsFn2iuSAZM",
-    "track":"Hai Junoon-Ukulele Cover",
+    "track":"Hai Junoon",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"New York",
     "artists":[
-
+      "K. K."
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -8820,19 +8886,23 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"StyOh5DQ-xg",
-    "track":"Hasi Ban Gaye -Ukulele Cover",
+    "track":"Hasi Ban Gaye",
     "chords":[
-
+      "Am",
+      "C",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Hamari Adhuri Kahani",
     "artists":[
-
+      "Ami Mishra"
     ],
     "composers":[
-
+      "Jeet Gannguli"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -9347,19 +9417,22 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Z80HPSm1l1U",
-    "track":"Ikk Kudi-Ukulele Cover",
+    "track":"Ikk Kudi",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "Gb"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Udta Punjab",
     "artists":[
-
+      "Shahid Mallya"
     ],
     "composers":[
-
+      " Amit Trivedi"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -9480,23 +9553,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"wx99pPw8i1U",
-    "track":"Ishq Sufiyana -Ukulele Cover",
+    "track":"Ishq Sufiyana",
     "chords":[
-
+      "A",
+      "Am",
+      "C",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"The Dirty Picture",
     "artists":[
-
+      "Kamal Khan"
     ],
     "composers":[
-
+      "Shekhar Ravjiani",
+      "Vishal Dadlani"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":144.0,
+    "loop_end":142.0335059352,
     "title":"Ishq Sufiyana -Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201010",
@@ -9907,32 +9986,6 @@
   {
     "ignore":0,
     "publish":0,
-    "id":"Xp_RIml3IWY",
-    "track":"Jashn-E-Bahara Live",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":2300.0,
-    "title":"Jashn-e-Bahara LIVE Ukulele Tutorial",
-    "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
-    "upload_date":"20201101",
-    "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
     "id":"6q0XPF0RJ-Q",
     "track":"Jee Le Zara - Ukulele Cover",
     "chords":[
@@ -10039,21 +10092,23 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"U5XbCED0Qzo",
-    "track":"Just Maath Maathalli-Ukulele Cover",
+    "track":"Munjane Manjalli",
     "chords":[
-
+      "Am",
+      "C",
+      "F"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Just Maath Maathalli",
     "artists":[
-
+      "Raghu Dixit"
     ],
     "composers":[
-
+      "Raghu Dixit"
     ],
-    "language":"Hindi",
+    "language":"Kannada",
     "loop_start":0.0,
     "loop_end":92.0,
     "title":"Just Maath Maathalli-Ukulele Cover (with chords)",
@@ -10303,23 +10358,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"_B4XI61RJog",
     "track":"Kahaan Ho Tum",
     "chords":[
-
+      "C",
+      "Dm",
+      "F"
     ],
     "key":"",
-    "album":"Prateek Kuhad)-Ukulele Cover (With Chords",
+    "album":"Mismatched",
     "artists":[
-
+      "Prateek Kuhad"
     ],
     "composers":[
-
+      "Prateek Kuhad"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":87.0,
+    "loop_end":86.8279279809,
     "title":"Kahaan Ho Tum(Prateek Kuhad)-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201217",
@@ -10381,23 +10438,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"qIIFVt6NmFs",
-    "track":"Kahin Door Jab Din Dhal Jaaye - Ukulele Cover",
+    "track":"Kahin Door Jab Din Dhal Jaaye",
     "chords":[
-
+      "A",
+      "Am",
+      "C",
+      "D",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Anand (1971)",
     "artists":[
-
+      "Mukesh"
     ],
     "composers":[
-
+      "Salil Chowdhury"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":131.0,
+    "loop_end":129.2924681011,
     "title":"Kahin Door Jab Din Dhal Jaaye - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201115",
@@ -11097,23 +11158,30 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"KigF-7MJObI",
-    "track":"Khaabon Ke Parinday - Ukulele Cover",
+    "track":"Khaabon Ke Parinday",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Zindagi Na Milegi Dobara",
     "artists":[
-
+      "Alyssa Mendonsa",
+      "Mohit Chauhan"
     ],
     "composers":[
-
+      "Ehsaan Noorani",
+      "Loy Mendonca",
+      "Shankar Mahadevan"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":153.0,
+    "loop_end":151.9370520648,
     "title":"Khaabon Ke Parinday - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200926",
@@ -11284,7 +11352,7 @@
     "upload_date":"20201202",
     "uploader":"the chashmish",
     "baritone":0.0,
-    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q,1Eg_YUJuizk"
   },
   {
     "ignore":0,
@@ -11314,33 +11382,37 @@
     "upload_date":"20210112",
     "uploader":"Shivanaay",
     "baritone":0.0,
-    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q"
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q,1Eg_YUJuizk"
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"1Eg_YUJuizk",
-    "track":"Kho Gaye Hum Kahan-Ukulele Cover",
+    "track":"Kho Gaye Hum Kahan",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Baar Baar Dekho",
     "artists":[
-
+      "Jasleen Kaur Royal",
+      "Prateek Kuhad"
     ],
     "composers":[
-
+      "Jasleen Kaur Royal"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":184.0,
+    "loop_end":183.2,
     "title":"Kho Gaye Hum Kahan-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201218",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"LC5fL-BsnVM,iofvfh7YH-U,N5v4VgRpqVY,k94lh4_pV1Q,1Eg_YUJuizk"
   },
   {
     "ignore":0,
@@ -11477,23 +11549,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"EyI-hSjbqtY",
     "track":"Krishna Nee Begane Baaro",
     "chords":[
-
+      "Am",
+      "C",
+      "D",
+      "G"
     ],
     "key":"",
-    "album":"Colonial Cousins) -Ukulele Cover (With Chords",
+    "album":"Colonial Cousins",
     "artists":[
-
+      "Colonial Cousins"
     ],
     "composers":[
-
+      "Hari",
+      "Leslie Lewis"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":120.0,
+    "loop_end":118.469920021,
     "title":"Krishna Nee Begane Baaro (Colonial Cousins) -Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201016",
@@ -12084,23 +12160,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"HYCtGCgFHYU",
-    "track":"Lukka Chuppi-Ukulele Cover",
+    "track":"Lukka Chuppi",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Rang De Basanti",
     "artists":[
-
+      "Lata Mangeshkar"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":170.0,
+    "loop_end":168.1343649886,
     "title":"Lukka Chuppi-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201008",
@@ -12580,33 +12658,38 @@
     "upload_date":"20200918",
     "uploader":"Shivanaay",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"_2f0b1P5L1c,lWrgJZE1DRU"
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"lWrgJZE1DRU",
-    "track":"Makhna -",
+    "track":"Makhna",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"",
+    "album":"Drive",
     "artists":[
-
+      "Asees Kaur",
+      "Tanishk Bagchi",
+      "Yasser Desai"
     ],
     "composers":[
-
+      "Tanishk Bagchi"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":413.0,
+    "loop_start":301.0320810992,
+    "loop_end":371.025303939,
     "title":"Makhna - Ukulele Tutorial",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201112",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"_2f0b1P5L1c,lWrgJZE1DRU"
   },
   {
     "ignore":0,
@@ -12636,23 +12719,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"B6jZe7xFujE",
-    "track":"Malargale Malargale\/Manasuna Manasuna-Ukulele Cover",
+    "track":"Malargale Malargale\/Manasuna Manasuna",
     "chords":[
-
+      "C",
+      "Dm",
+      "F"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Love Birds",
     "artists":[
-
+      "Hariharan",
+      "K. S. Chithra"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
-    "language":"Hindi",
+    "language":"Tamil",
     "loop_start":0.0,
-    "loop_end":139.0,
+    "loop_end":137.981,
     "title":"Malargale Malargale\/Manasuna Manasuna-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201224",
@@ -12824,19 +12910,24 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"wS61PPQtD2c",
-    "track":"Memba For Aisha - Ukulele Cover",
+    "track":"Memba For Aisha",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"The Sky Is Pink",
     "artists":[
-
+      "Evan Giia",
+      "Memba",
+      "Nooran Sisters"
     ],
     "composers":[
-
+      "Evan Giia",
+      "Memba"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -14482,23 +14573,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"ufN9durtLrw",
-    "track":"Oru Venal Puzhayil - Ukulele Cover",
+    "track":"Oru Venalpuzhayil",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Pranayakalam",
     "artists":[
-
+      "Ouseppachan"
     ],
     "composers":[
-
+      "Ranjith Govind"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":95.0,
+    "loop_end":93.9547050172,
     "title":"Oru Venal Puzhayil - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201020",
@@ -15072,23 +15166,26 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"NtiOnPgq-F8",
-    "track":"Piya Basanti Re-Ukulele Cover",
+    "track":"Piya Basanti Re",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Piya Basanti",
     "artists":[
-
+      "K. S. Chithra",
+      "Ustad Sultan Khan"
     ],
     "composers":[
-
+      "Sandesh Shandilya"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":142.0,
+    "loop_end":139.961,
     "title":"Piya Basanti Re-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201227",
@@ -15336,23 +15433,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Jenh8Rc_GEU",
-    "track":"Pyar Deewana Hota Hai-Ukulele Cover",
+    "track":"Pyar Deewana Hota Hai",
     "chords":[
-
+      "Am",
+      "C",
+      "D",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Kati Patang",
     "artists":[
-
+      "Kishore Kumar"
     ],
     "composers":[
-
+      "R. D. Burman"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":130.0,
+    "loop_end":128.2753219218,
     "title":"Pyar Deewana Hota Hai-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201106",
@@ -15414,23 +15515,29 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"zheDNk9sp-w",
-    "track":"Qaafirana-Ukulele Cover",
+    "track":"Qaafirana",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Kedarnath",
     "artists":[
-
+      "Arijit Singh",
+      "Nikhita Gandhi"
     ],
     "composers":[
-
+      " Amit Trivedi"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":158.0,
+    "loop_end":156.7280042174,
     "title":"Qaafirana-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201104",
@@ -15935,23 +16042,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"ezcdssuG1YY",
     "track":"Sa Ni Dha Pa",
     "chords":[
-
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"Colonial Cousins)-Ukulele Cover (With Chords",
+    "album":"Colonial Cousins",
     "artists":[
-
+      "Colonial Cousins"
     ],
     "composers":[
-
+      "Leslie Lewis"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":108.0,
+    "loop_end":107.5,
     "title":"Sa Ni Dha Pa (Colonial Cousins)-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201220",
@@ -16117,21 +16226,24 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"pznJexYS0As",
-    "track":"Samajavaragamana - Ukulele Cover",
+    "track":"Samajavaragamana",
     "chords":[
-
+      "Am",
+      "C",
+      "D",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Ala Vaikunthapurramuloo",
     "artists":[
-
+      "Sid Sriram"
     ],
     "composers":[
-
+      "S. Thaman"
     ],
-    "language":"Hindi",
+    "language":"Telugu",
     "loop_start":0.0,
     "loop_end":80.0,
     "title":"Samajavaragamana - Ukulele Cover (with chords)",
@@ -16432,19 +16544,20 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Ub_TcrVxnZ4",
-    "track":"Sherawali Ambe Maa-Ukulele Cover",
+    "track":"Sherawali Ambe Maa",
     "chords":[
-
+      "C",
+      "F"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Rockstar",
     "artists":[
-
+      "Ranbir Kapoor"
     ],
     "composers":[
-
+      "A. R. Rahman"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -16588,33 +16701,37 @@
     "upload_date":"20201231",
     "uploader":"the chashmish",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"8VwxQBMhPFU,vxzae376W7M"
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"vxzae376W7M",
-    "track":"Suno Na Sangemarmar-Ukulele Cover",
+    "track":"Suno Na Sangemarmar",
     "chords":[
-
+      "A",
+      "C",
+      "Dm",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Youngistaan",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Jeet Gannguli"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":136.0,
+    "loop_end":133.9194767787,
     "title":"Suno Na Sangemarmar-Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201017",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"8VwxQBMhPFU,vxzae376W7M"
   },
   {
     "ignore":0,
@@ -16644,52 +16761,32 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"E-BNdWZS-Z4",
-    "track":"Taaron Ke Shehar - Ukulele Cover",
+    "track":"Taaron Ke Shehar",
     "chords":[
-
+      "Am",
+      "D",
+      "Dm",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Taaron Ke Shehar",
     "artists":[
-
+      "Jubin Nautiyal",
+      "Neha Kakkar"
     ],
     "composers":[
-
+      "Jaani"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":130.0,
+    "loop_end":128.3946078817,
     "title":"Taaron Ke Shehar - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20200928",
-    "uploader":"One String by Priyanka Ravindran",
-    "baritone":0.0,
-    "id_related":null
-  },
-  {
-    "ignore":0,
-    "publish":0,
-    "id":"LO2Kc6p4kZY",
-    "track":"Taaron Ke Sheher\/Yellow-Live",
-    "chords":[
-
-    ],
-    "key":"",
-    "album":"",
-    "artists":[
-
-    ],
-    "composers":[
-
-    ],
-    "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":4069.0,
-    "title":"Taaron Ke Sheher\/Yellow-LIVE Ukulele Tutorial",
-    "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
-    "upload_date":"20201108",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
     "id_related":null
@@ -17857,29 +17954,33 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"HfyJz-MGI2U",
-    "track":"Tu Hi Haqeeqat - Ukulele Cover",
+    "track":"Tu Hi Haqeeqat",
     "chords":[
-
+      "Am",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Tum Mile",
     "artists":[
-
+      "Irshan Ashraf",
+      "Javed Ali",
+      "Shadab"
     ],
     "composers":[
-
+      "Pritam"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":184.0,
+    "loop_end":183.394742124,
     "title":"Tu Hi Haqeeqat - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201201",
     "uploader":"One String by Priyanka Ravindran",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"HfyJz-MGI2U,piVQW30Bu2E"
   },
   {
     "ignore":0,
@@ -17910,7 +18011,7 @@
     "upload_date":"20200922",
     "uploader":"the chashmish",
     "baritone":0.0,
-    "id_related":null
+    "id_related":"HfyJz-MGI2U,piVQW30Bu2E"
   },
   {
     "ignore":0,
@@ -18160,23 +18261,27 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"D6W3xg559QI",
-    "track":"Tu Tu Hai Wohi - Ukulele Cover",
+    "track":"Tu Tu Hai Wohi",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Yeh Vaada Raha",
     "artists":[
-
+      "Asha Bhonsle",
+      "Kishore Kumar"
     ],
     "composers":[
-
+      "R. D. Burman"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":154.0,
+    "loop_end":151.9004480458,
     "title":"Tu Tu Hai Wohi - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201221",
@@ -18348,19 +18453,25 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"KiwnusT-Jfw",
-    "track":"Tum Hi Ho-Ukulele Cover",
+    "track":"Tum Hi Ho",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "E",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Aashiqui 2",
     "artists":[
-
+      "Arijit Singh"
     ],
     "composers":[
-
+      "Mithoon"
     ],
     "language":"Hindi",
     "loop_start":0.0,
@@ -18400,23 +18511,30 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"Xu7TaCkLcHM",
-    "track":"Tum Ho Toh - Ukulele Cover",
+    "track":"Tum Ho Toh",
     "chords":[
-
+      "Am",
+      "C",
+      "Dm",
+      "Em",
+      "F",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Rock On",
     "artists":[
-
+      "Farhan Akhtar"
     ],
     "composers":[
-
+      "Ehsaan Noorani",
+      "Loy Mendonca",
+      "Shankar Mahadevan"
     ],
     "language":"Hindi",
     "loop_start":0.0,
-    "loop_end":176.0,
+    "loop_end":174.0023920458,
     "title":"Tum Ho Toh - Ukulele Cover (with chords)",
     "channel":"UC8JGJmLrRlz5Kf9GguiCq6g",
     "upload_date":"20201006",
@@ -19235,19 +19353,22 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"OKo3I-NbjEs",
-    "track":"Yaaron Dosti - Ukulele Cover",
+    "track":"Yaaron Dosti",
     "chords":[
-
+      "C",
+      "D",
+      "Em",
+      "G"
     ],
     "key":"",
-    "album":"With Chords",
+    "album":"Pal (1999)",
     "artists":[
-
+      "K. K."
     ],
     "composers":[
-
+      "Leslie Lewis"
     ],
     "language":"Hindi",
     "loop_start":0.0,
