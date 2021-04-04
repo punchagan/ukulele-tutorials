@@ -12634,11 +12634,14 @@
   },
   {
     "ignore":0,
-    "publish":0,
+    "publish":1,
     "id":"_2f0b1P5L1c",
     "track":"Makhna",
     "chords":[
-
+      "Am",
+      "C",
+      "F",
+      "G"
     ],
     "key":"",
     "album":"Drive",
@@ -12648,11 +12651,11 @@
       "Yasser Desai"
     ],
     "composers":[
-
+      "Tanishk Bagchi"
     ],
     "language":"Hindi",
-    "loop_start":0.0,
-    "loop_end":255.0,
+    "loop_start":105.733061042,
+    "loop_end":229.7018511087,
     "title":"Makhna Ukulele Tutorial | Drive | Sushant Singh Rajput, Jacqueline Fernandez | Shivanaay",
     "channel":"UCMsX4epw3cck3D3Jy0oy_zg",
     "upload_date":"20200918",
