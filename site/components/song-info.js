@@ -186,7 +186,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
   const [original, setOriginal] = useState({});
   useEffect(() => {
     getVideoMetadata(video).then(data => setMeta(data));
-    setOriginal({ ...original, q: `${video.track} ${video.album} original` });
+    const album = video.album || "";
+    const q = `${video.track} ${album} original`;
+    setOriginal({ ...original, q });
   }, [video]);
 
   const search = e => {
