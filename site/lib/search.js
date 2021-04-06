@@ -1,5 +1,3 @@
-const sortByUploadDate = (a, b) => String(b.upload_date).localeCompare(String(a.upload_date));
-
 export const filterFavorites = (videos, f) => {
   const onlyFavorite = f?.flat().filter((x) => x.startsWith("favorite")).length > 0;
   return !onlyFavorite ? videos : videos.filter((v) => v.favorite);
@@ -12,7 +10,7 @@ export const filterByQuery = (videos, query) => {
     vid?.track?.toLocaleLowerCase().indexOf(q) > -1 ||
     vid?.title?.toLocaleLowerCase().indexOf(q) > -1;
 
-  return videos.filter(match).sort(sortByUploadDate);
+  return videos.filter(match);
 };
 
 export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
@@ -100,7 +98,7 @@ const getTuningCounts = (data) => getCounts(data, "tuning");
 const getLanguageCounts = (data) => getCounts(data, "language");
 const getPublishedCounts = (data) => getCounts(data, "published");
 
-export const makeResult = (videos, page, hitsPerPage) => {
+export const makeResult = (videos, page, hitsPerPage, indexName) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page + 1));
   const nbHits = videos.length;
   const nbPages = Math.ceil(nbHits / hitsPerPage);
@@ -120,7 +118,7 @@ export const makeResult = (videos, page, hitsPerPage) => {
       max: Math.max.apply(Math, Object.keys(facets.chordCount)),
     },
   };
-  return { hits, nbHits, hitsPerPage, nbPages, facets, facets_stats };
+  return { hits, nbHits, hitsPerPage, nbPages, facets, facets_stats, index: indexName };
 };
 
 const filterNumeric = (data, numericFilters) => {
@@ -144,13 +142,21 @@ export const createSearchClient = (data, chordsSearchMode) => {
     addAlgoliaAgent: () => {},
     clearCache: () => {},
     search: async ([q]) => {
-      const { query, page, hitsPerPage, facetFilters, numericFilters } = q.params;
-      const favVideos = filterFavorites(objects, facetFilters);
+      const {
+        params: { query, page, hitsPerPage, facetFilters, numericFilters },
+        indexName,
+      } = q;
+      const sortByUploadDate = (a, b) => String(b.upload_date).localeCompare(String(a.upload_date));
+      const sortByTrack = (a, b) => String(a.track).localeCompare(String(b.track));
+      const sortedObjects = objects.sort(
+        indexName === "upload_date" ? sortByUploadDate : sortByTrack
+      );
+      const favVideos = filterFavorites(sortedObjects, facetFilters);
       const videos = filterByQuery(favVideos, query);
       const videosFaceted = filterByFacets(videos, facetFilters, chordsSearchMode);
       const videosNumeric = filterNumeric(videosFaceted, numericFilters);
-      resultsF = makeResult(videosNumeric, page, hitsPerPage);
-      resultsA = makeResult(videos, page, hitsPerPage);
+      resultsF = makeResult(videosNumeric, page, hitsPerPage, indexName);
+      resultsA = makeResult(videos, page, hitsPerPage, indexName);
       const results = [resultsF, resultsA];
       return { results };
     },

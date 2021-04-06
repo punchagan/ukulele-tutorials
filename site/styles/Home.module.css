@@ -88,6 +88,7 @@
 .tutorialSearch {
     margin-bottom: 2rem;
     width: 300px;
+    display: inline-block;
 }
 
 .tutorialItems li {

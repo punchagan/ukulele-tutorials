@@ -18,6 +18,7 @@ import {
   NumericMenu,
   connectStats,
   CurrentRefinements,
+  SortBy,
 } from "react-instantsearch-dom";
 import qs from "qs";
 
@@ -159,6 +160,14 @@ export default function Home({ videos }) {
             <SearchBox
               className={styles.tutorialSearch}
               translations={{ placeholder: "Search your tutorial here..." }}
+            />
+            <SortBy
+              className={styles.tutorialSearch}
+              defaultRefinement="upload_date"
+              items={[
+                { value: "track", label: "Alphabetical" },
+                { value: "upload_date", label: "Upload date" },
+              ]}
             />
             <Hits className={styles.tutorialItems} hitComponent={Video} />
             <div className="pagination">
