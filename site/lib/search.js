@@ -1,14 +1,14 @@
 const sortByUploadDate = (a, b) => String(b.upload_date).localeCompare(String(a.upload_date));
 
 export const filterFavorites = (videos, f) => {
-  const onlyFavorite = f?.flat().filter(x => x.startsWith("favorite")).length > 0;
-  return !onlyFavorite ? videos : videos.filter(v => v.favorite);
+  const onlyFavorite = f?.flat().filter((x) => x.startsWith("favorite")).length > 0;
+  return !onlyFavorite ? videos : videos.filter((v) => v.favorite);
 };
 
 export const filterByQuery = (videos, query) => {
   const q = query.toLocaleLowerCase();
 
-  const match = vid =>
+  const match = (vid) =>
     vid?.track?.toLocaleLowerCase().indexOf(q) > -1 ||
     vid?.title?.toLocaleLowerCase().indexOf(q) > -1;
 
@@ -20,7 +20,7 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
 
   const filterQ = facetFilters?.reduce((obj, ff) => {
     const [key, val] = ff[0].split(":");
-    return { ...obj, [key]: ff.map(f => f.split(":")[1]) };
+    return { ...obj, [key]: ff.map((f) => f.split(":")[1]) };
   }, {});
 
   let data = videos;
@@ -31,25 +31,25 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
     let query = filterQ[attribute];
 
     const listFilterFuncs = {
-      exact: vid => {
+      exact: (vid) => {
         const vidChords = new Set(vid[attribute]);
         return (
           query.length == vidChords.size &&
-          query.filter(item => vidChords.has(item)).length === query.length
+          query.filter((item) => vidChords.has(item)).length === query.length
         );
       },
-      any: vid => {
+      any: (vid) => {
         const vidChords = new Set(vid[attribute]);
-        return query.filter(item => vidChords.has(item)).length > 0;
+        return query.filter((item) => vidChords.has(item)).length > 0;
       },
-      all: vid => {
+      all: (vid) => {
         const vidChords = new Set(vid[attribute]);
-        return query.filter(item => vidChords.has(item)).length === query.length;
+        return query.filter((item) => vidChords.has(item)).length === query.length;
       },
-      none: vid => {
+      none: (vid) => {
         const vidChords = new Set(vid[attribute]);
-        return query.filter(item => vidChords.has(item)).length === 0;
-      }
+        return query.filter((item) => vidChords.has(item)).length === 0;
+      },
     };
 
     if (attribute === "chords") {
@@ -58,7 +58,7 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
       data = data.filter(listFilterFuncs.any);
     } else {
       const q = new Set(query);
-      data = data.filter(vid => q.has(vid[attribute]));
+      data = data.filter((vid) => q.has(vid[attribute]));
     }
   }
 
@@ -67,10 +67,10 @@ export const filterByFacets = (videos, facetFilters, chordsSearchMode) => {
 
 const getListCounts = (data, attribute) => {
   const counts = data
-    .filter(v => v[attribute].length > 0)
-    .map(v => v[attribute])
+    .filter((v) => v[attribute].length > 0)
+    .map((v) => v[attribute])
     .reduce((acc, attrList) => {
-      attrList.forEach(item => {
+      attrList.forEach((item) => {
         if (item == "") {
           item = "Unknown";
         }
@@ -81,8 +81,8 @@ const getListCounts = (data, attribute) => {
   return counts;
 };
 
-const getArtistsCounts = data => getListCounts(data, "artists");
-const getChordsCounts = data => getListCounts(data, "chords");
+const getArtistsCounts = (data) => getListCounts(data, "artists");
+const getChordsCounts = (data) => getListCounts(data, "chords");
 
 const getCounts = (data, attribute) => {
   const counts = data.reduce((acc, video) => {
@@ -93,12 +93,12 @@ const getCounts = (data, attribute) => {
   return counts;
 };
 
-const getUploaderCounts = data => getCounts(data, "uploader");
-const getAlbumCounts = data => getCounts(data, "album");
-const getChordCountCounts = data => getCounts(data, "chordCount");
-const getTuningCounts = data => getCounts(data, "tuning");
-const getLanguageCounts = data => getCounts(data, "language");
-const getPublishedCounts = data => getCounts(data, "published");
+const getUploaderCounts = (data) => getCounts(data, "uploader");
+const getAlbumCounts = (data) => getCounts(data, "album");
+const getChordCountCounts = (data) => getCounts(data, "chordCount");
+const getTuningCounts = (data) => getCounts(data, "tuning");
+const getLanguageCounts = (data) => getCounts(data, "language");
+const getPublishedCounts = (data) => getCounts(data, "published");
 
 export const makeResult = (videos, page, hitsPerPage) => {
   const hits = videos.slice(hitsPerPage * page, hitsPerPage * (page + 1));
@@ -109,34 +109,34 @@ export const makeResult = (videos, page, hitsPerPage) => {
     chords: getChordsCounts(videos),
     uploader: getUploaderCounts(videos),
     chordCount: getChordCountCounts(videos),
-    album: getAlbumCounts(videos.filter(v => v.album != "")),
+    album: getAlbumCounts(videos.filter((v) => v.album != "")),
     tuning: getTuningCounts(videos),
     language: getLanguageCounts(videos),
-    published: getPublishedCounts(videos)
+    published: getPublishedCounts(videos),
   };
   const facets_stats = {
     chordCount: {
       min: Math.min.apply(Math, Object.keys(facets.chordCount)),
-      max: Math.max.apply(Math, Object.keys(facets.chordCount))
-    }
+      max: Math.max.apply(Math, Object.keys(facets.chordCount)),
+    },
   };
   return { hits, nbHits, hitsPerPage, nbPages, facets, facets_stats };
 };
 
 const filterNumeric = (data, numericFilters) => {
-  const q = numericFilters?.map(x => `v.${x}`).join(" && ");
-  return q === undefined ? data : data.filter(v => eval(q));
+  const q = numericFilters?.map((x) => `v.${x}`).join(" && ");
+  return q === undefined ? data : data.filter((v) => eval(q));
 };
 
 export const createSearchClient = (data, chordsSearchMode) => {
   const favorites = JSON.parse(process.browser && localStorage.getItem("favorites", [])) || {};
-  const objects = data.map(x => ({
+  const objects = data.map((x) => ({
     ...x,
     objectID: x.id,
     chordCount: x.chords.length,
     tuning: x.baritone ? "Baritone" : "Standard",
     favorite: Boolean(favorites[x.id]),
-    published: x.publish === 1 ? "Published" : "Unpublished"
+    published: x.publish === 1 ? "Published" : "Unpublished",
   }));
   let resultsF, resultsA;
 
@@ -158,10 +158,10 @@ export const createSearchClient = (data, chordsSearchMode) => {
       const { facetName, facetQuery } = q.params;
       const facets = resultsF.facets[facetName];
       const facetHits = Object.keys(facets)
-        .filter(facet => facet.toLocaleLowerCase().indexOf(facetQuery.toLocaleLowerCase()) > -1)
-        .map(key => ({ value: key, count: facets[key], highlighted: key }));
+        .filter((facet) => facet.toLocaleLowerCase().indexOf(facetQuery.toLocaleLowerCase()) > -1)
+        .map((key) => ({ value: key, count: facets[key], highlighted: key }));
       return { facetHits };
-    }
+    },
   };
   return client;
 };

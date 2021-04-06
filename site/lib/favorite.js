@@ -1,4 +1,4 @@
-export const isFavorite = videoId => {
+export const isFavorite = (videoId) => {
   if (!process.browser) {
     return;
   }

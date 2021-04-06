@@ -9,7 +9,7 @@ import {
   HeartFilled,
   HeartOutlined,
   PlayCircleOutlined,
-  YoutubeFilled
+  YoutubeFilled,
 } from "@ant-design/icons";
 
 const { Meta } = Card;
@@ -20,7 +20,7 @@ export function Favorite({ video }) {
   const Icon = fav ? HeartFilled : HeartOutlined;
   const title = fav ? "Remove from Favorites" : "Add to Favorites";
 
-  const clickFavorite = e => {
+  const clickFavorite = (e) => {
     setFav(!fav);
     toggleFavorite(video.id, !fav);
   };
@@ -48,7 +48,7 @@ export function Video({ hit: video }) {
       href={`https://youtube.com/v/${video.id}`}
     >
       <YoutubeFilled />
-    </a>
+    </a>,
   ];
 
   if (!video.publish) {
@@ -77,7 +77,7 @@ export function Video({ hit: video }) {
 export function VideoList({ videos }) {
   return (
     <div>
-      {videos.map(video => (
+      {videos.map((video) => (
         <Video key={video.id} hit={video} />
       ))}
     </div>

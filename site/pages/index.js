@@ -17,14 +17,14 @@ import {
   ToggleRefinement,
   NumericMenu,
   connectStats,
-  CurrentRefinements
+  CurrentRefinements,
 } from "react-instantsearch-dom";
 import qs from "qs";
 
 import "instantsearch.css/themes/reset.css";
 import "instantsearch.css/themes/satellite.css";
 
-const createURL = state => `?${qs.stringify(state)}`;
+const createURL = (state) => `?${qs.stringify(state)}`;
 
 const searchStateToUrl = (router, searchState) =>
   searchState ? `${location.pathname}${createURL(searchState)}${location.hash}` : "";
@@ -39,7 +39,7 @@ export default function Home({ videos }) {
     { label: "1 or 2 chords", end: 2 },
     { label: "3 or 4 chords", start: 3, end: 4 },
     { label: "5, 6 or 7 chords", start: 5, end: 7 },
-    { label: "8 or more chords", start: 8 }
+    { label: "8 or more chords", start: 8 },
   ];
 
   const router = useRouter();
@@ -48,7 +48,7 @@ export default function Home({ videos }) {
   const [debouncedSetState, setDebouncedSetState] = useState(null);
   const DEBOUNCE_TIME = 400;
 
-  const onSearchStateChange = updatedSearchState => {
+  const onSearchStateChange = (updatedSearchState) => {
     clearTimeout(debouncedSetState);
 
     setDebouncedSetState(
@@ -64,10 +64,10 @@ export default function Home({ videos }) {
     { value: "all", label: "Include All the selected chords" },
     { value: "any", label: "Include Any of the selected chords" },
     { value: "exact", label: "Include Exactly the selected chords" },
-    { value: "none", label: "Exclude All the selected chords" }
+    { value: "none", label: "Exclude All the selected chords" },
   ];
   const [chordsSearchMode, setChordsSearchMode] = useState(searchState.chordsSearchMode || "all");
-  const changeSearchMode = e => setChordsSearchMode(searchModes[e.target.selectedIndex].value);
+  const changeSearchMode = (e) => setChordsSearchMode(searchModes[e.target.selectedIndex].value);
   const chordsSearchModeClassName = `ais-MenuSelect ${styles.chordModeSelect}`;
 
   useEffect(() => {
@@ -122,7 +122,7 @@ export default function Home({ videos }) {
                 onChange={changeSearchMode}
                 value={chordsSearchMode}
               >
-                {searchModes.map(mode => (
+                {searchModes.map((mode) => (
                   <option className="ais-MenuSelect-option" key={mode.value} value={mode.value}>
                     {mode.label}
                   </option>
@@ -175,7 +175,7 @@ export async function getStaticProps() {
   const videos = await getAllVideos();
   return {
     props: {
-      videos
-    }
+      videos,
+    },
   };
 }

@@ -15,11 +15,11 @@ export default function Player({ url, start, end, onChange }) {
   const [duration, setDuration] = useState(100);
   const [showHelp, setShowHelp] = useState(false);
 
-  const sliderChange = r => {
+  const sliderChange = (r) => {
     onChange({ target: { name: "loop", value: r } });
   };
 
-  const durationCallback = d => {
+  const durationCallback = (d) => {
     setDuration(d);
     setShowLoopInfo(true);
   };
@@ -32,7 +32,7 @@ export default function Player({ url, start, end, onChange }) {
     setPlaying(true);
   };
 
-  const progressCallback = data => {
+  const progressCallback = (data) => {
     setCurrentTime(data.playedSeconds);
     if (useLoop && (data.playedSeconds >= end || data.playedSeconds < start)) {
       playFromStart();
@@ -45,7 +45,7 @@ export default function Player({ url, start, end, onChange }) {
     player.current.getInternalPlayer().playVideo();
   };
 
-  const formatSeconds = value =>
+  const formatSeconds = (value) =>
     `${Math.floor(value / 60)}m ${Math.floor((value % 60) * 100) / 100}s`;
 
   // Hot-keys
@@ -100,9 +100,9 @@ export default function Player({ url, start, end, onChange }) {
                 color: "white",
                 modestbranding: 1,
                 rel: 0,
-                showinfo: 0
-              }
-            }
+                showinfo: 0,
+              },
+            },
           }}
         />
       </div>
@@ -112,7 +112,7 @@ export default function Player({ url, start, end, onChange }) {
           size="small"
           checkedChildren="loop"
           defaultChecked={useLoop}
-          onChange={e => setUseLoop(e)}
+          onChange={(e) => setUseLoop(e)}
         />
         <Button style={{ float: "right" }} type="dashed" size="small" onClick={testLoop}>
           Test Loop

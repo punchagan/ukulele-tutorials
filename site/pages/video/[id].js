@@ -14,9 +14,9 @@ export default function Video({ video, videos }) {
   const favorite = isFavorite(video.id);
   video.favorite = favorite;
   const otherIds = video.id_related
-    ? video.id_related.split(",").filter(it => it !== video.id)
+    ? video.id_related.split(",").filter((it) => it !== video.id)
     : [];
-  const otherVersions = otherIds.map(it => videos.find(v => v.id === it));
+  const otherVersions = otherIds.map((it) => videos.find((v) => v.id === it));
 
   const reducer = (state, e) => {
     if (e.target === undefined && e.id) {
@@ -82,13 +82,13 @@ export async function getStaticPaths() {
   const paths = videos.map(({ id }) => ({ params: { id } }));
   return {
     paths: paths,
-    fallback: false
+    fallback: false,
   };
 }
 
 export async function getStaticProps({ params }) {
   const { id } = params;
   const videos = await getAllVideos();
-  const video = videos.find(v => v.id === id) || null;
+  const video = videos.find((v) => v.id === id) || null;
   return { props: { video, videos } };
 }

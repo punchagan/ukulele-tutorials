@@ -9,7 +9,7 @@ const editCSVRow = (videoId, data) => {
 
   const csvData = fs.readFileSync(csvFile, { encoding: "utf-8" });
   const parsedData = csv.parse(csvData, { columns: true });
-  const updatedData = csv.transform(parsedData, row => {
+  const updatedData = csv.transform(parsedData, (row) => {
     if (row.id == videoId) {
       return { ...row, ...data };
     }

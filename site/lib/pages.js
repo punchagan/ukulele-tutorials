@@ -8,7 +8,7 @@ export const getAllVideos = async () => {
   const content = await fs.readFile(publishedJson, "utf8");
   let data = JSON.parse(content);
   if (!includeUnpublished) {
-    data = data.filter(x => x.publish === 1);
+    data = data.filter((x) => x.publish === 1);
   }
   return data;
 };

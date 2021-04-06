@@ -25,13 +25,13 @@ const findChord = (chord, db, isBaritone) => {
       suffix = s;
       break;
   }
-  const chordData = db.chords[key].find(it => it.suffix === suffix)?.positions[0];
+  const chordData = db.chords[key].find((it) => it.suffix === suffix)?.positions[0];
   const { frets, fingers, barres } = chordData;
   return {
     ...chordData,
     frets: frets.slice(-4),
     fingers: isBaritone ? [] : fingers,
-    barres: isBaritone ? [] : barres
+    barres: isBaritone ? [] : barres,
   };
 };
 
@@ -40,18 +40,18 @@ const ShowSongInfo = ({ video }) => {
   const isBaritone = video.baritone !== 0;
   const chordsDB = isBaritone ? guitarChordsDB : ukeChordsDB;
   const {
-    tunings: { standard }
+    tunings: { standard },
   } = chordsDB;
   const instrument = {
     ...chordsDB.main,
     strings: 4,
-    tunings: { standard: standard.slice(-4, 0) }
+    tunings: { standard: standard.slice(-4, 0) },
   };
   const dateStr = String(video.upload_date);
   const uploadDate = new Date(dateStr.slice(0, 4), dateStr.slice(4, 6) - 1, dateStr.slice(6, 8));
 
-  const Favorite = dynamic(() => import("./video-list").then(mod => mod.Favorite), {
-    ssr: false
+  const Favorite = dynamic(() => import("./video-list").then((mod) => mod.Favorite), {
+    ssr: false,
   });
 
   return (
@@ -82,7 +82,7 @@ const ShowSongInfo = ({ video }) => {
           </span>
 
           <span className={styles.songInfoValue}>
-            {video.chords?.map(chord => (
+            {video.chords?.map((chord) => (
               <Link key={chord} href={`/?refinementList[chords][0]=${chord}`}>
                 <a className={styles.chordName}>{chord}</a>
               </Link>
@@ -99,7 +99,7 @@ const ShowSongInfo = ({ video }) => {
         {showChords && (
           <li className={`${styles.chordDiagrams} ${styles.songInfoEntry}`}>
             <span className={styles.songInfoValue}>
-              {video.chords?.map(chord => (
+              {video.chords?.map((chord) => (
                 <span className={styles.chordDiagram} key={chord}>
                   <h5>{chord}</h5>
                   <Chord
@@ -125,7 +125,7 @@ const ShowSongInfo = ({ video }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Artist(s)</span>
           <span className={styles.songInfoValue}>
-            {video.artists?.map(artist => (
+            {video.artists?.map((artist) => (
               <Link key={artist} href={`/?refinementList[artists][0]=${artist}`}>
                 <a className={styles.chordName}>{artist}</a>
               </Link>
@@ -136,7 +136,7 @@ const ShowSongInfo = ({ video }) => {
         <li className={styles.songInfoEntry}>
           <span className={styles.songInfoKey}>Composer(s)</span>
           <span className={styles.songInfoValue}>
-            {video.composers?.map(composer => (
+            {video.composers?.map((composer) => (
               <span key={composer} className={styles.chordName}>
                 {composer}
               </span>
@@ -178,36 +178,36 @@ const EditSongInfo = ({ video, videos, onChange }) => {
   const publishData = () => {
     setError({ type: "info", message: "Publishing..." });
     postData(video.id, { ...video, publish: 1 })
-      .then(data => setError({ type: "success", message: "Published!" }))
-      .catch(err => setError({ type: "error", message: err.message }));
+      .then((data) => setError({ type: "success", message: "Published!" }))
+      .catch((err) => setError({ type: "error", message: err.message }));
   };
 
   const [meta, setMeta] = useState();
   const [original, setOriginal] = useState({});
   useEffect(() => {
-    getVideoMetadata(video).then(data => setMeta(data));
+    getVideoMetadata(video).then((data) => setMeta(data));
     const album = video.album || "";
     const q = `${video.track} ${album} original`;
     setOriginal({ ...original, q });
   }, [video]);
 
-  const search = e => {
-    ytSearchDescription(original.q).then(data => setOriginal(data));
+  const search = (e) => {
+    ytSearchDescription(original.q).then((data) => setOriginal(data));
   };
 
-  const artists = Array.from(new Set(videos.map(v => v.artists).flat())).sort();
-  const composers = Array.from(new Set(videos.map(v => v.composers).flat())).sort();
-  const albums = Array.from(new Set(videos.map(v => v.album).flat())).sort();
-  const languages = Array.from(new Set(videos.map(v => v.language).flat())).sort();
-  const tracks = Array.from(new Set(videos.map(v => v.track).flat())).sort();
+  const artists = Array.from(new Set(videos.map((v) => v.artists).flat())).sort();
+  const composers = Array.from(new Set(videos.map((v) => v.composers).flat())).sort();
+  const albums = Array.from(new Set(videos.map((v) => v.album).flat())).sort();
+  const languages = Array.from(new Set(videos.map((v) => v.language).flat())).sort();
+  const tracks = Array.from(new Set(videos.map((v) => v.track).flat())).sort();
 
-  const suffix = s => (s === "major" ? "" : s === "minor" ? "m" : s);
+  const suffix = (s) => (s === "major" ? "" : s === "minor" ? "m" : s);
   const chordsAll = ukeChordsDB.keys
-    .map(k => ukeChordsDB.chords[k].map(chord => `${chord.key}${suffix(chord.suffix)}`))
+    .map((k) => ukeChordsDB.chords[k].map((chord) => `${chord.key}${suffix(chord.suffix)}`))
     .flat();
   const chords = Array.from(new Set(chordsAll))
     .sort()
-    .filter(c => video.chords.indexOf(c) === -1);
+    .filter((c) => video.chords.indexOf(c) === -1);
 
   return (
     <>
@@ -223,9 +223,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
               }
-              onChange={value => onChange({ target: { name: "track", value } })}
+              onChange={(value) => onChange({ target: { name: "track", value } })}
             >
-              {tracks.map(a => (
+              {tracks.map((a) => (
                 <AutoComplete.Option key={a}>{a}</AutoComplete.Option>
               ))}
             </AutoComplete>
@@ -245,9 +245,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().startsWith(value.toLocaleLowerCase())
               }
-              onChange={value => onChange({ target: { name: "chords", value } })}
+              onChange={(value) => onChange({ target: { name: "chords", value } })}
             >
-              {chords.map(a => (
+              {chords.map((a) => (
                 <Select.Option key={a}>{a}</Select.Option>
               ))}
             </Select>
@@ -265,9 +265,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
               }
-              onChange={value => onChange({ target: { name: "album", value } })}
+              onChange={(value) => onChange({ target: { name: "album", value } })}
             >
-              {albums.map(a => (
+              {albums.map((a) => (
                 <AutoComplete.Option key={a}>{a}</AutoComplete.Option>
               ))}
             </AutoComplete>
@@ -283,9 +283,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               style={{ width: "100%" }}
               placeholder="Please select artist(s)"
               defaultValue={video.artists}
-              onChange={value => onChange({ target: { name: "artists", value } })}
+              onChange={(value) => onChange({ target: { name: "artists", value } })}
             >
-              {artists.map(a => (
+              {artists.map((a) => (
                 <Select.Option key={a}>{a}</Select.Option>
               ))}
             </Select>
@@ -301,9 +301,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               style={{ width: "100%" }}
               placeholder="Please select composer(s)"
               defaultValue={video.composers}
-              onChange={value => onChange({ target: { name: "composers", value } })}
+              onChange={(value) => onChange({ target: { name: "composers", value } })}
             >
-              {composers.map(a => (
+              {composers.map((a) => (
                 <Select.Option key={a}>{a}</Select.Option>
               ))}
             </Select>
@@ -321,9 +321,9 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
               }
-              onChange={value => onChange({ target: { name: "language", value } })}
+              onChange={(value) => onChange({ target: { name: "language", value } })}
             >
-              {languages.map(a => (
+              {languages.map((a) => (
                 <AutoComplete.Option key={a}>{a}</AutoComplete.Option>
               ))}
             </AutoComplete>
@@ -338,7 +338,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
       <Input
         style={{ width: "60%" }}
         value={original.q}
-        onChange={e => setOriginal({ ...original, q: e.target.value })}
+        onChange={(e) => setOriginal({ ...original, q: e.target.value })}
       />
       <Button onClick={search}>Search</Button>
       {original?.id && (
@@ -349,9 +349,13 @@ const EditSongInfo = ({ video, videos, onChange }) => {
           - ({original.uploader})
         </p>
       )}
-      {original?.description?.split("\n").map((d, i) => <p key={i}>{d}</p>)}
+      {original?.description?.split("\n").map((d, i) => (
+        <p key={i}>{d}</p>
+      ))}
       {meta?.description && <h2>Uploaded Video Description</h2>}
-      {meta?.description?.split("\n").map((d, i) => <p key={i}>{d}</p>)}
+      {meta?.description?.split("\n").map((d, i) => (
+        <p key={i}>{d}</p>
+      ))}
     </>
   );
 };
