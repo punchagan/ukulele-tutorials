@@ -5,13 +5,13 @@ import ukeChordsDB from "@tombatossals/chords-db/lib/ukulele";
 import guitarChordsDB from "@tombatossals/chords-db/lib/guitar";
 import Chord from "@tombatossals/react-chords/lib/Chord";
 import { postData, getVideoMetadata, ytSearchDescription } from "../lib/api";
-import { Alert, AutoComplete, Button, Input, Select, Switch } from "antd";
+import { Alert, AutoComplete, Button, Input, Modal, Pagination, Select, Switch } from "antd";
 import { EditOutlined, EyeOutlined } from "@ant-design/icons";
 
 import "antd/dist/antd.css";
 import styles from "../styles/Video.module.css";
 
-const findChord = (chord, db, isBaritone) => {
+const findChordPositions = (chord, db, isBaritone) => {
   const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
   let suffix;
   switch (s) {
@@ -25,18 +25,19 @@ const findChord = (chord, db, isBaritone) => {
       suffix = s;
       break;
   }
-  const chordData = db.chords[key].find((it) => it.suffix === suffix)?.positions[0];
-  const { frets, fingers, barres } = chordData;
-  return {
-    ...chordData,
-    frets: frets.slice(-4),
-    fingers: isBaritone ? [] : fingers,
-    barres: isBaritone ? [] : barres,
-  };
+  const positions = db.chords[key].find((it) => it.suffix === suffix)?.positions;
+  const chordPositions = positions.map((position) => ({
+    ...position,
+    frets: position.frets.slice(-4),
+    fingers: isBaritone ? [] : position.fingers,
+    barres: isBaritone ? [] : position.barres,
+  }));
+  return chordPositions;
 };
 
 const ShowSongInfo = ({ video }) => {
   const [showChords, setShowChords] = useState(true);
+  const [chordModal, setChordModal] = useState(false);
   const isBaritone = video.baritone !== 0;
   const chordsDB = isBaritone ? guitarChordsDB : ukeChordsDB;
   const {
@@ -99,16 +100,20 @@ const ShowSongInfo = ({ video }) => {
         {showChords && (
           <li className={`${styles.chordDiagrams} ${styles.songInfoEntry}`}>
             <span className={styles.songInfoValue}>
-              {video.chords?.map((chord) => (
-                <span className={styles.chordDiagram} key={chord}>
-                  <h5>{chord}</h5>
-                  <Chord
-                    lite={false}
-                    instrument={instrument}
-                    chord={findChord(chord, chordsDB, isBaritone)}
-                  />
-                </span>
-              ))}
+              {video.chords?.map((chord) => {
+                const positions = findChordPositions(chord, chordsDB, isBaritone);
+                const n = positions.length;
+                return (
+                  <span
+                    className={styles.chordDiagram}
+                    key={chord}
+                    onClick={() => setChordModal({ chord, positions, pos: 0 })}
+                  >
+                    <h5>{chord}</h5>
+                    <Chord lite={true} instrument={instrument} chord={positions[0]} />
+                  </span>
+                );
+              })}
             </span>
           </li>
         )}
@@ -169,6 +174,24 @@ const ShowSongInfo = ({ video }) => {
         </Link>
         .
       </p>
+      <Modal
+        visible={Boolean(chordModal)}
+        title={chordModal?.chord}
+        onCancel={() => setChordModal(false)}
+        footer={null}
+      >
+        <Chord
+          lite={false}
+          instrument={instrument}
+          chord={chordModal?.positions?.[chordModal?.pos]}
+        />
+        <Pagination
+          onChange={(page, pageSize) => setChordModal({ ...chordModal, pos: page - 1 })}
+          pageSize={1}
+          current={chordModal?.pos + 1}
+          total={chordModal?.positions?.length}
+        />
+      </Modal>
     </>
   );
 };
