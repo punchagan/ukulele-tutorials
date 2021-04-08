@@ -26,12 +26,12 @@ channels:
   url: https://www.youtube.com/c/ManidipaBaisya/videos
 - id: UCOrDZAyo1Hga3PRMC2GFlgw
   language: Hindi
-  name: Tarun Mishra
+  name: Tarun Mishra - Tutorials
   song_language: Hindi
   url: https://www.youtube.com/watch?list=PLlp3FyjV884Ci7xLYompeesJJUA5TA0Ni
 - id: UC6PY2h7NZP_fGKFpIIGmwwg
   language: Bengali
-  name: Nabid Alam
+  name: Nabid Alam - Ukulele Tutorials
   song_language: Bengali
   url: https://www.youtube.com/watch?list=PLCAuWzdnX8zIevYBDnFyGdOOdsbZRhJGJ
 - id: UCpaXVJBBAK6AA_DBi43c54A
@@ -76,7 +76,7 @@ channels:
   url: https://www.youtube.com/channel/UCseOAfsBqBoSPH37WzPhIMA/videos
 - id: UCk0nyfHmYrHFadB5fJxFtUQ
   language: Tamil
-  name: Paul Rohith singh
+  name: Paul Rohith singh - Tamil Ukulele Songs
   song_language: Tamil
   url: https://www.youtube.com/watch?list=PLLMiY2Vhdb_gHA4iGvMOAfGwlt2K0RoDy
 - id: UC8LY9RfQk75FaLSqV2b8aKg
