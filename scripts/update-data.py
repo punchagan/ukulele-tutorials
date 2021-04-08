@@ -3,6 +3,7 @@ from concurrent.futures import ThreadPoolExecutor
 import io
 import json
 import os
+import random
 import re
 import time
 
@@ -53,46 +54,81 @@ class Updater:
             'dump_single_json': True,
             'simulate': True,
             'quiet': True,
-            'geo_bypass': True,
             'ignoreerrors': True, # Don't stop on download errors
+            'youtube_include_dash_manifest': False,
+            'socket_timeout': 30,
         }
-        self.json_dir = os.path.join(os.path.dirname(HERE), '.json')
         self.data_dir = os.path.join(os.path.dirname(HERE), 'data')
+        self.dump_dir = os.path.join(self.data_dir, '.json')
+        self.ignored_dir = os.path.join(self.dump_dir, 'ignored')
         self.data_csv = os.path.join(self.data_dir, 'tutorials.csv')
         self.data_json = os.path.join(self.data_dir, 'published.json')
-        os.makedirs(self.json_dir, exist_ok=True)
+        os.makedirs(self.ignored_dir, exist_ok=True)
 
-    def download_json(self, channel):
-        url = channel['url']
-        name = channel.get('name', url)
-        print(f'Downloading json for {name} ...')
-        start = time.time()
+    def fetch_video_metadata(self, video_id):
         with youtube_dl.YoutubeDL(self.ydl_opts) as ydl:
             with io.StringIO() as f:
                 ydl._screen_file = f
-                ydl.download([url])
+                ydl.download([video_id])
                 f.seek(0)
                 data = json.load(f)
-
-        channel['id'] = data.get('uploader_id', data['id'])
-        channel['name'] = data.get('uploader', data['title'])
-        name = f"{data['id']}.json"
-        with open(os.path.join(self.json_dir, name), 'w') as f:
+        with open(os.path.join(self.dump_dir, video_id), 'w') as f:
             json.dump(data, f, indent=2)
+        return data
 
-        n = len(data.get('entries', []))
-        t = time.time() - start
-        print(f'Wrote {n} entries for {channel["name"]} to {f.name} in {t} seconds')
+    def download_new_video_metadata(self, videos):
+        dump_data = set(os.listdir(self.dump_dir))
+        ignored_data = set(os.listdir(self.ignored_dir))
+        new_videos = [
+            video for video in videos if video['id'] not in (dump_data | ignored_data)
+        ]
+        n = len(new_videos)
+        for i, video in enumerate(new_videos, start=1):
+            video_id = video['id']
+            if video_id in dump_data:
+                continue
 
-    def download_all_jsons(self):
+            print(f"Fetching full metadata for video {i} of {n} ...")
+            ignored = self._ignore_video(video)
+            if not ignored:
+                time.sleep(random.randint(2, 12))
+                self.fetch_video_metadata(video_id)
+            else:
+                with open(os.path.join(self.ignored_dir, video_id), 'w') as f:
+                    json.dump(video, f, indent=2)
+            dump_data.add(video_id)
+
+    def update_all_channels(self):
         channels = self._read_channel_data()
         active_channels = [channel for channel in channels if channel.get('active', True)]
+        ydl_opts = dict(self.ydl_opts)
+        ydl_opts.update({'extract_flat': 'in_playlist'})
 
-        with ThreadPoolExecutor(max_workers=6) as e:
-            for channel in active_channels:
-                e.submit(self.download_json, channel)
+        all_entries = []
+        start = time.time()
+        for channel in active_channels:
+            url = channel['url']
+            name = channel.get('name', url)
+            print(f'Getting video list for {name} ...')
+            with youtube_dl.YoutubeDL(ydl_opts) as ydl:
+                with io.StringIO() as f:
+                    ydl._screen_file = f
+                    ydl.download([url])
+                    f.seek(0)
+                    data = json.load(f)
 
+            channel['id'] = data.get('uploader_id', data['id'])
+            channel['name'] = (
+                f"{data['uploader']} - {data['title']}" if 'uploader' in data else data['title']
+            )
+            all_entries.extend(data['entries'])
+
+        t = time.time() - start
+        n = len(all_entries)
+        c = len(active_channels)
+        print(f'Fetched initial metadata for {n} videos from {c} channels in {t} seconds')
         self._write_channel_data(channels)
+        self.download_new_video_metadata(all_entries)
 
     def _read_channel_data(self):
         with open(os.path.join(self.data_dir, 'channels.yml')) as f:
@@ -103,13 +139,10 @@ class Updater:
         with open(os.path.join(self.data_dir, 'channels.yml'), 'w') as f:
             yaml.dump({'channels': channels}, f)
 
-    def parse_json(self, path):
-        with open(path) as f:
-            data = json.load(f)
-
+    def parse_entries(self, entries):
         videos = []
         channels = self._read_channel_data()
-        for i, entry in enumerate(data['entries'], start=1):
+        for i, entry in enumerate(entries, start=1):
             if entry is None:
                 continue
             ignore = self._ignore_video(entry)
@@ -127,16 +160,22 @@ class Updater:
             if not ignore:
                 video.update(self._extract_info(entry, channels))
             videos.append(video)
-        return pd.DataFrame(videos)
+        return pd.DataFrame(videos).fillna({'key': '', 'album': ''})
 
     def parse_all_jsons(self):
-        files = os.listdir(self.json_dir)
-        parsed = []
-        for each in files:
-            path = os.path.join(self.json_dir, each)
-            parsed.append(self.parse_json(path))
+        files = os.listdir(self.dump_dir)
 
-        data = self._merge_into_existing(pd.concat(parsed))
+        entries = []
+        for each in files:
+            path = os.path.join(self.dump_dir, each)
+            if os.path.isdir(path):
+                continue
+            with open(path) as f:
+                entry = json.load(f)
+                entries.append(entry)
+
+        parsed = self.parse_entries(entries)
+        data = self._merge_into_existing(parsed)
         self._write_data(data)
 
     def refresh_json_output(self):
@@ -168,7 +207,12 @@ class Updater:
                                                      .str.replace(', ', ',')\
                                                      .str.split(',').apply(sort_list)
         data = self._update_related(data)
-        non_ignored = data[non_ignored_rows]
+        non_ignored_rows = data['ignore'] != 1
+        non_ignored = data[non_ignored_rows].sort_values(
+            ['ignore', 'publish', 'track', 'album', 'artists', 'upload_date'],
+            key=lambda col: col.str.lower() if col.dtype == 'object' else col,
+            ascending=[False, False, True, True, True, True]
+        )
         non_ignored.to_json(self.data_json, orient='records', indent=2, force_ascii=False)
         print(non_ignored.tail())
         print(f'Updated {self.data_json}')
@@ -182,7 +226,8 @@ class Updater:
         return data.merge(related, how='left', on=['track', 'album'], suffixes=['', '_related'])
 
     def _merge_into_existing(self, data):
-        existing = pd.read_csv(self.data_csv)
+        existing = pd.read_csv(self.data_csv, dtype={'upload_date': str})\
+                     .fillna({'key': '', 'album': ''})
 
         # Prefer hand processed data, if exists.  NOTE: We assume
         # ignored rows are hand processed, to simplify the code
@@ -296,5 +341,5 @@ if __name__ == "__main__":
         sys.exit()
 
     if options.download_data:
-        u.download_all_jsons()
+        u.update_all_channels()
     u.parse_all_jsons()
