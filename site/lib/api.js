@@ -1,5 +1,5 @@
 export const getVideoMetadata = ({ id, channel }) => {
-  return fetch(`/api/video/get-metadata?id=${id}&channel=${channel}`).then((response) =>
+  return fetch(`/api/video/get-metadata?id=${id}`).then((response) =>
     response.json()
   );
 };
