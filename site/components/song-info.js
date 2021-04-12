@@ -232,6 +232,13 @@ const EditSongInfo = ({ video, videos, onChange }) => {
     .sort()
     .filter((c) => video.chords.indexOf(c) === -1);
 
+  const splitCSV = (value) =>
+    value.reduce(
+      (acc, v) =>
+        v.indexOf(",") > -1 ? [...acc, ...v.replace(", ", ",").split(",")] : [...acc, v],
+      []
+    );
+
   return (
     <>
       <ul className={styles.songInfo}>
@@ -242,7 +249,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               allowClear
               style={{ width: "100%" }}
               placeholder="Please enter track title"
-              defaultValue={video.track}
+              value={video.track}
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
               }
@@ -263,12 +270,12 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select the chords"
-              defaultValue={video.chords}
+              value={video.chords}
               filterSort={(a, b) => (a < b ? -1 : a > b ? 1 : 0)}
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().startsWith(value.toLocaleLowerCase())
               }
-              onChange={(value) => onChange({ target: { name: "chords", value } })}
+              onChange={(value) => onChange({ target: { name: "chords", value: splitCSV(value) } })}
             >
               {chords.map((a) => (
                 <Select.Option key={a}>{a}</Select.Option>
@@ -284,7 +291,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select album"
-              defaultValue={video.album}
+              value={video.album}
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
               }
@@ -305,8 +312,10 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select artist(s)"
-              defaultValue={video.artists}
-              onChange={(value) => onChange({ target: { name: "artists", value } })}
+              value={video.artists}
+              onChange={(value) =>
+                onChange({ target: { name: "artists", value: splitCSV(value) } })
+              }
             >
               {artists.map((a) => (
                 <Select.Option key={a}>{a}</Select.Option>
@@ -323,8 +332,10 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select composer(s)"
-              defaultValue={video.composers}
-              onChange={(value) => onChange({ target: { name: "composers", value } })}
+              value={video.composers}
+              onChange={(value) => {
+                onChange({ target: { name: "composers", value: splitCSV(value) } });
+              }}
             >
               {composers.map((a) => (
                 <Select.Option key={a}>{a}</Select.Option>
@@ -340,7 +351,7 @@ const EditSongInfo = ({ video, videos, onChange }) => {
               allowClear
               style={{ width: "100%" }}
               placeholder="Please select language"
-              defaultValue={video.language}
+              value={video.language}
               filterOption={(value, option) =>
                 option.value.toLocaleLowerCase().indexOf(value.toLocaleLowerCase()) > -1
               }
