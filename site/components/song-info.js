@@ -12,7 +12,7 @@ import "antd/dist/antd.css";
 import styles from "../styles/Video.module.css";
 
 const findChordPositions = (chord, db, isBaritone) => {
-  const [_, key, s] = chord.match(/([A-G]b*)(.*)/);
+  const [_, key, s] = chord.match(/([A-G]b*#*)(.*)/);
   let suffix;
   switch (s) {
     case "":
@@ -25,7 +25,8 @@ const findChordPositions = (chord, db, isBaritone) => {
       suffix = s;
       break;
   }
-  const positions = db.chords[key].find((it) => it.suffix === suffix)?.positions;
+  const k = key.replace("#", "sharp");
+  const positions = db.chords[k].find((it) => it.suffix === suffix)?.positions;
   const chordPositions = positions.map((position) => ({
     ...position,
     frets: position.frets.slice(-4),
@@ -224,9 +225,12 @@ const EditSongInfo = ({ video, videos, onChange }) => {
   const languages = Array.from(new Set(videos.map((v) => v.language).flat())).sort();
   const tracks = Array.from(new Set(videos.map((v) => v.track).flat())).sort();
 
+  const isBaritone = video.baritone !== 0;
+  const chordsDB = isBaritone ? guitarChordsDB : ukeChordsDB;
   const suffix = (s) => (s === "major" ? "" : s === "minor" ? "m" : s);
-  const chordsAll = ukeChordsDB.keys
-    .map((k) => ukeChordsDB.chords[k].map((chord) => `${chord.key}${suffix(chord.suffix)}`))
+  const chordsAll = chordsDB.keys
+    .map((k) => k.replace("#", "sharp"))
+    .map((k) => chordsDB.chords[k].map((chord) => `${chord.key}${suffix(chord.suffix)}`))
     .flat();
   const chords = Array.from(new Set(chordsAll))
     .sort()
