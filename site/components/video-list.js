@@ -55,13 +55,20 @@ export function Video({ hit: video }) {
     actions.push(<CloseOutlined onClick={() => markIgnored(video.id)} title="Mark as Ignored" />);
   }
 
+  const cover = (
+    <Link href={`/video/${video.id}`}>
+      <a title="Watch Tutorial">
+        <img
+          className={styles.videoCardCover}
+          alt={video.title}
+          src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`}
+        />
+      </a>
+    </Link>
+  );
+
   return (
-    <Card
-      size="small"
-      className={styles.videoCard}
-      cover={<img alt={video.title} src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} />}
-      actions={actions}
-    >
+    <Card size="small" className={styles.videoCard} cover={cover} actions={actions}>
       <Meta
         title={
           <Link href={`/video/${video.id}`}>

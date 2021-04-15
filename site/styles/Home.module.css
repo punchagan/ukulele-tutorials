@@ -48,6 +48,10 @@
     height: 335px;
 }
 
+.videoCardCover {
+    width: 280px;
+}
+
 .externalLink {
     color: red;
 }
