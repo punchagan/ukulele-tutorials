@@ -18,8 +18,10 @@ def check_missing_metadata():
     for entry in published:
         related = set(entry['id_related'].split(',')) if entry['id_related'] else set()
         if related - published_ids:
-            print(f"Related videos {entry['id_related']} for {entry['id']} are unpublished")
-            count += len(related)
+            other = related - {entry['id']}
+            urls = "\n".join(f'  - http://localhost:3000/video/{r_id}' for r_id in other)
+            print(f"Related videos for {entry['id']} are unpublished:\n{urls}")
+            count += len(other)
         if len(entry['chords']) == 0 or len(entry['artists']) == 0 or len(entry['composers']) == 0:
             if "rabindra" in entry['album'].lower():
                 continue
