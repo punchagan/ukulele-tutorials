@@ -15,7 +15,7 @@ export default function About() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.container}>
-        <h2>What is this website?</h2>
+        <h2 id="what"><a href="#what">#</a> What is this website?</h2>
         <p>This is a website for Ukulele players featuring tutorials for Indian Songs.</p>
         <p>
           This site was inspired by <a href="https://ukealong.com">UkeAlong</a> and was created to
@@ -24,7 +24,7 @@ export default function About() {
           displays the Chord fingerings for each songs, and allow looping over specific sections of
           the videos.
         </p>
-        <h2>Who creates these video tutorials?</h2>
+        <h2 id="tutorial-creators"><a href="#tutorial-creators">#</a> Who creates these video tutorials?</h2>
         <p>
           These videos are aggregated from several different YouTube Channels/playlists. You can
           find a list of them in the{" "}
@@ -33,7 +33,7 @@ export default function About() {
           </Link>{" "}
           on the index page.
         </p>
-        <h2>Who maintains this website?</h2>
+        <h2 id="site-maintainer"><a href="#site-maintainer">#</a> Who maintains this website?</h2>
         <p>
           This website was created and is maintained by{" "}
           <a href="https://twitter.com/punchagan">punchagan</a> along with some{" "}
@@ -46,7 +46,7 @@ export default function About() {
           </Link>
           . Do let your Ukulele playing friends know about it, too!
         </p>
-        <h2>How can I help with adding new content to the website?</h2>
+        <h2 id="add-content"><a href="#add-content">#</a> How can I help with adding new content to the website?</h2>
         <p>
           We currently do not have a streamlined process for letting users help us, but feel free to
           get in touch with us, using this{" "}
@@ -55,7 +55,7 @@ export default function About() {
           </Link>
           .
         </p>
-        <h2>How are these tutorials aggregated?</h2>
+        <h2 id="aggregation"><a href="#aggregation">#</a> How are these tutorials aggregated?</h2>
         <p>
           I maintain a list of YouTube channels that have Indian Ukulele Song Tutorials. Once or
           Twice a week, I run a script that uses{" "}
@@ -73,7 +73,7 @@ export default function About() {
           You can find a link to the code for generating this site{" "}
           <a href="https://github.com/punchagan/ukulele-tutorials/">here</a>
         </p>
-        <h2>Why does a song on a channel not appear on this site?</h2>
+        <h2 id="song-missing"><a href="#song-missing">#</a> Why does a song on a channel not appear on this site?</h2>
         <p>
           The video probably hasn't yet been manually processed to add the required metadata. It
           should be out there in a few weeks or so, hopefully. If you'd like the video to appear
@@ -83,7 +83,7 @@ export default function About() {
           </Link>
           .
         </p>
-        <h2>How can I submit requests for aggregating new YouTube Channels?</h2>
+        <h2 id="channel-requests"><a href="#channel-requests">#</a> How can I submit requests for aggregating new YouTube Channels?</h2>
         <p>
           Please submit information about the new channel using this{" "}
           <Link href="/feedback">
@@ -91,21 +91,21 @@ export default function About() {
           </Link>
           .
         </p>
-        <h2>How can I submit requests for tutorials on specific songs?</h2>
+        <h2 id="song-requests"><a href="#song-requests">#</a> How can I submit requests for tutorials on specific songs?</h2>
         <p>
           You should get in touch with one of the channels from where we aggregate, and request them
           to do a tutorial for a song. There is no way to request for new song tutorials on this
           site, currently.
         </p>
 
-        <h2>I saved my favourites on my phone. How do I see them on my desktop?</h2>
+        <h2 id="favorites"><a href="#favorites">#</a> I saved my favourites on my phone. How do I see them on my desktop?</h2>
         <p>
           This website does not have a "backend" and does not store any user information about the
           users. All your favorites are saved in your browser's local storage. You can only see them
           on the browser that you saved them in.
         </p>
 
-        <h2>What technologies do you use to create this website?</h2>
+        <h2 id="tech"><a href="#tech">#</a> What technologies do you use to create this website?</h2>
         <p>
           The song metadata is collected using{" "}
           <a href="https://github.com/ytdl-org/youtube-dl">youtube-dl</a>. I use{" "}
@@ -127,16 +127,15 @@ export default function About() {
           <a href="https://github.com/tombatossals/chords-db">chords-db</a> and{" "}
           <a href="https://github.com/tombatossals/react-chords">react-chords</a>.
         </p>
-        <h2>Can you add a page with all the chord diagrams?</h2>
+        <h2 id="chord-diagrams"><a href="#chord-diagrams">#</a> Can you add a page with all the chord diagrams?</h2>
         <p>
           You can find a page <a href="https://tombatossals.github.io/chords-db/ukulele">here</a>{" "}
           created using chords-db and react-chords. If you are using a Baritone Ukulele, you can see
           the Guitar chord shapes, and ignore the top two strings. This site also generates the
           diagrams for Baritone Ukulele songs, using this technique.
         </p>
-        <h2>
-          I am a beginner/intermediate Ukulele player who can play a few chords and a few songs. Do
-          you have any tips that you wish someone told you when you started?
+        <h2 id="tips">
+          <a href="#tips">#</a> I am a beginner/intermediate Ukulele player who can play a few chords and a few songs. Do you have any tips that you wish someone told you when you started?
         </h2>
         <p>
           I really like these 12 tips in{" "}
