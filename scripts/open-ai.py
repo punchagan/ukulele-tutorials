@@ -29,7 +29,7 @@ id_ = random.choice(ids)
 id_ = "6w5WexJ4QcM"
 
 print(id_)
-print(data[data.id == id_])
+row = data[data.id == id_]
 
 with open(f"data/.json/{id_}") as f:
     j = json.load(f)
@@ -37,15 +37,17 @@ with open(f"data/.json/{id_}") as f:
 title = j["title"]
 description = j["description"]
 prompt = text.format(title=title, description=description)
-print(prompt)
+# print(prompt)
 print(title)
+track = row.track.iloc[0]
+prompt = f"Q: Which album is the song Sang Hoon Tere from?\nA:"
+print(prompt)
 
 response = openai.Completion.create(
     model="text-davinci-002",
     prompt=prompt,
-    max_tokens=100,
     temperature=0,
-    best_of=1,
+    max_tokens=100,
 )
 print(response)
 # for resp in response:
